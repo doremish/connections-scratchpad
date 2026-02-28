@@ -118,23 +118,35 @@ async function fetchPuzzle() {
   }
 
   const categories = rawGroups.map((group, idx) => {
-    // Shape A fields
-    const titleA = group.connection;
-    const colorA = COLOR_MAP[group.category] ?? idx;
-    const cardsA = group.items;
+    // Title — try every known field name
+    const title =
+      group.group      ||  // current archive format
+      group.connection ||  // older archive format
+      group.title      ||  // another older format
+      `Group ${idx + 1}`;
 
-    // Shape B fields
-    const titleB = group.title;
-    const colorB = (group.difficulty >= 0) ? group.difficulty : idx;
-    const cardsB = Array.isArray(group.cards)
-      ? group.cards.map(c => typeof c === "string" ? c : c.content ?? c.word ?? String(c))
-      : null;
+    // Color — use level/difficulty if valid (≥0), otherwise fall back to position.
+    // The archive currently returns -1 for all levels, so position (0-3) is used,
+    // which maps correctly to yellow → green → blue → purple.
+    const color =
+      COLOR_MAP[group.category]        ??  // old format: "yellow" string
+      (group.level >= 0 ? group.level : null) ??  // current format: numeric level
+      (group.difficulty >= 0 ? group.difficulty : null) ??  // older numeric format
+      idx;  // final fallback: use position
 
-    return {
-      title: titleA || titleB || `Group ${idx + 1}`,
-      color: titleA ? colorA : colorB,
-      cards: cardsA || cardsB || [],
-    };
+    // Cards — try every known field name
+    const rawCards =
+      group.members ||  // current archive format
+      group.items   ||  // older archive format
+      group.cards   ||  // another older format
+      [];
+
+    const cards = rawCards.map((c) => {
+      if (typeof c === "string") return c;
+      return c.content ?? c.word ?? c.text ?? c.value ?? JSON.stringify(c);
+    });
+
+    return { title, color, cards };
   });
 
   return { date: displayDate, categories };
