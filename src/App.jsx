@@ -725,15 +725,15 @@ const styles = {
     fontFamily:    "'Courier New', monospace",
     letterSpacing: "0.5px",
   },
-  // Least prominent — coffee link, plain text style so it doesn't shout
+  // Same prominence as credit line
   coffeeButton: {
     display:        "inline-block",
     marginTop:      "6px",
     padding:        "0",
     background:     "none",
-    color:          "#383852",
+    color:          "#555577",
     fontFamily:     "'Courier New', monospace",
-    fontSize:       "clamp(8px, 1.8vw, 10px)",
+    fontSize:       "clamp(9px, 2.2vw, 11px)",
     fontWeight:     400,
     letterSpacing:  "0.5px",
     textDecoration: "none",
