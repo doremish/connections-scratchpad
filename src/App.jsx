@@ -63,15 +63,22 @@ function buildGrid(categories) {
 /**
  * Fetch today's puzzle from the free community archive.
  *
- * The archive stores puzzles in this shape per entry:
- *   { date: "February 28, 2026", categories: [ { title, cards: [{content}] } ] }
+ * Archive date format is YYYY-MM-DD (e.g. "2026-02-28").
+ * Archive entry shape:
+ *   { date: "2026-02-28", answers: [ { category: "yellow", connection: "TREES", items: ["ASH",...] } ] }
  *
- * Since September 2025 the NYT stopped sharing difficulty levels publicly,
- * so we assign colours 0–3 based on the order they appear in the file
- * (the archive still lists them yellow → green → blue → purple).
+ * We map category colour names to numbers: yellow=0, green=1, blue=2, purple=3.
  */
 async function fetchPuzzle() {
-  const today = new Date().toLocaleDateString("en-US", {
+  // Build today's date in YYYY-MM-DD format to match the archive
+  const now   = new Date();
+  const yyyy  = now.getFullYear();
+  const mm    = String(now.getMonth() + 1).padStart(2, "0");
+  const dd    = String(now.getDate()).padStart(2, "0");
+  const today = `${yyyy}-${mm}-${dd}`;
+
+  // Human-readable version for display only
+  const displayDate = now.toLocaleDateString("en-US", {
     month: "long", day: "numeric", year: "numeric",
   });
 
@@ -80,18 +87,20 @@ async function fetchPuzzle() {
 
   const allPuzzles = await res.json();
 
-  // Find today's puzzle by matching the date string
+  // Find today's entry by YYYY-MM-DD date
   const entry = allPuzzles.find((p) => p.date === today);
-  if (!entry) throw new Error(`Today's puzzle (${today}) isn't in the archive yet. Check back later!`);
+  if (!entry) throw new Error(`Today's puzzle isn't in the archive yet — check back in a few minutes!`);
 
-  // Normalise categories — assign colour by position if level data is missing
-  const categories = entry.categories.map((cat, idx) => ({
-    title: cat.title,
-    color: cat.difficulty !== undefined && cat.difficulty >= 0 ? cat.difficulty : idx,
-    cards: cat.cards.map((c) => (typeof c === "string" ? c : c.content)),
+  // Map colour name → number. Fall back to position index if name is unrecognised.
+  const COLOR_MAP = { yellow: 0, green: 1, blue: 2, purple: 3 };
+
+  const categories = entry.answers.map((ans, idx) => ({
+    title: ans.connection,
+    color: COLOR_MAP[ans.category] ?? idx,
+    cards: ans.items,
   }));
 
-  return { date: entry.date, categories };
+  return { date: displayDate, categories };
 }
 
 // ── Main Component ────────────────────────────────────────────────────────────
