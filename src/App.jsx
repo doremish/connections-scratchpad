@@ -511,6 +511,15 @@ export default function ConnectionsHelper() {
           </p>
 
           <p style={styles.credit}>Made by doremish</p>
+
+          <a
+            href="https://buymeacoffee.com/doremish"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.coffeeButton}
+          >
+            ☕ Buy me a coffee
+          </a>
         </>
       )}
 
@@ -713,5 +722,20 @@ const styles = {
     textAlign: "center",
     fontFamily: "'Courier New', monospace",
     letterSpacing: "0.5px",
+  },
+  coffeeButton: {
+    display:        "inline-block",
+    marginTop:      "12px",
+    padding:        "10px 20px",
+    background:     "#FFDD00",
+    color:          "#1a1a2e",
+    borderRadius:   "8px",
+    fontFamily:     "'Courier New', monospace",
+    fontSize:       "13px",
+    fontWeight:     700,
+    letterSpacing:  "0.5px",
+    textDecoration: "none",
+    boxShadow:      "0 2px 8px rgba(0,0,0,0.3)",
+    transition:     "transform 0.1s, box-shadow 0.1s",
   },
 };
