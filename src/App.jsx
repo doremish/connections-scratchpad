@@ -64,20 +64,20 @@ function buildGrid(categories) {
  * Fetch today's puzzle from the free community archive.
  *
  * Archive date format is YYYY-MM-DD (e.g. "2026-02-28").
- * Archive entry shape:
- *   { date: "2026-02-28", answers: [ { category: "yellow", connection: "TREES", items: ["ASH",...] } ] }
  *
- * We map category colour names to numbers: yellow=0, green=1, blue=2, purple=3.
+ * The archive has gone through format changes over time, so this function
+ * handles all known shapes defensively. If something still breaks, open your
+ * browser's developer console (F12) and look for the "PUZZLE ENTRY" log to
+ * see exactly what the archive is returning — paste that here for a quick fix.
  */
 async function fetchPuzzle() {
-  // Build today's date in YYYY-MM-DD format to match the archive
-  const now   = new Date();
-  const yyyy  = now.getFullYear();
-  const mm    = String(now.getMonth() + 1).padStart(2, "0");
-  const dd    = String(now.getDate()).padStart(2, "0");
+  // Build today's date in YYYY-MM-DD to match the archive
+  const now  = new Date();
+  const yyyy = now.getFullYear();
+  const mm   = String(now.getMonth() + 1).padStart(2, "0");
+  const dd   = String(now.getDate()).padStart(2, "0");
   const today = `${yyyy}-${mm}-${dd}`;
 
-  // Human-readable version for display only
   const displayDate = now.toLocaleDateString("en-US", {
     month: "long", day: "numeric", year: "numeric",
   });
@@ -87,18 +87,55 @@ async function fetchPuzzle() {
 
   const allPuzzles = await res.json();
 
-  // Find today's entry by YYYY-MM-DD date
+  // Find today's entry — log the last few entries so the date format is visible
+  // in the browser console (F12 → Console tab) if today's puzzle isn't found.
+  console.log("ARCHIVE: last 3 entries =", allPuzzles.slice(-3).map(p => p.date));
   const entry = allPuzzles.find((p) => p.date === today);
-  if (!entry) throw new Error(`Today's puzzle isn't in the archive yet — check back in a few minutes!`);
 
-  // Map colour name → number. Fall back to position index if name is unrecognised.
+  if (!entry) {
+    const latest = allPuzzles[allPuzzles.length - 1]?.date ?? "unknown";
+    throw new Error(`Today (${today}) isn't in the archive yet. Latest entry: ${latest}. Check back soon!`);
+  }
+
+  // Log the raw entry so the structure is visible if parsing fails
+  console.log("PUZZLE ENTRY =", JSON.stringify(entry, null, 2));
+
   const COLOR_MAP = { yellow: 0, green: 1, blue: 2, purple: 3 };
 
-  const categories = entry.answers.map((ans, idx) => ({
-    title: ans.connection,
-    color: COLOR_MAP[ans.category] ?? idx,
-    cards: ans.items,
-  }));
+  // Handle all known archive shapes:
+  //   Shape A (pre-Sept 2025):  entry.answers  → [ { category, connection, items } ]
+  //   Shape B (post-Sept 2025): entry.categories → [ { title, cards, difficulty } ]
+  //   Shape C (unknown future): anything else we'll try to read gracefully
+
+  let rawGroups =
+    entry.answers    ||  // Shape A
+    entry.categories ||  // Shape B
+    entry.groups     ||  // Shape C fallback
+    [];
+
+  if (!Array.isArray(rawGroups) || rawGroups.length === 0) {
+    throw new Error(`Unexpected archive format. Check the browser console (F12) for the raw entry.`);
+  }
+
+  const categories = rawGroups.map((group, idx) => {
+    // Shape A fields
+    const titleA = group.connection;
+    const colorA = COLOR_MAP[group.category] ?? idx;
+    const cardsA = group.items;
+
+    // Shape B fields
+    const titleB = group.title;
+    const colorB = (group.difficulty >= 0) ? group.difficulty : idx;
+    const cardsB = Array.isArray(group.cards)
+      ? group.cards.map(c => typeof c === "string" ? c : c.content ?? c.word ?? String(c))
+      : null;
+
+    return {
+      title: titleA || titleB || `Group ${idx + 1}`,
+      color: titleA ? colorA : colorB,
+      cards: cardsA || cardsB || [],
+    };
+  });
 
   return { date: displayDate, categories };
 }
