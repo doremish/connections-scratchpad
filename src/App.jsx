@@ -1,32 +1,31 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // NYT Connections Scratchpad
 //
+// PUZZLE DATA
+//   Fetched for free from a community-maintained GitHub repository
+//   (github.com/Eyefyre/NYT-Connections-Answers) that updates daily.
+//   No API key or payment required.
+//
 // GRID MODEL
-//   The board is a flat array of 16 slots (indices 0–15).
+//   Flat array of 16 slots (indices 0–15).
 //   Row = Math.floor(index / 4)   Col = index % 4
-//   Each slot holds exactly one tile object, or null if empty.
-//   All moves are swaps between two slots — stacking is impossible by design.
+//   Each slot holds exactly one tile, or null. All moves are swaps —
+//   stacking is impossible by design.
 //
 // DRAG & DROP
-//   Supports both mouse (HTML5 drag API) and touch (touch events + elementFromPoint).
-//   Touch drag works on iOS and Android without any extra libraries.
-//
-// PUZZLE DATA
-//   Fetched via /api/puzzle — a secure Vercel serverless function that holds
-//   the Anthropic API key safely on the server side.
+//   Mouse: standard HTML5 drag API.
+//   Touch: touch events + elementFromPoint (works on iOS and Android).
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useState, useEffect, useRef } from "react";
 
-// Load Libre Franklin from Google Fonts — the closest free match to NYT Franklin,
-// which is the proprietary font used on the actual NYT Connections tile cards.
+// Load Libre Franklin — the closest free match to NYT Franklin (the proprietary
+// font used on the actual NYT Connections tiles).
 const fontLink = document.createElement("link");
 fontLink.rel  = "stylesheet";
 fontLink.href = "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700;800&display=swap";
 document.head.appendChild(fontLink);
 
-// Font stack: tries NYT Franklin first (available on nytimes.com domains),
-// then Libre Franklin, then system Franklin Gothic alternatives.
 const TILE_FONT = "'nyt-franklin', 'Libre Franklin', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
 
 // ── Constants ─────────────────────────────────────────────────────────────────
@@ -36,9 +35,12 @@ const ROW_COLORS = ["#F9DF6D", "#A0C35A", "#B0C4EF", "#BA81C5"];
 
 const COLS = 4;
 
+// Community puzzle archive — updated daily, completely free
+const PUZZLE_SOURCE = "https://raw.githubusercontent.com/Eyefyre/NYT-Connections-Answers/main/connections.json";
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-/** Fisher-Yates shuffle — returns a new array, does not mutate the original */
+/** Fisher-Yates shuffle — returns a new array */
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -59,26 +61,37 @@ function buildGrid(categories) {
 // ── API ───────────────────────────────────────────────────────────────────────
 
 /**
- * Fetch today's puzzle from our own secure server function (/api/puzzle).
- * That function holds the Anthropic API key safely — it never touches the browser.
+ * Fetch today's puzzle from the free community archive.
+ *
+ * The archive stores puzzles in this shape per entry:
+ *   { date: "February 28, 2026", categories: [ { title, cards: [{content}] } ] }
+ *
+ * Since September 2025 the NYT stopped sharing difficulty levels publicly,
+ * so we assign colours 0–3 based on the order they appear in the file
+ * (the archive still lists them yellow → green → blue → purple).
  */
 async function fetchPuzzle() {
   const today = new Date().toLocaleDateString("en-US", {
     month: "long", day: "numeric", year: "numeric",
   });
 
-  const res = await fetch("/api/puzzle", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ today }),
-  });
+  const res = await fetch(PUZZLE_SOURCE);
+  if (!res.ok) throw new Error("Could not reach the puzzle archive.");
 
-  if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err.error || "Server error");
-  }
+  const allPuzzles = await res.json();
 
-  return res.json();
+  // Find today's puzzle by matching the date string
+  const entry = allPuzzles.find((p) => p.date === today);
+  if (!entry) throw new Error(`Today's puzzle (${today}) isn't in the archive yet. Check back later!`);
+
+  // Normalise categories — assign colour by position if level data is missing
+  const categories = entry.categories.map((cat, idx) => ({
+    title: cat.title,
+    color: cat.difficulty !== undefined && cat.difficulty >= 0 ? cat.difficulty : idx,
+    cards: cat.cards.map((c) => (typeof c === "string" ? c : c.content)),
+  }));
+
+  return { date: entry.date, categories };
 }
 
 // ── Main Component ────────────────────────────────────────────────────────────
@@ -89,11 +102,9 @@ export default function ConnectionsHelper() {
   const [loading, setLoading] = useState(true);
   const [error, setError]     = useState(null);
 
-  // Drag state — stored in refs to avoid stale closures in touch handlers
-  const dragSlot  = useRef(null); // slot index being dragged FROM
-  const hoverSlot = useRef(null); // slot index finger is currently over (touch only)
+  const dragSlot  = useRef(null);
+  const hoverSlot = useRef(null);
 
-  // Visual highlight state — causes re-render to show hover feedback
   const [activeFrom, setActiveFrom] = useState(null);
   const [activeTo, setActiveTo]     = useState(null);
 
@@ -114,7 +125,6 @@ export default function ConnectionsHelper() {
 
   // ── Grid mutation ──────────────────────────────────────────────────────────
 
-  /** Swap the tiles at two slot indices. No-op if indices are equal or null. */
   function swapSlots(from, to) {
     if (from === null || to === null || from === to) return;
     setGrid((prev) => {
@@ -153,8 +163,6 @@ export default function ConnectionsHelper() {
   }
 
   // ── Touch drag handlers ────────────────────────────────────────────────────
-  // Strategy: track finger position with elementFromPoint, read data-slot
-  // attribute from whichever element is beneath the finger.
 
   function onTouchStart(e, slotIdx) {
     dragSlot.current  = slotIdx;
@@ -163,20 +171,14 @@ export default function ConnectionsHelper() {
   }
 
   function onTouchMove(e) {
-    e.preventDefault(); // stops the page scrolling while a tile is being dragged
-
+    e.preventDefault();
     const touch = e.touches[0];
-
-    // Hide the element being touched so elementFromPoint can see what's beneath it
     const el = e.currentTarget;
     el.style.pointerEvents = "none";
     const target = document.elementFromPoint(touch.clientX, touch.clientY);
     el.style.pointerEvents = "";
-
-    // Walk up from the element under the finger to find the nearest slot
     const slotEl = target?.closest("[data-slot]");
     const idx    = slotEl ? parseInt(slotEl.dataset.slot, 10) : null;
-
     hoverSlot.current = idx;
     setActiveTo(idx);
   }
@@ -200,29 +202,20 @@ export default function ConnectionsHelper() {
   return (
     <div style={styles.page}>
 
-      {/* Header */}
       <header style={styles.header}>
         <p style={styles.eyebrow}>NYT · CONNECTIONS</p>
         <h1 style={styles.title}>Connections Scratchpad</h1>
         {puzzle && <p style={styles.date}>{puzzle.date}</p>}
       </header>
 
-      {/* Loading state */}
       {loading && <p style={styles.status}>Fetching today's puzzle…</p>}
+      {error   && <p style={styles.error}>{error}</p>}
 
-      {/* Error state */}
-      {error && <p style={styles.error}>Could not load puzzle: {error}</p>}
-
-      {/* Board — only shown when puzzle is ready */}
       {!loading && !error && (
         <>
           <div style={styles.board}>
             {[0, 1, 2, 3].map((rowIdx) => (
-
-              <div
-                key={rowIdx}
-                style={{ ...styles.row, background: ROW_COLORS[rowIdx] }}
-              >
+              <div key={rowIdx} style={{ ...styles.row, background: ROW_COLORS[rowIdx] }}>
                 {[0, 1, 2, 3].map((colIdx) => {
                   const slotIdx = rowIdx * COLS + colIdx;
                   const tile    = grid[slotIdx];
@@ -230,7 +223,6 @@ export default function ConnectionsHelper() {
                   const isTo    = activeTo === slotIdx && activeTo !== activeFrom;
 
                   return (
-                    // Slot — fixed grid cell, always present even when empty
                     <div
                       key={slotIdx}
                       data-slot={slotIdx}
@@ -242,15 +234,11 @@ export default function ConnectionsHelper() {
                       onDragOver={(e) => onMouseDragOver(e, slotIdx)}
                       onDrop={(e)     => onMouseDrop(e, slotIdx)}
                     >
-                      {/* Tile — only rendered when slot is occupied */}
                       {tile && (
                         <div
                           data-slot={slotIdx}
                           draggable
-                          style={{
-                            ...styles.tile,
-                            opacity: isFrom ? 0.3 : 1,
-                          }}
+                          style={{ ...styles.tile, opacity: isFrom ? 0.3 : 1 }}
                           onDragStart={(e) => onMouseDragStart(e, slotIdx)}
                           onDragEnd={onMouseDragEnd}
                           onTouchStart={(e) => onTouchStart(e, slotIdx)}
@@ -264,20 +252,14 @@ export default function ConnectionsHelper() {
                   );
                 })}
               </div>
-
             ))}
           </div>
 
-          {/* Controls */}
           <div style={styles.controls}>
-            <button style={styles.button} onClick={handleShuffle}>
-              Shuffle
-            </button>
+            <button style={styles.button} onClick={handleShuffle}>Shuffle</button>
           </div>
 
-          <p style={styles.hint}>
-            Drag tiles between rows to work out your solution
-          </p>
+          <p style={styles.hint}>Drag tiles between rows to work out your solution</p>
         </>
       )}
 
@@ -286,15 +268,10 @@ export default function ConnectionsHelper() {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Styles
-//
-// All in one place for easy editing — no need to hunt through JSX.
-// Sizing uses clamp() and relative units for mobile responsiveness.
+// Styles — all in one place for easy editing
 // ─────────────────────────────────────────────────────────────────────────────
 
 const styles = {
-
-  // Page wrapper
   page: {
     minHeight: "100dvh",
     background: "#1a1a2e",
@@ -306,8 +283,6 @@ const styles = {
     boxSizing: "border-box",
     fontFamily: TILE_FONT,
   },
-
-  // Header
   header: {
     textAlign: "center",
     marginBottom: "clamp(14px, 4vw, 28px)",
@@ -332,8 +307,6 @@ const styles = {
     color: "#6666aa",
     fontSize: "clamp(11px, 2.8vw, 13px)",
   },
-
-  // Status / error messages
   status: {
     color: "#8888cc",
     fontSize: "16px",
@@ -346,8 +319,6 @@ const styles = {
     textAlign: "center",
     margin: 0,
   },
-
-  // 4-row board container
   board: {
     display: "flex",
     flexDirection: "column",
@@ -355,8 +326,6 @@ const styles = {
     width: "100%",
     maxWidth: "min(620px, 100%)",
   },
-
-  // Each coloured row band
   row: {
     display: "grid",
     gridTemplateColumns: "repeat(4, 1fr)",
@@ -366,8 +335,6 @@ const styles = {
     boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
     boxSizing: "border-box",
   },
-
-  // Fixed grid cell — always rendered so the grid never collapses
   slot: {
     borderRadius: "6px",
     minHeight: "clamp(54px, 13vw, 72px)",
@@ -375,16 +342,12 @@ const styles = {
     alignItems: "stretch",
     transition: "box-shadow 0.12s",
   },
-  // Slot receiving a drag (highlighted border)
   slotHighlight: {
     boxShadow: "0 0 0 3px rgba(255,255,255,0.8)",
   },
-  // Slot whose tile is currently being dragged (shows as empty)
   slotEmpty: {
     background: "rgba(255,255,255,0.08)",
   },
-
-  // Draggable tile card
   tile: {
     flex: 1,
     background: "rgba(255,255,255,0.93)",
@@ -409,15 +372,11 @@ const styles = {
     lineHeight: 1.2,
     transition: "opacity 0.12s",
   },
-
-  // Bottom controls row
   controls: {
     display: "flex",
     gap: "12px",
     marginTop: "clamp(14px, 4vw, 24px)",
   },
-
-  // Shuffle button
   button: {
     background: "transparent",
     border: "1px solid #5555aa",
@@ -431,14 +390,12 @@ const styles = {
     textTransform: "uppercase",
     minHeight: "44px",
   },
-
   hint: {
     color: "#555577",
     fontSize: "clamp(10px, 2.4vw, 12px)",
-    marginTop: "14px",
+    margin: "14px 0 0",
     textAlign: "center",
     fontFamily: "'Courier New', monospace",
     letterSpacing: "0.5px",
-    margin: "14px 0 0",
   },
 };
