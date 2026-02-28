@@ -352,6 +352,7 @@ export default function ConnectionsHelper() {
           </div>
 
           <p style={styles.hint}>Drag tiles between rows to work out your solution</p>
+          <p style={styles.credit}>Made by <a href="https://github.com/doremish" target="_blank" rel="noopener noreferrer" style={styles.creditLink}>@doremish</a></p>
         </>
       )}
 
@@ -507,5 +508,17 @@ const styles = {
     textAlign: "center",
     fontFamily: "'Courier New', monospace",
     letterSpacing: "0.5px",
+  },
+  credit: {
+    color: "#3a3a5a",
+    fontSize: "clamp(9px, 2vw, 11px)",
+    margin: "10px 0 0",
+    textAlign: "center",
+    fontFamily: "'Courier New', monospace",
+    letterSpacing: "0.5px",
+  },
+  creditLink: {
+    color: "#5555aa",
+    textDecoration: "none",
   },
 };
