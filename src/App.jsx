@@ -34,7 +34,8 @@ const TILE_FONT = "'nyt-franklin', 'Libre Franklin', 'Franklin Gothic Medium', '
 
 const ROW_COLORS    = ["#F9DF6D", "#A0C35A", "#B0C4EF", "#BA81C5"];
 const COLS          = 4;
-const PUZZLE_SOURCE = "https://raw.githubusercontent.com/Eyefyre/NYT-Connections-Answers/main/connections.json";
+// NYT's own public API — just swap in today's date. No third-party code needed.
+const NYT_API_BASE = "https://www.nytimes.com/svc/connections/v2";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -47,16 +48,19 @@ function shuffle(arr) {
   return a;
 }
 
-function buildGrid(categories) {
+function buildGrid(categories, shouldShuffle = false) {
   const tiles = categories.flatMap((cat) =>
     cat.cards.map((word) => ({ word, catColor: cat.color, catTitle: cat.title }))
   );
-  return shuffle(tiles);
+  // By default preserve NYT's original word order.
+  // Pass shouldShuffle=true (e.g. the Shuffle button) to randomise.
+  return shouldShuffle ? shuffle(tiles) : tiles;
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
 async function fetchPuzzle() {
+  // Build today's date in YYYY-MM-DD format
   const now  = new Date();
   const yyyy = now.getFullYear();
   const mm   = String(now.getMonth() + 1).padStart(2, "0");
@@ -67,48 +71,25 @@ async function fetchPuzzle() {
     month: "long", day: "numeric", year: "numeric",
   });
 
-  const res = await fetch(PUZZLE_SOURCE);
-  if (!res.ok) throw new Error("Could not reach the puzzle archive.");
+  // Fetch today's puzzle directly from the NYT API
+  const res = await fetch(`${NYT_API_BASE}/${today}.json`);
+  if (!res.ok) throw new Error(`Could not load today's puzzle. The NYT API returned: ${res.status}`);
 
-  const allPuzzles = await res.json();
+  const data = await res.json();
+  console.log("NYT PUZZLE DATA =", JSON.stringify(data, null, 2));
 
-  console.log("ARCHIVE: last 3 entries =", allPuzzles.slice(-3).map(p => p.date));
-  const entry = allPuzzles.find((p) => p.date === today);
+  // The NYT API returns { id, date, answers: [ { group, level, members } ] }
+  // level: 0=yellow, 1=green, 2=blue, 3=purple (or -1 if not provided)
+  const rawGroups = data.answers || [];
+  if (rawGroups.length === 0) throw new Error("Puzzle data was empty or unexpected format.");
 
-  if (!entry) {
-    const latest = allPuzzles[allPuzzles.length - 1]?.date ?? "unknown";
-    throw new Error(`Today (${today}) isn't in the archive yet. Latest: ${latest}. Check back soon!`);
-  }
-
-  console.log("PUZZLE ENTRY =", JSON.stringify(entry, null, 2));
-
-  const COLOR_MAP  = { yellow: 0, green: 1, blue: 2, purple: 3 };
-  const rawGroups  = entry.answers || entry.categories || entry.groups || [];
-
-  if (!Array.isArray(rawGroups) || rawGroups.length === 0) {
-    throw new Error("Unexpected archive format. Check browser console (F12).");
-  }
-
-  const categories = rawGroups.map((group, idx) => {
-    const title =
-      group.group      ||
-      group.connection ||
-      group.title      ||
-      `Group ${idx + 1}`;
-
-    const color =
-      COLOR_MAP[group.category]                         ??
-      (group.level      >= 0 ? group.level      : null) ??
-      (group.difficulty >= 0 ? group.difficulty : null) ??
-      idx;
-
-    const rawCards = group.members || group.items || group.cards || [];
-    const cards = rawCards.map((c) =>
-      typeof c === "string" ? c : c.content ?? c.word ?? c.text ?? String(c)
-    );
-
-    return { title, color, cards };
-  });
+  const categories = rawGroups.map((group, idx) => ({
+    title: group.group  || `Group ${idx + 1}`,
+    color: group.level >= 0 ? group.level : idx,
+    cards: (group.members || []).map((c) =>
+      typeof c === "string" ? c : c.content ?? c.word ?? String(c)
+    ),
+  }));
 
   return { date: displayDate, categories };
 }
@@ -394,7 +375,7 @@ export default function ConnectionsHelper() {
   // ── Shuffle ────────────────────────────────────────────────────────────────
 
   function handleShuffle() {
-    if (puzzle) setGrid(buildGrid(puzzle.categories));
+    if (puzzle) setGrid(buildGrid(puzzle.categories, true));
   }
 
   // ── Render ─────────────────────────────────────────────────────────────────
@@ -580,164 +561,4 @@ const styles = {
     color: "#f0ede8",
     letterSpacing: "-0.5px",
   },
-  date:   { margin: "4px 0 0", color: "#6666aa", fontSize: "clamp(11px, 2.8vw, 13px)" },
-  status: { color: "#8888cc", fontSize: "16px", margin: 0 },
-  error:  { color: "#ff6b6b", fontSize: "14px", maxWidth: "340px", textAlign: "center", margin: 0 },
-
-  board: {
-    display: "flex",
-    flexDirection: "column",
-    gap: "clamp(4px, 1.2vw, 8px)",
-    width: "100%",
-    maxWidth: "min(660px, 100%)",
-  },
-
-  // Handle + coloured row, side by side
-  rowWrapper: {
-    display: "flex",
-    alignItems: "stretch",
-    gap: "6px",
-  },
-
-  // Drag handle pill on the left of each row
-  rowHandle: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "28px",
-    flexShrink: 0,
-    borderRadius: "8px",
-    background: "rgba(255,255,255,0.06)",
-    cursor: "grab",
-    touchAction: "none",
-    userSelect: "none",
-    WebkitUserSelect: "none",
-    transition: "background 0.15s, outline 0.15s",
-  },
-  rowHandleActive: {
-    background: "rgba(255,255,255,0.18)",
-    cursor: "grabbing",
-  },
-  rowHandleTarget: {
-    background: "rgba(255,255,255,0.22)",
-    outline: "2px solid rgba(255,255,255,0.6)",
-  },
-
-  // 2-column × 3-row CSS grid of dots inside the handle
-  gripGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(2, 4px)",
-    gridTemplateRows: "repeat(3, 4px)",
-    gap: "3px",
-  },
-  gripDot: {
-    width: "4px",
-    height: "4px",
-    borderRadius: "50%",
-    background: "rgba(255,255,255,0.35)",
-  },
-
-  // Coloured row band
-  row: {
-    flex: 1,
-    display: "grid",
-    gridTemplateColumns: "repeat(4, 1fr)",
-    gap: "clamp(4px, 1.2vw, 8px)",
-    padding: "clamp(5px, 1.5vw, 8px)",
-    borderRadius: "10px",
-    boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
-    boxSizing: "border-box",
-    transition: "outline 0.12s, opacity 0.12s",
-  },
-  rowDropTarget: { outline: "3px solid rgba(255,255,255,0.75)" },
-  rowDragging:   { opacity: 0.5 },
-
-  // Fixed grid cell
-  slot: {
-    borderRadius: "6px",
-    minHeight: "clamp(54px, 13vw, 72px)",
-    display: "flex",
-    alignItems: "stretch",
-    transition: "box-shadow 0.12s",
-  },
-  slotHighlight: { boxShadow: "0 0 0 3px rgba(255,255,255,0.8)" },
-  slotEmpty:     { background: "rgba(255,255,255,0.08)" },
-
-  // Draggable tile card
-  tile: {
-    flex: 1,
-    background: "rgba(255,255,255,0.93)",
-    borderRadius: "6px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "grab",
-    fontFamily: TILE_FONT,
-    fontWeight: 700,
-    fontSize: "clamp(9px, 2.6vw, 13px)",
-    letterSpacing: "0.5px",
-    textTransform: "uppercase",
-    textAlign: "center",
-    padding: "6px 4px",
-    color: "#1a1a2e",
-    boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
-    userSelect: "none",
-    WebkitUserSelect: "none",
-    touchAction: "none",
-    wordBreak: "break-word",
-    lineHeight: 1.2,
-    transition: "opacity 0.12s",
-  },
-
-  controls: {
-    display: "flex",
-    gap: "12px",
-    marginTop: "clamp(14px, 4vw, 24px)",
-  },
-  button: {
-    background: "transparent",
-    border: "1px solid #5555aa",
-    color: "#9999cc",
-    padding: "10px 28px",
-    borderRadius: "6px",
-    cursor: "pointer",
-    fontFamily: "'Courier New', monospace",
-    fontSize: "12px",
-    letterSpacing: "2px",
-    textTransform: "uppercase",
-    minHeight: "44px",
-  },
-  // Most prominent — instruction line
-  hint: {
-    color:         "#9999bb",
-    fontSize:      "clamp(11px, 2.8vw, 13px)",
-    margin:        "14px 0 0",
-    textAlign:     "center",
-    fontFamily:    "'Courier New', monospace",
-    letterSpacing: "0.5px",
-  },
-  // Mid prominence — credit
-  credit: {
-    color:         "#555577",
-    fontSize:      "clamp(9px, 2.2vw, 11px)",
-    margin:        "10px 0 0",
-    textAlign:     "center",
-    fontFamily:    "'Courier New', monospace",
-    letterSpacing: "0.5px",
-  },
-  // Same prominence as credit line
-  coffeeButton: {
-    display:        "inline-block",
-    marginTop:      "6px",
-    padding:        "0",
-    background:     "none",
-    color:          "#555577",
-    fontFamily:     "'Courier New', monospace",
-    fontSize:       "clamp(9px, 2.2vw, 11px)",
-    fontWeight:     400,
-    letterSpacing:  "0.5px",
-    textDecoration: "none",
-    border:         "none",
-    cursor:         "pointer",
-  },
-};
+  date:   { margin: "4px 0 0", color: "#6666aa",
