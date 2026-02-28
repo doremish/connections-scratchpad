@@ -166,6 +166,29 @@ export default function ConnectionsHelper() {
   const [activeFrom, setActiveFrom] = useState(null);
   const [activeTo, setActiveTo]     = useState(null);
 
+  // Ghost tile — a floating copy of the tile that follows the cursor/finger
+  const [ghostTile, setGhostTile] = useState(null);
+  const [ghostPos, setGhostPos]   = useState({ x: 0, y: 0 });
+
+  // A 1×1 transparent GIF used to suppress the browser's built-in drag ghost
+  const blankDragImage = useRef(null);
+  useEffect(() => {
+    const img = new Image();
+    img.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+    blankDragImage.current = img;
+  }, []);
+
+  // Track mouse position globally so the ghost follows the cursor smoothly
+  useEffect(() => {
+    function onDocDragOver(e) {
+      if (dragSlot.current !== null) {
+        setGhostPos({ x: e.clientX, y: e.clientY });
+      }
+    }
+    document.addEventListener("dragover", onDocDragOver);
+    return () => document.removeEventListener("dragover", onDocDragOver);
+  }, []);
+
   // ── Load puzzle on mount ───────────────────────────────────────────────────
 
   useEffect(() => {
@@ -197,6 +220,10 @@ export default function ConnectionsHelper() {
   function onMouseDragStart(e, slotIdx) {
     dragSlot.current = slotIdx;
     setActiveFrom(slotIdx);
+    setGhostTile(grid[slotIdx]);
+    setGhostPos({ x: e.clientX, y: e.clientY });
+    // Replace browser's default ghost with our custom floating tile
+    e.dataTransfer.setDragImage(blankDragImage.current, 0, 0);
     e.dataTransfer.effectAllowed = "move";
   }
 
@@ -218,6 +245,7 @@ export default function ConnectionsHelper() {
     dragSlot.current = null;
     setActiveFrom(null);
     setActiveTo(null);
+    setGhostTile(null);
   }
 
   // ── Touch drag handlers ────────────────────────────────────────────────────
@@ -226,11 +254,16 @@ export default function ConnectionsHelper() {
     dragSlot.current  = slotIdx;
     hoverSlot.current = slotIdx;
     setActiveFrom(slotIdx);
+    setGhostTile(grid[slotIdx]);
+    const touch = e.touches[0];
+    setGhostPos({ x: touch.clientX, y: touch.clientY });
   }
 
   function onTouchMove(e) {
     e.preventDefault();
     const touch = e.touches[0];
+    // Update ghost position to follow the finger
+    setGhostPos({ x: touch.clientX, y: touch.clientY });
     const el = e.currentTarget;
     el.style.pointerEvents = "none";
     const target = document.elementFromPoint(touch.clientX, touch.clientY);
@@ -247,6 +280,7 @@ export default function ConnectionsHelper() {
     hoverSlot.current = null;
     setActiveFrom(null);
     setActiveTo(null);
+    setGhostTile(null);
   }
 
   // ── Shuffle ────────────────────────────────────────────────────────────────
@@ -321,6 +355,24 @@ export default function ConnectionsHelper() {
         </>
       )}
 
+      {/* Floating ghost tile — follows cursor/finger during drag */}
+      {ghostTile && (
+        <div style={{
+          ...styles.tile,
+          position:      "fixed",
+          left:          ghostPos.x,
+          top:           ghostPos.y,
+          transform:     "translate(-50%, -50%) scale(1.1) rotate(2deg)",
+          pointerEvents: "none",   // must not interfere with drop targets beneath it
+          zIndex:        9999,
+          boxShadow:     "0 8px 24px rgba(0,0,0,0.4)",
+          opacity:       0.95,
+          width:         "80px",   // fixed size so it doesn't depend on grid layout
+          minHeight:     "64px",
+        }}>
+          {ghostTile.word}
+        </div>
+      )}
     </div>
   );
 }
