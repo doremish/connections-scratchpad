@@ -34,8 +34,8 @@ const TILE_FONT = "'nyt-franklin', 'Libre Franklin', 'Franklin Gothic Medium', '
 
 const ROW_COLORS    = ["#F9DF6D", "#A0C35A", "#B0C4EF", "#BA81C5"];
 const COLS          = 4;
-// NYT's own public API — just swap in today's date. No third-party code needed.
-const NYT_API_BASE = "https://www.nytimes.com/svc/connections/v2";
+// Your own self-hosted archive — updated daily by api/update-puzzle.js
+const PUZZLE_SOURCE = "/connections.json";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -60,7 +60,7 @@ function buildGrid(categories, shouldShuffle = false) {
 // ── API ───────────────────────────────────────────────────────────────────────
 
 async function fetchPuzzle() {
-  // Build today's date in YYYY-MM-DD format
+  // Build today's date in YYYY-MM-DD format to match the archive
   const now  = new Date();
   const yyyy = now.getFullYear();
   const mm   = String(now.getMonth() + 1).padStart(2, "0");
@@ -71,23 +71,27 @@ async function fetchPuzzle() {
     month: "long", day: "numeric", year: "numeric",
   });
 
-  // Fetch today's puzzle directly from the NYT API
-  const res = await fetch(`${NYT_API_BASE}/${today}.json`);
-  if (!res.ok) throw new Error(`Could not load today's puzzle. The NYT API returned: ${res.status}`);
+  const res = await fetch(PUZZLE_SOURCE);
+  if (!res.ok) throw new Error("Could not reach the puzzle archive.");
 
-  const data = await res.json();
-  console.log("NYT PUZZLE DATA =", JSON.stringify(data, null, 2));
+  const allPuzzles = await res.json();
 
-  // The NYT API returns { id, date, answers: [ { group, level, members } ] }
-  // level: 0=yellow, 1=green, 2=blue, 3=purple (or -1 if not provided)
-  const rawGroups = data.answers || [];
-  if (rawGroups.length === 0) throw new Error("Puzzle data was empty or unexpected format.");
+  const entry = allPuzzles.find((p) => p.date === today);
+  if (!entry) {
+    const latest = allPuzzles[allPuzzles.length - 1]?.date ?? "unknown";
+    throw new Error(`Today (${today}) isn't in the archive yet. Latest: ${latest}. Check back soon!`);
+  }
+
+  console.log("PUZZLE ENTRY =", JSON.stringify(entry, null, 2));
+
+  const rawGroups = entry.answers || entry.categories || entry.groups || [];
+  if (rawGroups.length === 0) throw new Error("Unexpected archive format. Check browser console (F12).");
 
   const categories = rawGroups.map((group, idx) => ({
-    title: group.group  || `Group ${idx + 1}`,
-    color: group.level >= 0 ? group.level : idx,
-    cards: (group.members || []).map((c) =>
-      typeof c === "string" ? c : c.content ?? c.word ?? String(c)
+    title: group.group      || group.connection || group.title || `Group ${idx + 1}`,
+    color: group.level >= 0 ? group.level : (group.difficulty >= 0 ? group.difficulty : idx),
+    cards: (group.members || group.items || group.cards || []).map((c) =>
+      typeof c === "string" ? c : c.content ?? c.word ?? c.text ?? String(c)
     ),
   }));
 
