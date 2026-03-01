@@ -48,31 +48,13 @@ function shuffle(arr) {
   return a;
 }
 
-function buildGrid(categories, shouldShuffle = false, startingOrder = null) {
-  // Build a lookup from word → tile data so we can reorder by startingOrder
-  const tileMap = {};
-  categories.forEach((cat) => {
-    cat.cards.forEach((word) => {
-      tileMap[word] = { word, catColor: cat.color, catTitle: cat.title };
-    });
-  });
-
-  let tiles;
-  if (shouldShuffle) {
-    // Shuffle button: randomise
-    tiles = shuffle(Object.values(tileMap));
-  } else if (startingOrder && startingOrder.length === 16) {
-    // Use NYT's exact starting order
-    tiles = startingOrder.map((word) => tileMap[word]).filter(Boolean);
-    // Safety: if any words didn't match, fall back to category order
-    if (tiles.length !== 16) tiles = Object.values(tileMap);
-  } else {
-    // Older archive entries without startingOrder: use category order
-    tiles = categories.flatMap((cat) =>
-      cat.cards.map((word) => tileMap[word])
-    );
-  }
-  return tiles;
+function buildGrid(categories) {
+  const tiles = categories.flatMap((cat) =>
+    cat.cards.map((word) => ({ word, catColor: cat.color, catTitle: cat.title }))
+  );
+  // Always shuffle — the NYT API doesn't expose the original scrambled order,
+  // so shuffling is the honest alternative to showing answers grouped by category.
+  return shuffle(tiles);
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -113,13 +95,7 @@ async function fetchPuzzle() {
     ),
   }));
 
-  // Pass startingOrder through so the grid can replicate NYT's exact layout
-  const startingOrder = (rawGroups.flatMap
-    ? rawGroups.flatMap((g) => g.members || g.items || g.cards || [])
-    : []
-  );
-
-  return { date: displayDate, categories, startingOrder };
+  return { date: displayDate, categories };
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -260,7 +236,7 @@ export default function ConnectionsHelper() {
 
   useEffect(() => {
     fetchPuzzle()
-      .then((data) => { setPuzzle(data); setGrid(buildGrid(data.categories, false, data.startingOrder)); setLoading(false); })
+      .then((data) => { setPuzzle(data); setGrid(buildGrid(data.categories)); setLoading(false); })
       .catch((e)   => { setError(e.message); setLoading(false); });
   }, []);
 
@@ -403,7 +379,7 @@ export default function ConnectionsHelper() {
   // ── Shuffle ────────────────────────────────────────────────────────────────
 
   function handleShuffle() {
-    if (puzzle) setGrid(buildGrid(puzzle.categories, true));
+    if (puzzle) setGrid(buildGrid(puzzle.categories));
   }
 
   // ── Render ─────────────────────────────────────────────────────────────────
