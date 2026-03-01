@@ -50,6 +50,10 @@ export default async function handler(req, res) {
   };
 
   // ── 3. Read your current archive from GitHub ───────────────────────────────
+  //
+  // The Eyefyre archive is larger than 1MB, so GitHub's Contents API returns
+  // an empty content field for it. We use the Git Data API instead, which
+  // handles large files correctly by fetching the raw blob directly.
 
   const { GITHUB_TOKEN, GITHUB_REPO } = process.env;
 
@@ -63,28 +67,28 @@ export default async function handler(req, res) {
     "X-GitHub-Api-Version": "2022-11-28",
   };
 
-  const fileRes = await fetch(
+  // Step A: get the file metadata (we need the SHA and the blob SHA)
+  const fileMetaRes = await fetch(
     `${GITHUB_API}/repos/${GITHUB_REPO}/contents/${ARCHIVE_PATH}`,
     { headers: githubHeaders }
   );
+  if (!fileMetaRes.ok) {
+    return res.status(500).json({ error: `Could not read archive metadata from GitHub: ${fileMetaRes.status}` });
+  }
+  const fileMeta = await fileMetaRes.json();
+  const fileSha  = fileMeta.sha;      // SHA of the file (needed to update it later)
+  const blobSha  = fileMeta.sha;      // same SHA used to fetch raw blob content
 
-  if (!fileRes.ok) {
-    return res.status(500).json({ error: `Could not read archive from GitHub: ${fileRes.status}` });
+  // Step B: fetch the raw blob content (works for files of any size)
+  const blobRes = await fetch(
+    `${GITHUB_API}/repos/${GITHUB_REPO}/git/blobs/${blobSha}`,
+    { headers: { ...githubHeaders, "Accept": "application/vnd.github.raw+json" } }
+  );
+  if (!blobRes.ok) {
+    return res.status(500).json({ error: `Could not fetch archive blob from GitHub: ${blobRes.status}` });
   }
 
-  const fileData = await fileRes.json();
-  const fileSha  = fileData.sha;
-
-  // Decode and parse — with a clear error if the file content is empty or malformed
-  const rawContent = fileData.content
-    ? Buffer.from(fileData.content, "base64").toString("utf8").trim()
-    : "";
-
-  if (!rawContent) {
-    return res.status(500).json({
-      error: "connections.json on GitHub is empty. Please re-upload the Eyefyre archive file."
-    });
-  }
+  const rawContent = await blobRes.text();
 
   let existing;
   try {
