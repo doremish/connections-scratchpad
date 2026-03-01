@@ -48,13 +48,31 @@ function shuffle(arr) {
   return a;
 }
 
-function buildGrid(categories, shouldShuffle = false) {
-  const tiles = categories.flatMap((cat) =>
-    cat.cards.map((word) => ({ word, catColor: cat.color, catTitle: cat.title }))
-  );
-  // By default preserve NYT's original word order.
-  // Pass shouldShuffle=true (e.g. the Shuffle button) to randomise.
-  return shouldShuffle ? shuffle(tiles) : tiles;
+function buildGrid(categories, shouldShuffle = false, startingOrder = null) {
+  // Build a lookup from word → tile data so we can reorder by startingOrder
+  const tileMap = {};
+  categories.forEach((cat) => {
+    cat.cards.forEach((word) => {
+      tileMap[word] = { word, catColor: cat.color, catTitle: cat.title };
+    });
+  });
+
+  let tiles;
+  if (shouldShuffle) {
+    // Shuffle button: randomise
+    tiles = shuffle(Object.values(tileMap));
+  } else if (startingOrder && startingOrder.length === 16) {
+    // Use NYT's exact starting order
+    tiles = startingOrder.map((word) => tileMap[word]).filter(Boolean);
+    // Safety: if any words didn't match, fall back to category order
+    if (tiles.length !== 16) tiles = Object.values(tileMap);
+  } else {
+    // Older archive entries without startingOrder: use category order
+    tiles = categories.flatMap((cat) =>
+      cat.cards.map((word) => tileMap[word])
+    );
+  }
+  return tiles;
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -95,7 +113,13 @@ async function fetchPuzzle() {
     ),
   }));
 
-  return { date: displayDate, categories };
+  // Pass startingOrder through so the grid can replicate NYT's exact layout
+  const startingOrder = (rawGroups.flatMap
+    ? rawGroups.flatMap((g) => g.members || g.items || g.cards || [])
+    : []
+  );
+
+  return { date: displayDate, categories, startingOrder };
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -236,7 +260,7 @@ export default function ConnectionsHelper() {
 
   useEffect(() => {
     fetchPuzzle()
-      .then((data) => { setPuzzle(data); setGrid(buildGrid(data.categories)); setLoading(false); })
+      .then((data) => { setPuzzle(data); setGrid(buildGrid(data.categories, false, data.startingOrder)); setLoading(false); })
       .catch((e)   => { setError(e.message); setLoading(false); });
   }, []);
 
@@ -726,4 +750,3 @@ const styles = {
     cursor:         "pointer",
   },
 };
-
