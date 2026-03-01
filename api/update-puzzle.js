@@ -72,9 +72,30 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: `Could not read archive from GitHub: ${fileRes.status}` });
   }
 
-  const fileData  = await fileRes.json();
-  const fileSha   = fileData.sha;  // needed by GitHub API to update an existing file
-  const existing  = JSON.parse(Buffer.from(fileData.content, "base64").toString("utf8"));
+  const fileData = await fileRes.json();
+  const fileSha  = fileData.sha;
+
+  // Decode and parse — with a clear error if the file content is empty or malformed
+  const rawContent = fileData.content
+    ? Buffer.from(fileData.content, "base64").toString("utf8").trim()
+    : "";
+
+  if (!rawContent) {
+    return res.status(500).json({
+      error: "connections.json on GitHub is empty. Please re-upload the Eyefyre archive file."
+    });
+  }
+
+  let existing;
+  try {
+    existing = JSON.parse(rawContent);
+  } catch (e) {
+    return res.status(500).json({
+      error: "connections.json on GitHub contains invalid JSON.",
+      detail: e.message,
+      preview: rawContent.slice(0, 200),
+    });
+  }
 
   // ── 4. Check if today is already in the archive ────────────────────────────
 
