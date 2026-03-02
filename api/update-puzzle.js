@@ -30,24 +30,28 @@ export default async function handler(req, res) {
   // ── 2. Fetch today's puzzle from NYT ─────────────────────────────────────
 
   console.log(`Fetching NYT puzzle for ${today}...`);
-  const nytRes = await fetch(`${NYT_API_BASE}/${today}.json`);
+   const nytData = await nytRes.json();
 
-  if (!nytRes.ok) {
-    console.log(`NYT returned ${nytRes.status} — puzzle may not be published yet.`);
-    return res.status(200).json({ message: `NYT puzzle not available yet for ${today}` });
+  // NYT v2 uses `categories` (each has `title` + `cards[{content}]`)
+  const categories = Array.isArray(nytData.categories) ? nytData.categories : [];
+
+  if (categories.length === 0) {
+    return res.status(500).json({
+      error: "NYT response missing categories; API format may have changed.",
+      keys: Object.keys(nytData || {}),
+    });
   }
 
-  const nytData        = await nytRes.json();
-  const startingGroups = nytData.startingGroups || nytData.answers || [];
-
   const newEntry = {
-    id:            nytData.id,
-    date:          today,
-    startingOrder: startingGroups.flatMap((g) => g.members ?? []),
-    answers:       (nytData.answers || []).map((g, idx) => ({
-      level:   g.level ?? -1,
-      group:   g.group  ?? `Group ${idx + 1}`,
-      members: g.members ?? [],
+    id:   nytData.id,
+    date: today,
+
+    // optional: keep if you want a deterministic “starting order”
+    startingOrder: categories.flatMap((g) => (g.cards || []).map((c) => c.content)),
+    answers: categories.map((g) => ({
+      level: -1,                // v2 doesn’t provide difficulty colors
+      group: g.title,
+      members: (g.cards || []).map((c) => c.content),
     })),
   };
 
