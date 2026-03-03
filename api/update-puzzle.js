@@ -42,6 +42,7 @@ export default async function handler(req, res) {
   const rawGroups =
     (nytData.startingGroups?.length  > 0 && nytData.startingGroups) ||
     (nytData.answers?.length         > 0 && nytData.answers)        ||
+    (nytData.categories?.length      > 0 && nytData.categories)     ||
     [];
 
   if (rawGroups.length === 0) {
@@ -60,7 +61,7 @@ export default async function handler(req, res) {
     date:          today,
     startingOrder: rawGroups.flatMap(extractMembers),
     answers:       rawGroups.map((g, idx) => ({
-      level:   g.level ?? -1,
+      level:   g.level ?? g.difficulty ?? -1,
       group:   g.group ?? g.title ?? `Group ${idx + 1}`,
       members: extractMembers(g),
     })),
