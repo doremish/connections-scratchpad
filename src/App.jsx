@@ -59,30 +59,38 @@ function buildGrid(categories) {
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
-async function fetchPuzzle() {
-  // Build today's date in YYYY-MM-DD format to match the archive
+function getTodayString() {
   const now  = new Date();
   const yyyy = now.getFullYear();
   const mm   = String(now.getMonth() + 1).padStart(2, "0");
   const dd   = String(now.getDate()).padStart(2, "0");
-  const today = `${yyyy}-${mm}-${dd}`;
+  return `${yyyy}-${mm}-${dd}`;
+}
 
-  const displayDate = now.toLocaleDateString("en-US", {
+function formatDisplayDate(dateStr) {
+  // Parse as local date (avoid UTC timezone shifting the day)
+  const [yyyy, mm, dd] = dateStr.split("-").map(Number);
+  return new Date(yyyy, mm - 1, dd).toLocaleDateString("en-US", {
     month: "long", day: "numeric", year: "numeric",
   });
+}
 
+async function fetchAllPuzzles() {
   const res = await fetch(PUZZLE_SOURCE);
   if (!res.ok) throw new Error("Could not reach the puzzle archive.");
+  return res.json();
+}
 
-  const allPuzzles = await res.json();
+async function fetchPuzzle(targetDate) {
+  const today = targetDate || getTodayString();
+
+  const allPuzzles = await fetchAllPuzzles();
 
   const entry = allPuzzles.find((p) => p.date === today);
   if (!entry) {
     const latest = allPuzzles[allPuzzles.length - 1]?.date ?? "unknown";
-    throw new Error(`Today (${today}) isn't in the archive yet. Latest: ${latest}. Check back soon!`);
+    throw new Error(`${today} isn't in the archive yet. Latest: ${latest}. Check back soon!`);
   }
-
-  console.log("PUZZLE ENTRY =", JSON.stringify(entry, null, 2));
 
   const rawGroups = entry.answers || entry.categories || entry.groups || [];
   if (rawGroups.length === 0) throw new Error("Unexpected archive format. Check browser console (F12).");
@@ -95,16 +103,20 @@ async function fetchPuzzle() {
     ),
   }));
 
-  return { date: displayDate, categories };
+  return { date: formatDisplayDate(today), isoDate: today, categories, allPuzzles };
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function ConnectionsHelper() {
-  const [puzzle, setPuzzle]   = useState(null);
-  const [grid, setGrid]       = useState(Array(16).fill(null));
-  const [loading, setLoading] = useState(true);
-  const [error, setError]     = useState(null);
+  const [puzzle, setPuzzle]           = useState(null);
+  const [grid, setGrid]               = useState(Array(16).fill(null));
+  const [loading, setLoading]         = useState(true);
+  const [error, setError]             = useState(null);
+  const [selectedDate, setSelectedDate] = useState(null); // null = today
+  const [showArchive, setShowArchive] = useState(false);
+  const [availableDates, setAvailableDates] = useState([]);
+
 
   // Tile drag
   const dragSlot  = useRef(null);  // slot being dragged from
@@ -235,10 +247,19 @@ export default function ConnectionsHelper() {
   // ── Puzzle load ────────────────────────────────────────────────────────────
 
   useEffect(() => {
-    fetchPuzzle()
-      .then((data) => { setPuzzle(data); setGrid(buildGrid(data.categories)); setLoading(false); })
-      .catch((e)   => { setError(e.message); setLoading(false); });
-  }, []);
+    setLoading(true);
+    setError(null);
+    fetchPuzzle(selectedDate)
+      .then((data) => {
+        setPuzzle(data);
+        setGrid(buildGrid(data.categories));
+        setLoading(false);
+        // Build the available dates list from the archive
+        const dates = [...data.allPuzzles].reverse().map((p) => p.date);
+        setAvailableDates(dates);
+      })
+      .catch((e) => { setError(e.message); setLoading(false); });
+  }, [selectedDate]);
 
   // ── Tile mouse drag ────────────────────────────────────────────────────────
 
@@ -391,7 +412,51 @@ export default function ConnectionsHelper() {
         <p style={styles.eyebrow}>NYT · CONNECTIONS</p>
         <h1 style={styles.title}>Connections Scratchpad</h1>
         {puzzle && <p style={styles.date}>{puzzle.date}</p>}
+        {availableDates.length > 0 && (
+          <button
+            style={styles.archiveButton}
+            onClick={() => setShowArchive(true)}
+          >
+            📅 Past Puzzles
+          </button>
+        )}
       </header>
+
+      {/* Archive modal */}
+      {showArchive && (
+        <div style={styles.modalOverlay} onClick={() => setShowArchive(false)}>
+          <div style={styles.modalBox} onClick={(e) => e.stopPropagation()}>
+            <div style={styles.modalHeader}>
+              <div>
+                <span style={styles.modalTitle}>Past Puzzles</span>
+                <p style={styles.modalSubtitle}>Last 30 days</p>
+              </div>
+              <button style={styles.modalClose} onClick={() => setShowArchive(false)}>✕</button>
+            </div>
+            <div style={styles.modalList}>
+              {availableDates.map((d) => {
+                const isToday    = d === getTodayString();
+                const isSelected = d === (selectedDate || getTodayString());
+                return (
+                  <button
+                    key={d}
+                    style={{
+                      ...styles.dateRow,
+                      ...(isSelected ? styles.dateRowSelected : {}),
+                    }}
+                    onClick={() => {
+                      setSelectedDate(isToday ? null : d);
+                      setShowArchive(false);
+                    }}
+                  >
+                    <span>{formatDisplayDate(d)}{isToday ? " — Today" : ""}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
 
       {loading && <p style={styles.status}>Fetching today's puzzle…</p>}
       {error   && <p style={styles.error}>{error}</p>}
@@ -568,6 +633,100 @@ const styles = {
   date:   { margin: "4px 0 0", color: "#6666aa", fontSize: "clamp(11px, 2.8vw, 13px)" },
   status: { color: "#8888cc", fontSize: "16px", margin: 0 },
   error:  { color: "#ff6b6b", fontSize: "14px", maxWidth: "340px", textAlign: "center", margin: 0 },
+
+  archiveButton: {
+    display:        "inline-block",
+    marginTop:      "10px",
+    padding:        "6px 16px",
+    background:     "rgba(255,255,255,0.07)",
+    border:         "1px solid #5555aa",
+    borderRadius:   "6px",
+    color:          "#9999cc",
+    fontFamily:     "'Courier New', monospace",
+    fontSize:       "clamp(10px, 2.5vw, 12px)",
+    letterSpacing:  "1px",
+    cursor:         "pointer",
+    textTransform:  "uppercase",
+  },
+
+  modalOverlay: {
+    position:        "fixed",
+    inset:           0,
+    background:      "rgba(0,0,0,0.65)",
+    zIndex:          1000,
+    display:         "flex",
+    alignItems:      "center",
+    justifyContent:  "center",
+    padding:         "16px",
+  },
+  modalBox: {
+    background:   "#1e1e35",
+    border:       "1px solid #3333660",
+    borderRadius: "12px",
+    width:        "100%",
+    maxWidth:     "380px",
+    maxHeight:    "80vh",
+    display:      "flex",
+    flexDirection:"column",
+    overflow:     "hidden",
+    boxShadow:    "0 16px 48px rgba(0,0,0,0.6)",
+  },
+  modalHeader: {
+    display:        "flex",
+    alignItems:     "center",
+    justifyContent: "space-between",
+    padding:        "16px 20px",
+    borderBottom:   "1px solid rgba(255,255,255,0.08)",
+    flexShrink:     0,
+  },
+  modalTitle: {
+    color:         "#f0ede8",
+    fontFamily:    "'Courier New', monospace",
+    fontSize:      "13px",
+    letterSpacing: "3px",
+    textTransform: "uppercase",
+  },
+  modalSubtitle: {
+    margin:        "3px 0 0",
+    color:         "#6666aa",
+    fontFamily:    "'Courier New', monospace",
+    fontSize:      "11px",
+    letterSpacing: "1px",
+  },
+  modalClose: {
+    background:  "none",
+    border:      "none",
+    color:       "#8888aa",
+    fontSize:    "18px",
+    cursor:      "pointer",
+    lineHeight:  1,
+    padding:     "0 4px",
+  },
+  modalList: {
+    overflowY:  "auto",
+    padding:    "8px 0",
+  },
+  dateRow: {
+    display:        "flex",
+    alignItems:     "center",
+    justifyContent: "space-between",
+    width:          "100%",
+    padding:        "12px 20px",
+    background:     "none",
+    border:         "none",
+    borderBottom:   "1px solid rgba(255,255,255,0.04)",
+    color:          "#c8c8e0",
+    fontFamily:     "'Courier New', monospace",
+    fontSize:       "clamp(11px, 3vw, 13px)",
+    textAlign:      "left",
+    cursor:         "pointer",
+    transition:     "background 0.12s",
+  },
+  dateRowSelected: {
+    background: "rgba(100,100,200,0.18)",
+    color:      "#ffffff",
+  },
+
 
   board: {
     display: "flex",
