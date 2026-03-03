@@ -21,11 +21,8 @@ export default async function handler(req, res) {
 
   // ── 1. Build today's date ─────────────────────────────────────────────────
 
-  const now   = new Date();
-  const yyyy  = now.getFullYear();
-  const mm    = String(now.getMonth() + 1).padStart(2, "0");
-  const dd    = String(now.getDate()).padStart(2, "0");
-  const today = `${yyyy}-${mm}-${dd}`;
+  // Use NYT's timezone (ET) — this is the date NYT uses for puzzle IDs
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 
   // ── 2. Fetch today's puzzle from NYT ─────────────────────────────────────
 
