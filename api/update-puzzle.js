@@ -30,28 +30,42 @@ export default async function handler(req, res) {
   // ── 2. Fetch today's puzzle from NYT ─────────────────────────────────────
 
   console.log(`Fetching NYT puzzle for ${today}...`);
-   const nytData = await nytRes.json();
+  const nytRes = await fetch(`${NYT_API_BASE}/${today}.json`);
 
-  // NYT v2 uses `categories` (each has `title` + `cards[{content}]`)
-  const categories = Array.isArray(nytData.categories) ? nytData.categories : [];
-
-  if (categories.length === 0) {
-    return res.status(500).json({
-      error: "NYT response missing categories; API format may have changed.",
-      keys: Object.keys(nytData || {}),
-    });
+  if (!nytRes.ok) {
+    console.log(`NYT returned ${nytRes.status} — puzzle may not be published yet.`);
+    return res.status(200).json({ message: `NYT puzzle not available yet for ${today}` });
   }
 
-  const newEntry = {
-    id:   nytData.id,
-    date: today,
+  const nytData = await nytRes.json();
 
-    // optional: keep if you want a deterministic “starting order”
-    startingOrder: categories.flatMap((g) => (g.cards || []).map((c) => c.content)),
-    answers: categories.map((g) => ({
-      level: -1,                // v2 doesn’t provide difficulty colors
-      group: g.title,
-      members: (g.cards || []).map((c) => c.content),
+  // NYT v2 API stores words in g.cards[].content, not g.members.
+  // Fall back chain uses .length > 0 check because [] is truthy and would
+  // short-circuit the || before reaching a non-empty array.
+  const rawGroups =
+    (nytData.startingGroups?.length  > 0 && nytData.startingGroups) ||
+    (nytData.answers?.length         > 0 && nytData.answers)        ||
+    [];
+
+  if (rawGroups.length === 0) {
+    console.log("No groups found in NYT response. Keys:", Object.keys(nytData));
+    return res.status(200).json({ message: `NYT puzzle for ${today} returned no groups — skipping.` });
+  }
+
+  // Extract member words from either .members (old) or .cards[].content (v2)
+  const extractMembers = (g) =>
+    g.members?.length > 0
+      ? g.members
+      : (g.cards ?? []).map((c) => c.content ?? c.text ?? c).filter(Boolean);
+
+  const newEntry = {
+    id:            nytData.id,
+    date:          today,
+    startingOrder: rawGroups.flatMap(extractMembers),
+    answers:       rawGroups.map((g, idx) => ({
+      level:   g.level ?? -1,
+      group:   g.group ?? g.title ?? `Group ${idx + 1}`,
+      members: extractMembers(g),
     })),
   };
 
