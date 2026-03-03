@@ -71,7 +71,7 @@ function formatDisplayDate(dateStr) {
   // Parse as local date (avoid UTC timezone shifting the day)
   const [yyyy, mm, dd] = dateStr.split("-").map(Number);
   return new Date(yyyy, mm - 1, dd).toLocaleDateString("en-US", {
-    month: "long", day: "numeric", year: "numeric",
+    weekday: "long", month: "short", day: "2-digit", year: "numeric",
   });
 }
 
