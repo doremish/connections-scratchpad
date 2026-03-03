@@ -562,14 +562,24 @@ export default function ConnectionsHelper() {
 
           <p style={styles.credit}>Made by doremish</p>
 
-          <a
-            href="https://buymeacoffee.com/doremish"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={styles.coffeeButton}
-          >
-            ☕ Buy me a coffee
-          </a>
+          <div style={styles.bottomLinks}>
+            <a
+              href="https://buymeacoffee.com/doremish"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={styles.coffeeButton}
+            >
+              ☕ Buy me a coffee
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeRcXhQh_1VQuR5oSgkesYWLl4o_GsViZFDaY5pDGp8Up-xPg/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={styles.coffeeButton}
+            >
+              💬 Suggestions & bugs
+            </a>
+          </div>
         </>
       )}
 
@@ -868,6 +878,13 @@ const styles = {
     textAlign:     "center",
     fontFamily:    "'Courier New', monospace",
     letterSpacing: "0.5px",
+  },
+  bottomLinks: {
+    display:        "flex",
+    gap:            "20px",
+    marginTop:      "6px",
+    justifyContent: "center",
+    flexWrap:       "wrap",
   },
   // Same prominence as credit line
   coffeeButton: {
