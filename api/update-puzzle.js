@@ -20,17 +20,9 @@ const GITHUB_API    = "https://api.github.com";
 const DAYS_TO_KEEP  = 30;
 
 // ── Notification helper ───────────────────────────────────────────────────────
-// Sends a push notification via ntfy.sh (https://ntfy.sh).
-//
-// Setup (one-time, 2 minutes):
-//   1. Install the ntfy app on your phone (iOS / Android) — or use browser.
-//   2. Subscribe to the topic name you put in NTFY_TOPIC.
-//   3. Add NTFY_TOPIC to Vercel env vars. That's it.
-//
-// isError controls the notification priority and tags so errors stand out.
 
 async function notify(topic, title, message, isError = false) {
-  if (!topic) return; // silently skip if env var not set
+  if (!topic) return;
   try {
     await fetch(`https://ntfy.sh/${topic}`, {
       method: "POST",
@@ -43,7 +35,6 @@ async function notify(topic, title, message, isError = false) {
       body: message,
     });
   } catch (e) {
-    // Never let a notification failure break the main job
     console.warn("ntfy notification failed:", e.message);
   }
 }
@@ -80,10 +71,13 @@ export default async function handler(req, res) {
 
   const nytData = await nytRes.json();
 
+  // NYT v2 API: categories are in nytData.categories[].cards[]
+  // Each card has { content, position } where position is the actual scrambled
+  // grid order NYT shows players. Fall back to older field names for resilience.
   const rawGroups =
+    (nytData.categories?.length      > 0 && nytData.categories)     ||
     (nytData.startingGroups?.length  > 0 && nytData.startingGroups) ||
     (nytData.answers?.length         > 0 && nytData.answers)        ||
-    (nytData.categories?.length      > 0 && nytData.categories)     ||
     [];
 
   if (rawGroups.length === 0) {
@@ -93,16 +87,32 @@ export default async function handler(req, res) {
     return res.status(200).json({ message: msg });
   }
 
+  // Extract member words from either .members (old) or .cards[].content (v2)
   const extractMembers = (g) =>
     g.members?.length > 0
       ? g.members
       : (g.cards ?? []).map((c) => c.content ?? c.text ?? c).filter(Boolean);
 
+  // Build the true NYT starting order by sorting all cards across all groups
+  // by their position field. This is the actual scrambled grid players see.
+  // Falls back to null if position data isn't present (older API responses).
+  const allCards = rawGroups.flatMap((g) =>
+    (g.cards ?? []).map((c) => ({
+      word:     c.content ?? c.text ?? (typeof c === "string" ? c : null),
+      position: typeof c.position === "number" ? c.position : null,
+    }))
+  ).filter((c) => c.word);
+
+  const hasPositions = allCards.length > 0 && allCards.every((c) => c.position !== null);
+  const startingOrder = hasPositions
+    ? [...allCards].sort((a, b) => a.position - b.position).map((c) => c.word)
+    : null; // null = App will fall back to shuffle
+
   const newEntry = {
-    id:            nytData.id,
-    date:          today,
-    startingOrder: rawGroups.flatMap(extractMembers),
-    answers:       rawGroups.map((g, idx) => ({
+    id:      nytData.id,
+    date:    today,
+    ...(startingOrder && { startingOrder }), // only include when we have real position data
+    answers: rawGroups.map((g, idx) => ({
       level:   g.level ?? g.difficulty ?? -1,
       group:   g.group ?? g.title ?? `Group ${idx + 1}`,
       members: extractMembers(g),
@@ -170,7 +180,7 @@ export default async function handler(req, res) {
 
   // ── 6. Save back to GitHub ────────────────────────────────────────────────
 
-  const encoded   = Buffer.from(JSON.stringify(updated, null, 2)).toString("base64");
+  const encoded = Buffer.from(JSON.stringify(updated, null, 2)).toString("base64");
   let commitRes;
   try {
     commitRes = await fetch(
@@ -200,13 +210,15 @@ export default async function handler(req, res) {
 
   // ── 7. Success! ───────────────────────────────────────────────────────────
 
-  const successMsg = `Puzzle #${newEntry.id} for ${today} added. Archive: ${updated.length} entries (${updated[0].date} → ${updated[updated.length - 1].date}).`;
+  const orderNote  = startingOrder ? "with NYT position order" : "shuffled (no position data)";
+  const successMsg = `Puzzle #${newEntry.id} for ${today} added (${orderNote}). Archive: ${updated.length} entries (${updated[0].date} → ${updated[updated.length - 1].date}).`;
   console.log("Successfully saved", today, "to archive.");
   await notify(NTFY_TOPIC, "✅ Connections puzzle saved", successMsg, false);
 
   return res.status(200).json({
-    message: `Added ${today}. Archive now has ${updated.length} entries.`,
-    oldest:  updated[0].date,
-    newest:  updated[updated.length - 1].date,
+    message:      `Added ${today}. Archive now has ${updated.length} entries.`,
+    oldest:       updated[0].date,
+    newest:       updated[updated.length - 1].date,
+    startingOrder: orderNote,
   });
 }
