@@ -17,7 +17,9 @@
 //              Works with both mouse and touch.
 //
 // PUZZLE DATA
-//   Free community archive (github.com/Eyefyre/NYT-Connections-Answers).
+//   Self-hosted archive updated daily by api/update-puzzle.js.
+//   Starting order uses NYT position data (v2 API) when available;
+//   falls back to a random shuffle for older archive entries.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useState, useEffect, useLayoutEffect, useRef } from "react";
@@ -34,7 +36,6 @@ const TILE_FONT = "'nyt-franklin', 'Libre Franklin', 'Franklin Gothic Medium', '
 
 const ROW_COLORS    = ["#F9DF6D", "#A0C35A", "#B0C4EF", "#BA81C5"];
 const COLS          = 4;
-// Your own self-hosted archive — updated daily by api/update-puzzle.js
 const PUZZLE_SOURCE = "/connections.json";
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -48,24 +49,29 @@ function shuffle(arr) {
   return a;
 }
 
-function buildGrid(categories) {
-  const tiles = categories.flatMap((cat) =>
+function buildGrid(categories, startingOrder) {
+  // Build a flat lookup of every tile by word
+  const allTiles = categories.flatMap((cat) =>
     cat.cards.map((word) => ({ word, catColor: cat.color, catTitle: cat.title }))
   );
-  // Always shuffle — the NYT API doesn't expose the original scrambled order,
-  // so shuffling is the honest alternative to showing answers grouped by category.
-  return shuffle(tiles);
+
+  // Use the NYT position-sorted order when we have it (16 words, one per slot).
+  // Fall back to a random shuffle for older archive entries that lack position data.
+  if (startingOrder?.length === 16) {
+    return startingOrder
+      .map((word) => allTiles.find((t) => t.word === word))
+      .filter(Boolean);
+  }
+  return shuffle(allTiles);
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
 function getTodayString() {
-  // Use NYT's timezone (ET) so all users worldwide see the same "today"
   return new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
 
 function formatDisplayDate(dateStr) {
-  // Parse as local date (avoid UTC timezone shifting the day)
   const [yyyy, mm, dd] = dateStr.split("-").map(Number);
   return new Date(yyyy, mm - 1, dd).toLocaleDateString("en-US", {
     weekday: "long", month: "short", day: "2-digit", year: "numeric",
@@ -79,14 +85,35 @@ async function fetchAllPuzzles() {
 }
 
 async function fetchPuzzle(targetDate) {
-  const today = targetDate || getTodayString();
+  const requestedDate = targetDate || getTodayString();
+  const allPuzzles    = await fetchAllPuzzles();
 
-  const allPuzzles = await fetchAllPuzzles();
+  // Try the requested date first, then fall back to the previous day
+  const datesToTry = [requestedDate];
+  if (!targetDate) {
+    // Only auto-fallback for "today" — not for explicit archive selections
+    const [y, m, d] = requestedDate.split("-").map(Number);
+    const yesterday = new Date(y, m - 1, d - 1)
+      .toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+    datesToTry.push(yesterday);
+  }
 
-  const entry = allPuzzles.find((p) => p.date === today);
+  let entry        = null;
+  let resolvedDate = null;
+  let todayMissing = false;
+
+  for (const date of datesToTry) {
+    entry = allPuzzles.find((p) => p.date === date);
+    if (entry) {
+      resolvedDate = date;
+      if (date !== requestedDate) todayMissing = true;
+      break;
+    }
+  }
+
   if (!entry) {
     const latest = allPuzzles[allPuzzles.length - 1]?.date ?? "unknown";
-    throw new Error(`${today} isn't in the archive yet. Latest: ${latest}. Check back soon!`);
+    throw new Error(`${requestedDate} isn't in the archive yet. Latest: ${latest}. Check back soon!`);
   }
 
   const rawGroups = entry.answers || entry.categories || entry.groups || [];
@@ -100,24 +127,31 @@ async function fetchPuzzle(targetDate) {
     ),
   }));
 
-  return { date: formatDisplayDate(today), isoDate: today, categories, allPuzzles };
+  return {
+    date:         formatDisplayDate(resolvedDate),
+    isoDate:      resolvedDate,
+    categories,
+    startingOrder: entry.startingOrder ?? null, // position-sorted word list, or null
+    allPuzzles,
+    todayMissing,
+  };
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function ConnectionsHelper() {
-  const [puzzle, setPuzzle]           = useState(null);
-  const [grid, setGrid]               = useState(Array(16).fill(null));
-  const [loading, setLoading]         = useState(true);
-  const [error, setError]             = useState(null);
-  const [selectedDate, setSelectedDate] = useState(null); // null = today
-  const [showArchive, setShowArchive] = useState(false);
+  const [puzzle, setPuzzle]             = useState(null);
+  const [grid, setGrid]                 = useState(Array(16).fill(null));
+  const [loading, setLoading]           = useState(true);
+  const [error, setError]               = useState(null);
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [showArchive, setShowArchive]   = useState(false);
   const [availableDates, setAvailableDates] = useState([]);
-
+  const [todayWarning, setTodayWarning] = useState(false);
 
   // Tile drag
-  const dragSlot  = useRef(null);  // slot being dragged from
-  const hoverSlot = useRef(null);  // slot finger is over (touch)
+  const dragSlot  = useRef(null);
+  const hoverSlot = useRef(null);
   const [activeFrom, setActiveFrom] = useState(null);
   const [activeTo, setActiveTo]     = useState(null);
 
@@ -127,11 +161,10 @@ export default function ConnectionsHelper() {
   const [rowDragFrom, setRowDragFrom] = useState(null);
   const [rowDragTo, setRowDragTo]     = useState(null);
 
-  // Ghost tile (floating copy that follows cursor/finger)
+  // Ghost tile
   const [ghostTile, setGhostTile] = useState(null);
   const [ghostPos, setGhostPos]   = useState({ x: 0, y: 0 });
 
-  // Transparent 1×1 GIF to suppress browser's built-in drag preview image
   const blankImage = useRef(null);
   useEffect(() => {
     const img = new Image();
@@ -139,7 +172,6 @@ export default function ConnectionsHelper() {
     blankImage.current = img;
   }, []);
 
-  // Update ghost position as mouse moves during any drag
   useEffect(() => {
     function onDocDragOver(e) {
       if (dragSlot.current !== null || rowDragFromRef.current !== null) {
@@ -151,16 +183,6 @@ export default function ConnectionsHelper() {
   }, []);
 
   // ── FLIP animation ─────────────────────────────────────────────────────────
-  //
-  // tileRefs:     slotIdx → tile DOM element (attached via ref callback)
-  // preSwapRects: snapshot taken just before a grid mutation, containing:
-  //   rects: { [slotIdx]: DOMRect }  — tile positions BEFORE the swap
-  //   moves: { [currentSlot]: oldSlot } — which old slot each slot's tile came from
-  //
-  // useLayoutEffect runs after every render. If preSwapRects has data, it
-  // applies an inverse CSS transform to each moved tile (making it appear to
-  // still be in its old position), then clears the transform so the browser
-  // transitions it to the correct spot. This is the FLIP technique.
 
   const tileRefs     = useRef({});
   const preSwapRects = useRef(null);
@@ -180,11 +202,9 @@ export default function ConnectionsHelper() {
       const dy = oldRect.top  - newRect.top;
       if (Math.abs(dx) < 0.5 && Math.abs(dy) < 0.5) return;
 
-      // Snap tile back to its visual origin with no transition
       el.style.transition = "none";
       el.style.transform  = `translate(${dx}px, ${dy}px)`;
 
-      // Double rAF: first frame commits the "before" paint, second triggers animation
       requestAnimationFrame(() => requestAnimationFrame(() => {
         el.style.transition = "transform 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
         el.style.transform  = "";
@@ -206,7 +226,6 @@ export default function ConnectionsHelper() {
   function swapSlots(from, to) {
     if (from === null || to === null || from === to) return;
     const rects = captureRects([from, to]);
-    // After swap: tile now at `to` came from `from`, and vice versa
     preSwapRects.current = { rects, moves: { [to]: from, [from]: to } };
     setGrid((prev) => {
       const next = [...prev];
@@ -226,8 +245,8 @@ export default function ConnectionsHelper() {
     for (let col = 0; col < COLS; col++) {
       const slotA = rowA * COLS + col;
       const slotB = rowB * COLS + col;
-      moves[slotA] = slotB;  // tile now at slotA came from slotB
-      moves[slotB] = slotA;  // tile now at slotB came from slotA
+      moves[slotA] = slotB;
+      moves[slotB] = slotA;
     }
     preSwapRects.current = { rects, moves };
     setGrid((prev) => {
@@ -249,9 +268,9 @@ export default function ConnectionsHelper() {
     fetchPuzzle(selectedDate)
       .then((data) => {
         setPuzzle(data);
-        setGrid(buildGrid(data.categories));
+        setGrid(buildGrid(data.categories, data.startingOrder));
         setLoading(false);
-        // Build the available dates list from the archive
+        setTodayWarning(data.todayMissing ?? false);
         const dates = [...data.allPuzzles].reverse().map((p) => p.date);
         setAvailableDates(dates);
       })
@@ -357,7 +376,6 @@ export default function ConnectionsHelper() {
   }
 
   // ── Combined dragover/drop on row band ────────────────────────────────────
-  // Handles both tile drops (onto empty space) and row drops
 
   function onRowBandDragOver(e, rowIdx) {
     e.preventDefault();
@@ -397,7 +415,7 @@ export default function ConnectionsHelper() {
   // ── Shuffle ────────────────────────────────────────────────────────────────
 
   function handleShuffle() {
-    if (puzzle) setGrid(buildGrid(puzzle.categories));
+    if (puzzle) setGrid(buildGrid(puzzle.categories, puzzle.startingOrder));
   }
 
   // ── Render ─────────────────────────────────────────────────────────────────
@@ -460,6 +478,22 @@ export default function ConnectionsHelper() {
 
       {!loading && !error && (
         <>
+          {/* Warning banner — shown when today's puzzle isn't available yet */}
+          {todayWarning && !selectedDate && (
+            <div style={styles.warningBanner}>
+              <span style={styles.warningIcon}>⏳</span>
+              <span>
+                Today's puzzle isn't available yet — showing yesterday's instead.{" "}
+                <button
+                  style={styles.warningRefresh}
+                  onClick={() => { setSelectedDate(null); setTodayWarning(false); }}
+                >
+                  Refresh
+                </button>
+              </span>
+            </div>
+          )}
+
           <div style={styles.board}>
             {[0, 1, 2, 3].map((rowIdx) => {
               const isFromRow   = rowDragFrom === rowIdx;
@@ -604,7 +638,7 @@ export default function ConnectionsHelper() {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Styles — all in one place for easy editing
+// Styles
 // ─────────────────────────────────────────────────────────────────────────────
 
 const styles = {
@@ -667,16 +701,16 @@ const styles = {
     padding:         "16px",
   },
   modalBox: {
-    background:   "#1e1e35",
-    border:       "1px solid #3333660",
-    borderRadius: "12px",
-    width:        "100%",
-    maxWidth:     "380px",
-    maxHeight:    "80vh",
-    display:      "flex",
-    flexDirection:"column",
-    overflow:     "hidden",
-    boxShadow:    "0 16px 48px rgba(0,0,0,0.6)",
+    background:    "#1e1e35",
+    border:        "1px solid #333366",
+    borderRadius:  "12px",
+    width:         "100%",
+    maxWidth:      "380px",
+    maxHeight:     "80vh",
+    display:       "flex",
+    flexDirection: "column",
+    overflow:      "hidden",
+    boxShadow:     "0 16px 48px rgba(0,0,0,0.6)",
   },
   modalHeader: {
     display:        "flex",
@@ -701,17 +735,17 @@ const styles = {
     letterSpacing: "1px",
   },
   modalClose: {
-    background:  "none",
-    border:      "none",
-    color:       "#8888aa",
-    fontSize:    "18px",
-    cursor:      "pointer",
-    lineHeight:  1,
-    padding:     "0 4px",
+    background: "none",
+    border:     "none",
+    color:      "#8888aa",
+    fontSize:   "18px",
+    cursor:     "pointer",
+    lineHeight: 1,
+    padding:    "0 4px",
   },
   modalList: {
-    overflowY:  "auto",
-    padding:    "8px 0",
+    overflowY: "auto",
+    padding:   "8px 0",
   },
   dateRow: {
     display:        "flex",
@@ -734,131 +768,123 @@ const styles = {
     color:      "#ffffff",
   },
 
-
   board: {
-    display: "flex",
+    display:       "flex",
     flexDirection: "column",
-    gap: "clamp(4px, 1.2vw, 8px)",
-    width: "100%",
-    maxWidth: "min(660px, 100%)",
+    gap:           "clamp(4px, 1.2vw, 8px)",
+    width:         "100%",
+    maxWidth:      "min(660px, 100%)",
   },
 
-  // Handle + coloured row, side by side
   rowWrapper: {
-    display: "flex",
+    display:    "flex",
     alignItems: "stretch",
-    gap: "6px",
+    gap:        "6px",
   },
 
-  // Drag handle pill on the left of each row
   rowHandle: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    width: "28px",
-    flexShrink: 0,
-    borderRadius: "8px",
-    background: "rgba(255,255,255,0.06)",
-    cursor: "grab",
-    touchAction: "none",
-    userSelect: "none",
+    display:          "flex",
+    alignItems:       "center",
+    justifyContent:   "center",
+    width:            "28px",
+    flexShrink:       0,
+    borderRadius:     "8px",
+    background:       "rgba(255,255,255,0.06)",
+    cursor:           "grab",
+    touchAction:      "none",
+    userSelect:       "none",
     WebkitUserSelect: "none",
-    transition: "background 0.15s, outline 0.15s",
+    transition:       "background 0.15s, outline 0.15s",
   },
   rowHandleActive: {
     background: "rgba(255,255,255,0.18)",
-    cursor: "grabbing",
+    cursor:     "grabbing",
   },
   rowHandleTarget: {
     background: "rgba(255,255,255,0.22)",
-    outline: "2px solid rgba(255,255,255,0.6)",
+    outline:    "2px solid rgba(255,255,255,0.6)",
   },
 
-  // 2-column × 3-row CSS grid of dots inside the handle
   gripGrid: {
-    display: "grid",
+    display:             "grid",
     gridTemplateColumns: "repeat(2, 4px)",
-    gridTemplateRows: "repeat(3, 4px)",
-    gap: "3px",
+    gridTemplateRows:    "repeat(3, 4px)",
+    gap:                 "3px",
   },
   gripDot: {
-    width: "4px",
-    height: "4px",
+    width:        "4px",
+    height:       "4px",
     borderRadius: "50%",
-    background: "rgba(255,255,255,0.35)",
+    background:   "rgba(255,255,255,0.35)",
   },
 
-  // Coloured row band
   row: {
-    flex: 1,
-    display: "grid",
+    flex:                1,
+    display:             "grid",
     gridTemplateColumns: "repeat(4, 1fr)",
-    gap: "clamp(4px, 1.2vw, 8px)",
-    padding: "clamp(5px, 1.5vw, 8px)",
-    borderRadius: "10px",
-    boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
-    boxSizing: "border-box",
-    transition: "outline 0.12s, opacity 0.12s",
+    gap:                 "clamp(4px, 1.2vw, 8px)",
+    padding:             "clamp(5px, 1.5vw, 8px)",
+    borderRadius:        "10px",
+    boxShadow:           "0 4px 20px rgba(0,0,0,0.3)",
+    boxSizing:           "border-box",
+    transition:          "outline 0.12s, opacity 0.12s",
   },
   rowDropTarget: { outline: "3px solid rgba(255,255,255,0.75)" },
   rowDragging:   { opacity: 0.5 },
 
-  // Fixed grid cell
   slot: {
     borderRadius: "6px",
-    minHeight: "clamp(54px, 13vw, 72px)",
-    display: "flex",
-    alignItems: "stretch",
-    transition: "box-shadow 0.12s",
+    minHeight:    "clamp(54px, 13vw, 72px)",
+    display:      "flex",
+    alignItems:   "stretch",
+    transition:   "box-shadow 0.12s",
   },
   slotHighlight: { boxShadow: "0 0 0 3px rgba(255,255,255,0.8)" },
   slotEmpty:     { background: "rgba(255,255,255,0.08)" },
 
-  // Draggable tile card
   tile: {
-    flex: 1,
-    background: "rgba(255,255,255,0.93)",
-    borderRadius: "6px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "grab",
-    fontFamily: TILE_FONT,
-    fontWeight: 700,
-    fontSize: "clamp(9px, 2.6vw, 13px)",
-    letterSpacing: "0.5px",
-    textTransform: "uppercase",
-    textAlign: "center",
-    padding: "6px 4px",
-    color: "#1a1a2e",
-    boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
-    userSelect: "none",
+    flex:             1,
+    background:       "rgba(255,255,255,0.93)",
+    borderRadius:     "6px",
+    display:          "flex",
+    alignItems:       "center",
+    justifyContent:   "center",
+    cursor:           "grab",
+    fontFamily:       TILE_FONT,
+    fontWeight:       700,
+    fontSize:         "clamp(9px, 2.6vw, 13px)",
+    letterSpacing:    "0.5px",
+    textTransform:    "uppercase",
+    textAlign:        "center",
+    padding:          "6px 4px",
+    color:            "#1a1a2e",
+    boxShadow:        "0 2px 8px rgba(0,0,0,0.2)",
+    userSelect:       "none",
     WebkitUserSelect: "none",
-    touchAction: "none",
-    wordBreak: "break-word",
-    lineHeight: 1.2,
-    transition: "opacity 0.12s",
+    touchAction:      "none",
+    wordBreak:        "break-word",
+    lineHeight:       1.2,
+    transition:       "opacity 0.12s",
   },
 
   controls: {
-    display: "flex",
-    gap: "12px",
+    display:   "flex",
+    gap:       "12px",
     marginTop: "clamp(14px, 4vw, 24px)",
   },
   button: {
-    background: "transparent",
-    border: "1px solid #5555aa",
-    color: "#9999cc",
-    padding: "10px 28px",
-    borderRadius: "6px",
-    cursor: "pointer",
-    fontFamily: "'Courier New', monospace",
-    fontSize: "12px",
+    background:    "transparent",
+    border:        "1px solid #5555aa",
+    color:         "#9999cc",
+    padding:       "10px 28px",
+    borderRadius:  "6px",
+    cursor:        "pointer",
+    fontFamily:    "'Courier New', monospace",
+    fontSize:      "12px",
     letterSpacing: "2px",
     textTransform: "uppercase",
-    minHeight: "44px",
+    minHeight:     "44px",
   },
-  // Most prominent — instruction line
   hint: {
     color:         "#9999bb",
     fontSize:      "clamp(11px, 2.8vw, 13px)",
@@ -867,7 +893,6 @@ const styles = {
     fontFamily:    "'Courier New', monospace",
     letterSpacing: "0.5px",
   },
-  // Mid prominence — credit
   credit: {
     color:         "#555577",
     fontSize:      "clamp(9px, 2.2vw, 11px)",
@@ -883,7 +908,6 @@ const styles = {
     justifyContent: "center",
     flexWrap:       "wrap",
   },
-  // Same prominence as credit line
   coffeeButton: {
     display:        "inline-block",
     marginTop:      "6px",
@@ -898,4 +922,37 @@ const styles = {
     border:         "none",
     cursor:         "pointer",
   },
+
+  warningBanner: {
+    display:       "flex",
+    alignItems:    "center",
+    gap:           "10px",
+    background:    "rgba(249, 200, 80, 0.12)",
+    border:        "1px solid rgba(249, 200, 80, 0.35)",
+    borderRadius:  "8px",
+    color:         "#f9c850",
+    fontFamily:    "'Courier New', monospace",
+    fontSize:      "clamp(10px, 2.6vw, 12px)",
+    letterSpacing: "0.3px",
+    padding:       "10px 16px",
+    marginBottom:  "clamp(10px, 3vw, 16px)",
+    maxWidth:      "min(660px, 100%)",
+    width:         "100%",
+    boxSizing:     "border-box",
+  },
+  warningIcon: {
+    fontSize:   "16px",
+    flexShrink: 0,
+  },
+  warningRefresh: {
+    background:     "none",
+    border:         "none",
+    color:          "#f9c850",
+    fontFamily:     "'Courier New', monospace",
+    fontSize:       "inherit",
+    textDecoration: "underline",
+    cursor:         "pointer",
+    padding:        0,
+  },
+
 };
