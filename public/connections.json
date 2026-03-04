@@ -1,51 +1,5 @@
 [
   {
-    "id": 965,
-    "date": "2026-02-01",
-    "answers": [
-      {
-        "level": -1,
-        "group": "PUBLICIZE",
-        "members": [
-          "BOOST",
-          "HYPE",
-          "PITCH",
-          "PLUG"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF SHOES",
-        "members": [
-          "CLOG",
-          "FLAT",
-          "MULE",
-          "WEDGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ANTHEM",
-        "members": [
-          "BANGER",
-          "BOP",
-          "HEATER",
-          "JAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSICAL INSTRUMENTS PLUS STARTING LETTER",
-        "members": [
-          "GLUTE",
-          "MORGAN",
-          "SHARP",
-          "THORN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 966,
     "date": "2026-02-02",
     "answers": [
@@ -1393,6 +1347,70 @@
           "FASTIDIOUS",
           "FLEETWOOD",
           "QUICKSAND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1081,
+    "date": "2026-03-04",
+    "startingOrder": [
+      "HOUND",
+      "SHADOW",
+      "TAIL",
+      "TRACK",
+      "FAIR",
+      "HONEST",
+      "SPORTING",
+      "SQUARE",
+      "BIKE",
+      "BOOK",
+      "TOY",
+      "VIDEO GAME",
+      "GONE",
+      "GOSSIP",
+      "NEW",
+      "WORKING"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PURSUE",
+        "members": [
+          "HOUND",
+          "SHADOW",
+          "TAIL",
+          "TRACK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SPORTSMANLIKE",
+        "members": [
+          "FAIR",
+          "HONEST",
+          "SPORTING",
+          "SQUARE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CLASSIC KID GIFTS",
+        "members": [
+          "BIKE",
+          "BOOK",
+          "TOY",
+          "VIDEO GAME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"___ GIRL\" TITLES",
+        "members": [
+          "GONE",
+          "GOSSIP",
+          "NEW",
+          "WORKING"
         ]
       }
     ]
