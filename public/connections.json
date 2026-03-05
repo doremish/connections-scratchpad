@@ -1,51 +1,5 @@
 [
   {
-    "id": 966,
-    "date": "2026-02-02",
-    "answers": [
-      {
-        "level": -1,
-        "group": "DURATION",
-        "members": [
-          "INTERVAL",
-          "PERIOD",
-          "SPAN",
-          "STRETCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CREDENTIALS FOR ENTRY",
-        "members": [
-          "LANYARD",
-          "PASS",
-          "STAMP",
-          "WRISTBAND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MODERN CRIME SERIES PROTAGONISTS",
-        "members": [
-          "BOSCH",
-          "CROSS",
-          "REACHER",
-          "RYAN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TREES PLUS A LETTER",
-        "members": [
-          "FAIR",
-          "MARPLE",
-          "POPULAR",
-          "PSALM"
-        ]
-      }
-    ]
-  },
-  {
     "id": 967,
     "date": "2026-02-03",
     "answers": [
@@ -1411,6 +1365,70 @@
           "GOSSIP",
           "NEW",
           "WORKING"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1078,
+    "date": "2026-03-05",
+    "startingOrder": [
+      "ALTERNATE",
+      "HERO",
+      "TOGGLE",
+      "BOLT",
+      "REPLACEMENT",
+      "SANDBOX",
+      "BELOW",
+      "SEESAW",
+      "NUT",
+      "LAB",
+      "WASHER",
+      "SUBMARINE",
+      "INCUBATOR",
+      "SWITCH",
+      "SCREW",
+      "TEST BED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BITS OF HARDWARE",
+        "members": [
+          "BOLT",
+          "NUT",
+          "SCREW",
+          "WASHER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES WHERE IDEAS ARE DEVELOPED",
+        "members": [
+          "INCUBATOR",
+          "LAB",
+          "SANDBOX",
+          "TEST BED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GO BACK AND FORTH",
+        "members": [
+          "ALTERNATE",
+          "SEESAW",
+          "SWITCH",
+          "TOGGLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"SUB\" MIGHT REFER TO",
+        "members": [
+          "BELOW",
+          "HERO",
+          "REPLACEMENT",
+          "SUBMARINE"
         ]
       }
     ]
