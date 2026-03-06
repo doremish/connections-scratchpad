@@ -1,51 +1,5 @@
 [
   {
-    "id": 967,
-    "date": "2026-02-03",
-    "answers": [
-      {
-        "level": -1,
-        "group": "CUT INTO PIECES",
-        "members": [
-          "CUBE",
-          "DICE",
-          "HASH",
-          "MINCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PROVIDE WITH A PLACE TO STAY",
-        "members": [
-          "BOARD",
-          "HOUSE",
-          "LODGE",
-          "QUARTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF GOLF CLUBS",
-        "members": [
-          "IRON",
-          "PUTTER",
-          "WEDGE",
-          "WOOD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MEMORY ___",
-        "members": [
-          "CARD",
-          "FOAM",
-          "HOLE",
-          "LANE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 968,
     "date": "2026-02-04",
     "answers": [
@@ -1429,6 +1383,70 @@
           "HERO",
           "REPLACEMENT",
           "SUBMARINE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1080,
+    "date": "2026-03-06",
+    "startingOrder": [
+      "SPONGE",
+      "MARBLE",
+      "SHARP",
+      "WIT",
+      "POUND",
+      "LAYER",
+      "FACULTY",
+      "CURTAIN",
+      "HASH",
+      "PARASITE",
+      "BLANKET",
+      "SENSE",
+      "LEECH",
+      "CLOAK",
+      "NUMBER",
+      "MOOCH"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FREELOADER",
+        "members": [
+          "LEECH",
+          "MOOCH",
+          "PARASITE",
+          "SPONGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CONCEALING COVER",
+        "members": [
+          "BLANKET",
+          "CLOAK",
+          "CURTAIN",
+          "LAYER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WAYS ONE MIGHT REFER TO #",
+        "members": [
+          "HASH",
+          "NUMBER",
+          "POUND",
+          "SHARP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS FOR LUCIDITY, IN THE SINGULAR",
+        "members": [
+          "FACULTY",
+          "MARBLE",
+          "SENSE",
+          "WIT"
         ]
       }
     ]
