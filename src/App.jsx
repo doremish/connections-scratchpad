@@ -20,6 +20,11 @@
 //   Self-hosted archive updated daily by api/update-puzzle.js.
 //   Starting order uses NYT position data (v2 API) when available;
 //   falls back to a random shuffle for older archive entries.
+//
+// IMAGE TILES
+//   Some NYT puzzles include an image tile instead of a word. These are stored
+//   in the archive as { image_url, alt } objects. The app renders them as <img>
+//   elements and matches them in startingOrder by their alt text.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useState, useEffect, useLayoutEffect, useRef } from "react";
@@ -49,6 +54,13 @@ function shuffle(arr) {
   return a;
 }
 
+// Returns a string key used to match a tile's word against a startingOrder entry.
+// Image tiles are stored as { image_url, alt } — we match them by their alt text.
+function tileKey(word) {
+  if (word && typeof word === "object" && word.alt) return word.alt;
+  return word;
+}
+
 function buildGrid(categories, startingOrder) {
   // Build a flat lookup of every tile by word
   const allTiles = categories.flatMap((cat) =>
@@ -56,10 +68,11 @@ function buildGrid(categories, startingOrder) {
   );
 
   // Use the NYT position-sorted order when we have it (16 words, one per slot).
+  // Image tiles in startingOrder are stored as their alt text; match them via tileKey().
   // Fall back to a random shuffle for older archive entries that lack position data.
   if (startingOrder?.length === 16) {
     return startingOrder
-      .map((word) => allTiles.find((t) => t.word === word))
+      .map((key) => allTiles.find((t) => tileKey(t.word) === key))
       .filter(Boolean);
   }
   return shuffle(allTiles);
@@ -122,19 +135,45 @@ async function fetchPuzzle(targetDate) {
   const categories = rawGroups.map((group, idx) => ({
     title: group.group      || group.connection || group.title || `Group ${idx + 1}`,
     color: group.level >= 0 ? group.level : (group.difficulty >= 0 ? group.difficulty : idx),
-    cards: (group.members || group.items || group.cards || []).map((c) =>
-      typeof c === "string" ? c : c.content ?? c.word ?? c.text ?? String(c)
-    ),
+    // Members can be strings or image objects { image_url, alt }.
+    // Preserve image objects so the tile renderer can display them correctly.
+    cards: (group.members || group.items || group.cards || []).map((c) => {
+      if (typeof c === "string") return c;
+      if (c.image_url) return { image_url: c.image_url, alt: c.image_alt_text ?? c.alt ?? "?" };
+      return c.content ?? c.word ?? c.text ?? String(c);
+    }),
   }));
 
   return {
     date:         formatDisplayDate(resolvedDate),
     isoDate:      resolvedDate,
     categories,
-    startingOrder: entry.startingOrder ?? null, // position-sorted word list, or null
+    startingOrder: entry.startingOrder ?? null, // position-sorted word/key list, or null
     allPuzzles,
     todayMissing,
   };
+}
+
+// ── Tile content renderer ─────────────────────────────────────────────────────
+//
+// A tile's word is either a plain string or an image object { image_url, alt }.
+
+function TileContent({ word }) {
+  if (word && typeof word === "object" && word.image_url) {
+    return (
+      <img
+        src={word.image_url}
+        alt={word.alt}
+        style={{
+          maxWidth:  "90%",
+          maxHeight: "48px",
+          objectFit: "contain",
+          display:   "block",
+        }}
+      />
+    );
+  }
+  return word;
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -571,7 +610,7 @@ export default function ConnectionsHelper() {
                               onTouchMove={onTileTouchMove}
                               onTouchEnd={onTileTouchEnd}
                             >
-                              {tile.word}
+                              <TileContent word={tile.word} />
                             </div>
                           )}
                         </div>
@@ -629,7 +668,7 @@ export default function ConnectionsHelper() {
           boxShadow:     "0 8px 24px rgba(0,0,0,0.4)",
           opacity:       0.95,
         }}>
-          {ghostTile.word}
+          <TileContent word={ghostTile.word} />
         </div>
       )}
 
