@@ -87,18 +87,24 @@ export default async function handler(req, res) {
     return res.status(200).json({ message: msg });
   }
 
-  // Extract member words from either .members (old) or .cards[].content (v2)
-  const extractMembers = (g) =>
-    g.members?.length > 0
-      ? g.members
-      : (g.cards ?? []).map((c) => c.content ?? c.text ?? c).filter(Boolean);
+  // Extract member words from either .members (old) or .cards[].content (v2).
+  // Image tiles (cards with image_url instead of content) are stored as objects
+  // { image_url, alt } so App.jsx can render them properly.
+  const extractMembers = (g) => {
+    if (g.members?.length > 0) return g.members;
+    return (g.cards ?? []).map((c) => {
+      if (c.image_url) return { image_url: c.image_url, alt: c.image_alt_text ?? "?" };
+      return c.content ?? c.text ?? c;
+    }).filter(Boolean);
+  };
 
   // Build the true NYT starting order by sorting all cards across all groups
   // by their position field. This is the actual scrambled grid players see.
+  // For image tiles, use the alt text as the word key (App.jsx matches on this).
   // Falls back to null if position data isn't present (older API responses).
   const allCards = rawGroups.flatMap((g) =>
     (g.cards ?? []).map((c) => ({
-      word:     c.content ?? c.text ?? (typeof c === "string" ? c : null),
+      word: c.content ?? c.text ?? c.image_alt_text ?? (typeof c === "string" ? c : null),
       position: typeof c.position === "number" ? c.position : null,
     }))
   ).filter((c) => c.word);
