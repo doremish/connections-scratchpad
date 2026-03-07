@@ -1,51 +1,5 @@
 [
   {
-    "id": 968,
-    "date": "2026-02-04",
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONTENTION",
-        "members": [
-          "CONFLICT",
-          "DISCORD",
-          "FRICTION",
-          "RIVALRY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GAMES OF CHANCE",
-        "members": [
-          "BINGO",
-          "CRAPS",
-          "LOTTERY",
-          "WAR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MORE OR LESS, COLLOQUIALLY",
-        "members": [
-          "APPROX",
-          "BOUT",
-          "LIKE",
-          "ROUND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH NBA TEAMS",
-        "members": [
-          "BULLSEYE",
-          "HEATED",
-          "MAGICAL",
-          "NETSCAPE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 969,
     "date": "2026-02-05",
     "answers": [
@@ -1447,6 +1401,73 @@
           "MARBLE",
           "SENSE",
           "WIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "date": "2026-03-07",
+    "startingOrder": [
+      "ONE",
+      "THOU",
+      "SAND",
+      "NEW",
+      "DATING APP",
+      "SINGLE",
+      "ROMEO",
+      "BUCK",
+      "ART",
+      "BOUNCY",
+      "AIRPORT",
+      "WHITE",
+      "WHEREFORE",
+      "INTERNET CAFE",
+      "DOLLAR"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "$1",
+        "members": [
+          "BUCK",
+          "DOLLAR",
+          "ONE",
+          "SINGLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"WHEREFORE ART THOU ROMEO?\"",
+        "members": [
+          "ART",
+          "ROMEO",
+          "THOU",
+          "WHEREFORE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS BEFORE \"CASTLE\"",
+        "members": [
+          "BOUNCY",
+          "NEW",
+          "SAND",
+          "WHITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHERE YOU MIGHT MAKE A CONNECTION",
+        "members": [
+          {
+            "position": 3,
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1028-1769015007651.svg",
+            "image_alt_text": "THIS GAME"
+          },
+          "AIRPORT",
+          "DATING APP",
+          "INTERNET CAFE"
         ]
       }
     ]
