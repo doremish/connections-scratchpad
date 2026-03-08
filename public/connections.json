@@ -1,51 +1,5 @@
 [
   {
-    "id": 969,
-    "date": "2026-02-05",
-    "answers": [
-      {
-        "level": -1,
-        "group": "CULTURAL SYMBOLS OF THE U.S.",
-        "members": [
-          "AMERICAN FLAG",
-          "APPLE PIE",
-          "BALD EAGLE",
-          "BASEBALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COLLIDE WITH",
-        "members": [
-          "BUMP",
-          "BUTT",
-          "KNOCK",
-          "RAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BLUE THINGS",
-        "members": [
-          "JEANS",
-          "LAPIS LAZULI",
-          "OCEAN",
-          "SKY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LEES OF HOLLYWOOD",
-        "members": [
-          "ANG",
-          "BRUCE",
-          "CHRISTOPHER",
-          "SPIKE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 970,
     "date": "2026-02-06",
     "answers": [
@@ -1460,10 +1414,77 @@
         "level": -1,
         "group": "WHERE YOU MIGHT MAKE A CONNECTION",
         "members": [
-         { "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1028-1769015007651.svg", "alt": "THIS GAME" },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1028-1769015007651.svg",
+            "alt": "THIS GAME"
+          },
           "AIRPORT",
           "DATING APP",
           "INTERNET CAFE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1083,
+    "date": "2026-03-08",
+    "startingOrder": [
+      "NICE",
+      "NADAL",
+      "ZIPPER",
+      "SELES",
+      "JACKET",
+      "OSAKA",
+      "JAW",
+      "SINNER",
+      "EYE",
+      "GREMLIN",
+      "PHOENIX",
+      "SQUATTER",
+      "REFER",
+      "TREMOR",
+      "ROTATOR",
+      "LIMA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CITIES",
+        "members": [
+          "LIMA",
+          "NICE",
+          "OSAKA",
+          "PHOENIX"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PALINDROMES",
+        "members": [
+          "EYE",
+          "REFER",
+          "ROTATOR",
+          "SELES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HORROR MOVIES MINUS \"S\"",
+        "members": [
+          "GREMLIN",
+          "JAW",
+          "SINNER",
+          "TREMOR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SLANG FOR ZERO",
+        "members": [
+          "JACKET",
+          "NADAL",
+          "SQUATTER",
+          "ZIPPER"
         ]
       }
     ]
