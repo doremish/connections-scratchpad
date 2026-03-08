@@ -93,6 +93,18 @@ function buildGrid(categories, startingOrder) {
   return shuffle(allTiles);
 }
 
+// 3-tier tile text strategy based on longest single word (split by spaces):
+//   ≤ 9 chars  → fits on one line at default size, no change
+//   10–13 chars → shrink font with clamp so it still fits on one line
+//   14+ chars   → too long to shrink legibly, let it break across lines
+function tileTextStyle(word) {
+  if (!word || typeof word === "object") return {};
+  const longest = String(word).split(" ").reduce((a, b) => (a.length >= b.length ? a : b), "").length;
+  if (longest <= 9)  return {};
+  if (longest <= 13) return { fontSize: "clamp(7px, 1.85vw, 9.5px)", letterSpacing: "0px", wordBreak: "normal" };
+  return                    { wordBreak: "break-word" };
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
 
 function getTodayString() {
@@ -182,7 +194,7 @@ function TileContent({ word }) {
       />
     );
   }
-  return word;
+  return <span style={tileTextStyle(word)}>{word}</span>;
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
