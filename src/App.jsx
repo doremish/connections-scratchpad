@@ -16,6 +16,11 @@
 //   Row drag:  handle on the left of each row swaps all 4 tiles at once.
 //              Works with both mouse and touch.
 //
+// ROW LOCKING
+//   Double-click the ⠿ handle to lock/unlock a row.
+//   Locked rows show a 🔒 icon and are skipped by Shuffle.
+//   A shimmer pulse confirms the toggle.
+//
 // PUZZLE DATA
 //   Self-hosted archive updated daily by api/update-puzzle.js.
 //   Starting order uses NYT position data (v2 API) when available;
@@ -25,6 +30,10 @@
 //   Some NYT puzzles include an image tile instead of a word. These are stored
 //   in the archive as { image_url, alt } objects. The app renders them as <img>
 //   elements and matches them in startingOrder by their alt text.
+//
+// LONG WORDS
+//   Tile font size scales down automatically for long words so text never
+//   overflows its tile.
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useState, useEffect, useLayoutEffect, useRef } from "react";
@@ -34,6 +43,18 @@ const fontLink = document.createElement("link");
 fontLink.rel  = "stylesheet";
 fontLink.href = "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700;800&display=swap";
 document.head.appendChild(fontLink);
+
+// Shimmer keyframe injection
+const shimmerStyle = document.createElement("style");
+shimmerStyle.textContent = `
+  @keyframes rowShimmer {
+    0%   { box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 0 0 0px rgba(255,200,80,0); }
+    25%  { box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 0 0 3px rgba(255,200,80,0.85); }
+    100% { box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 0 0 0px rgba(255,200,80,0); }
+  }
+  .row-shimmer { animation: rowShimmer 0.55s ease-out; }
+`;
+document.head.appendChild(shimmerStyle);
 
 const TILE_FONT = "'nyt-franklin', 'Libre Franklin', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
 
@@ -55,27 +76,32 @@ function shuffle(arr) {
 }
 
 // Returns a string key used to match a tile's word against a startingOrder entry.
-// Image tiles are stored as { image_url, alt } — we match them by their alt text.
 function tileKey(word) {
   if (word && typeof word === "object" && word.alt) return word.alt;
   return word;
 }
 
 function buildGrid(categories, startingOrder) {
-  // Build a flat lookup of every tile by word
   const allTiles = categories.flatMap((cat) =>
     cat.cards.map((word) => ({ word, catColor: cat.color, catTitle: cat.title }))
   );
-
-  // Use the NYT position-sorted order when we have it (16 words, one per slot).
-  // Image tiles in startingOrder are stored as their alt text; match them via tileKey().
-  // Fall back to a random shuffle for older archive entries that lack position data.
   if (startingOrder?.length === 16) {
     return startingOrder
       .map((key) => allTiles.find((t) => tileKey(t.word) === key))
       .filter(Boolean);
   }
   return shuffle(allTiles);
+}
+
+// Returns inline style overrides for a tile's font based on word length.
+// Targets the longest unbroken token to prevent overflow on narrow tiles.
+function tileTextStyle(word) {
+  if (!word || typeof word === "object") return {}; // image tile — no scaling needed
+  const longest = String(word).split(/\s+/).reduce((a, b) => (a.length >= b.length ? a : b), "");
+  if (longest.length <= 9)  return {};
+  if (longest.length <= 12) return { fontSize: "clamp(7.5px, 2vw, 10px)", letterSpacing: "0.2px" };
+  if (longest.length <= 16) return { fontSize: "clamp(6.5px, 1.7vw, 8.5px)", letterSpacing: "0px" };
+  return { fontSize: "clamp(6px, 1.5vw, 7.5px)", letterSpacing: "0px" };
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -101,10 +127,8 @@ async function fetchPuzzle(targetDate) {
   const requestedDate = targetDate || getTodayString();
   const allPuzzles    = await fetchAllPuzzles();
 
-  // Try the requested date first, then fall back to the previous day
   const datesToTry = [requestedDate];
   if (!targetDate) {
-    // Only auto-fallback for "today" — not for explicit archive selections
     const [y, m, d] = requestedDate.split("-").map(Number);
     const yesterday = new Date(y, m - 1, d - 1)
       .toLocaleDateString("en-CA", { timeZone: "America/New_York" });
@@ -135,8 +159,6 @@ async function fetchPuzzle(targetDate) {
   const categories = rawGroups.map((group, idx) => ({
     title: group.group      || group.connection || group.title || `Group ${idx + 1}`,
     color: group.level >= 0 ? group.level : (group.difficulty >= 0 ? group.difficulty : idx),
-    // Members can be strings or image objects { image_url, alt }.
-    // Preserve image objects so the tile renderer can display them correctly.
     cards: (group.members || group.items || group.cards || []).map((c) => {
       if (typeof c === "string") return c;
       if (c.image_url) return { image_url: c.image_url, alt: c.image_alt_text ?? c.alt ?? "?" };
@@ -148,15 +170,13 @@ async function fetchPuzzle(targetDate) {
     date:         formatDisplayDate(resolvedDate),
     isoDate:      resolvedDate,
     categories,
-    startingOrder: entry.startingOrder ?? null, // position-sorted word/key list, or null
+    startingOrder: entry.startingOrder ?? null,
     allPuzzles,
     todayMissing,
   };
 }
 
 // ── Tile content renderer ─────────────────────────────────────────────────────
-//
-// A tile's word is either a plain string or an image object { image_url, alt }.
 
 function TileContent({ word }) {
   if (word && typeof word === "object" && word.image_url) {
@@ -173,7 +193,7 @@ function TileContent({ word }) {
       />
     );
   }
-  return word;
+  return <span style={tileTextStyle(word)}>{word}</span>;
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -187,6 +207,11 @@ export default function ConnectionsHelper() {
   const [showArchive, setShowArchive]   = useState(false);
   const [availableDates, setAvailableDates] = useState([]);
   const [todayWarning, setTodayWarning] = useState(false);
+
+  // Row locking — one boolean per row
+  const [lockedRows, setLockedRows]     = useState([false, false, false, false]);
+  // Which rows are currently shimmering (Set of row indices)
+  const [shimmerRows, setShimmerRows]   = useState(new Set());
 
   // Tile drag
   const dragSlot  = useRef(null);
@@ -299,11 +324,35 @@ export default function ConnectionsHelper() {
     });
   }
 
+  // ── Row locking ────────────────────────────────────────────────────────────
+
+  function toggleLock(rowIdx) {
+    setLockedRows((prev) => {
+      const next = [...prev];
+      next[rowIdx] = !next[rowIdx];
+      return next;
+    });
+    // Trigger shimmer
+    setShimmerRows((prev) => {
+      const next = new Set(prev);
+      next.add(rowIdx);
+      return next;
+    });
+    setTimeout(() => {
+      setShimmerRows((prev) => {
+        const next = new Set(prev);
+        next.delete(rowIdx);
+        return next;
+      });
+    }, 600);
+  }
+
   // ── Puzzle load ────────────────────────────────────────────────────────────
 
   useEffect(() => {
     setLoading(true);
     setError(null);
+    setLockedRows([false, false, false, false]); // reset locks on puzzle change
     fetchPuzzle(selectedDate)
       .then((data) => {
         setPuzzle(data);
@@ -370,6 +419,7 @@ export default function ConnectionsHelper() {
   // ── Row handle mouse drag ──────────────────────────────────────────────────
 
   function onRowHandleDragStart(e, rowIdx) {
+    if (lockedRows[rowIdx]) return; // locked rows can't be dragged
     rowDragFromRef.current = rowIdx;
     setRowDragFrom(rowIdx);
     setGhostPos({ x: e.clientX, y: e.clientY });
@@ -387,6 +437,7 @@ export default function ConnectionsHelper() {
   // ── Row handle touch drag ──────────────────────────────────────────────────
 
   function onRowHandleTouchStart(e, rowIdx) {
+    if (lockedRows[rowIdx]) return;
     rowDragFromRef.current = rowIdx;
     rowHoverRef.current    = rowIdx;
     setRowDragFrom(rowIdx);
@@ -451,10 +502,27 @@ export default function ConnectionsHelper() {
     setGhostTile(null);
   }
 
-  // ── Shuffle ────────────────────────────────────────────────────────────────
+  // ── Shuffle (respects locked rows) ────────────────────────────────────────
 
   function handleShuffle() {
-    if (puzzle) setGrid(buildGrid(puzzle.categories, puzzle.startingOrder));
+    if (!puzzle) return;
+    // Collect slot indices from unlocked rows only
+    const unlockedSlots = [];
+    for (let row = 0; row < 4; row++) {
+      if (!lockedRows[row]) {
+        for (let col = 0; col < COLS; col++) {
+          unlockedSlots.push(row * COLS + col);
+        }
+      }
+    }
+    if (unlockedSlots.length < 2) return; // nothing to shuffle
+    const tiles    = unlockedSlots.map((i) => grid[i]);
+    const shuffled = shuffle(tiles);
+    setGrid((prev) => {
+      const next = [...prev];
+      unlockedSlots.forEach((slot, i) => { next[slot] = shuffled[i]; });
+      return next;
+    });
   }
 
   // ── Render ─────────────────────────────────────────────────────────────────
@@ -517,7 +585,6 @@ export default function ConnectionsHelper() {
 
       {!loading && !error && (
         <>
-          {/* Warning banner — shown when today's puzzle isn't available yet */}
           {todayWarning && !selectedDate && (
             <div style={styles.warningBanner}>
               <span style={styles.warningIcon}>⏳</span>
@@ -537,6 +604,8 @@ export default function ConnectionsHelper() {
             {[0, 1, 2, 3].map((rowIdx) => {
               const isFromRow   = rowDragFrom === rowIdx;
               const isTargetRow = rowDragTo === rowIdx && rowDragTo !== rowDragFrom;
+              const isLocked    = lockedRows[rowIdx];
+              const isShimmering = shimmerRows.has(rowIdx);
 
               return (
                 <div
@@ -546,33 +615,41 @@ export default function ConnectionsHelper() {
                   onDragOver={(e) => onRowBandDragOver(e, rowIdx)}
                   onDrop={(e)     => onRowBandDrop(e, rowIdx)}
                 >
-                  {/* Row drag handle */}
+                  {/* Row drag / lock handle */}
                   <div
                     style={{
                       ...styles.rowHandle,
+                      ...(isLocked    ? styles.rowHandleLocked : {}),
                       ...(isFromRow   ? styles.rowHandleActive : {}),
                       ...(isTargetRow ? styles.rowHandleTarget : {}),
                     }}
-                    draggable
-                    title="Drag to swap this whole row"
+                    draggable={!isLocked}
+                    title={isLocked ? "Double-click to unlock row" : "Drag to swap row · Double-click to lock"}
                     onDragStart={(e) => onRowHandleDragStart(e, rowIdx)}
                     onDragEnd={onRowHandleDragEnd}
                     onTouchStart={(e) => onRowHandleTouchStart(e, rowIdx)}
                     onTouchMove={onRowHandleTouchMove}
                     onTouchEnd={onRowHandleTouchEnd}
+                    onDoubleClick={() => toggleLock(rowIdx)}
                   >
-                    <div style={styles.gripGrid}>
-                      {Array(6).fill(null).map((_, i) => (
-                        <div key={i} style={styles.gripDot} />
-                      ))}
-                    </div>
+                    {isLocked ? (
+                      <span style={styles.lockIcon}>🔒</span>
+                    ) : (
+                      <div style={styles.gripGrid}>
+                        {Array(6).fill(null).map((_, i) => (
+                          <div key={i} style={styles.gripDot} />
+                        ))}
+                      </div>
+                    )}
                   </div>
 
                   {/* Coloured tile row */}
                   <div
+                    className={isShimmering ? "row-shimmer" : undefined}
                     style={{
                       ...styles.row,
                       background: ROW_COLORS[rowIdx],
+                      ...(isLocked    ? styles.rowLocked    : {}),
                       ...(isTargetRow ? styles.rowDropTarget : {}),
                       ...(isFromRow   ? styles.rowDragging   : {}),
                     }}
@@ -627,7 +704,7 @@ export default function ConnectionsHelper() {
           </div>
 
           <p style={styles.hint}>
-            Drag tiles between rows · Use the ⠿ handle to move a whole row
+            Drag tiles · ⠿ drag to swap row · double-click ⠿ to lock/unlock
           </p>
 
           <p style={styles.credit}>Made by doremish</p>
@@ -653,7 +730,7 @@ export default function ConnectionsHelper() {
         </>
       )}
 
-      {/* Floating ghost — follows cursor or finger during any drag */}
+      {/* Floating ghost */}
       {ghostTile && (
         <div style={{
           ...styles.tile,
@@ -835,6 +912,10 @@ const styles = {
     WebkitUserSelect: "none",
     transition:       "background 0.15s, outline 0.15s",
   },
+  rowHandleLocked: {
+    background: "rgba(255,200,80,0.18)",
+    cursor:     "pointer",
+  },
   rowHandleActive: {
     background: "rgba(255,255,255,0.18)",
     cursor:     "grabbing",
@@ -842,6 +923,11 @@ const styles = {
   rowHandleTarget: {
     background: "rgba(255,255,255,0.22)",
     outline:    "2px solid rgba(255,255,255,0.6)",
+  },
+
+  lockIcon: {
+    fontSize:   "13px",
+    lineHeight: 1,
   },
 
   gripGrid: {
@@ -867,6 +953,10 @@ const styles = {
     boxShadow:           "0 4px 20px rgba(0,0,0,0.3)",
     boxSizing:           "border-box",
     transition:          "outline 0.12s, opacity 0.12s",
+  },
+  rowLocked: {
+    outline:    "2px solid rgba(255,200,80,0.5)",
+    opacity:    0.88,
   },
   rowDropTarget: { outline: "3px solid rgba(255,255,255,0.75)" },
   rowDragging:   { opacity: 0.5 },
@@ -904,6 +994,7 @@ const styles = {
     wordBreak:        "break-word",
     lineHeight:       1.2,
     transition:       "opacity 0.12s",
+    overflow:         "hidden",
   },
 
   controls: {
