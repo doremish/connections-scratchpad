@@ -100,7 +100,7 @@ function buildGrid(categories, startingOrder) {
 function tileTextStyle(word) {
   if (!word || typeof word === "object") return {};
   const longest = String(word).split(" ").reduce((a, b) => (a.length >= b.length ? a : b), "").length;
-  if (longest <= 9)  return {};
+  if (longest <= 8)  return {};
   if (longest <= 13) return { fontSize: "clamp(7px, 1.85vw, 9.5px)", letterSpacing: "0px", wordBreak: "normal" };
   return                    { wordBreak: "break-word" };
 }
