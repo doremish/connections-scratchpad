@@ -93,20 +93,6 @@ function buildGrid(categories, startingOrder) {
   return shuffle(allTiles);
 }
 
-// Returns inline style overrides for a tile's font based on the longest
-// single word in the label (split by spaces). Multi-word phrases wrap
-// naturally between words — only unbreakable single tokens need scaling.
-// e.g. "SMILING FACE WITH SUNGLASSES" needs no scaling (wraps freely),
-//      "JOHANNESBURGER" (14 chars) does.
-function tileTextStyle(word) {
-  if (!word || typeof word === "object") return {}; // image tile — no scaling needed
-  const longest = String(word).split(" ").reduce((a, b) => (a.length >= b.length ? a : b), "").length;
-  if (longest <= 10) return {};
-  if (longest <= 12) return { fontSize: "clamp(8px, 2.1vw, 11px)",   letterSpacing: "0.1px" };
-  if (longest <= 15) return { fontSize: "clamp(7px, 1.85vw, 9.5px)", letterSpacing: "0px"   };
-  return                    { fontSize: "clamp(6px, 1.6vw, 8px)",    letterSpacing: "0px"   };
-}
-
 // ── API ───────────────────────────────────────────────────────────────────────
 
 function getTodayString() {
@@ -196,7 +182,7 @@ function TileContent({ word }) {
       />
     );
   }
-  return <span style={tileTextStyle(word)}>{word}</span>;
+  return word;
 }
 
 // ── Component ─────────────────────────────────────────────────────────────────
@@ -966,7 +952,7 @@ const styles = {
 
   slot: {
     borderRadius: "6px",
-    minHeight:    "clamp(54px, 13vw, 72px)",
+    height:       "clamp(54px, 13vw, 72px)",
     display:      "flex",
     alignItems:   "stretch",
     transition:   "box-shadow 0.12s",
@@ -995,6 +981,7 @@ const styles = {
     WebkitUserSelect: "none",
     touchAction:      "none",
     lineHeight:       1.2,
+    wordBreak:        "break-word",
     transition:       "opacity 0.12s",
     overflow:         "hidden",
   },
