@@ -93,15 +93,23 @@ function buildGrid(categories, startingOrder) {
   return shuffle(allTiles);
 }
 
-// Returns inline style overrides for a tile's font based on word length.
-// Targets the longest unbroken token to prevent overflow on narrow tiles.
+// Returns inline style overrides for a tile's font based on label length.
+// Uses total string length as the primary metric (multi-word phrases like
+// "PLATFORM SHOES" need scaling even if each word is short), with the longest
+// single word as a floor so hyphenated long words like "SALT-AND-PEPPER" are
+// also caught.
 function tileTextStyle(word) {
   if (!word || typeof word === "object") return {}; // image tile — no scaling needed
-  const longest = String(word).split(/\s+/).reduce((a, b) => (a.length >= b.length ? a : b), "");
-  if (longest.length <= 9)  return {};
-  if (longest.length <= 12) return { fontSize: "clamp(7.5px, 2vw, 10px)", letterSpacing: "0.2px" };
-  if (longest.length <= 16) return { fontSize: "clamp(6.5px, 1.7vw, 8.5px)", letterSpacing: "0px" };
-  return { fontSize: "clamp(6px, 1.5vw, 7.5px)", letterSpacing: "0px" };
+  const str         = String(word);
+  const totalLen    = str.length;
+  const longestWord = str.split(/\s+/).reduce((a, b) => (a.length >= b.length ? a : b), "").length;
+  const effective   = Math.max(longestWord, totalLen); // total string drives multi-word phrases
+
+  if (effective <= 9)  return {};
+  if (effective <= 13) return { fontSize: "clamp(8px, 2.1vw, 11px)",  letterSpacing: "0.1px" };
+  if (effective <= 18) return { fontSize: "clamp(7px, 1.85vw, 9.5px)", letterSpacing: "0px"   };
+  if (effective <= 24) return { fontSize: "clamp(6px, 1.6vw, 8px)",   letterSpacing: "0px"   };
+  return                      { fontSize: "clamp(5.5px, 1.4vw, 7px)", letterSpacing: "0px"   };
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -992,6 +1000,7 @@ const styles = {
     WebkitUserSelect: "none",
     touchAction:      "none",
     wordBreak:        "break-word",
+    overflowWrap:     "break-word",
     lineHeight:       1.2,
     transition:       "opacity 0.12s",
     overflow:         "hidden",
