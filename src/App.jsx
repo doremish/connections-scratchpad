@@ -897,7 +897,7 @@ const styles = {
   rowWrapper: {
     display:    "flex",
     alignItems: "stretch",
-    gap:        "6px",
+    gap:        "4px",
   },
 
   rowHandle: {
