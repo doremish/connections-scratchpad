@@ -1,53 +1,137 @@
 [
   {
-    "id": 970,
-    "date": "2026-02-06",
+    "id": 1040,
+    "date": "2026-02-07",
+    "startingOrder": [
+      "COLON",
+      "L",
+      "FOUR",
+      "PLUS",
+      "FIVE",
+      "QUOTATION MARK",
+      "MINUS",
+      "T",
+      "I",
+      "EQUALS",
+      "THREE",
+      "ELLIPSIS",
+      "DIVIDED BY",
+      "PERIOD",
+      "X",
+      "TWO"
+    ],
     "answers": [
       {
         "level": -1,
-        "group": "ITEMS AT A COFFEE STATION",
+        "group": "PIPS ON A DIE",
         "members": [
-          "CUP",
-          "LID",
-          "STIRRER",
-          "STRAW"
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458241581.svg",
+            "alt": "FIVE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458264630.svg",
+            "alt": "THREE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211822514.svg",
+            "alt": "FOUR"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458287197.svg",
+            "alt": "TWO"
+          }
         ]
       },
       {
         "level": -1,
-        "group": "THINGS WITH STRIPES",
+        "group": "SYMBOLS USED IN ARITHMETIC",
         "members": [
-          "CANDY CANE",
-          "CROSSWALK",
-          "REFEREE",
-          "TIGER"
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458308185.svg",
+            "alt": "EQUALS"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458320595.svg",
+            "alt": "DIVIDED BY"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211849018.svg",
+            "alt": "MINUS"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458338375.svg",
+            "alt": "PLUS"
+          }
         ]
       },
       {
         "level": -1,
-        "group": "WORDS BEFORE \"FLY\" IN INSECT NAMES",
+        "group": "PUNCTUATION MARKS",
         "members": [
-          "BUTTER",
-          "DRAGON",
-          "FIRE",
-          "HORSE"
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458387090.svg",
+            "alt": "COLON"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458400088.svg",
+            "alt": "PERIOD"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458418924.svg",
+            "alt": "QUOTATION MARK"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211878797.svg",
+            "alt": "ELLIPSIS"
+          }
         ]
       },
       {
         "level": -1,
-        "group": "HOMOPHONES OF GREETINGS",
+        "group": "LOWERCASE LETTERS",
         "members": [
-          "CHOW",
-          "HAY",
-          "HIGH",
-          "YEOH"
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458702188.svg",
+            "alt": "T"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458736347.svg",
+            "alt": "X"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458756480.svg",
+            "alt": "L"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458778430.svg",
+            "alt": "I"
+          }
         ]
       }
     ]
   },
   {
-    "id": 971,
+    "id": 1030,
     "date": "2026-02-08",
+    "startingOrder": [
+      "TIMER",
+      "GAG",
+      "DRILL",
+      "BIT",
+      "ROUTINE",
+      "SYMBOL",
+      "CENTS",
+      "LENGTH",
+      "NUMBER",
+      "SILENCE",
+      "GRIND",
+      "MUZZLE",
+      "HABIT",
+      "FACED",
+      "INHIBIT",
+      "UPPERCASE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -92,8 +176,26 @@
     ]
   },
   {
-    "id": 972,
+    "id": 1032,
     "date": "2026-02-09",
+    "startingOrder": [
+      "APPROACH",
+      "BONUS",
+      "POKER",
+      "NEEDLE",
+      "STRAWS",
+      "LOOM",
+      "STYLE",
+      "ADVANCE",
+      "NEAR",
+      "WAY",
+      "SCISSORS",
+      "FEE",
+      "ROYALTY",
+      "YARN",
+      "MANNER",
+      "THE LINE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -138,8 +240,26 @@
     ]
   },
   {
-    "id": 973,
+    "id": 1037,
     "date": "2026-02-10",
+    "startingOrder": [
+      "SPOKESPERSON",
+      "INTERVIEW",
+      "EXPOSITION",
+      "EMCEE",
+      "OKAY",
+      "CONVENTION",
+      "FAIR",
+      "COMMENTARY",
+      "SHOW",
+      "OUTTAKES",
+      "DEEJAY",
+      "RIMSHOT",
+      "TIRESOME",
+      "TRAILER",
+      "HUBBUB",
+      "KAYO"
+    ],
     "answers": [
       {
         "level": -1,
@@ -184,8 +304,26 @@
     ]
   },
   {
-    "id": 974,
+    "id": 1035,
     "date": "2026-02-11",
+    "startingOrder": [
+      "NET",
+      "RINK",
+      "MOON",
+      "CAKE",
+      "RETURN",
+      "PUCK",
+      "BLOCK",
+      "GAIN",
+      "PINE",
+      "BRICK",
+      "COASTER",
+      "BAG",
+      "DERBY",
+      "SWOON",
+      "YIELD",
+      "YEARN"
+    ],
     "answers": [
       {
         "level": -1,
@@ -230,8 +368,26 @@
     ]
   },
   {
-    "id": 975,
+    "id": 1034,
     "date": "2026-02-12",
+    "startingOrder": [
+      "MAY",
+      "YANK",
+      "A",
+      "CARD",
+      "FROZEN",
+      "PRODUCE",
+      "DANCING",
+      "DAIRY",
+      "MAKE",
+      "JAY",
+      "FAST",
+      "FORM",
+      "DRAG",
+      "FIRM",
+      "MOLD",
+      "TIGHT"
+    ],
     "answers": [
       {
         "level": -1,
@@ -276,8 +432,26 @@
     ]
   },
   {
-    "id": 976,
+    "id": 1038,
     "date": "2026-02-13",
+    "startingOrder": [
+      "WAYNE",
+      "PARLIAMENT",
+      "STANDARD",
+      "LESSON",
+      "KENT",
+      "SYNC",
+      "SHEER",
+      "COLORS",
+      "STARK",
+      "CAMEL",
+      "BANNER",
+      "UTTER",
+      "RESEED",
+      "PURE",
+      "FLAG",
+      "SALEM"
+    ],
     "answers": [
       {
         "level": -1,
@@ -322,8 +496,26 @@
     ]
   },
   {
-    "id": 977,
+    "id": 1033,
     "date": "2026-02-14",
+    "startingOrder": [
+      "SPIKE",
+      "SPEAR",
+      "LUMP",
+      "JUMP",
+      "JUNIOR",
+      "HIKE",
+      "GUMP",
+      "BUMP",
+      "SULLY",
+      "BREATH",
+      "WOODY",
+      "MOUND",
+      "PEPPER",
+      "PHILLIPS",
+      "HUMP",
+      "RISE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -368,8 +560,26 @@
     ]
   },
   {
-    "id": 978,
+    "id": 1025,
     "date": "2026-02-15",
+    "startingOrder": [
+      "CALLIOPE",
+      "SUPERIORITY",
+      "RINGMASTER",
+      "ATLAS",
+      "OEDIPUS",
+      "BUZZARD",
+      "ECHO",
+      "ELECTRA",
+      "TRACE",
+      "DIALECT",
+      "INFERIORITY",
+      "DICTIONARY",
+      "THESAURUS",
+      "REMINDER",
+      "ENCYCLOPEDIA",
+      "VESTIGE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -414,12 +624,30 @@
     ]
   },
   {
-    "id": 979,
+    "id": 1039,
     "date": "2026-02-16",
+    "startingOrder": [
+      "BUCK",
+      "SCREAM",
+      "DO",
+      "LAUGH",
+      "FAWN",
+      "DOE",
+      "FLIGHT",
+      "SQUAWK",
+      "HOOT",
+      "FIGHT",
+      "RIOT",
+      "DOUGH",
+      "FREEZE",
+      "CACKLE",
+      "DOH",
+      "CLUCK"
+    ],
     "answers": [
       {
         "level": -1,
-        "group": "KNEE SLAPPER",
+        "group": "KNEE-SLAPPER",
         "members": [
           "HOOT",
           "LAUGH",
@@ -460,8 +688,26 @@
     ]
   },
   {
-    "id": 980,
+    "id": 1065,
     "date": "2026-02-17",
+    "startingOrder": [
+      "PLUM",
+      "LEAF",
+      "FLASH",
+      "BUSTLE",
+      "THUMB",
+      "OYSTER",
+      "FLOPPY",
+      "ZIP",
+      "SKIM",
+      "SOY",
+      "DART",
+      "BOMBAY",
+      "SPEED",
+      "FLIP",
+      "HOISIN",
+      "MISSUS"
+    ],
     "answers": [
       {
         "level": -1,
@@ -506,8 +752,26 @@
     ]
   },
   {
-    "id": 981,
+    "id": 1064,
     "date": "2026-02-18",
+    "startingOrder": [
+      "HEAVY",
+      "CRESTED",
+      "BAD",
+      "FEATHER",
+      "FLY",
+      "TEASE",
+      "BANTAM",
+      "TOPICAL",
+      "CURL",
+      "SOUR",
+      "WICKED",
+      "LEGHORN",
+      "SHAVING",
+      "CRIMP",
+      "FREE-RANGE",
+      "RAD"
+    ],
     "answers": [
       {
         "level": -1,
@@ -552,8 +816,26 @@
     ]
   },
   {
-    "id": 982,
+    "id": 1029,
     "date": "2026-02-19",
+    "startingOrder": [
+      "PEEPS",
+      "POKER",
+      "DISCO",
+      "STU",
+      "SHOVEL",
+      "BRAYS",
+      "BASKET",
+      "BELLOWS",
+      "BOYLE",
+      "JOHN TRAVOLTA",
+      "TONGS",
+      "DYE",
+      "PLATFORM SHOES",
+      "EGGS",
+      "SEER",
+      "POLYESTER SUIT"
+    ],
     "answers": [
       {
         "level": -1,
@@ -598,8 +880,26 @@
     ]
   },
   {
-    "id": 983,
+    "id": 1069,
     "date": "2026-02-20",
+    "startingOrder": [
+      "MAGIC WAND",
+      "ECLIPSE",
+      "TOP HAT",
+      "DONKEY",
+      "TIDE",
+      "PLAYING CARD",
+      "WEREWOLF",
+      "BOOT",
+      "SILVER BULLET",
+      "IRON",
+      "CHEESE",
+      "GREEN CHEESE",
+      "SOCKET",
+      "PANACEA",
+      "THIMBLE",
+      "EASY ANSWER"
+    ],
     "answers": [
       {
         "level": -1,
@@ -644,8 +944,26 @@
     ]
   },
   {
-    "id": 984,
+    "id": 1067,
     "date": "2026-02-21",
+    "startingOrder": [
+      "LATE",
+      "GREAT",
+      "PAST",
+      "LIFE",
+      "PRESENT",
+      "MINION",
+      "INFINITIVE",
+      "PERFECT",
+      "SOLID",
+      "DODGERS",
+      "EXCUSED",
+      "BACKGROUND",
+      "ABSENT",
+      "AUDITS",
+      "HISTORY",
+      "PHEW"
+    ],
     "answers": [
       {
         "level": -1,
@@ -690,8 +1008,26 @@
     ]
   },
   {
-    "id": 985,
+    "id": 1070,
     "date": "2026-02-22",
+    "startingOrder": [
+      "OUTCAST",
+      "SALT-AND-PEPPER",
+      "BLONDIE",
+      "TEDDY BEAR",
+      "DISTINGUISHED",
+      "BLACK SHEEP",
+      "ROUGH RIDERS",
+      "THE FAR SIDE",
+      "BULL MOOSE",
+      "BLOOM COUNTY",
+      "SILVER",
+      "PEANUTS",
+      "MISFIT",
+      "FLECKED",
+      "REJECT",
+      "BIG STICK"
+    ],
     "answers": [
       {
         "level": -1,
@@ -736,8 +1072,26 @@
     ]
   },
   {
-    "id": 986,
+    "id": 1068,
     "date": "2026-02-23",
+    "startingOrder": [
+      "NEW YEAR'S EVE",
+      "VOLCANO",
+      "MASQUERADE",
+      "PARTY HAT",
+      "CHRISTMAS TREE",
+      "MISTLETOE",
+      "GORGE",
+      "BLUFF",
+      "POSTURE",
+      "CONE",
+      "WEDDING",
+      "BOLT",
+      "SCARF",
+      "BLARNEY STONE",
+      "INHALE",
+      "FRONT"
+    ],
     "answers": [
       {
         "level": -1,
@@ -782,8 +1136,26 @@
     ]
   },
   {
-    "id": 987,
+    "id": 1066,
     "date": "2026-02-24",
+    "startingOrder": [
+      "COWARD",
+      "LASER",
+      "SCOTTIE",
+      "BONES",
+      "JIM",
+      "CORAL",
+      "BALANCE",
+      "CHEKHOV",
+      "THISTLE",
+      "SHAW",
+      "SHELLS",
+      "TRACTOR",
+      "TARTAN",
+      "TEETH",
+      "MILLER",
+      "BAGPIPES"
+    ],
     "answers": [
       {
         "level": -1,
@@ -828,8 +1200,26 @@
     ]
   },
   {
-    "id": 988,
+    "id": 1076,
     "date": "2026-02-25",
+    "startingOrder": [
+      "NAPKIN",
+      "COOK",
+      "BABY",
+      "PRINCIPAL",
+      "DEAN",
+      "NURSE",
+      "KEY",
+      "MOTHER",
+      "BASIC",
+      "ALKALINE",
+      "HARDEN",
+      "FOSTER",
+      "DIATRIBE",
+      "PRIMARY",
+      "BROWN",
+      "DECLAN"
+    ],
     "answers": [
       {
         "level": -1,
@@ -874,8 +1264,26 @@
     ]
   },
   {
-    "id": 989,
+    "id": 1073,
     "date": "2026-02-26",
+    "startingOrder": [
+      "SHAMROCK",
+      "DRUMROLL",
+      "PUNCHLINE",
+      "MILESTONE",
+      "PRETTY",
+      "WATERSHED",
+      "GRASSHOPPER",
+      "LANDMARK",
+      "CHECK",
+      "TIMING",
+      "ATTENTION",
+      "STATUE OF LIBERTY",
+      "SETUP",
+      "WASABI",
+      "CALLBACK",
+      "CROSSROADS"
+    ],
     "answers": [
       {
         "level": -1,
@@ -920,8 +1328,26 @@
     ]
   },
   {
-    "id": 990,
+    "id": 1074,
     "date": "2026-02-27",
+    "startingOrder": [
+      "JUDAS",
+      "DRILL",
+      "QUALITY",
+      "BUTTERFLY",
+      "FRENCH",
+      "BENCH",
+      "AIR",
+      "RIPPLE",
+      "SNAKE",
+      "SNOWBALL",
+      "TRAITOR",
+      "MANNER",
+      "DOMINO",
+      "PRINTING",
+      "IMPRESSION",
+      "TURNCOAT"
+    ],
     "answers": [
       {
         "level": -1,
@@ -966,8 +1392,26 @@
     ]
   },
   {
-    "id": 991,
+    "id": 1036,
     "date": "2026-02-28",
+    "startingOrder": [
+      "START",
+      "KNEEL",
+      "TAILOR",
+      "SALESMAN",
+      "COMETH",
+      "PILOT",
+      "EARNEST",
+      "ITCH",
+      "DESIRE",
+      "ROADIE",
+      "RUSTLE",
+      "SUNG",
+      "NOVAK",
+      "THIRST",
+      "CRUISE DIRECTOR",
+      "URGE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -1012,8 +1456,26 @@
     ]
   },
   {
-    "id": 992,
+    "id": 1075,
     "date": "2026-03-01",
+    "startingOrder": [
+      "LADDER",
+      "PALM TREE",
+      "HARD HAT",
+      "FINGER FOOD",
+      "KNUCKLE SANDWICH",
+      "TAPA",
+      "NAIL GUN",
+      "JOHANNESBURGER",
+      "AIRPLANE",
+      "LICORICE PIZZA",
+      "TOOL BELT",
+      "LUGGAGE",
+      "CANAPÉ",
+      "SMILING FACE WITH SUNGLASSES",
+      "COPYPASTA",
+      "HORS D'OEUVRE"
+    ],
     "answers": [
       {
         "level": -1,
@@ -1058,8 +1520,26 @@
     ]
   },
   {
-    "id": 993,
+    "id": 1071,
     "date": "2026-03-02",
+    "startingOrder": [
+      "SPRING",
+      "RANK",
+      "RUBBER",
+      "BALL",
+      "VAULT",
+      "SAFE",
+      "FUNKY",
+      "FOUL",
+      "STATION",
+      "STRIKE",
+      "POPCORN",
+      "BEAM",
+      "HORSE",
+      "STANDING",
+      "RINGS",
+      "POSITION"
+    ],
     "answers": [
       {
         "level": -1,
@@ -1108,20 +1588,20 @@
     "date": "2026-03-03",
     "startingOrder": [
       "APPLE",
-      "BROTHER",
-      "DIPPER",
-      "MAC",
-      "ABUT",
-      "FLANK",
-      "NEIGHBOR",
-      "TOUCH",
       "HANGER",
-      "HOOK",
-      "ROD",
-      "SHELF",
-      "BRISKET",
-      "FASTIDIOUS",
       "FLEETWOOD",
+      "MAC",
+      "FLANK",
+      "BROTHER",
+      "BRISKET",
+      "HOOK",
+      "TOUCH",
+      "SHELF",
+      "FASTIDIOUS",
+      "NEIGHBOR",
+      "ROD",
+      "ABUT",
+      "DIPPER",
       "QUICKSAND"
     ],
     "answers": [
@@ -1366,6 +1846,7 @@
       "ONE",
       "THOU",
       "SAND",
+      "THIS GAME",
       "NEW",
       "DATING APP",
       "SINGLE",
