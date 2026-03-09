@@ -1,117 +1,5 @@
 [
   {
-    "id": 1040,
-    "date": "2026-02-07",
-    "startingOrder": [
-      "COLON",
-      "L",
-      "FOUR",
-      "PLUS",
-      "FIVE",
-      "QUOTATION MARK",
-      "MINUS",
-      "T",
-      "I",
-      "EQUALS",
-      "THREE",
-      "ELLIPSIS",
-      "DIVIDED BY",
-      "PERIOD",
-      "X",
-      "TWO"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PIPS ON A DIE",
-        "members": [
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458241581.svg",
-            "alt": "FIVE"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458264630.svg",
-            "alt": "THREE"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211822514.svg",
-            "alt": "FOUR"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458287197.svg",
-            "alt": "TWO"
-          }
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SYMBOLS USED IN ARITHMETIC",
-        "members": [
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458308185.svg",
-            "alt": "EQUALS"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458320595.svg",
-            "alt": "DIVIDED BY"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211849018.svg",
-            "alt": "MINUS"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458338375.svg",
-            "alt": "PLUS"
-          }
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PUNCTUATION MARKS",
-        "members": [
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458387090.svg",
-            "alt": "COLON"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458400088.svg",
-            "alt": "PERIOD"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458418924.svg",
-            "alt": "QUOTATION MARK"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769211878797.svg",
-            "alt": "ELLIPSIS"
-          }
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LOWERCASE LETTERS",
-        "members": [
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458702188.svg",
-            "alt": "T"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458736347.svg",
-            "alt": "X"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458756480.svg",
-            "alt": "L"
-          },
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1040-1769458778430.svg",
-            "alt": "I"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": 1030,
     "date": "2026-02-08",
     "startingOrder": [
@@ -1966,6 +1854,70 @@
           "NADAL",
           "SQUATTER",
           "ZIPPER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1077,
+    "date": "2026-03-09",
+    "startingOrder": [
+      "BEAKER",
+      "VIDEO GAME",
+      "WEREWOLF",
+      "MICROSCOPE",
+      "MAFIA",
+      "WAREHOUSE",
+      "FISHBOWL",
+      "ANIMAL",
+      "SPOTLIGHT",
+      "COMPANY",
+      "GONZO",
+      "WEARABLE",
+      "E STREET BAND",
+      "HOT SEAT",
+      "WHEREFORE",
+      "FOZZIE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STARTING WITH THE SAME SOUND, SPELLED DIFFERENTLY",
+        "members": [
+          "WAREHOUSE",
+          "WEARABLE",
+          "WEREWOLF",
+          "WHEREFORE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "METAPHORS FOR PUBLIC SCRUTINY",
+        "members": [
+          "FISHBOWL",
+          "HOT SEAT",
+          "MICROSCOPE",
+          "SPOTLIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUPPETS",
+        "members": [
+          "ANIMAL",
+          "BEAKER",
+          "FOZZIE",
+          "GONZO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THEY FEATURE A BOSS",
+        "members": [
+          "COMPANY",
+          "E STREET BAND",
+          "MAFIA",
+          "VIDEO GAME"
         ]
       }
     ]
