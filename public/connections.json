@@ -1,69 +1,5 @@
 [
   {
-    "id": 1030,
-    "date": "2026-02-08",
-    "startingOrder": [
-      "TIMER",
-      "GAG",
-      "DRILL",
-      "BIT",
-      "ROUTINE",
-      "SYMBOL",
-      "CENTS",
-      "LENGTH",
-      "NUMBER",
-      "SILENCE",
-      "GRIND",
-      "MUZZLE",
-      "HABIT",
-      "FACED",
-      "INHIBIT",
-      "UPPERCASE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SUPPRESS",
-        "members": [
-          "GAG",
-          "INHIBIT",
-          "MUZZLE",
-          "SILENCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SAME OLD STUFF",
-        "members": [
-          "DRILL",
-          "GRIND",
-          "HABIT",
-          "ROUTINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF A STRONG PASSWORD",
-        "members": [
-          "LENGTH",
-          "NUMBER",
-          "SYMBOL",
-          "UPPERCASE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS AFTER \"TWO\"",
-        "members": [
-          "BIT",
-          "CENTS",
-          "FACED",
-          "TIMER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1032,
     "date": "2026-02-09",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "E STREET BAND",
           "MAFIA",
           "VIDEO GAME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1082,
+    "date": "2026-03-10",
+    "startingOrder": [
+      "MASS",
+      "GRAM",
+      "DUKE",
+      "TOAST",
+      "BROWN",
+      "UNC",
+      "WASH",
+      "SOCK",
+      "PENN",
+      "ROAST",
+      "POP",
+      "BOX",
+      "SLUG",
+      "SEAR",
+      "MISS",
+      "CUZ"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COOK WITH DRY HEAT",
+        "members": [
+          "BROWN",
+          "ROAST",
+          "SEAR",
+          "TOAST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FAMILIAL NICKNAMES",
+        "members": [
+          "CUZ",
+          "GRAM",
+          "POP",
+          "UNC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U.S. STATE ABBREVIATIONS",
+        "members": [
+          "MASS",
+          "MISS",
+          "PENN",
+          "WASH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PUNCH",
+        "members": [
+          "BOX",
+          "DUKE",
+          "SLUG",
+          "SOCK"
         ]
       }
     ]
