@@ -1,69 +1,5 @@
 [
   {
-    "id": 1032,
-    "date": "2026-02-09",
-    "startingOrder": [
-      "APPROACH",
-      "BONUS",
-      "POKER",
-      "NEEDLE",
-      "STRAWS",
-      "LOOM",
-      "STYLE",
-      "ADVANCE",
-      "NEAR",
-      "WAY",
-      "SCISSORS",
-      "FEE",
-      "ROYALTY",
-      "YARN",
-      "MANNER",
-      "THE LINE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "USED IN WEAVING",
-        "members": [
-          "LOOM",
-          "NEEDLE",
-          "SCISSORS",
-          "YARN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "METHOD",
-        "members": [
-          "APPROACH",
-          "MANNER",
-          "STYLE",
-          "WAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF PAYMENT FOR AN AUTHOR",
-        "members": [
-          "ADVANCE",
-          "BONUS",
-          "FEE",
-          "ROYALTY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DRAW ___",
-        "members": [
-          "NEAR",
-          "POKER",
-          "STRAWS",
-          "THE LINE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1037,
     "date": "2026-02-10",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "DUKE",
           "SLUG",
           "SOCK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1084,
+    "date": "2026-03-11",
+    "startingOrder": [
+      "DRESS",
+      "SNOW",
+      "PALM",
+      "JAZZ",
+      "YEW",
+      "LIFT",
+      "SPRUCE",
+      "TRAFFIC",
+      "PINE",
+      "POCKET",
+      "OUI",
+      "PINCH",
+      "HEE",
+      "ICE CREAM",
+      "SPIFF",
+      "MI"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STEAL",
+        "members": [
+          "LIFT",
+          "PALM",
+          "PINCH",
+          "POCKET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MAKE NICER, WITH \"UP\"",
+        "members": [
+          "DRESS",
+          "JAZZ",
+          "SPIFF",
+          "SPRUCE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF CONES",
+        "members": [
+          "ICE CREAM",
+          "PINE",
+          "SNOW",
+          "TRAFFIC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRONOUN HOMOPHONES",
+        "members": [
+          "HEE",
+          "MI",
+          "OUI",
+          "YEW"
         ]
       }
     ]
