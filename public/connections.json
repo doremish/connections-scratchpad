@@ -1,69 +1,5 @@
 [
   {
-    "id": 1037,
-    "date": "2026-02-10",
-    "startingOrder": [
-      "SPOKESPERSON",
-      "INTERVIEW",
-      "EXPOSITION",
-      "EMCEE",
-      "OKAY",
-      "CONVENTION",
-      "FAIR",
-      "COMMENTARY",
-      "SHOW",
-      "OUTTAKES",
-      "DEEJAY",
-      "RIMSHOT",
-      "TIRESOME",
-      "TRAILER",
-      "HUBBUB",
-      "KAYO"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EXHIBITION",
-        "members": [
-          "CONVENTION",
-          "EXPOSITION",
-          "FAIR",
-          "SHOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS SPELLING OUT INITIALISMS",
-        "members": [
-          "DEEJAY",
-          "EMCEE",
-          "KAYO",
-          "OKAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DVD BONUS FEATURES",
-        "members": [
-          "COMMENTARY",
-          "INTERVIEW",
-          "OUTTAKES",
-          "TRAILER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH PARTS OF A WHEEL",
-        "members": [
-          "HUBBUB",
-          "RIMSHOT",
-          "SPOKESPERSON",
-          "TIRESOME"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1035,
     "date": "2026-02-11",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "MI",
           "OUI",
           "YEW"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1086,
+    "date": "2026-03-12",
+    "startingOrder": [
+      "CUCKOO CLOCK",
+      "SWING",
+      "STEP",
+      "SANDBOX",
+      "HOURGLASS",
+      "MEXICAN FLAG",
+      "METRONOME",
+      "WEATHER VANE",
+      "WINDSHIELD WIPER",
+      "BUNKER",
+      "SPIN",
+      "PENDULUM",
+      "DESERT",
+      "REFORMER",
+      "FROOT LOOPS",
+      "BARRE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PLACES TO FIND SAND",
+        "members": [
+          "BUNKER",
+          "DESERT",
+          "HOURGLASS",
+          "SANDBOX"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT MOVE BACK AND FORTH",
+        "members": [
+          "METRONOME",
+          "PENDULUM",
+          "SWING",
+          "WINDSHIELD WIPER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "APPARATUS-BASED EXERCISE CLASSES",
+        "members": [
+          "BARRE",
+          "REFORMER",
+          "SPIN",
+          "STEP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURING BIRDS",
+        "members": [
+          "CUCKOO CLOCK",
+          "FROOT LOOPS",
+          "MEXICAN FLAG",
+          "WEATHER VANE"
         ]
       }
     ]
