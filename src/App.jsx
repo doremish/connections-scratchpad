@@ -19,6 +19,8 @@
 // ROW LOCKING
 //   Double-click the ⠿ handle to lock/unlock a row.
 //   Locked rows show a 🔒 icon and are skipped by Shuffle.
+//   Tiles in locked rows cannot be dragged out, and no tiles/rows can be
+//   moved into a locked row.
 //   A shimmer pulse confirms the toggle.
 //
 // PUZZLE DATA
@@ -291,6 +293,8 @@ export default function ConnectionsHelper() {
 
   function swapSlots(from, to) {
     if (from === null || to === null || from === to) return;
+    // Block if either slot belongs to a locked row
+    if (lockedRows[Math.floor(from / COLS)] || lockedRows[Math.floor(to / COLS)]) return;
     const rects = captureRects([from, to]);
     preSwapRects.current = { rects, moves: { [to]: from, [from]: to } };
     setGrid((prev) => {
@@ -302,6 +306,8 @@ export default function ConnectionsHelper() {
 
   function swapRows(rowA, rowB) {
     if (rowA === null || rowB === null || rowA === rowB) return;
+    // Block if either row is locked
+    if (lockedRows[rowA] || lockedRows[rowB]) return;
     const slotIndices = [
       ...Array.from({ length: COLS }, (_, i) => rowA * COLS + i),
       ...Array.from({ length: COLS }, (_, i) => rowB * COLS + i),
@@ -370,6 +376,8 @@ export default function ConnectionsHelper() {
   // ── Tile mouse drag ────────────────────────────────────────────────────────
 
   function onTileDragStart(e, slotIdx) {
+    // Don't allow dragging tiles out of locked rows
+    if (lockedRows[Math.floor(slotIdx / COLS)]) return;
     dragSlot.current = slotIdx;
     setActiveFrom(slotIdx);
     setGhostTile(grid[slotIdx]);
@@ -389,6 +397,8 @@ export default function ConnectionsHelper() {
   // ── Tile touch drag ────────────────────────────────────────────────────────
 
   function onTileTouchStart(e, slotIdx) {
+    // Don't allow dragging tiles out of locked rows
+    if (lockedRows[Math.floor(slotIdx / COLS)]) return;
     dragSlot.current  = slotIdx;
     hoverSlot.current = slotIdx;
     setActiveFrom(slotIdx);
@@ -471,7 +481,8 @@ export default function ConnectionsHelper() {
 
   function onRowBandDragOver(e, rowIdx) {
     e.preventDefault();
-    if (rowDragFromRef.current !== null) setRowDragTo(rowIdx);
+    // Don't show drop target highlight on locked rows
+    if (rowDragFromRef.current !== null && !lockedRows[rowIdx]) setRowDragTo(rowIdx);
   }
 
   function onRowBandDrop(e, rowIdx) {
@@ -488,6 +499,8 @@ export default function ConnectionsHelper() {
 
   function onSlotDragOver(e, slotIdx) {
     if (dragSlot.current === null) return;
+    // Don't allow hovering over slots in locked rows
+    if (lockedRows[Math.floor(slotIdx / COLS)]) return;
     e.preventDefault();
     e.stopPropagation();
     setActiveTo(slotIdx);
@@ -495,6 +508,8 @@ export default function ConnectionsHelper() {
 
   function onSlotDrop(e, slotIdx) {
     if (dragSlot.current === null) return;
+    // Don't allow dropping into locked rows
+    if (lockedRows[Math.floor(slotIdx / COLS)]) return;
     e.preventDefault();
     e.stopPropagation();
     swapSlots(dragSlot.current, slotIdx);
@@ -677,12 +692,16 @@ export default function ConnectionsHelper() {
                           {tile && (
                             <div
                               data-slot={slotIdx}
-                              draggable
+                              draggable={!isLocked}
                               ref={(el) => {
                                 if (el) tileRefs.current[slotIdx] = el;
                                 else    delete tileRefs.current[slotIdx];
                               }}
-                              style={{ ...styles.tile, opacity: isFrom ? 0.3 : 1 }}
+                              style={{
+                                ...styles.tile,
+                                opacity: isFrom ? 0.3 : 1,
+                                cursor: isLocked ? "default" : "grab",
+                              }}
                               onDragStart={(e) => onTileDragStart(e, slotIdx)}
                               onDragEnd={onTileDragEnd}
                               onTouchStart={(e) => onTileTouchStart(e, slotIdx)}
