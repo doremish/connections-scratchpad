@@ -1,69 +1,5 @@
 [
   {
-    "id": 1035,
-    "date": "2026-02-11",
-    "startingOrder": [
-      "NET",
-      "RINK",
-      "MOON",
-      "CAKE",
-      "RETURN",
-      "PUCK",
-      "BLOCK",
-      "GAIN",
-      "PINE",
-      "BRICK",
-      "COASTER",
-      "BAG",
-      "DERBY",
-      "SWOON",
-      "YIELD",
-      "YEARN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ACT LOVESTRUCK",
-        "members": [
-          "MOON",
-          "PINE",
-          "SWOON",
-          "YEARN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EARNINGS",
-        "members": [
-          "GAIN",
-          "NET",
-          "RETURN",
-          "YIELD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMPACT MASS",
-        "members": [
-          "BLOCK",
-          "BRICK",
-          "CAKE",
-          "PUCK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ROLLER ___",
-        "members": [
-          "BAG",
-          "COASTER",
-          "DERBY",
-          "RINK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1034,
     "date": "2026-02-12",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "FROOT LOOPS",
           "MEXICAN FLAG",
           "WEATHER VANE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1088,
+    "date": "2026-03-13",
+    "startingOrder": [
+      "PERFECT",
+      "BRICK",
+      "PASS",
+      "NUN",
+      "GREAT",
+      "AWL",
+      "PRIME",
+      "SUM",
+      "PHEW",
+      "NAH",
+      "FOURTH",
+      "EVEN",
+      "NEXT TIME",
+      "BERLIN",
+      "IRRATIONAL",
+      "LATER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "\"NO THANKS\"",
+        "members": [
+          "LATER",
+          "NAH",
+          "NEXT TIME",
+          "PASS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF NUMBERS",
+        "members": [
+          "EVEN",
+          "IRRATIONAL",
+          "PERFECT",
+          "PRIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF WALLS",
+        "members": [
+          "BERLIN",
+          "BRICK",
+          "FOURTH",
+          "GREAT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOMOPHONES OF NON-NUMERIC AMOUNTS",
+        "members": [
+          "AWL",
+          "NUN",
+          "PHEW",
+          "SUM"
         ]
       }
     ]
