@@ -1,69 +1,5 @@
 [
   {
-    "id": 1034,
-    "date": "2026-02-12",
-    "startingOrder": [
-      "MAY",
-      "YANK",
-      "A",
-      "CARD",
-      "FROZEN",
-      "PRODUCE",
-      "DANCING",
-      "DAIRY",
-      "MAKE",
-      "JAY",
-      "FAST",
-      "FORM",
-      "DRAG",
-      "FIRM",
-      "MOLD",
-      "TIGHT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONSTRUCT",
-        "members": [
-          "FORM",
-          "MAKE",
-          "MOLD",
-          "PRODUCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FIXED IN PLACE",
-        "members": [
-          "FAST",
-          "FIRM",
-          "FROZEN",
-          "TIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MLB PLAYER, FOR SHORT",
-        "members": [
-          "A",
-          "CARD",
-          "JAY",
-          "YANK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ QUEEN",
-        "members": [
-          "DAIRY",
-          "DANCING",
-          "DRAG",
-          "MAY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1038,
     "date": "2026-02-13",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "NUN",
           "PHEW",
           "SUM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1079,
+    "date": "2026-03-14",
+    "startingOrder": [
+      "NIGHTMARE",
+      "GADGET",
+      "BINARY",
+      "HAZE",
+      "HOOTENANNY",
+      "LICHEN",
+      "MORSE",
+      "DUOLINGO",
+      "SPELL",
+      "CLOUSEAU",
+      "MOSCOW",
+      "TRANCE",
+      "DIOXIDE",
+      "JAVERT",
+      "DREAM",
+      "TWILIGHT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HYPNOTIC STATE",
+        "members": [
+          "DREAM",
+          "HAZE",
+          "SPELL",
+          "TRANCE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH PREFIXES MEANING \"TWO\"",
+        "members": [
+          "BINARY",
+          "DIOXIDE",
+          "DUOLINGO",
+          "TWILIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FICTIONAL INSPECTORS",
+        "members": [
+          "CLOUSEAU",
+          "GADGET",
+          "JAVERT",
+          "MORSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN FEMALE ANIMALS",
+        "members": [
+          "HOOTENANNY",
+          "LICHEN",
+          "MOSCOW",
+          "NIGHTMARE"
         ]
       }
     ]
