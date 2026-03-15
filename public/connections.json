@@ -1,69 +1,5 @@
 [
   {
-    "id": 1038,
-    "date": "2026-02-13",
-    "startingOrder": [
-      "WAYNE",
-      "PARLIAMENT",
-      "STANDARD",
-      "LESSON",
-      "KENT",
-      "SYNC",
-      "SHEER",
-      "COLORS",
-      "STARK",
-      "CAMEL",
-      "BANNER",
-      "UTTER",
-      "RESEED",
-      "PURE",
-      "FLAG",
-      "SALEM"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DOWNRIGHT",
-        "members": [
-          "PURE",
-          "SHEER",
-          "STARK",
-          "UTTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PENNANT",
-        "members": [
-          "BANNER",
-          "COLORS",
-          "FLAG",
-          "STANDARD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CIGARETTE BRANDS",
-        "members": [
-          "CAMEL",
-          "KENT",
-          "PARLIAMENT",
-          "SALEM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF WAYS TO GET SMALLER",
-        "members": [
-          "LESSON",
-          "RESEED",
-          "SYNC",
-          "WAYNE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1033,
     "date": "2026-02-14",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "LICHEN",
           "MOSCOW",
           "NIGHTMARE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1089,
+    "date": "2026-03-15",
+    "startingOrder": [
+      "DOG",
+      "HOG",
+      "FROG",
+      "SPORK",
+      "COG",
+      "BLOG",
+      "SMOG",
+      "DOZE",
+      "HORN",
+      "GEAR",
+      "CORNER",
+      "MOTEL",
+      "MONOPOLIZE",
+      "PINION",
+      "BOGART",
+      "SPROCKET"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GREEDILY CONTROL",
+        "members": [
+          "BOGART",
+          "CORNER",
+          "HOG",
+          "MONOPOLIZE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TOOTHED WHEELS",
+        "members": [
+          "COG",
+          "GEAR",
+          "PINION",
+          "SPROCKET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PORTMANTEAUX",
+        "members": [
+          "BLOG",
+          "MOTEL",
+          "SMOG",
+          "SPORK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BULL___",
+        "members": [
+          "DOG",
+          "DOZE",
+          "FROG",
+          "HORN"
         ]
       }
     ]
