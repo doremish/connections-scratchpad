@@ -1,69 +1,5 @@
 [
   {
-    "id": 1033,
-    "date": "2026-02-14",
-    "startingOrder": [
-      "SPIKE",
-      "SPEAR",
-      "LUMP",
-      "JUMP",
-      "JUNIOR",
-      "HIKE",
-      "GUMP",
-      "BUMP",
-      "SULLY",
-      "BREATH",
-      "WOODY",
-      "MOUND",
-      "PEPPER",
-      "PHILLIPS",
-      "HUMP",
-      "RISE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "UPTICK",
-        "members": [
-          "HIKE",
-          "JUMP",
-          "RISE",
-          "SPIKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PROTUBERANCE",
-        "members": [
-          "BUMP",
-          "HUMP",
-          "LUMP",
-          "MOUND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TOM HANKS ROLES",
-        "members": [
-          "GUMP",
-          "PHILLIPS",
-          "SULLY",
-          "WOODY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS BEFORE \"MINT\"",
-        "members": [
-          "BREATH",
-          "JUNIOR",
-          "PEPPER",
-          "SPEAR"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1025,
     "date": "2026-02-15",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "DOZE",
           "FROG",
           "HORN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1095,
+    "date": "2026-03-16",
+    "startingOrder": [
+      "OKAY",
+      "SLOTH",
+      "ANY",
+      "TWO",
+      "WRATH",
+      "TRAFFIC",
+      "PRIDE",
+      "ENVY",
+      "CARTWRIGHT",
+      "MOLASSES",
+      "WRESTLE",
+      "PACK",
+      "POD",
+      "EMMY",
+      "GAGGLE",
+      "GLACIER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ANIMAL GROUP NAMES",
+        "members": [
+          "GAGGLE",
+          "PACK",
+          "POD",
+          "PRIDE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS ASSOCIATED WITH BEING SLOW",
+        "members": [
+          "GLACIER",
+          "MOLASSES",
+          "SLOTH",
+          "TRAFFIC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SILENT \"W\"",
+        "members": [
+          "CARTWRIGHT",
+          "TWO",
+          "WRATH",
+          "WRESTLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS THAT SOUND LIKE STATE ABBREVIATIONS",
+        "members": [
+          "ANY",
+          "EMMY",
+          "ENVY",
+          "OKAY"
         ]
       }
     ]
