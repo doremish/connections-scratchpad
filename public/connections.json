@@ -1,69 +1,5 @@
 [
   {
-    "id": 1025,
-    "date": "2026-02-15",
-    "startingOrder": [
-      "CALLIOPE",
-      "SUPERIORITY",
-      "RINGMASTER",
-      "ATLAS",
-      "OEDIPUS",
-      "BUZZARD",
-      "ECHO",
-      "ELECTRA",
-      "TRACE",
-      "DIALECT",
-      "INFERIORITY",
-      "DICTIONARY",
-      "THESAURUS",
-      "REMINDER",
-      "ENCYCLOPEDIA",
-      "VESTIGE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "REFERENCE BOOKS",
-        "members": [
-          "ATLAS",
-          "DICTIONARY",
-          "ENCYCLOPEDIA",
-          "THESAURUS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SOMETHING THAT BRINGS BACK MEMORIES",
-        "members": [
-          "ECHO",
-          "REMINDER",
-          "TRACE",
-          "VESTIGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF COMPLEXES",
-        "members": [
-          "ELECTRA",
-          "INFERIORITY",
-          "OEDIPUS",
-          "SUPERIORITY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH WAYS TO REACH SOMEONE VIA PHONE",
-        "members": [
-          "BUZZARD",
-          "CALLIOPE",
-          "DIALECT",
-          "RINGMASTER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1039,
     "date": "2026-02-16",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "EMMY",
           "ENVY",
           "OKAY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1094,
+    "date": "2026-03-17",
+    "startingOrder": [
+      "KITE",
+      "WIND",
+      "HOT WATER",
+      "KEY",
+      "TEA BAG",
+      "LIGHTNING",
+      "BALLOON",
+      "JAM",
+      "PITCH",
+      "ARROW",
+      "BIND",
+      "SCALE",
+      "YO-YO",
+      "TONE",
+      "ROCKET",
+      "PICKLE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "METAPHORS FOR TROUBLE",
+        "members": [
+          "BIND",
+          "HOT WATER",
+          "JAM",
+          "PICKLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSIC THEORY CONCEPTS",
+        "members": [
+          "KEY",
+          "PITCH",
+          "SCALE",
+          "TONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH STRINGS",
+        "members": [
+          "BALLOON",
+          "KITE",
+          "TEA BAG",
+          "YO-YO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "METAPHORS FOR QUICKNESS",
+        "members": [
+          "ARROW",
+          "LIGHTNING",
+          "ROCKET",
+          "WIND"
         ]
       }
     ]
