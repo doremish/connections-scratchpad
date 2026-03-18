@@ -1,69 +1,5 @@
 [
   {
-    "id": 1039,
-    "date": "2026-02-16",
-    "startingOrder": [
-      "BUCK",
-      "SCREAM",
-      "DO",
-      "LAUGH",
-      "FAWN",
-      "DOE",
-      "FLIGHT",
-      "SQUAWK",
-      "HOOT",
-      "FIGHT",
-      "RIOT",
-      "DOUGH",
-      "FREEZE",
-      "CACKLE",
-      "DOH",
-      "CLUCK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "KNEE-SLAPPER",
-        "members": [
-          "HOOT",
-          "LAUGH",
-          "RIOT",
-          "SCREAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES",
-        "members": [
-          "DO",
-          "DOE",
-          "DOH",
-          "DOUGH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SOUNDS A CHICKEN MAKES",
-        "members": [
-          "BUCK",
-          "CACKLE",
-          "CLUCK",
-          "SQUAWK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STRESS RESPONSES",
-        "members": [
-          "FAWN",
-          "FIGHT",
-          "FLIGHT",
-          "FREEZE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1065,
     "date": "2026-02-17",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "LIGHTNING",
           "ROCKET",
           "WIND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1093,
+    "date": "2026-03-18",
+    "startingOrder": [
+      "SPELL",
+      "YELL",
+      "RAIN",
+      "COAT",
+      "WHAMMY",
+      "STRETCH",
+      "CURSE",
+      "WAH",
+      "WINCE",
+      "BLANK",
+      "PATCH",
+      "HOP",
+      "DELAY",
+      "REALITY",
+      "REVERB",
+      "PERIOD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "INTERVAL",
+        "members": [
+          "PATCH",
+          "PERIOD",
+          "SPELL",
+          "STRETCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "REACT TO A STUBBED TOE",
+        "members": [
+          "CURSE",
+          "HOP",
+          "WINCE",
+          "YELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GUITAR EFFECTS PEDALS",
+        "members": [
+          "DELAY",
+          "REVERB",
+          "WAH",
+          "WHAMMY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ CHECK",
+        "members": [
+          "BLANK",
+          "COAT",
+          "RAIN",
+          "REALITY"
         ]
       }
     ]
