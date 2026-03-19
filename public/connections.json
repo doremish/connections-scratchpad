@@ -1,69 +1,5 @@
 [
   {
-    "id": 1065,
-    "date": "2026-02-17",
-    "startingOrder": [
-      "PLUM",
-      "LEAF",
-      "FLASH",
-      "BUSTLE",
-      "THUMB",
-      "OYSTER",
-      "FLOPPY",
-      "ZIP",
-      "SKIM",
-      "SOY",
-      "DART",
-      "BOMBAY",
-      "SPEED",
-      "FLIP",
-      "HOISIN",
-      "MISSUS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ZOOM",
-        "members": [
-          "DART",
-          "FLASH",
-          "SPEED",
-          "ZIP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SAUCES IN CHINESE CUISINE",
-        "members": [
-          "HOISIN",
-          "OYSTER",
-          "PLUM",
-          "SOY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RIFFLE (THROUGH)",
-        "members": [
-          "FLIP",
-          "LEAF",
-          "SKIM",
-          "THUMB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SYNONYMS FOR \"DUD\"",
-        "members": [
-          "BOMBAY",
-          "BUSTLE",
-          "FLOPPY",
-          "MISSUS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1064,
     "date": "2026-02-18",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "COAT",
           "RAIN",
           "REALITY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1085,
+    "date": "2026-03-19",
+    "startingOrder": [
+      "BABY BLUES",
+      "EVIL EYE",
+      "MOOD RING",
+      "PET ROCK",
+      "TRAFFIC LIGHT",
+      "CHICKEN LITTLE",
+      "SCRAP METAL",
+      "HORSESHOE",
+      "GOLDILOCKS",
+      "RABBIT'S FOOT",
+      "CHAMELEON",
+      "SODA POP",
+      "SUNSET",
+      "GINGERBREAD MAN",
+      "FOUR-LEAF CLOVER",
+      "FROG PRINCE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FOLK TALE CHARACTERS",
+        "members": [
+          "CHICKEN LITTLE",
+          "FROG PRINCE",
+          "GINGERBREAD MAN",
+          "GOLDILOCKS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GOOD LUCK SYMBOLS",
+        "members": [
+          "EVIL EYE",
+          "FOUR-LEAF CLOVER",
+          "HORSESHOE",
+          "RABBIT'S FOOT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT CHANGE COLOR",
+        "members": [
+          "CHAMELEON",
+          "MOOD RING",
+          "SUNSET",
+          "TRAFFIC LIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN MUSIC GENRES",
+        "members": [
+          "BABY BLUES",
+          "PET ROCK",
+          "SCRAP METAL",
+          "SODA POP"
         ]
       }
     ]
