@@ -1,69 +1,5 @@
 [
   {
-    "id": 1064,
-    "date": "2026-02-18",
-    "startingOrder": [
-      "HEAVY",
-      "CRESTED",
-      "BAD",
-      "FEATHER",
-      "FLY",
-      "TEASE",
-      "BANTAM",
-      "TOPICAL",
-      "CURL",
-      "SOUR",
-      "WICKED",
-      "LEGHORN",
-      "SHAVING",
-      "CRIMP",
-      "FREE-RANGE",
-      "RAD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "RETRO HAIR DIRECTIVES",
-        "members": [
-          "CRIMP",
-          "CURL",
-          "FEATHER",
-          "TEASE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RETRO SLANG FOR COOL",
-        "members": [
-          "BAD",
-          "FLY",
-          "RAD",
-          "WICKED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CHICKEN DESCRIPTORS",
-        "members": [
-          "BANTAM",
-          "CRESTED",
-          "FREE-RANGE",
-          "LEGHORN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ CREAM",
-        "members": [
-          "HEAVY",
-          "SHAVING",
-          "SOUR",
-          "TOPICAL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1029,
     "date": "2026-02-19",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "PET ROCK",
           "SCRAP METAL",
           "SODA POP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1092,
+    "date": "2026-03-20",
+    "startingOrder": [
+      "LUXURY",
+      "SIREN",
+      "CHANCE",
+      "CARTON",
+      "ALARM",
+      "TIMER",
+      "SHAKE",
+      "PARKING",
+      "RATTLE",
+      "FURY",
+      "ROLL",
+      "CONCERN",
+      "NOODLE",
+      "MUSE",
+      "BOARDWALK",
+      "FATE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DISTURB",
+        "members": [
+          "ALARM",
+          "CONCERN",
+          "RATTLE",
+          "SHAKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS ON A MONOPOLY BOARD",
+        "members": [
+          "BOARDWALK",
+          "CHANCE",
+          "LUXURY",
+          "PARKING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FIGURE IN GREEK MYTH",
+        "members": [
+          "FATE",
+          "FURY",
+          "MUSE",
+          "SIREN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EGG ___",
+        "members": [
+          "CARTON",
+          "NOODLE",
+          "ROLL",
+          "TIMER"
         ]
       }
     ]
