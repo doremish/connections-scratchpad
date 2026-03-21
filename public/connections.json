@@ -1,69 +1,5 @@
 [
   {
-    "id": 1029,
-    "date": "2026-02-19",
-    "startingOrder": [
-      "PEEPS",
-      "POKER",
-      "DISCO",
-      "STU",
-      "SHOVEL",
-      "BRAYS",
-      "BASKET",
-      "BELLOWS",
-      "BOYLE",
-      "JOHN TRAVOLTA",
-      "TONGS",
-      "DYE",
-      "PLATFORM SHOES",
-      "EGGS",
-      "SEER",
-      "POLYESTER SUIT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EASTER SUPPLIES",
-        "members": [
-          "BASKET",
-          "DYE",
-          "EGGS",
-          "PEEPS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FIREPLACE ACCESSORIES",
-        "members": [
-          "BELLOWS",
-          "POKER",
-          "SHOVEL",
-          "TONGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ELEMENTS OF \"SATURDAY NIGHT FEVER\"",
-        "members": [
-          "DISCO",
-          "JOHN TRAVOLTA",
-          "PLATFORM SHOES",
-          "POLYESTER SUIT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF WAYS TO COOK SOMETHING",
-        "members": [
-          "BOYLE",
-          "BRAYS",
-          "SEER",
-          "STU"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1069,
     "date": "2026-02-20",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "NOODLE",
           "ROLL",
           "TIMER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1098,
+    "date": "2026-03-21",
+    "startingOrder": [
+      "POUND",
+      "PLAIN",
+      "OBJECT",
+      "CROWN",
+      "JUMP",
+      "MARK",
+      "FRANK",
+      "RICH",
+      "GOAL",
+      "STRAIGHT",
+      "POINT",
+      "BISHOP",
+      "KING",
+      "BLUNT",
+      "FROST",
+      "CAPTURE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DIRECT",
+        "members": [
+          "BLUNT",
+          "FRANK",
+          "PLAIN",
+          "STRAIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TARGET",
+        "members": [
+          "GOAL",
+          "MARK",
+          "OBJECT",
+          "POINT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CHECKERS TERMS",
+        "members": [
+          "CAPTURE",
+          "CROWN",
+          "JUMP",
+          "KING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "20TH CENTURY AMERICAN POETS",
+        "members": [
+          "BISHOP",
+          "FROST",
+          "POUND",
+          "RICH"
         ]
       }
     ]
