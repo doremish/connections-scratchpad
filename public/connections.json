@@ -1,69 +1,5 @@
 [
   {
-    "id": 1067,
-    "date": "2026-02-21",
-    "startingOrder": [
-      "LATE",
-      "GREAT",
-      "PAST",
-      "LIFE",
-      "PRESENT",
-      "MINION",
-      "INFINITIVE",
-      "PERFECT",
-      "SOLID",
-      "DODGERS",
-      "EXCUSED",
-      "BACKGROUND",
-      "ABSENT",
-      "AUDITS",
-      "HISTORY",
-      "PHEW"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EXPERIENCE",
-        "members": [
-          "BACKGROUND",
-          "HISTORY",
-          "LIFE",
-          "PAST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ATTENDANCE STATUS",
-        "members": [
-          "ABSENT",
-          "EXCUSED",
-          "LATE",
-          "PRESENT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMMENTARY ABOUT YOUR CONNECTIONS RESULTS",
-        "members": [
-          "GREAT",
-          "PERFECT",
-          "PHEW",
-          "SOLID"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CAR BRANDS PLUS TWO LETTERS",
-        "members": [
-          "AUDITS",
-          "DODGERS",
-          "INFINITIVE",
-          "MINION"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1070,
     "date": "2026-02-22",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "COUCH",
           "CROWD",
           "KITE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1096,
+    "date": "2026-03-23",
+    "startingOrder": [
+      "JUNGLE GYM",
+      "STAND-UP",
+      "LIGHT BULB",
+      "BROCCOLI RABE",
+      "OLIVE OIL",
+      "WHEEL",
+      "OPEN MIC",
+      "MARY",
+      "BRAIN STEW",
+      "MOCKTAIL",
+      "PRINTING PRESS",
+      "HONEST",
+      "MORAL",
+      "SLICED BREAD",
+      "DECENT",
+      "VIRGO"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PRINCIPLED",
+        "members": [
+          "DECENT",
+          "HONEST",
+          "MORAL",
+          "STAND-UP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GAME-CHANGING INVENTIONS",
+        "members": [
+          "LIGHT BULB",
+          "PRINTING PRESS",
+          "SLICED BREAD",
+          "WHEEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"VIRGIN\" THINGS",
+        "members": [
+          "MARY",
+          "MOCKTAIL",
+          "OLIVE OIL",
+          "VIRGO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN NICKNAME HOMOPHONES",
+        "members": [
+          "BRAIN STEW",
+          "BROCCOLI RABE",
+          "JUNGLE GYM",
+          "OPEN MIC"
         ]
       }
     ]
