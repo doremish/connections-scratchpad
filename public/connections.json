@@ -1,69 +1,5 @@
 [
   {
-    "id": 1070,
-    "date": "2026-02-22",
-    "startingOrder": [
-      "OUTCAST",
-      "SALT-AND-PEPPER",
-      "BLONDIE",
-      "TEDDY BEAR",
-      "DISTINGUISHED",
-      "BLACK SHEEP",
-      "ROUGH RIDERS",
-      "THE FAR SIDE",
-      "BULL MOOSE",
-      "BLOOM COUNTY",
-      "SILVER",
-      "PEANUTS",
-      "MISFIT",
-      "FLECKED",
-      "REJECT",
-      "BIG STICK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ONE WHO DOESN'T FIT IN",
-        "members": [
-          "BLACK SHEEP",
-          "MISFIT",
-          "OUTCAST",
-          "REJECT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DESCRIPTORS FOR GRAYING HAIR",
-        "members": [
-          "DISTINGUISHED",
-          "FLECKED",
-          "SALT-AND-PEPPER",
-          "SILVER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CLASSIC COMIC STRIPS",
-        "members": [
-          "BLONDIE",
-          "BLOOM COUNTY",
-          "PEANUTS",
-          "THE FAR SIDE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH THEODORE ROOSEVELT",
-        "members": [
-          "BIG STICK",
-          "BULL MOOSE",
-          "ROUGH RIDERS",
-          "TEDDY BEAR"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1068,
     "date": "2026-02-23",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "BROCCOLI RABE",
           "JUNGLE GYM",
           "OPEN MIC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1102,
+    "date": "2026-03-24",
+    "startingOrder": [
+      "LOW",
+      "WIND",
+      "FOOD",
+      "CAKE",
+      "ROW",
+      "FIRE",
+      "RING",
+      "BASE",
+      "BOW",
+      "SOW",
+      "MEAN",
+      "KISS",
+      "TOW",
+      "VOW",
+      "DUMP",
+      "VILE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DESPICABLE",
+        "members": [
+          "BASE",
+          "LOW",
+          "MEAN",
+          "VILE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF A WEDDING",
+        "members": [
+          "CAKE",
+          "KISS",
+          "RING",
+          "VOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF TRUCKS",
+        "members": [
+          "DUMP",
+          "FIRE",
+          "FOOD",
+          "TOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HETERONYMS",
+        "members": [
+          "BOW",
+          "ROW",
+          "SOW",
+          "WIND"
         ]
       }
     ]
