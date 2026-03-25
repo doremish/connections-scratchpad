@@ -1,69 +1,5 @@
 [
   {
-    "id": 1068,
-    "date": "2026-02-23",
-    "startingOrder": [
-      "NEW YEAR'S EVE",
-      "VOLCANO",
-      "MASQUERADE",
-      "PARTY HAT",
-      "CHRISTMAS TREE",
-      "MISTLETOE",
-      "GORGE",
-      "BLUFF",
-      "POSTURE",
-      "CONE",
-      "WEDDING",
-      "BOLT",
-      "SCARF",
-      "BLARNEY STONE",
-      "INHALE",
-      "FRONT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EAT VORACIOUSLY",
-        "members": [
-          "BOLT",
-          "GORGE",
-          "INHALE",
-          "SCARF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONICAL THINGS",
-        "members": [
-          "CHRISTMAS TREE",
-          "CONE",
-          "PARTY HAT",
-          "VOLCANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "POSE",
-        "members": [
-          "BLUFF",
-          "FRONT",
-          "MASQUERADE",
-          "POSTURE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SETTINGS FOR A KISS",
-        "members": [
-          "BLARNEY STONE",
-          "MISTLETOE",
-          "NEW YEAR'S EVE",
-          "WEDDING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1066,
     "date": "2026-02-24",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "ROW",
           "SOW",
           "WIND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1101,
+    "date": "2026-03-25",
+    "startingOrder": [
+      "WIRE",
+      "QUARK",
+      "CLOUD",
+      "PING",
+      "SPIN",
+      "OBSCURE",
+      "CHARGE",
+      "FORTUNE",
+      "CHECK",
+      "TIME",
+      "GALLOP",
+      "BLUR",
+      "MUDDY",
+      "PEOPLE",
+      "CASH",
+      "CUR"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "OBFUSCATE",
+        "members": [
+          "BLUR",
+          "CLOUD",
+          "MUDDY",
+          "OBSCURE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MAGAZINES",
+        "members": [
+          "FORTUNE",
+          "PEOPLE",
+          "SPIN",
+          "TIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PAYMENT METHODS",
+        "members": [
+          "CASH",
+          "CHARGE",
+          "CHECK",
+          "WIRE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "UNITS OF VOLUME WITH LAST LETTER CHANGED",
+        "members": [
+          "CUR",
+          "GALLOP",
+          "PING",
+          "QUARK"
         ]
       }
     ]
