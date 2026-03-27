@@ -1,69 +1,5 @@
 [
   {
-    "id": 1076,
-    "date": "2026-02-25",
-    "startingOrder": [
-      "NAPKIN",
-      "COOK",
-      "BABY",
-      "PRINCIPAL",
-      "DEAN",
-      "NURSE",
-      "KEY",
-      "MOTHER",
-      "BASIC",
-      "ALKALINE",
-      "HARDEN",
-      "FOSTER",
-      "DIATRIBE",
-      "PRIMARY",
-      "BROWN",
-      "DECLAN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CARE FOR",
-        "members": [
-          "BABY",
-          "FOSTER",
-          "MOTHER",
-          "NURSE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ELEMENTARY",
-        "members": [
-          "BASIC",
-          "KEY",
-          "PRIMARY",
-          "PRINCIPAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "JAMESES",
-        "members": [
-          "BROWN",
-          "COOK",
-          "DEAN",
-          "HARDEN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN FAMILY WORDS",
-        "members": [
-          "ALKALINE",
-          "DECLAN",
-          "DIATRIBE",
-          "NAPKIN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1073,
     "date": "2026-02-26",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "HARDWARE STORE",
           "LIGHTNING",
           "LOCK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1087,
+    "date": "2026-03-27",
+    "startingOrder": [
+      "TURN SIGNAL",
+      "TRAFFIC CONE",
+      "BRASS TACKS",
+      "FOOD COURT",
+      "THE LORAX",
+      "LIP SERVICE",
+      "TICKET COUNTER",
+      "BOTTOM LINE",
+      "DUTY-FREE",
+      "NITTY-GRITTY",
+      "MONARCH BUTTERFLY",
+      "MONKEY BARS",
+      "WEDDING RECEPTION",
+      "GOLDFISH CRACKER",
+      "BAGGAGE CLAIM",
+      "BASIC FACTS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "WHAT IT ALL BOILS DOWN TO",
+        "members": [
+          "BASIC FACTS",
+          "BOTTOM LINE",
+          "BRASS TACKS",
+          "NITTY-GRITTY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF AN AIRPORT TERMINAL",
+        "members": [
+          "BAGGAGE CLAIM",
+          "DUTY-FREE",
+          "FOOD COURT",
+          "TICKET COUNTER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT ARE ORANGE",
+        "members": [
+          "GOLDFISH CRACKER",
+          "MONARCH BUTTERFLY",
+          "THE LORAX",
+          "TRAFFIC CONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN WORDS FOR CELLULAR CONNECTIVITY",
+        "members": [
+          "LIP SERVICE",
+          "MONKEY BARS",
+          "TURN SIGNAL",
+          "WEDDING RECEPTION"
         ]
       }
     ]
