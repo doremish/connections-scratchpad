@@ -1,69 +1,5 @@
 [
   {
-    "id": 1073,
-    "date": "2026-02-26",
-    "startingOrder": [
-      "SHAMROCK",
-      "DRUMROLL",
-      "PUNCHLINE",
-      "MILESTONE",
-      "PRETTY",
-      "WATERSHED",
-      "GRASSHOPPER",
-      "LANDMARK",
-      "CHECK",
-      "TIMING",
-      "ATTENTION",
-      "STATUE OF LIBERTY",
-      "SETUP",
-      "WASABI",
-      "CALLBACK",
-      "CROSSROADS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PIVOTAL POINT",
-        "members": [
-          "CROSSROADS",
-          "LANDMARK",
-          "MILESTONE",
-          "WATERSHED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GREEN THINGS",
-        "members": [
-          "GRASSHOPPER",
-          "SHAMROCK",
-          "STATUE OF LIBERTY",
-          "WASABI"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ELEMENTS OF JOKE-TELLING",
-        "members": [
-          "CALLBACK",
-          "PUNCHLINE",
-          "SETUP",
-          "TIMING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"___ PLEASE\"",
-        "members": [
-          "ATTENTION",
-          "CHECK",
-          "DRUMROLL",
-          "PRETTY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1074,
     "date": "2026-02-27",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "MONKEY BARS",
           "TURN SIGNAL",
           "WEDDING RECEPTION"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1108,
+    "date": "2026-03-28",
+    "startingOrder": [
+      "PITCHER",
+      "BOARD",
+      "FIGURE",
+      "FACE",
+      "FORCE",
+      "PLATE",
+      "POWER",
+      "PICTURE",
+      "MOUNT",
+      "MASS",
+      "ENTER",
+      "MOMENTUM",
+      "ILLUSTRATION",
+      "ACCELERATION",
+      "EMBARK",
+      "ROBERT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STEP ONTO, AS A VEHICLE",
+        "members": [
+          "BOARD",
+          "EMBARK",
+          "ENTER",
+          "MOUNT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "QUANTITIES IN MECHANICS",
+        "members": [
+          "ACCELERATION",
+          "FORCE",
+          "MASS",
+          "MOMENTUM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TEXTBOOK IMAGES",
+        "members": [
+          "FIGURE",
+          "ILLUSTRATION",
+          "PICTURE",
+          "PLATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ PLANT",
+        "members": [
+          "FACE",
+          "PITCHER",
+          "POWER",
+          "ROBERT"
         ]
       }
     ]
