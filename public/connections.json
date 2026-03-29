@@ -1,69 +1,5 @@
 [
   {
-    "id": 1074,
-    "date": "2026-02-27",
-    "startingOrder": [
-      "JUDAS",
-      "DRILL",
-      "QUALITY",
-      "BUTTERFLY",
-      "FRENCH",
-      "BENCH",
-      "AIR",
-      "RIPPLE",
-      "SNAKE",
-      "SNOWBALL",
-      "TRAITOR",
-      "MANNER",
-      "DOMINO",
-      "PRINTING",
-      "IMPRESSION",
-      "TURNCOAT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BACKSTABBER",
-        "members": [
-          "JUDAS",
-          "SNAKE",
-          "TRAITOR",
-          "TURNCOAT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AURA",
-        "members": [
-          "AIR",
-          "IMPRESSION",
-          "MANNER",
-          "QUALITY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF CHAIN REACTION \"EFFECTS\"",
-        "members": [
-          "BUTTERFLY",
-          "DOMINO",
-          "RIPPLE",
-          "SNOWBALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ PRESS",
-        "members": [
-          "BENCH",
-          "DRILL",
-          "FRENCH",
-          "PRINTING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1036,
     "date": "2026-02-28",
     "startingOrder": [
@@ -1918,6 +1854,70 @@
           "PITCHER",
           "POWER",
           "ROBERT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1105,
+    "date": "2026-03-29",
+    "startingOrder": [
+      "GRAFFITI",
+      "RECEIPT",
+      "STRETCH",
+      "HUSTLE",
+      "PSYCHO",
+      "ROBOT",
+      "BEAUTY",
+      "STENCIL",
+      "POSTER",
+      "CORPS",
+      "TWIST",
+      "QUESTION",
+      "CHECK",
+      "MASHED POTATO",
+      "MURAL",
+      "COUP"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "IMAGES SEEN ON THE STREET",
+        "members": [
+          "GRAFFITI",
+          "MURAL",
+          "POSTER",
+          "STENCIL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RETRO DANCE CRAZES",
+        "members": [
+          "HUSTLE",
+          "MASHED POTATO",
+          "ROBOT",
+          "TWIST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SILENT \"P\"",
+        "members": [
+          "CORPS",
+          "COUP",
+          "PSYCHO",
+          "RECEIPT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ MARK",
+        "members": [
+          "BEAUTY",
+          "CHECK",
+          "QUESTION",
+          "STRETCH"
         ]
       }
     ]
