@@ -1,69 +1,5 @@
 [
   {
-    "id": 1071,
-    "date": "2026-03-02",
-    "startingOrder": [
-      "SPRING",
-      "RANK",
-      "RUBBER",
-      "BALL",
-      "VAULT",
-      "SAFE",
-      "FUNKY",
-      "FOUL",
-      "STATION",
-      "STRIKE",
-      "POPCORN",
-      "BEAM",
-      "HORSE",
-      "STANDING",
-      "RINGS",
-      "POSITION"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GYMNASTICS APPARATUS",
-        "members": [
-          "BEAM",
-          "HORSE",
-          "RINGS",
-          "VAULT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STATUS",
-        "members": [
-          "POSITION",
-          "RANK",
-          "STANDING",
-          "STATION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BASEBALL CALLS",
-        "members": [
-          "BALL",
-          "FOUL",
-          "SAFE",
-          "STRIKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ CHICKEN",
-        "members": [
-          "FUNKY",
-          "POPCORN",
-          "RUBBER",
-          "SPRING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1072,
     "date": "2026-03-03",
     "startingOrder": [
@@ -1918,6 +1854,118 @@
           "CHICK FLICK",
           "FRY COOK",
           "KIT KAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1111,
+    "date": "2026-04-01",
+    "startingOrder": [
+      "GREEN DAY",
+      "RED STRIPE",
+      "BIG APPLE",
+      "BACK TO THE FUTURE",
+      "BLUE MOON",
+      "SINGIN' IN THE RAIN",
+      "MILE HIGH CITY",
+      "THREE DOORS DOWN",
+      "DOS EQUIS",
+      "BIG EASY",
+      "PINK FLOYD",
+      "BLUE VELVET",
+      "SECOND CITY",
+      "MILLER HIGH LIFE",
+      "U2",
+      "TOP GUN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BEER BRANDS",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435614848.svg",
+            "alt": "MILLER HIGH LIFE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773431041863.svg",
+            "alt": "RED STRIPE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435634019.svg",
+            "alt": "DOS EQUIS"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435674725.svg",
+            "alt": "BLUE MOON"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ROCK BANDS",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435714010.svg",
+            "alt": "U2"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435731899.svg",
+            "alt": "PINK FLOYD"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435739653.svg",
+            "alt": "GREEN DAY"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773431090414.svg",
+            "alt": "THREE DOORS DOWN"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MOVIES",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435760828.svg",
+            "alt": "BLUE VELVET"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435779694.svg",
+            "alt": "BACK TO THE FUTURE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435806527.svg",
+            "alt": "SINGIN' IN THE RAIN"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773431164226.svg",
+            "alt": "TOP GUN"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U.S. CITY NICKNAMES",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435825951.svg",
+            "alt": "BIG APPLE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773431106624.svg",
+            "alt": "BIG EASY"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773435840807.svg",
+            "alt": "MILE HIGH CITY"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773779943355.svg",
+            "alt": "SECOND CITY"
+          }
         ]
       }
     ]
