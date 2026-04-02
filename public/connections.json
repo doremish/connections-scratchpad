@@ -1,69 +1,5 @@
 [
   {
-    "id": 1072,
-    "date": "2026-03-03",
-    "startingOrder": [
-      "APPLE",
-      "HANGER",
-      "FLEETWOOD",
-      "MAC",
-      "FLANK",
-      "BROTHER",
-      "BRISKET",
-      "HOOK",
-      "TOUCH",
-      "SHELF",
-      "FASTIDIOUS",
-      "NEIGHBOR",
-      "ROD",
-      "ABUT",
-      "DIPPER",
-      "QUICKSAND"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "\"BIG\" THINGS",
-        "members": [
-          "APPLE",
-          "BROTHER",
-          "DIPPER",
-          "MAC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BE ADJACENT TO",
-        "members": [
-          "ABUT",
-          "FLANK",
-          "NEIGHBOR",
-          "TOUCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SEEN IN A CLOSET",
-        "members": [
-          "HANGER",
-          "HOOK",
-          "ROD",
-          "SHELF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SYNONYMS FOR \"SPEEDY\"",
-        "members": [
-          "BRISKET",
-          "FASTIDIOUS",
-          "FLEETWOOD",
-          "QUICKSAND"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1081,
     "date": "2026-03-04",
     "startingOrder": [
@@ -1966,6 +1902,70 @@
             "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1111-1773779943355.svg",
             "alt": "SECOND CITY"
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1106,
+    "date": "2026-04-02",
+    "startingOrder": [
+      "STALLION",
+      "CHAMPION",
+      "SECOND",
+      "CHANCE",
+      "MIGOS",
+      "MOMENT",
+      "BACK",
+      "CARDI",
+      "DRAKE",
+      "EATER",
+      "OPENING",
+      "ENDORSE",
+      "WINDOW",
+      "BUCK",
+      "MESON",
+      "DRONE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SUPPORT",
+        "members": [
+          "BACK",
+          "CHAMPION",
+          "ENDORSE",
+          "SECOND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OPPORTUNITY",
+        "members": [
+          "CHANCE",
+          "MOMENT",
+          "OPENING",
+          "WINDOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MALE ANIMALS",
+        "members": [
+          "BUCK",
+          "DRAKE",
+          "DRONE",
+          "STALLION"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDS OF LIQUOR BRANDS",
+        "members": [
+          "CARDI",
+          "EATER",
+          "MESON",
+          "MIGOS"
         ]
       }
     ]
