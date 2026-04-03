@@ -96,15 +96,15 @@ function buildGrid(categories, startingOrder) {
 }
 
 // 3-tier tile text strategy based on longest single word (split by spaces):
-//   ≤ 9 chars  → fits on one line at default size, no change
-//   10–13 chars → shrink font with clamp so it still fits on one line
-//   14+ chars   → too long to shrink legibly, let it break across lines
+//   ≤ 6 chars  → fits on one line at default size, no change
+//   8–11 chars → shrink font with clamp so it still fits on one line
+//   12+ chars   → too long to shrink legibly, let it break across lines
 function tileTextStyle(word) {
   if (!word || typeof word === "object") return {};
   const longest = String(word).split(" ").reduce((a, b) => (a.length >= b.length ? a : b), "").length;
-  if (longest <= 7)  return {};
-  if (longest <= 9)  return { fontSize: "clamp(8.5px, 2.3vw, 11.5px)", letterSpacing: "0px", wordBreak: "normal" };
-  if (longest <= 13) return { fontSize: "clamp(7px, 1.85vw, 9.5px)",   letterSpacing: "0px", wordBreak: "normal" };
+  if (longest <= 6)  return {};
+  if (longest <= 8)  return { fontSize: "clamp(8.5px, 2.3vw, 11.5px)", letterSpacing: "0px", wordBreak: "normal" };
+  if (longest <= 11) return { fontSize: "clamp(7px, 1.85vw, 9.5px)",   letterSpacing: "0px", wordBreak: "normal" };
   return                    { wordBreak: "break-word" };
 }
 
