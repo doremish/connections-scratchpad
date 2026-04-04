@@ -1,69 +1,5 @@
 [
   {
-    "id": 1078,
-    "date": "2026-03-05",
-    "startingOrder": [
-      "ALTERNATE",
-      "HERO",
-      "TOGGLE",
-      "BOLT",
-      "REPLACEMENT",
-      "SANDBOX",
-      "BELOW",
-      "SEESAW",
-      "NUT",
-      "LAB",
-      "WASHER",
-      "SUBMARINE",
-      "INCUBATOR",
-      "SWITCH",
-      "SCREW",
-      "TEST BED"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BITS OF HARDWARE",
-        "members": [
-          "BOLT",
-          "NUT",
-          "SCREW",
-          "WASHER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES WHERE IDEAS ARE DEVELOPED",
-        "members": [
-          "INCUBATOR",
-          "LAB",
-          "SANDBOX",
-          "TEST BED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GO BACK AND FORTH",
-        "members": [
-          "ALTERNATE",
-          "SEESAW",
-          "SWITCH",
-          "TOGGLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"SUB\" MIGHT REFER TO",
-        "members": [
-          "BELOW",
-          "HERO",
-          "REPLACEMENT",
-          "SUBMARINE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1080,
     "date": "2026-03-06",
     "startingOrder": [
@@ -1966,6 +1902,70 @@
           "DAMAGE",
           "GROUND",
           "MISSION"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1109,
+    "date": "2026-04-04",
+    "startingOrder": [
+      "BAND",
+      "MASK",
+      "CAPE",
+      "LIE",
+      "BLUFF",
+      "BOOT",
+      "SPIT",
+      "SHIELD",
+      "LET",
+      "POINT",
+      "BASE",
+      "COVER",
+      "SLEEPING",
+      "SCREEN",
+      "SUMMER",
+      "DOGS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "\"LET SLEEPING DOGS LIE\"",
+        "members": [
+          "DOGS",
+          "LET",
+          "LIE",
+          "SLEEPING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OBSCURE",
+        "members": [
+          "COVER",
+          "MASK",
+          "SCREEN",
+          "SHIELD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COASTAL LANDFORMS",
+        "members": [
+          "BLUFF",
+          "CAPE",
+          "POINT",
+          "SPIT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ CAMP",
+        "members": [
+          "BAND",
+          "BASE",
+          "BOOT",
+          "SUMMER"
         ]
       }
     ]
