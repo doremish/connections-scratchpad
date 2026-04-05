@@ -1,69 +1,5 @@
 [
   {
-    "id": 1080,
-    "date": "2026-03-06",
-    "startingOrder": [
-      "SPONGE",
-      "MARBLE",
-      "SHARP",
-      "WIT",
-      "POUND",
-      "LAYER",
-      "FACULTY",
-      "CURTAIN",
-      "HASH",
-      "PARASITE",
-      "BLANKET",
-      "SENSE",
-      "LEECH",
-      "CLOAK",
-      "NUMBER",
-      "MOOCH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FREELOADER",
-        "members": [
-          "LEECH",
-          "MOOCH",
-          "PARASITE",
-          "SPONGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONCEALING COVER",
-        "members": [
-          "BLANKET",
-          "CLOAK",
-          "CURTAIN",
-          "LAYER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WAYS ONE MIGHT REFER TO #",
-        "members": [
-          "HASH",
-          "NUMBER",
-          "POUND",
-          "SHARP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS FOR LUCIDITY, IN THE SINGULAR",
-        "members": [
-          "FACULTY",
-          "MARBLE",
-          "SENSE",
-          "WIT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1028,
     "date": "2026-03-07",
     "startingOrder": [
@@ -1966,6 +1902,70 @@
           "BASE",
           "BOOT",
           "SUMMER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "date": "2026-04-05",
+    "startingOrder": [
+      "PIPE",
+      "PANCAKE",
+      "PULPIT",
+      "LIGHT SWITCH",
+      "SHELL",
+      "VIOLIN",
+      "MUSHROOM",
+      "ORBIT",
+      "COIN",
+      "PASTEURIZE",
+      "NUCLEUS",
+      "MAGNIFYING GLASS",
+      "ELECTRON",
+      "GOOGOL",
+      "DEERSTALKER",
+      "THE BIRD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ATOMIC STRUCTURE TERMS",
+        "members": [
+          "ELECTRON",
+          "NUCLEUS",
+          "ORBIT",
+          "SHELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A SHERLOCK HOLMES COSTUME",
+        "members": [
+          "DEERSTALKER",
+          "MAGNIFYING GLASS",
+          "PIPE",
+          "VIOLIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS TO FLIP",
+        "members": [
+          "COIN",
+          "LIGHT SWITCH",
+          "PANCAKE",
+          "THE BIRD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SYNONYMS FOR \"SLUSH\"",
+        "members": [
+          "GOOGOL",
+          "MUSHROOM",
+          "PASTEURIZE",
+          "PULPIT"
         ]
       }
     ]
