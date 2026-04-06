@@ -1,72 +1,5 @@
 [
   {
-    "id": 1028,
-    "date": "2026-03-07",
-    "startingOrder": [
-      "ONE",
-      "THOU",
-      "SAND",
-      "THIS GAME",
-      "NEW",
-      "DATING APP",
-      "SINGLE",
-      "ROMEO",
-      "BUCK",
-      "ART",
-      "BOUNCY",
-      "AIRPORT",
-      "WHITE",
-      "WHEREFORE",
-      "INTERNET CAFE",
-      "DOLLAR"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "$1",
-        "members": [
-          "BUCK",
-          "DOLLAR",
-          "ONE",
-          "SINGLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"WHEREFORE ART THOU ROMEO?\"",
-        "members": [
-          "ART",
-          "ROMEO",
-          "THOU",
-          "WHEREFORE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS BEFORE \"CASTLE\"",
-        "members": [
-          "BOUNCY",
-          "NEW",
-          "SAND",
-          "WHITE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHERE YOU MIGHT MAKE A CONNECTION",
-        "members": [
-          {
-            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1028-1769015007651.svg",
-            "alt": "THIS GAME"
-          },
-          "AIRPORT",
-          "DATING APP",
-          "INTERNET CAFE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1083,
     "date": "2026-03-08",
     "startingOrder": [
@@ -1966,6 +1899,70 @@
           "MUSHROOM",
           "PASTEURIZE",
           "PULPIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1107,
+    "date": "2026-04-06",
+    "startingOrder": [
+      "SHARE",
+      "OLIVES",
+      "MALLET",
+      "HOP",
+      "MOLE",
+      "WICKET",
+      "BALL",
+      "STAKE",
+      "HOLES",
+      "RAVE",
+      "CAROUSER",
+      "CONCERN",
+      "EVITE",
+      "CLAIM",
+      "TIMER",
+      "HOEDOWN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "EVENTS WITH DANCING",
+        "members": [
+          "BALL",
+          "HOEDOWN",
+          "HOP",
+          "RAVE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "INTEREST",
+        "members": [
+          "CLAIM",
+          "CONCERN",
+          "SHARE",
+          "STAKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMPONENTS OF WHAC-A-MOLE",
+        "members": [
+          "HOLES",
+          "MALLET",
+          "MOLE",
+          "TIMER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSICALS WITH LAST LETTER CHANGED",
+        "members": [
+          "CAROUSER",
+          "EVITE",
+          "OLIVES",
+          "WICKET"
         ]
       }
     ]
