@@ -1,69 +1,5 @@
 [
   {
-    "id": 1083,
-    "date": "2026-03-08",
-    "startingOrder": [
-      "NICE",
-      "NADAL",
-      "ZIPPER",
-      "SELES",
-      "JACKET",
-      "OSAKA",
-      "JAW",
-      "SINNER",
-      "EYE",
-      "GREMLIN",
-      "PHOENIX",
-      "SQUATTER",
-      "REFER",
-      "TREMOR",
-      "ROTATOR",
-      "LIMA"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CITIES",
-        "members": [
-          "LIMA",
-          "NICE",
-          "OSAKA",
-          "PHOENIX"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PALINDROMES",
-        "members": [
-          "EYE",
-          "REFER",
-          "ROTATOR",
-          "SELES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HORROR MOVIES MINUS \"S\"",
-        "members": [
-          "GREMLIN",
-          "JAW",
-          "SINNER",
-          "TREMOR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SLANG FOR ZERO",
-        "members": [
-          "JACKET",
-          "NADAL",
-          "SQUATTER",
-          "ZIPPER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1077,
     "date": "2026-03-09",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "EVITE",
           "OLIVES",
           "WICKET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1117,
+    "date": "2026-04-07",
+    "startingOrder": [
+      "ONE",
+      "BATTLE",
+      "AFTER",
+      "ANOTHER",
+      "WILD",
+      "GAME",
+      "IN",
+      "MATCH",
+      "NIGHT",
+      "CLASH",
+      "DOWN",
+      "LOW",
+      "NEITHER",
+      "WILLING",
+      "EITHER",
+      "CONTEST"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COMPETITION",
+        "members": [
+          "BATTLE",
+          "CLASH",
+          "CONTEST",
+          "MATCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ON BOARD",
+        "members": [
+          "DOWN",
+          "GAME",
+          "IN",
+          "WILLING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS FOR UNSPECIFIED CHOICES",
+        "members": [
+          "ANOTHER",
+          "EITHER",
+          "NEITHER",
+          "ONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___LIFE",
+        "members": [
+          "AFTER",
+          "LOW",
+          "NIGHT",
+          "WILD"
         ]
       }
     ]
