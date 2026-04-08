@@ -1,69 +1,5 @@
 [
   {
-    "id": 1077,
-    "date": "2026-03-09",
-    "startingOrder": [
-      "BEAKER",
-      "VIDEO GAME",
-      "WEREWOLF",
-      "MICROSCOPE",
-      "MAFIA",
-      "WAREHOUSE",
-      "FISHBOWL",
-      "ANIMAL",
-      "SPOTLIGHT",
-      "COMPANY",
-      "GONZO",
-      "WEARABLE",
-      "E STREET BAND",
-      "HOT SEAT",
-      "WHEREFORE",
-      "FOZZIE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STARTING WITH THE SAME SOUND, SPELLED DIFFERENTLY",
-        "members": [
-          "WAREHOUSE",
-          "WEARABLE",
-          "WEREWOLF",
-          "WHEREFORE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "METAPHORS FOR PUBLIC SCRUTINY",
-        "members": [
-          "FISHBOWL",
-          "HOT SEAT",
-          "MICROSCOPE",
-          "SPOTLIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUPPETS",
-        "members": [
-          "ANIMAL",
-          "BEAKER",
-          "FOZZIE",
-          "GONZO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THEY FEATURE A BOSS",
-        "members": [
-          "COMPANY",
-          "E STREET BAND",
-          "MAFIA",
-          "VIDEO GAME"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1082,
     "date": "2026-03-10",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "LOW",
           "NIGHT",
           "WILD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1116,
+    "date": "2026-04-08",
+    "startingOrder": [
+      "SPECTACLE",
+      "SCHEME",
+      "ASSOCIATE",
+      "CONTACT",
+      "MONKEY",
+      "LOOK",
+      "SHADE",
+      "PEER",
+      "GOGGLE",
+      "DESIGN",
+      "PULL-UP",
+      "FELLOW",
+      "UNEVEN",
+      "COLLEAGUE",
+      "STYLE",
+      "PARALLEL"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COHORT MEMBER",
+        "members": [
+          "ASSOCIATE",
+          "COLLEAGUE",
+          "FELLOW",
+          "PEER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AESTHETIC",
+        "members": [
+          "DESIGN",
+          "LOOK",
+          "SCHEME",
+          "STYLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF BAR APPARATUSES",
+        "members": [
+          "MONKEY",
+          "PARALLEL",
+          "PULL-UP",
+          "UNEVEN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EYEWEAR IN THE SINGULAR",
+        "members": [
+          "CONTACT",
+          "GOGGLE",
+          "SHADE",
+          "SPECTACLE"
         ]
       }
     ]
