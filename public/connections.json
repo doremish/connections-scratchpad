@@ -1,69 +1,5 @@
 [
   {
-    "id": 1082,
-    "date": "2026-03-10",
-    "startingOrder": [
-      "MASS",
-      "GRAM",
-      "DUKE",
-      "TOAST",
-      "BROWN",
-      "UNC",
-      "WASH",
-      "SOCK",
-      "PENN",
-      "ROAST",
-      "POP",
-      "BOX",
-      "SLUG",
-      "SEAR",
-      "MISS",
-      "CUZ"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COOK WITH DRY HEAT",
-        "members": [
-          "BROWN",
-          "ROAST",
-          "SEAR",
-          "TOAST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMILIAL NICKNAMES",
-        "members": [
-          "CUZ",
-          "GRAM",
-          "POP",
-          "UNC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "U.S. STATE ABBREVIATIONS",
-        "members": [
-          "MASS",
-          "MISS",
-          "PENN",
-          "WASH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PUNCH",
-        "members": [
-          "BOX",
-          "DUKE",
-          "SLUG",
-          "SOCK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1084,
     "date": "2026-03-11",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "GOGGLE",
           "SHADE",
           "SPECTACLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1112,
+    "date": "2026-04-09",
+    "startingOrder": [
+      "RAM",
+      "JACK",
+      "RIP",
+      "GOAT",
+      "BLUE",
+      "YOKE",
+      "CREAM",
+      "LOW",
+      "FISH",
+      "DOWN",
+      "DARK",
+      "PASTE",
+      "SHRED",
+      "RUB",
+      "ARCHER",
+      "BALM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GLOOMY",
+        "members": [
+          "BLUE",
+          "DARK",
+          "DOWN",
+          "LOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OINTMENT",
+        "members": [
+          "BALM",
+          "CREAM",
+          "PASTE",
+          "RUB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ZODIAC SYMBOLS",
+        "members": [
+          "ARCHER",
+          "FISH",
+          "GOAT",
+          "RAM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSCULAR, MINUS \"ED\" SOUND",
+        "members": [
+          "JACK",
+          "RIP",
+          "SHRED",
+          "YOKE"
         ]
       }
     ]
