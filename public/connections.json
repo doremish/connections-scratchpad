@@ -1,69 +1,5 @@
 [
   {
-    "id": 1084,
-    "date": "2026-03-11",
-    "startingOrder": [
-      "DRESS",
-      "SNOW",
-      "PALM",
-      "JAZZ",
-      "YEW",
-      "LIFT",
-      "SPRUCE",
-      "TRAFFIC",
-      "PINE",
-      "POCKET",
-      "OUI",
-      "PINCH",
-      "HEE",
-      "ICE CREAM",
-      "SPIFF",
-      "MI"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STEAL",
-        "members": [
-          "LIFT",
-          "PALM",
-          "PINCH",
-          "POCKET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MAKE NICER, WITH \"UP\"",
-        "members": [
-          "DRESS",
-          "JAZZ",
-          "SPIFF",
-          "SPRUCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF CONES",
-        "members": [
-          "ICE CREAM",
-          "PINE",
-          "SNOW",
-          "TRAFFIC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PRONOUN HOMOPHONES",
-        "members": [
-          "HEE",
-          "MI",
-          "OUI",
-          "YEW"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1086,
     "date": "2026-03-12",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "RIP",
           "SHRED",
           "YOKE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1115,
+    "date": "2026-04-10",
+    "startingOrder": [
+      "GONZO",
+      "NUTTY",
+      "CAROLINA REAPER",
+      "JACK-IN-THE-BOX",
+      "SONIC",
+      "FIRM",
+      "TOASTER",
+      "CHIPOTLE",
+      "BELL PEPPER",
+      "EJECTOR SEAT",
+      "SWISS",
+      "BLUE",
+      "POP-UP BOOK",
+      "GENIE",
+      "HOLEY",
+      "PEPPERONCINO"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PEPPERS",
+        "members": [
+          "BELL PEPPER",
+          "CAROLINA REAPER",
+          "CHIPOTLE",
+          "PEPPERONCINO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT POP UP",
+        "members": [
+          "EJECTOR SEAT",
+          "JACK-IN-THE-BOX",
+          "POP-UP BOOK",
+          "TOASTER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DESCRIPTORS FOR SWISS CHEESE",
+        "members": [
+          "FIRM",
+          "HOLEY",
+          "NUTTY",
+          "SWISS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BLUE CHARACTERS",
+        "members": [
+          "BLUE",
+          "GENIE",
+          "GONZO",
+          "SONIC"
         ]
       }
     ]
