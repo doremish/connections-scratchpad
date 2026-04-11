@@ -1,69 +1,5 @@
 [
   {
-    "id": 1086,
-    "date": "2026-03-12",
-    "startingOrder": [
-      "CUCKOO CLOCK",
-      "SWING",
-      "STEP",
-      "SANDBOX",
-      "HOURGLASS",
-      "MEXICAN FLAG",
-      "METRONOME",
-      "WEATHER VANE",
-      "WINDSHIELD WIPER",
-      "BUNKER",
-      "SPIN",
-      "PENDULUM",
-      "DESERT",
-      "REFORMER",
-      "FROOT LOOPS",
-      "BARRE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PLACES TO FIND SAND",
-        "members": [
-          "BUNKER",
-          "DESERT",
-          "HOURGLASS",
-          "SANDBOX"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT MOVE BACK AND FORTH",
-        "members": [
-          "METRONOME",
-          "PENDULUM",
-          "SWING",
-          "WINDSHIELD WIPER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "APPARATUS-BASED EXERCISE CLASSES",
-        "members": [
-          "BARRE",
-          "REFORMER",
-          "SPIN",
-          "STEP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURING BIRDS",
-        "members": [
-          "CUCKOO CLOCK",
-          "FROOT LOOPS",
-          "MEXICAN FLAG",
-          "WEATHER VANE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1088,
     "date": "2026-03-13",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "GENIE",
           "GONZO",
           "SONIC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1118,
+    "date": "2026-04-11",
+    "startingOrder": [
+      "ANGEL",
+      "SNOWFLAKE",
+      "JACK",
+      "SCREWDRIVER",
+      "BOMBAY",
+      "STRUT",
+      "PATRON",
+      "BEAM",
+      "CHAMPION",
+      "CHELSEA",
+      "COLUMN",
+      "ICE SCRAPER",
+      "SPARE TIRE",
+      "BRACE",
+      "SPONSOR",
+      "JUMPER CABLES"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FOUND IN THE TRUNK OF A CAR",
+        "members": [
+          "ICE SCRAPER",
+          "JACK",
+          "JUMPER CABLES",
+          "SPARE TIRE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BENEFACTOR",
+        "members": [
+          "ANGEL",
+          "CHAMPION",
+          "PATRON",
+          "SPONSOR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STRUCTURAL SUPPORTS",
+        "members": [
+          "BEAM",
+          "BRACE",
+          "COLUMN",
+          "STRUT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN BODIES OF WATER",
+        "members": [
+          "BOMBAY",
+          "CHELSEA",
+          "SCREWDRIVER",
+          "SNOWFLAKE"
         ]
       }
     ]
