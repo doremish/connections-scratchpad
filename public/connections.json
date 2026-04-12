@@ -1,69 +1,5 @@
 [
   {
-    "id": 1088,
-    "date": "2026-03-13",
-    "startingOrder": [
-      "PERFECT",
-      "BRICK",
-      "PASS",
-      "NUN",
-      "GREAT",
-      "AWL",
-      "PRIME",
-      "SUM",
-      "PHEW",
-      "NAH",
-      "FOURTH",
-      "EVEN",
-      "NEXT TIME",
-      "BERLIN",
-      "IRRATIONAL",
-      "LATER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "\"NO THANKS\"",
-        "members": [
-          "LATER",
-          "NAH",
-          "NEXT TIME",
-          "PASS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF NUMBERS",
-        "members": [
-          "EVEN",
-          "IRRATIONAL",
-          "PERFECT",
-          "PRIME"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF WALLS",
-        "members": [
-          "BERLIN",
-          "BRICK",
-          "FOURTH",
-          "GREAT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF NON-NUMERIC AMOUNTS",
-        "members": [
-          "AWL",
-          "NUN",
-          "PHEW",
-          "SUM"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1079,
     "date": "2026-03-14",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CHELSEA",
           "SCREWDRIVER",
           "SNOWFLAKE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1125,
+    "date": "2026-04-12",
+    "startingOrder": [
+      "FLY",
+      "PAPER",
+      "TAKE",
+      "CAST",
+      "TROLL",
+      "PROJECT",
+      "POCKET",
+      "ANGLE",
+      "SHED",
+      "POSITION",
+      "RUSSIAN",
+      "CUFF",
+      "RAG",
+      "RADIATE",
+      "STANCE",
+      "BELT LOOP"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PANTS FEATURES",
+        "members": [
+          "BELT LOOP",
+          "CUFF",
+          "FLY",
+          "POCKET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PERSPECTIVE",
+        "members": [
+          "ANGLE",
+          "POSITION",
+          "STANCE",
+          "TAKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EMIT",
+        "members": [
+          "CAST",
+          "PROJECT",
+          "RADIATE",
+          "SHED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ DOLL",
+        "members": [
+          "PAPER",
+          "RAG",
+          "RUSSIAN",
+          "TROLL"
         ]
       }
     ]
