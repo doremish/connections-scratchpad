@@ -1,69 +1,5 @@
 [
   {
-    "id": 1089,
-    "date": "2026-03-15",
-    "startingOrder": [
-      "DOG",
-      "HOG",
-      "FROG",
-      "SPORK",
-      "COG",
-      "BLOG",
-      "SMOG",
-      "DOZE",
-      "HORN",
-      "GEAR",
-      "CORNER",
-      "MOTEL",
-      "MONOPOLIZE",
-      "PINION",
-      "BOGART",
-      "SPROCKET"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GREEDILY CONTROL",
-        "members": [
-          "BOGART",
-          "CORNER",
-          "HOG",
-          "MONOPOLIZE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TOOTHED WHEELS",
-        "members": [
-          "COG",
-          "GEAR",
-          "PINION",
-          "SPROCKET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PORTMANTEAUX",
-        "members": [
-          "BLOG",
-          "MOTEL",
-          "SMOG",
-          "SPORK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BULL___",
-        "members": [
-          "DOG",
-          "DOZE",
-          "FROG",
-          "HORN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1095,
     "date": "2026-03-16",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CAMERA LENS",
           "MUSHROOM",
           "PEN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1123,
+    "date": "2026-04-14",
+    "startingOrder": [
+      "ROUND",
+      "LIST",
+      "MASON",
+      "BOOKMARK",
+      "COOKIE",
+      "LANCE",
+      "BELL",
+      "WAY",
+      "TIP",
+      "GLOVES",
+      "STYLE",
+      "CACHE",
+      "RING",
+      "PITCH",
+      "HISTORY",
+      "LEAN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS STORED BY A BROWSER",
+        "members": [
+          "BOOKMARK",
+          "CACHE",
+          "COOKIE",
+          "HISTORY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BOXING TERMS",
+        "members": [
+          "BELL",
+          "GLOVES",
+          "RING",
+          "ROUND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TILT",
+        "members": [
+          "LEAN",
+          "LIST",
+          "PITCH",
+          "TIP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FREE___",
+        "members": [
+          "LANCE",
+          "MASON",
+          "STYLE",
+          "WAY"
         ]
       }
     ]
