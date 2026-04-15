@@ -1,69 +1,5 @@
 [
   {
-    "id": 1095,
-    "date": "2026-03-16",
-    "startingOrder": [
-      "OKAY",
-      "SLOTH",
-      "ANY",
-      "TWO",
-      "WRATH",
-      "TRAFFIC",
-      "PRIDE",
-      "ENVY",
-      "CARTWRIGHT",
-      "MOLASSES",
-      "WRESTLE",
-      "PACK",
-      "POD",
-      "EMMY",
-      "GAGGLE",
-      "GLACIER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ANIMAL GROUP NAMES",
-        "members": [
-          "GAGGLE",
-          "PACK",
-          "POD",
-          "PRIDE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS ASSOCIATED WITH BEING SLOW",
-        "members": [
-          "GLACIER",
-          "MOLASSES",
-          "SLOTH",
-          "TRAFFIC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SILENT \"W\"",
-        "members": [
-          "CARTWRIGHT",
-          "TWO",
-          "WRATH",
-          "WRESTLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS THAT SOUND LIKE STATE ABBREVIATIONS",
-        "members": [
-          "ANY",
-          "EMMY",
-          "ENVY",
-          "OKAY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1094,
     "date": "2026-03-17",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "MASON",
           "STYLE",
           "WAY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1119,
+    "date": "2026-04-15",
+    "startingOrder": [
+      "TASSEL",
+      "CROWN",
+      "GOWN",
+      "HASSLE",
+      "FLIP",
+      "GRIND",
+      "CASTLE",
+      "FACILE",
+      "TRIAL",
+      "CAP",
+      "TRITE",
+      "HORSE",
+      "SHALLOW",
+      "MITER",
+      "CHORE",
+      "DIPLOMA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GRADUATION GEAR",
+        "members": [
+          "CAP",
+          "DIPLOMA",
+          "GOWN",
+          "TASSEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TEDIOUS UNDERTAKING",
+        "members": [
+          "CHORE",
+          "GRIND",
+          "HASSLE",
+          "TRIAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OVERSIMPLISTIC",
+        "members": [
+          "FACILE",
+          "FLIP",
+          "SHALLOW",
+          "TRITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SHAPES OF CHESS PIECES",
+        "members": [
+          "CASTLE",
+          "CROWN",
+          "HORSE",
+          "MITER"
         ]
       }
     ]
