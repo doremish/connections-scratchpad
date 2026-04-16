@@ -1,69 +1,5 @@
 [
   {
-    "id": 1094,
-    "date": "2026-03-17",
-    "startingOrder": [
-      "KITE",
-      "WIND",
-      "HOT WATER",
-      "KEY",
-      "TEA BAG",
-      "LIGHTNING",
-      "BALLOON",
-      "JAM",
-      "PITCH",
-      "ARROW",
-      "BIND",
-      "SCALE",
-      "YO-YO",
-      "TONE",
-      "ROCKET",
-      "PICKLE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "METAPHORS FOR TROUBLE",
-        "members": [
-          "BIND",
-          "HOT WATER",
-          "JAM",
-          "PICKLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSIC THEORY CONCEPTS",
-        "members": [
-          "KEY",
-          "PITCH",
-          "SCALE",
-          "TONE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH STRINGS",
-        "members": [
-          "BALLOON",
-          "KITE",
-          "TEA BAG",
-          "YO-YO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "METAPHORS FOR QUICKNESS",
-        "members": [
-          "ARROW",
-          "LIGHTNING",
-          "ROCKET",
-          "WIND"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1093,
     "date": "2026-03-18",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CROWN",
           "HORSE",
           "MITER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1120,
+    "date": "2026-04-16",
+    "startingOrder": [
+      "COOL",
+      "WHIP",
+      "MASK",
+      "RIDE",
+      "NEEDLE",
+      "CAMP",
+      "FAN",
+      "WHEELS",
+      "AUTO",
+      "BODYSUIT",
+      "HEAT",
+      "ROAST",
+      "DAY",
+      "CLAWS",
+      "BRA",
+      "RIB"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TEASE",
+        "members": [
+          "NEEDLE",
+          "RIB",
+          "RIDE",
+          "ROAST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THERMOSTAT SETTINGS",
+        "members": [
+          "AUTO",
+          "COOL",
+          "FAN",
+          "HEAT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF A CATWOMAN COSTUME",
+        "members": [
+          "BODYSUIT",
+          "CLAWS",
+          "MASK",
+          "WHIP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TRAINING ___",
+        "members": [
+          "BRA",
+          "CAMP",
+          "DAY",
+          "WHEELS"
         ]
       }
     ]
