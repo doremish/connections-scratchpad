@@ -1,69 +1,5 @@
 [
   {
-    "id": 1093,
-    "date": "2026-03-18",
-    "startingOrder": [
-      "SPELL",
-      "YELL",
-      "RAIN",
-      "COAT",
-      "WHAMMY",
-      "STRETCH",
-      "CURSE",
-      "WAH",
-      "WINCE",
-      "BLANK",
-      "PATCH",
-      "HOP",
-      "DELAY",
-      "REALITY",
-      "REVERB",
-      "PERIOD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "INTERVAL",
-        "members": [
-          "PATCH",
-          "PERIOD",
-          "SPELL",
-          "STRETCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "REACT TO A STUBBED TOE",
-        "members": [
-          "CURSE",
-          "HOP",
-          "WINCE",
-          "YELL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GUITAR EFFECTS PEDALS",
-        "members": [
-          "DELAY",
-          "REVERB",
-          "WAH",
-          "WHAMMY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ CHECK",
-        "members": [
-          "BLANK",
-          "COAT",
-          "RAIN",
-          "REALITY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1085,
     "date": "2026-03-19",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CAMP",
           "DAY",
           "WHEELS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1132,
+    "date": "2026-04-17",
+    "startingOrder": [
+      "DOMINANT",
+      "KEY",
+      "ROOT",
+      "TAN",
+      "TONIC",
+      "STEM",
+      "HAMMER",
+      "GENERAL",
+      "BULB",
+      "SODA",
+      "COMMON",
+      "STRING",
+      "STORMY",
+      "LEAF",
+      "PEDAL",
+      "POPULAR"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "VEGETABLE PARTS",
+        "members": [
+          "BULB",
+          "LEAF",
+          "ROOT",
+          "STEM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PREVAILING",
+        "members": [
+          "COMMON",
+          "DOMINANT",
+          "GENERAL",
+          "POPULAR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A PIANO",
+        "members": [
+          "HAMMER",
+          "KEY",
+          "PEDAL",
+          "STRING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SECOND HALVES OF DRINK NAMES",
+        "members": [
+          "SODA",
+          "STORMY",
+          "TAN",
+          "TONIC"
         ]
       }
     ]
