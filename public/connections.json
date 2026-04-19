@@ -1,69 +1,5 @@
 [
   {
-    "id": 1092,
-    "date": "2026-03-20",
-    "startingOrder": [
-      "LUXURY",
-      "SIREN",
-      "CHANCE",
-      "CARTON",
-      "ALARM",
-      "TIMER",
-      "SHAKE",
-      "PARKING",
-      "RATTLE",
-      "FURY",
-      "ROLL",
-      "CONCERN",
-      "NOODLE",
-      "MUSE",
-      "BOARDWALK",
-      "FATE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DISTURB",
-        "members": [
-          "ALARM",
-          "CONCERN",
-          "RATTLE",
-          "SHAKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS ON A MONOPOLY BOARD",
-        "members": [
-          "BOARDWALK",
-          "CHANCE",
-          "LUXURY",
-          "PARKING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FIGURE IN GREEK MYTH",
-        "members": [
-          "FATE",
-          "FURY",
-          "MUSE",
-          "SIREN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EGG ___",
-        "members": [
-          "CARTON",
-          "NOODLE",
-          "ROLL",
-          "TIMER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1098,
     "date": "2026-03-21",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "FANTAGRAPHICS",
           "FRESCADE",
           "PEPSINOGEN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1122,
+    "date": "2026-04-19",
+    "startingOrder": [
+      "MINT",
+      "ARCH",
+      "DUD",
+      "HOLE",
+      "FRESH",
+      "BUST",
+      "KID",
+      "FLOP",
+      "WAIST",
+      "WISE",
+      "RIVER",
+      "SASSY",
+      "TURN",
+      "LENGTH",
+      "CAP",
+      "HIPS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CHEEKY",
+        "members": [
+          "ARCH",
+          "FRESH",
+          "SASSY",
+          "WISE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DRESS MEASUREMENTS",
+        "members": [
+          "BUST",
+          "HIPS",
+          "LENGTH",
+          "WAIST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CARDS IN TEXAS HOLD 'EM",
+        "members": [
+          "FLOP",
+          "HOLE",
+          "RIVER",
+          "TURN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LAST WORDS OF CANDY BRANDS IN THE SINGULAR",
+        "members": [
+          "CAP",
+          "DUD",
+          "KID",
+          "MINT"
         ]
       }
     ]
