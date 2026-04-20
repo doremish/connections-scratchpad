@@ -1,69 +1,5 @@
 [
   {
-    "id": 1098,
-    "date": "2026-03-21",
-    "startingOrder": [
-      "POUND",
-      "PLAIN",
-      "OBJECT",
-      "CROWN",
-      "JUMP",
-      "MARK",
-      "FRANK",
-      "RICH",
-      "GOAL",
-      "STRAIGHT",
-      "POINT",
-      "BISHOP",
-      "KING",
-      "BLUNT",
-      "FROST",
-      "CAPTURE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DIRECT",
-        "members": [
-          "BLUNT",
-          "FRANK",
-          "PLAIN",
-          "STRAIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TARGET",
-        "members": [
-          "GOAL",
-          "MARK",
-          "OBJECT",
-          "POINT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CHECKERS TERMS",
-        "members": [
-          "CAPTURE",
-          "CROWN",
-          "JUMP",
-          "KING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "20TH CENTURY AMERICAN POETS",
-        "members": [
-          "BISHOP",
-          "FROST",
-          "POUND",
-          "RICH"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1097,
     "date": "2026-03-22",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "DUD",
           "KID",
           "MINT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1130,
+    "date": "2026-04-20",
+    "startingOrder": [
+      "CYBER",
+      "HOURGLASS",
+      "BLUE",
+      "CLOUD",
+      "ROD",
+      "WEB",
+      "MANIC",
+      "NET",
+      "PUFF",
+      "VENOM",
+      "HOOK",
+      "BILLOW",
+      "BAIT",
+      "PLUME",
+      "MEATLESS",
+      "CANNIBALISM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "MASS OF SMOKE",
+        "members": [
+          "BILLOW",
+          "CLOUD",
+          "PLUME",
+          "PUFF"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FISHING GEAR",
+        "members": [
+          "BAIT",
+          "HOOK",
+          "NET",
+          "ROD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSOCIATED WITH BLACK WIDOW SPIDERS",
+        "members": [
+          "CANNIBALISM",
+          "HOURGLASS",
+          "VENOM",
+          "WEB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ MONDAY",
+        "members": [
+          "BLUE",
+          "CYBER",
+          "MANIC",
+          "MEATLESS"
         ]
       }
     ]
