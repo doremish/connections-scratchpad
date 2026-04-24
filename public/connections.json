@@ -1,69 +1,5 @@
 [
   {
-    "id": 1101,
-    "date": "2026-03-25",
-    "startingOrder": [
-      "WIRE",
-      "QUARK",
-      "CLOUD",
-      "PING",
-      "SPIN",
-      "OBSCURE",
-      "CHARGE",
-      "FORTUNE",
-      "CHECK",
-      "TIME",
-      "GALLOP",
-      "BLUR",
-      "MUDDY",
-      "PEOPLE",
-      "CASH",
-      "CUR"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "OBFUSCATE",
-        "members": [
-          "BLUR",
-          "CLOUD",
-          "MUDDY",
-          "OBSCURE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MAGAZINES",
-        "members": [
-          "FORTUNE",
-          "PEOPLE",
-          "SPIN",
-          "TIME"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PAYMENT METHODS",
-        "members": [
-          "CASH",
-          "CHARGE",
-          "CHECK",
-          "WIRE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "UNITS OF VOLUME WITH LAST LETTER CHANGED",
-        "members": [
-          "CUR",
-          "GALLOP",
-          "PING",
-          "QUARK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1100,
     "date": "2026-03-26",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "DEVOTE",
           "TOTORO",
           "WHAMMY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1138,
+    "date": "2026-04-24",
+    "startingOrder": [
+      "TOMATO SAUCE",
+      "HELICOPTER",
+      "TAXI",
+      "INTELLIGENCE",
+      "ICE SKATES",
+      "RED WINE",
+      "GRASS",
+      "LAWN MOWER",
+      "INK",
+      "CABIN",
+      "DOUGH",
+      "SUCTION CUPS",
+      "CHEESE",
+      "CALLOWAY",
+      "ARMS",
+      "PEPPERONI"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PIZZA INGREDIENTS",
+        "members": [
+          "CHEESE",
+          "DOUGH",
+          "PEPPERONI",
+          "TOMATO SAUCE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSOCIATED WITH OCTOPUSES",
+        "members": [
+          "ARMS",
+          "INK",
+          "INTELLIGENCE",
+          "SUCTION CUPS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THEY HAVE BLADES",
+        "members": [
+          "GRASS",
+          "HELICOPTER",
+          "ICE SKATES",
+          "LAWN MOWER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"CAB\" MIGHT REFER TO",
+        "members": [
+          "CABIN",
+          "CALLOWAY",
+          "RED WINE",
+          "TAXI"
         ]
       }
     ]
