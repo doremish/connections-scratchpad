@@ -1,69 +1,5 @@
 [
   {
-    "id": 1100,
-    "date": "2026-03-26",
-    "startingOrder": [
-      "FISHING",
-      "LOCK",
-      "TIGER",
-      "CURTAIN",
-      "LIGHTNING",
-      "AGRICULTURE",
-      "LEVER",
-      "PISTON",
-      "GATHERING",
-      "BOOTH",
-      "FRANKENSTEIN'S MONSTER",
-      "HUNTING",
-      "LION",
-      "BALLOT",
-      "HARDWARE STORE",
-      "RED WING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FOOD PROCUREMENT METHODS",
-        "members": [
-          "AGRICULTURE",
-          "FISHING",
-          "GATHERING",
-          "HUNTING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MEMBER OF A DETROIT SPORTS TEAM",
-        "members": [
-          "LION",
-          "PISTON",
-          "RED WING",
-          "TIGER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF A CLASSIC VOTING BOOTH",
-        "members": [
-          "BALLOT",
-          "BOOTH",
-          "CURTAIN",
-          "LEVER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THEY HAVE BOLTS",
-        "members": [
-          "FRANKENSTEIN'S MONSTER",
-          "HARDWARE STORE",
-          "LIGHTNING",
-          "LOCK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1087,
     "date": "2026-03-27",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CALLOWAY",
           "RED WINE",
           "TAXI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1126,
+    "date": "2026-04-25",
+    "startingOrder": [
+      "HAYSTACK",
+      "PITCHFORK",
+      "COPPER",
+      "OCEAN",
+      "CAST IRON",
+      "ENAMEL",
+      "HURLY-BURLY",
+      "NAIL",
+      "DICK",
+      "CHUCK E. CHEESE",
+      "HAIR",
+      "CROWD",
+      "GUMSHOE",
+      "SKIN",
+      "MILLION",
+      "FLATFOOT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BODY COVERINGS",
+        "members": [
+          "ENAMEL",
+          "HAIR",
+          "NAIL",
+          "SKIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MASSES, IN IDIOMS",
+        "members": [
+          "CROWD",
+          "HAYSTACK",
+          "MILLION",
+          "OCEAN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OLD TIMEY SLANG FOR LAW ENFORCEMENT",
+        "members": [
+          "COPPER",
+          "DICK",
+          "FLATFOOT",
+          "GUMSHOE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SYNONYMS FOR \"THROW\"",
+        "members": [
+          "CAST IRON",
+          "CHUCK E. CHEESE",
+          "HURLY-BURLY",
+          "PITCHFORK"
         ]
       }
     ]
