@@ -1,69 +1,5 @@
 [
   {
-    "id": 1087,
-    "date": "2026-03-27",
-    "startingOrder": [
-      "TURN SIGNAL",
-      "TRAFFIC CONE",
-      "BRASS TACKS",
-      "FOOD COURT",
-      "THE LORAX",
-      "LIP SERVICE",
-      "TICKET COUNTER",
-      "BOTTOM LINE",
-      "DUTY-FREE",
-      "NITTY-GRITTY",
-      "MONARCH BUTTERFLY",
-      "MONKEY BARS",
-      "WEDDING RECEPTION",
-      "GOLDFISH CRACKER",
-      "BAGGAGE CLAIM",
-      "BASIC FACTS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "WHAT IT ALL BOILS DOWN TO",
-        "members": [
-          "BASIC FACTS",
-          "BOTTOM LINE",
-          "BRASS TACKS",
-          "NITTY-GRITTY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF AN AIRPORT TERMINAL",
-        "members": [
-          "BAGGAGE CLAIM",
-          "DUTY-FREE",
-          "FOOD COURT",
-          "TICKET COUNTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE ORANGE",
-        "members": [
-          "GOLDFISH CRACKER",
-          "MONARCH BUTTERFLY",
-          "THE LORAX",
-          "TRAFFIC CONE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN WORDS FOR CELLULAR CONNECTIVITY",
-        "members": [
-          "LIP SERVICE",
-          "MONKEY BARS",
-          "TURN SIGNAL",
-          "WEDDING RECEPTION"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1108,
     "date": "2026-03-28",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "CHUCK E. CHEESE",
           "HURLY-BURLY",
           "PITCHFORK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1140,
+    "date": "2026-04-26",
+    "startingOrder": [
+      "SPOT",
+      "CLIFF",
+      "PITCH",
+      "BUILDING",
+      "MOTHER",
+      "CLOCK",
+      "CATCH",
+      "STRINGS",
+      "REGISTER",
+      "FINE PRINT",
+      "JANE",
+      "TONE",
+      "POLYHEDRON",
+      "CAVEAT",
+      "RANGE",
+      "DICK"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STIPULATION",
+        "members": [
+          "CATCH",
+          "CAVEAT",
+          "FINE PRINT",
+          "STRINGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "VOCAL CHARACTERISTICS",
+        "members": [
+          "PITCH",
+          "RANGE",
+          "REGISTER",
+          "TONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CHARACTERS IN \"DICK AND JANE\"",
+        "members": [
+          "DICK",
+          "JANE",
+          "MOTHER",
+          "SPOT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH FACES",
+        "members": [
+          "BUILDING",
+          "CLIFF",
+          "CLOCK",
+          "POLYHEDRON"
         ]
       }
     ]
