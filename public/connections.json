@@ -1,69 +1,5 @@
 [
   {
-    "id": 1105,
-    "date": "2026-03-29",
-    "startingOrder": [
-      "GRAFFITI",
-      "RECEIPT",
-      "STRETCH",
-      "HUSTLE",
-      "PSYCHO",
-      "ROBOT",
-      "BEAUTY",
-      "STENCIL",
-      "POSTER",
-      "CORPS",
-      "TWIST",
-      "QUESTION",
-      "CHECK",
-      "MASHED POTATO",
-      "MURAL",
-      "COUP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "IMAGES SEEN ON THE STREET",
-        "members": [
-          "GRAFFITI",
-          "MURAL",
-          "POSTER",
-          "STENCIL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RETRO DANCE CRAZES",
-        "members": [
-          "HUSTLE",
-          "MASHED POTATO",
-          "ROBOT",
-          "TWIST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SILENT \"P\"",
-        "members": [
-          "CORPS",
-          "COUP",
-          "PSYCHO",
-          "RECEIPT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ MARK",
-        "members": [
-          "BEAUTY",
-          "CHECK",
-          "QUESTION",
-          "STRETCH"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1110,
     "date": "2026-03-30",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "REGINA KING",
           "ROE BUCK",
           "ROTARY CLIPPER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1139,
+    "date": "2026-04-28",
+    "startingOrder": [
+      "CALL",
+      "TAN",
+      "DRY",
+      "FLOWER",
+      "CHECK",
+      "DIAL",
+      "FOLD",
+      "BID",
+      "MATCH",
+      "SORT",
+      "STAMP",
+      "APPEAL",
+      "WASH",
+      "SCREEN",
+      "REQUEST",
+      "COUPON"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ENTREATY",
+        "members": [
+          "APPEAL",
+          "BID",
+          "CALL",
+          "REQUEST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LAUNDRY DAY VERBS",
+        "members": [
+          "DRY",
+          "FOLD",
+          "SORT",
+          "WASH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT COME IN \"BOOKS\"",
+        "members": [
+          "CHECK",
+          "COUPON",
+          "MATCH",
+          "STAMP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SUN___",
+        "members": [
+          "DIAL",
+          "FLOWER",
+          "SCREEN",
+          "TAN"
         ]
       }
     ]
