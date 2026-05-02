@@ -1,69 +1,5 @@
 [
   {
-    "id": 1106,
-    "date": "2026-04-02",
-    "startingOrder": [
-      "STALLION",
-      "CHAMPION",
-      "SECOND",
-      "CHANCE",
-      "MIGOS",
-      "MOMENT",
-      "BACK",
-      "CARDI",
-      "DRAKE",
-      "EATER",
-      "OPENING",
-      "ENDORSE",
-      "WINDOW",
-      "BUCK",
-      "MESON",
-      "DRONE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SUPPORT",
-        "members": [
-          "BACK",
-          "CHAMPION",
-          "ENDORSE",
-          "SECOND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OPPORTUNITY",
-        "members": [
-          "CHANCE",
-          "MOMENT",
-          "OPENING",
-          "WINDOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MALE ANIMALS",
-        "members": [
-          "BUCK",
-          "DRAKE",
-          "DRONE",
-          "STALLION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDS OF LIQUOR BRANDS",
-        "members": [
-          "CARDI",
-          "EATER",
-          "MESON",
-          "MIGOS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1104,
     "date": "2026-04-03",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MIX",
           "POUR",
           "WIGHT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1124,
+    "date": "2026-05-02",
+    "startingOrder": [
+      "POST-IT",
+      "TREASURY",
+      "HERALDRY",
+      "PLAY",
+      "INTERIOR",
+      "MUSICAL",
+      "MENTAL",
+      "STATE",
+      "TIMES TABLES",
+      "EDUCATION",
+      "OPERA",
+      "PSYCHIC",
+      "EXTRASENSORY",
+      "GLOBETROTTER",
+      "TELEPATHIC",
+      "BALLET"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CLAIRVOYANT",
+        "members": [
+          "EXTRASENSORY",
+          "MENTAL",
+          "PSYCHIC",
+          "TELEPATHIC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STAGED PERFORMANCES",
+        "members": [
+          "BALLET",
+          "MUSICAL",
+          "OPERA",
+          "PLAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U.S. CABINET DEPARTMENTS",
+        "members": [
+          "EDUCATION",
+          "INTERIOR",
+          "STATE",
+          "TREASURY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH NEWSPAPER NAMES",
+        "members": [
+          "GLOBETROTTER",
+          "HERALDRY",
+          "POST-IT",
+          "TIMES TABLES"
         ]
       }
     ]
