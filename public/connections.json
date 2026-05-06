@@ -1,69 +1,5 @@
 [
   {
-    "id": 1107,
-    "date": "2026-04-06",
-    "startingOrder": [
-      "SHARE",
-      "OLIVES",
-      "MALLET",
-      "HOP",
-      "MOLE",
-      "WICKET",
-      "BALL",
-      "STAKE",
-      "HOLES",
-      "RAVE",
-      "CAROUSER",
-      "CONCERN",
-      "EVITE",
-      "CLAIM",
-      "TIMER",
-      "HOEDOWN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EVENTS WITH DANCING",
-        "members": [
-          "BALL",
-          "HOEDOWN",
-          "HOP",
-          "RAVE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "INTEREST",
-        "members": [
-          "CLAIM",
-          "CONCERN",
-          "SHARE",
-          "STAKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMPONENTS OF WHAC-A-MOLE",
-        "members": [
-          "HOLES",
-          "MALLET",
-          "MOLE",
-          "TIMER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSICALS WITH LAST LETTER CHANGED",
-        "members": [
-          "CAROUSER",
-          "EVITE",
-          "OLIVES",
-          "WICKET"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1117,
     "date": "2026-04-07",
     "startingOrder": [
@@ -1915,6 +1851,118 @@
           "MATCHSTICK",
           "POINTER",
           "SETBACK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "date": "2026-05-06",
+    "startingOrder": [
+      "HORIZONTAL TRISECTION",
+      "ZIPPER",
+      "DICE",
+      "SCORECARD",
+      "SLOT MACHINE",
+      "BUTTON",
+      "BOWLING BALL",
+      "CIRCLE",
+      "BOWLING PINS",
+      "VERTICAL TRISECTION",
+      "CARDS",
+      "LACES",
+      "BUCKLE",
+      "CHIPS",
+      "HORIZONTAL BISECTION",
+      "LANE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FOUND IN A CASINO",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768338601511.svg",
+            "alt": "SLOT MACHINE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1769619343646.svg",
+            "alt": "CARDS"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768338555487.svg",
+            "alt": "DICE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1769619369255.svg",
+            "alt": "CHIPS"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WAYS TO FASTEN THINGS",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339307328.svg",
+            "alt": "ZIPPER"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339327872.svg",
+            "alt": "BUTTON"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1769619387657.svg",
+            "alt": "LACES"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1770417205802.svg",
+            "alt": "BUCKLE"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SEEN IN A BOWLING ALLEY",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339374975.svg",
+            "alt": "SCORECARD"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339396621.svg",
+            "alt": "BOWLING BALL"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339413784.svg",
+            "alt": "BOWLING PINS"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339435921.svg",
+            "alt": "LANE"
+          }
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FLAG DESIGNS",
+        "members": [
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1769619422743.svg",
+            "alt": "HORIZONTAL TRISECTION"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339797615.svg",
+            "alt": "CIRCLE"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1768339807133.svg",
+            "alt": "VERTICAL TRISECTION"
+          },
+          {
+            "image_url": "https://games-phoenix-assets-prd.s3.us-east-1.amazonaws.com/images/connections/img-1027-1769619436812.svg",
+            "alt": "HORIZONTAL BISECTION"
+          }
         ]
       }
     ]
