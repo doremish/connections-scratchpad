@@ -1,69 +1,5 @@
 [
   {
-    "id": 1112,
-    "date": "2026-04-09",
-    "startingOrder": [
-      "RAM",
-      "JACK",
-      "RIP",
-      "GOAT",
-      "BLUE",
-      "YOKE",
-      "CREAM",
-      "LOW",
-      "FISH",
-      "DOWN",
-      "DARK",
-      "PASTE",
-      "SHRED",
-      "RUB",
-      "ARCHER",
-      "BALM"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GLOOMY",
-        "members": [
-          "BLUE",
-          "DARK",
-          "DOWN",
-          "LOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OINTMENT",
-        "members": [
-          "BALM",
-          "CREAM",
-          "PASTE",
-          "RUB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ZODIAC SYMBOLS",
-        "members": [
-          "ARCHER",
-          "FISH",
-          "GOAT",
-          "RAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSCULAR, MINUS \"ED\" SOUND",
-        "members": [
-          "JACK",
-          "RIP",
-          "SHRED",
-          "YOKE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1115,
     "date": "2026-04-10",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "FILM NERD",
           "MEMENTO",
           "PITCHER'S MOUND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1144,
+    "date": "2026-05-09",
+    "startingOrder": [
+      "PUFF",
+      "EPISODE",
+      "TIE",
+      "SHOELACES",
+      "PERIOD",
+      "CHAIN",
+      "SEASON",
+      "THINK",
+      "LANYARD",
+      "FRIENDSHIP BRACELET",
+      "CONVERSATION",
+      "SERIES",
+      "QUIPU",
+      "BOA",
+      "FRANCHISE",
+      "MACRAMÉ"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "UNITS OF TV PROGRAMS",
+        "members": [
+          "EPISODE",
+          "FRANCHISE",
+          "SEASON",
+          "SERIES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WORN AROUND THE NECK",
+        "members": [
+          "BOA",
+          "CHAIN",
+          "LANYARD",
+          "TIE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STRINGS TIED IN KNOTS",
+        "members": [
+          "FRIENDSHIP BRACELET",
+          "MACRAMÉ",
+          "QUIPU",
+          "SHOELACES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ PIECE",
+        "members": [
+          "CONVERSATION",
+          "PERIOD",
+          "PUFF",
+          "THINK"
         ]
       }
     ]
