@@ -1,69 +1,5 @@
 [
   {
-    "id": 1118,
-    "date": "2026-04-11",
-    "startingOrder": [
-      "ANGEL",
-      "SNOWFLAKE",
-      "JACK",
-      "SCREWDRIVER",
-      "BOMBAY",
-      "STRUT",
-      "PATRON",
-      "BEAM",
-      "CHAMPION",
-      "CHELSEA",
-      "COLUMN",
-      "ICE SCRAPER",
-      "SPARE TIRE",
-      "BRACE",
-      "SPONSOR",
-      "JUMPER CABLES"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FOUND IN THE TRUNK OF A CAR",
-        "members": [
-          "ICE SCRAPER",
-          "JACK",
-          "JUMPER CABLES",
-          "SPARE TIRE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BENEFACTOR",
-        "members": [
-          "ANGEL",
-          "CHAMPION",
-          "PATRON",
-          "SPONSOR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STRUCTURAL SUPPORTS",
-        "members": [
-          "BEAM",
-          "BRACE",
-          "COLUMN",
-          "STRUT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN BODIES OF WATER",
-        "members": [
-          "BOMBAY",
-          "CHELSEA",
-          "SCREWDRIVER",
-          "SNOWFLAKE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1125,
     "date": "2026-04-12",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "FOUNTAIN",
           "LEAP",
           "SEASON"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1145,
+    "date": "2026-05-11",
+    "startingOrder": [
+      "COLOR",
+      "CREEP",
+      "SHANDY",
+      "KARMA",
+      "KNIVES OUT",
+      "SLIP",
+      "PYRAMID",
+      "RHYME",
+      "STEAL",
+      "CHINATOWN",
+      "KEYED",
+      "SNEAK",
+      "SEVEN",
+      "PONZI",
+      "ELEGY",
+      "VERTIGO"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "MOVE STEALTHILY, WITH \"IN\"",
+        "members": [
+          "CREEP",
+          "SLIP",
+          "SNEAK",
+          "STEAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SCHEMES",
+        "members": [
+          "COLOR",
+          "PONZI",
+          "PYRAMID",
+          "RHYME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DETECTIVE MOVIES",
+        "members": [
+          "CHINATOWN",
+          "KNIVES OUT",
+          "SEVEN",
+          "VERTIGO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BODY PARTS SURROUNDED BY TWO LETTERS",
+        "members": [
+          "ELEGY",
+          "KARMA",
+          "KEYED",
+          "SHANDY"
         ]
       }
     ]
