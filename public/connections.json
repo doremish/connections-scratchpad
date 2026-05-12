@@ -1,69 +1,5 @@
 [
   {
-    "id": 1125,
-    "date": "2026-04-12",
-    "startingOrder": [
-      "FLY",
-      "PAPER",
-      "TAKE",
-      "CAST",
-      "TROLL",
-      "PROJECT",
-      "POCKET",
-      "ANGLE",
-      "SHED",
-      "POSITION",
-      "RUSSIAN",
-      "CUFF",
-      "RAG",
-      "RADIATE",
-      "STANCE",
-      "BELT LOOP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PANTS FEATURES",
-        "members": [
-          "BELT LOOP",
-          "CUFF",
-          "FLY",
-          "POCKET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PERSPECTIVE",
-        "members": [
-          "ANGLE",
-          "POSITION",
-          "STANCE",
-          "TAKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EMIT",
-        "members": [
-          "CAST",
-          "PROJECT",
-          "RADIATE",
-          "SHED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ DOLL",
-        "members": [
-          "PAPER",
-          "RAG",
-          "RUSSIAN",
-          "TROLL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1113,
     "date": "2026-04-13",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "KARMA",
           "KEYED",
           "SHANDY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1154,
+    "date": "2026-05-12",
+    "startingOrder": [
+      "WEEKEND",
+      "RANDO",
+      "PAULO",
+      "FRANCI",
+      "JOHNS",
+      "MONICA",
+      "WORK",
+      "WONK",
+      "TOME",
+      "SALVADOR",
+      "DIVISION",
+      "VOLUME",
+      "DISTANCE",
+      "OPUS",
+      "REALM",
+      "PETERSBURG"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SUBSTANTIAL BOOK",
+        "members": [
+          "OPUS",
+          "TOME",
+          "VOLUME",
+          "WORK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"SAINT\" CITIES",
+        "members": [
+          "MONICA",
+          "PAULO",
+          "PETERSBURG",
+          "SALVADOR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"LONG\" THINGS",
+        "members": [
+          "DISTANCE",
+          "DIVISION",
+          "JOHNS",
+          "WEEKEND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CURRENCIES PLUS A LETTER",
+        "members": [
+          "FRANCI",
+          "RANDO",
+          "REALM",
+          "WONK"
         ]
       }
     ]
