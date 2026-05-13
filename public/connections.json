@@ -1,69 +1,5 @@
 [
   {
-    "id": 1113,
-    "date": "2026-04-13",
-    "startingOrder": [
-      "MAGIC WAND",
-      "VELVET ROPE",
-      "MUSHROOM",
-      "CAPE",
-      "LASSO",
-      "HANDKERCHIEF",
-      "MARQUEE",
-      "HOUSE",
-      "PEN",
-      "BOX OFFICE",
-      "CAMERA LENS",
-      "TICKET LINE",
-      "MONTANA",
-      "BASEBALL PLAYER",
-      "SOPRANO",
-      "RABBIT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SEEN OUTSIDE A THEATER",
-        "members": [
-          "BOX OFFICE",
-          "MARQUEE",
-          "TICKET LINE",
-          "VELVET ROPE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ACCESSORIES FOR A MAGICIAN",
-        "members": [
-          "CAPE",
-          "HANDKERCHIEF",
-          "MAGIC WAND",
-          "RABBIT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TV SHOW TITLE SURNAMES",
-        "members": [
-          "HOUSE",
-          "LASSO",
-          "MONTANA",
-          "SOPRANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THEY HAVE CAPS",
-        "members": [
-          "BASEBALL PLAYER",
-          "CAMERA LENS",
-          "MUSHROOM",
-          "PEN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1123,
     "date": "2026-04-14",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "RANDO",
           "REALM",
           "WONK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1150,
+    "date": "2026-05-13",
+    "startingOrder": [
+      "BEAN",
+      "CROP",
+      "GRINDER",
+      "DONUT",
+      "GROUNDS",
+      "ADJUST",
+      "ROLL",
+      "FILTERS",
+      "SUB",
+      "CAUSE",
+      "BELLY",
+      "BASIS",
+      "HERO",
+      "ARGUMENT",
+      "MARKUP",
+      "HOAGIE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "LONG SANDWICH",
+        "members": [
+          "GRINDER",
+          "HERO",
+          "HOAGIE",
+          "SUB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRETEXT",
+        "members": [
+          "ARGUMENT",
+          "BASIS",
+          "CAUSE",
+          "GROUNDS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SMARTPHONE PHOTO EDITING OPTIONS",
+        "members": [
+          "ADJUST",
+          "CROP",
+          "FILTERS",
+          "MARKUP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "JELLY ___",
+        "members": [
+          "BEAN",
+          "BELLY",
+          "DONUT",
+          "ROLL"
         ]
       }
     ]
