@@ -1,69 +1,5 @@
 [
   {
-    "id": 1114,
-    "date": "2026-04-18",
-    "startingOrder": [
-      "MARVEL",
-      "DC",
-      "CRUSHWORTHY",
-      "POWER",
-      "FANTAGRAPHICS",
-      "DARK HORSE",
-      "VOLTAGE",
-      "WONDER",
-      "SLEEPER",
-      "FRESCADE",
-      "STARE",
-      "LONG SHOT",
-      "PEPSINOGEN",
-      "UNDERDOG",
-      "GOGGLE",
-      "AC"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "LOOK AT WITH AWE",
-        "members": [
-          "GOGGLE",
-          "MARVEL",
-          "STARE",
-          "WONDER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BASIC ELECTRICITY TERMS",
-        "members": [
-          "AC",
-          "DC",
-          "POWER",
-          "VOLTAGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "UNEXPECTED WINNER",
-        "members": [
-          "DARK HORSE",
-          "LONG SHOT",
-          "SLEEPER",
-          "UNDERDOG"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SODA BRANDS",
-        "members": [
-          "CRUSHWORTHY",
-          "FANTAGRAPHICS",
-          "FRESCADE",
-          "PEPSINOGEN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1122,
     "date": "2026-04-19",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "GRAMMAR",
           "HIGH",
           "PRIMARY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1152,
+    "date": "2026-05-18",
+    "startingOrder": [
+      "WIKI",
+      "POP",
+      "SPLIT",
+      "PADRE",
+      "PÈRE",
+      "LUMP",
+      "BLOW",
+      "CHEAP",
+      "EARP",
+      "PEAR",
+      "CRACK",
+      "ROYAL",
+      "RED",
+      "PAIR",
+      "TWIN",
+      "PARE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HOMOPHONES",
+        "members": [
+          "PAIR",
+          "PARE",
+          "PEAR",
+          "PÈRE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RUPTURE",
+        "members": [
+          "BLOW",
+          "CRACK",
+          "POP",
+          "SPLIT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MLB PLAYER",
+        "members": [
+          "PADRE",
+          "RED",
+          "ROYAL",
+          "TWIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FRUIT ANAGRAMS",
+        "members": [
+          "CHEAP",
+          "EARP",
+          "LUMP",
+          "WIKI"
         ]
       }
     ]
