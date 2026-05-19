@@ -1,69 +1,5 @@
 [
   {
-    "id": 1122,
-    "date": "2026-04-19",
-    "startingOrder": [
-      "MINT",
-      "ARCH",
-      "DUD",
-      "HOLE",
-      "FRESH",
-      "BUST",
-      "KID",
-      "FLOP",
-      "WAIST",
-      "WISE",
-      "RIVER",
-      "SASSY",
-      "TURN",
-      "LENGTH",
-      "CAP",
-      "HIPS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CHEEKY",
-        "members": [
-          "ARCH",
-          "FRESH",
-          "SASSY",
-          "WISE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DRESS MEASUREMENTS",
-        "members": [
-          "BUST",
-          "HIPS",
-          "LENGTH",
-          "WAIST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CARDS IN TEXAS HOLD 'EM",
-        "members": [
-          "FLOP",
-          "HOLE",
-          "RIVER",
-          "TURN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LAST WORDS OF CANDY BRANDS IN THE SINGULAR",
-        "members": [
-          "CAP",
-          "DUD",
-          "KID",
-          "MINT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1130,
     "date": "2026-04-20",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "EARP",
           "LUMP",
           "WIKI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1151,
+    "date": "2026-05-19",
+    "startingOrder": [
+      "FOREVER",
+      "SALON",
+      "COOK",
+      "SURGEON",
+      "NURSE",
+      "DOCTOR",
+      "FUDGE",
+      "SUPERFUDGE",
+      "CRY",
+      "BLUBBER",
+      "TROT",
+      "ALTER",
+      "FOUNDER",
+      "BABBLE",
+      "DEENIE",
+      "TEETHE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS BABIES DO",
+        "members": [
+          "BABBLE",
+          "CRY",
+          "NURSE",
+          "TEETHE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MODIFY DECEPTIVELY",
+        "members": [
+          "ALTER",
+          "COOK",
+          "DOCTOR",
+          "FUDGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "JUDY BLUME BOOKS",
+        "members": [
+          "BLUBBER",
+          "DEENIE",
+          "FOREVER",
+          "SUPERFUDGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FISH MINUS A LETTER",
+        "members": [
+          "FOUNDER",
+          "SALON",
+          "SURGEON",
+          "TROT"
         ]
       }
     ]
