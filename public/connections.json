@@ -1,69 +1,5 @@
 [
   {
-    "id": 1130,
-    "date": "2026-04-20",
-    "startingOrder": [
-      "CYBER",
-      "HOURGLASS",
-      "BLUE",
-      "CLOUD",
-      "ROD",
-      "WEB",
-      "MANIC",
-      "NET",
-      "PUFF",
-      "VENOM",
-      "HOOK",
-      "BILLOW",
-      "BAIT",
-      "PLUME",
-      "MEATLESS",
-      "CANNIBALISM"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MASS OF SMOKE",
-        "members": [
-          "BILLOW",
-          "CLOUD",
-          "PLUME",
-          "PUFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FISHING GEAR",
-        "members": [
-          "BAIT",
-          "HOOK",
-          "NET",
-          "ROD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH BLACK WIDOW SPIDERS",
-        "members": [
-          "CANNIBALISM",
-          "HOURGLASS",
-          "VENOM",
-          "WEB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ MONDAY",
-        "members": [
-          "BLUE",
-          "CYBER",
-          "MANIC",
-          "MEATLESS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1127,
     "date": "2026-04-21",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "SALON",
           "SURGEON",
           "TROT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1157,
+    "date": "2026-05-20",
+    "startingOrder": [
+      "HIGH",
+      "KEY",
+      "INTENSITY",
+      "INDEPENDENCE",
+      "MIGHT",
+      "MODE",
+      "MEDIUM",
+      "INTERVAL",
+      "TRAINING",
+      "OFF",
+      "FORCE",
+      "SIMMER",
+      "CONCENTRATION",
+      "GROUNDHOG",
+      "THE LONGEST",
+      "SCALE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STOVE KNOB SETTINGS",
+        "members": [
+          "HIGH",
+          "MEDIUM",
+          "OFF",
+          "SIMMER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "POTENCY",
+        "members": [
+          "CONCENTRATION",
+          "FORCE",
+          "INTENSITY",
+          "MIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSIC THEORY CONCEPTS",
+        "members": [
+          "INTERVAL",
+          "KEY",
+          "MODE",
+          "SCALE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"___ DAY\" MOVIES",
+        "members": [
+          "GROUNDHOG",
+          "INDEPENDENCE",
+          "THE LONGEST",
+          "TRAINING"
         ]
       }
     ]
