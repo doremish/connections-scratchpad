@@ -1,69 +1,5 @@
 [
   {
-    "id": 1121,
-    "date": "2026-04-23",
-    "startingOrder": [
-      "MOTHER",
-      "MY",
-      "NEIGHBOR",
-      "TOTORO",
-      "TOUCH",
-      "WHAMMY",
-      "SKIRT",
-      "SCIENCE",
-      "PULP",
-      "EDUCATED",
-      "LITERARY",
-      "ASIAGO",
-      "DEVOTE",
-      "VERY",
-      "HISTORICAL",
-      "FLANK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BORDER",
-        "members": [
-          "FLANK",
-          "NEIGHBOR",
-          "SKIRT",
-          "TOUCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF FICTION",
-        "members": [
-          "HISTORICAL",
-          "LITERARY",
-          "PULP",
-          "SCIENCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS IN A PLANETARY MNEMONIC",
-        "members": [
-          "EDUCATED",
-          "MOTHER",
-          "MY",
-          "VERY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH FOUR-LETTER '80S BANDS",
-        "members": [
-          "ASIAGO",
-          "DEVOTE",
-          "TOTORO",
-          "WHAMMY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1138,
     "date": "2026-04-24",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "EL NIÑO",
           "LOOSEY-GOOSEY",
           "TAILOR-MADE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1160,
+    "date": "2026-05-23",
+    "startingOrder": [
+      "FIRST",
+      "EMPIRE",
+      "LAST",
+      "BEEHIVE",
+      "HAWKEYE",
+      "SOONER",
+      "FORCE",
+      "WOLVERINE",
+      "PHANTOM",
+      "POMPADOUR",
+      "DAREDEVIL",
+      "RATHER",
+      "CHIGNON",
+      "NIGHTCRAWLER",
+      "PREFERABLY",
+      "BOUFFANT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HAIRDOS",
+        "members": [
+          "BEEHIVE",
+          "BOUFFANT",
+          "CHIGNON",
+          "POMPADOUR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MORE READILY",
+        "members": [
+          "FIRST",
+          "PREFERABLY",
+          "RATHER",
+          "SOONER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MARVEL CHARACTERS",
+        "members": [
+          "DAREDEVIL",
+          "HAWKEYE",
+          "NIGHTCRAWLER",
+          "WOLVERINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS AFTER \"THE\" IN \"STAR WARS\" MOVIE TITLES",
+        "members": [
+          "EMPIRE",
+          "FORCE",
+          "LAST",
+          "PHANTOM"
         ]
       }
     ]
