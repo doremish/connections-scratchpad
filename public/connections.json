@@ -1,69 +1,5 @@
 [
   {
-    "id": 1138,
-    "date": "2026-04-24",
-    "startingOrder": [
-      "TOMATO SAUCE",
-      "HELICOPTER",
-      "TAXI",
-      "INTELLIGENCE",
-      "ICE SKATES",
-      "RED WINE",
-      "GRASS",
-      "LAWN MOWER",
-      "INK",
-      "CABIN",
-      "DOUGH",
-      "SUCTION CUPS",
-      "CHEESE",
-      "CALLOWAY",
-      "ARMS",
-      "PEPPERONI"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PIZZA INGREDIENTS",
-        "members": [
-          "CHEESE",
-          "DOUGH",
-          "PEPPERONI",
-          "TOMATO SAUCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH OCTOPUSES",
-        "members": [
-          "ARMS",
-          "INK",
-          "INTELLIGENCE",
-          "SUCTION CUPS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THEY HAVE BLADES",
-        "members": [
-          "GRASS",
-          "HELICOPTER",
-          "ICE SKATES",
-          "LAWN MOWER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"CAB\" MIGHT REFER TO",
-        "members": [
-          "CABIN",
-          "CALLOWAY",
-          "RED WINE",
-          "TAXI"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1126,
     "date": "2026-04-25",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "FORCE",
           "LAST",
           "PHANTOM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1161,
+    "date": "2026-05-24",
+    "startingOrder": [
+      "RATTLE",
+      "PEN",
+      "STAFF",
+      "HISS",
+      "HERB",
+      "SHED",
+      "ITSY",
+      "MASK",
+      "STRIKE",
+      "DRUM",
+      "STABLE",
+      "MARCH",
+      "RALLY",
+      "MYA",
+      "PICKET",
+      "COOP"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FARM FIXTURES",
+        "members": [
+          "COOP",
+          "PEN",
+          "SHED",
+          "STABLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LABOR PROTEST ACTIONS",
+        "members": [
+          "MARCH",
+          "PICKET",
+          "RALLY",
+          "STRIKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OBJECTS USED IN RITUAL PERFORMANCES",
+        "members": [
+          "DRUM",
+          "MASK",
+          "RATTLE",
+          "STAFF"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "POSSESSIVE ADJECTIVES PLUS A LETTER",
+        "members": [
+          "HERB",
+          "HISS",
+          "ITSY",
+          "MYA"
         ]
       }
     ]
