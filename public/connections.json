@@ -1,69 +1,5 @@
 [
   {
-    "id": 1126,
-    "date": "2026-04-25",
-    "startingOrder": [
-      "HAYSTACK",
-      "PITCHFORK",
-      "COPPER",
-      "OCEAN",
-      "CAST IRON",
-      "ENAMEL",
-      "HURLY-BURLY",
-      "NAIL",
-      "DICK",
-      "CHUCK E. CHEESE",
-      "HAIR",
-      "CROWD",
-      "GUMSHOE",
-      "SKIN",
-      "MILLION",
-      "FLATFOOT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BODY COVERINGS",
-        "members": [
-          "ENAMEL",
-          "HAIR",
-          "NAIL",
-          "SKIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MASSES, IN IDIOMS",
-        "members": [
-          "CROWD",
-          "HAYSTACK",
-          "MILLION",
-          "OCEAN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OLD TIMEY SLANG FOR LAW ENFORCEMENT",
-        "members": [
-          "COPPER",
-          "DICK",
-          "FLATFOOT",
-          "GUMSHOE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SYNONYMS FOR \"THROW\"",
-        "members": [
-          "CAST IRON",
-          "CHUCK E. CHEESE",
-          "HURLY-BURLY",
-          "PITCHFORK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1140,
     "date": "2026-04-26",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "HISS",
           "ITSY",
           "MYA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1163,
+    "date": "2026-05-25",
+    "startingOrder": [
+      "BROW",
+      "CAP",
+      "LID",
+      "CYA",
+      "WHIT",
+      "ATM",
+      "PIN",
+      "JOT",
+      "LASH",
+      "LOL",
+      "SCRAP",
+      "SHIRT",
+      "STICKER",
+      "BALL",
+      "TIA",
+      "SHRED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COMMON PROMO ITEMS",
+        "members": [
+          "CAP",
+          "PIN",
+          "SHIRT",
+          "STICKER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TINY BIT",
+        "members": [
+          "JOT",
+          "SCRAP",
+          "SHRED",
+          "WHIT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TEXTING ABBREVIATIONS",
+        "members": [
+          "ATM",
+          "CYA",
+          "LOL",
+          "TIA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EYE___",
+        "members": [
+          "BALL",
+          "BROW",
+          "LASH",
+          "LID"
         ]
       }
     ]
