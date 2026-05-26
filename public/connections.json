@@ -1,69 +1,5 @@
 [
   {
-    "id": 1140,
-    "date": "2026-04-26",
-    "startingOrder": [
-      "SPOT",
-      "CLIFF",
-      "PITCH",
-      "BUILDING",
-      "MOTHER",
-      "CLOCK",
-      "CATCH",
-      "STRINGS",
-      "REGISTER",
-      "FINE PRINT",
-      "JANE",
-      "TONE",
-      "POLYHEDRON",
-      "CAVEAT",
-      "RANGE",
-      "DICK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STIPULATION",
-        "members": [
-          "CATCH",
-          "CAVEAT",
-          "FINE PRINT",
-          "STRINGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "VOCAL CHARACTERISTICS",
-        "members": [
-          "PITCH",
-          "RANGE",
-          "REGISTER",
-          "TONE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CHARACTERS IN \"DICK AND JANE\"",
-        "members": [
-          "DICK",
-          "JANE",
-          "MOTHER",
-          "SPOT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH FACES",
-        "members": [
-          "BUILDING",
-          "CLIFF",
-          "CLOCK",
-          "POLYHEDRON"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1090,
     "date": "2026-04-27",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "BROW",
           "LASH",
           "LID"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1155,
+    "date": "2026-05-26",
+    "startingOrder": [
+      "BIG",
+      "RING",
+      "TINSEL",
+      "FOCUS",
+      "AIRPLANE",
+      "CUP",
+      "POINT",
+      "SILENT",
+      "LISTEN",
+      "CLUE",
+      "SUBJECT",
+      "TWINS",
+      "PENNANT",
+      "ENLIST",
+      "CONCERN",
+      "MEDAL"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CHAMPIONSHIP AWARDS",
+        "members": [
+          "CUP",
+          "MEDAL",
+          "PENNANT",
+          "RING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MATTER AT HAND",
+        "members": [
+          "CONCERN",
+          "FOCUS",
+          "POINT",
+          "SUBJECT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "'80S COMEDIES",
+        "members": [
+          "AIRPLANE",
+          "BIG",
+          "CLUE",
+          "TWINS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ANAGRAMS",
+        "members": [
+          "ENLIST",
+          "LISTEN",
+          "SILENT",
+          "TINSEL"
         ]
       }
     ]
