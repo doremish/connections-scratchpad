@@ -1,69 +1,5 @@
 [
   {
-    "id": 1139,
-    "date": "2026-04-28",
-    "startingOrder": [
-      "CALL",
-      "TAN",
-      "DRY",
-      "FLOWER",
-      "CHECK",
-      "DIAL",
-      "FOLD",
-      "BID",
-      "MATCH",
-      "SORT",
-      "STAMP",
-      "APPEAL",
-      "WASH",
-      "SCREEN",
-      "REQUEST",
-      "COUPON"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ENTREATY",
-        "members": [
-          "APPEAL",
-          "BID",
-          "CALL",
-          "REQUEST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LAUNDRY DAY VERBS",
-        "members": [
-          "DRY",
-          "FOLD",
-          "SORT",
-          "WASH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT COME IN \"BOOKS\"",
-        "members": [
-          "CHECK",
-          "COUPON",
-          "MATCH",
-          "STAMP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SUN___",
-        "members": [
-          "DIAL",
-          "FLOWER",
-          "SCREEN",
-          "TAN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1137,
     "date": "2026-04-29",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "MACBETH",
           "MONOGAMY",
           "NUTMEG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1166,
+    "date": "2026-05-28",
+    "startingOrder": [
+      "JUMP",
+      "BAR",
+      "PRESS",
+      "LODGE",
+      "BENCH",
+      "LIFT",
+      "MEDIA",
+      "HUNCH",
+      "NEWS",
+      "STOOP",
+      "STAND",
+      "PAPERS",
+      "SQUAT",
+      "DUCK",
+      "SLOPE",
+      "PODIUM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GET LOW",
+        "members": [
+          "DUCK",
+          "HUNCH",
+          "SQUAT",
+          "STOOP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FOURTH ESTATE",
+        "members": [
+          "MEDIA",
+          "NEWS",
+          "PAPERS",
+          "PRESS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A COURTROOM",
+        "members": [
+          "BAR",
+          "BENCH",
+          "PODIUM",
+          "STAND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SKI ___",
+        "members": [
+          "JUMP",
+          "LIFT",
+          "LODGE",
+          "SLOPE"
         ]
       }
     ]
