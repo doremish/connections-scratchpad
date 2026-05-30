@@ -1,69 +1,5 @@
 [
   {
-    "id": 1136,
-    "date": "2026-04-30",
-    "startingOrder": [
-      "THERE",
-      "CHECK",
-      "MARK",
-      "TRUE",
-      "ALARM",
-      "HOUR",
-      "TYRANNOSAURUS",
-      "TICK",
-      "TIME",
-      "SHOCK",
-      "CROSS",
-      "YORE",
-      "SHAKE",
-      "HUR",
-      "DISTURB",
-      "TESLA"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "UNNERVE",
-        "members": [
-          "ALARM",
-          "DISTURB",
-          "SHAKE",
-          "SHOCK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "REMOVE, AS AN ITEM FROM A LIST, WITH \"OFF\"",
-        "members": [
-          "CHECK",
-          "CROSS",
-          "MARK",
-          "TICK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"T\" MIGHT STAND FOR",
-        "members": [
-          "TESLA",
-          "TIME",
-          "TRUE",
-          "TYRANNOSAURUS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF POSSESSIVE ADJECTIVES",
-        "members": [
-          "HOUR",
-          "HUR",
-          "THERE",
-          "YORE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1135,
     "date": "2026-05-01",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "PENNSYLVANIA",
           "PROTACTINIUM",
           "PUBLIC ADDRESS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1165,
+    "date": "2026-05-30",
+    "startingOrder": [
+      "LUCID",
+      "WITCHCRAFT",
+      "IMPOSSIBLE",
+      "SOUND",
+      "PIPE",
+      "FEVER",
+      "RIGHT",
+      "SORRY",
+      "CLEAR",
+      "BRACE",
+      "NEVER",
+      "TILDE",
+      "GIGI",
+      "NO WAY",
+      "CARET",
+      "VOLARE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "\"IN YOUR DREAMS\"",
+        "members": [
+          "IMPOSSIBLE",
+          "NEVER",
+          "NO WAY",
+          "SORRY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SENSIBLE",
+        "members": [
+          "CLEAR",
+          "LUCID",
+          "RIGHT",
+          "SOUND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TYPOGRAPHICAL SYMBOLS",
+        "members": [
+          "BRACE",
+          "CARET",
+          "PIPE",
+          "TILDE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SONG OF THE YEAR NOMINEES AT THE FIRST GRAMMY AWARDS",
+        "members": [
+          "FEVER",
+          "GIGI",
+          "VOLARE",
+          "WITCHCRAFT"
         ]
       }
     ]
