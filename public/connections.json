@@ -1,69 +1,5 @@
 [
   {
-    "id": 1134,
-    "date": "2026-05-03",
-    "startingOrder": [
-      "PEACE",
-      "GREEN",
-      "HOUSE",
-      "ACID",
-      "GARAGE",
-      "COMMUNE",
-      "FRENCH",
-      "FINGERS CROSSED",
-      "INDUSTRIAL",
-      "BUNNY EARS",
-      "SEXUAL",
-      "HIPPIE",
-      "SHED",
-      "AIR QUOTES",
-      "FREE LOVE",
-      "PORCH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "HOME STRUCTURES",
-        "members": [
-          "GARAGE",
-          "HOUSE",
-          "PORCH",
-          "SHED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH 1960S COUNTERCULTURE",
-        "members": [
-          "ACID",
-          "COMMUNE",
-          "FREE LOVE",
-          "HIPPIE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMOUS REVOLUTIONS IN HISTORY",
-        "members": [
-          "FRENCH",
-          "GREEN",
-          "INDUSTRIAL",
-          "SEXUAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GESTURES MADE WITH THE INDEX AND MIDDLE FINGERS",
-        "members": [
-          "AIR QUOTES",
-          "BUNNY EARS",
-          "FINGERS CROSSED",
-          "PEACE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1142,
     "date": "2026-05-04",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "ONION",
           "TREE",
           "WEDDING"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1173,
+    "date": "2026-06-02",
+    "startingOrder": [
+      "TIN CAN",
+      "JACKET POTATO",
+      "COAT OF ARMS",
+      "MASH",
+      "CLOAK-AND-DAGGER",
+      "CREST",
+      "CHIPS",
+      "CAPE MAY",
+      "HELMET",
+      "TOP SECRET",
+      "FREE WILL",
+      "HUSH-HUSH",
+      "BUBBLE AND SQUEAK",
+      "GRAPE MUST",
+      "COVERT",
+      "SHIELD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CLANDESTINE",
+        "members": [
+          "CLOAK-AND-DAGGER",
+          "COVERT",
+          "HUSH-HUSH",
+          "TOP SECRET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BRITISH POTATO DISHES",
+        "members": [
+          "BUBBLE AND SQUEAK",
+          "CHIPS",
+          "JACKET POTATO",
+          "MASH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HERALDIC ACHIEVEMENTS",
+        "members": [
+          "COAT OF ARMS",
+          "CREST",
+          "HELMET",
+          "SHIELD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN MODAL AUXILIARY VERBS",
+        "members": [
+          "CAPE MAY",
+          "FREE WILL",
+          "GRAPE MUST",
+          "TIN CAN"
         ]
       }
     ]
