@@ -1,69 +1,5 @@
 [
   {
-    "id": 1131,
-    "date": "2026-05-05",
-    "startingOrder": [
-      "HINT",
-      "HITCH",
-      "POINTER",
-      "HICCUP",
-      "BEND",
-      "SETBACK",
-      "BLINK",
-      "SUGGESTION",
-      "SNEEZE",
-      "WHIFF",
-      "SHIVER",
-      "FLICKER",
-      "GAMELAN",
-      "SHEEPSHANK",
-      "MATCHSTICK",
-      "BOWLINE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GLIMMER",
-        "members": [
-          "FLICKER",
-          "HINT",
-          "SUGGESTION",
-          "WHIFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "INVOLUNTARY ACTIONS",
-        "members": [
-          "BLINK",
-          "HICCUP",
-          "SHIVER",
-          "SNEEZE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF KNOTS",
-        "members": [
-          "BEND",
-          "BOWLINE",
-          "HITCH",
-          "SHEEPSHANK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH UNITS IN COMPETITIONS",
-        "members": [
-          "GAMELAN",
-          "MATCHSTICK",
-          "POINTER",
-          "SETBACK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1027,
     "date": "2026-05-06",
     "startingOrder": [
@@ -1963,6 +1899,70 @@
           "BELL",
           "MOAN",
           "RAY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1162,
+    "date": "2026-06-04",
+    "startingOrder": [
+      "PUBLIC",
+      "WRITER",
+      "SALT",
+      "PEPPER",
+      "OIL",
+      "VINEGAR",
+      "KITCHEN",
+      "TEMPERA",
+      "PANACHE",
+      "GOUACHE",
+      "RUN",
+      "TOWN",
+      "BEASTIE",
+      "VERVE",
+      "ACRYLIC",
+      "GUSTO"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PAINTING MEDIA",
+        "members": [
+          "ACRYLIC",
+          "GOUACHE",
+          "OIL",
+          "TEMPERA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ESPRIT",
+        "members": [
+          "GUSTO",
+          "PANACHE",
+          "VERVE",
+          "VINEGAR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTS OF CLASSIC HIP-HOP GROUPS",
+        "members": [
+          "BEASTIE",
+          "PUBLIC",
+          "RUN",
+          "SALT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GHOST ___",
+        "members": [
+          "KITCHEN",
+          "PEPPER",
+          "TOWN",
+          "WRITER"
         ]
       }
     ]
