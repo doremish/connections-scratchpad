@@ -1,69 +1,5 @@
 [
   {
-    "id": 1146,
-    "date": "2026-05-07",
-    "startingOrder": [
-      "MASS",
-      "TRAVEL",
-      "CHANNEL",
-      "LINE",
-      "VOLUME",
-      "DROVE",
-      "CAR WINDOW",
-      "FLY",
-      "PACK",
-      "CARRY",
-      "NET",
-      "GOALTEND",
-      "ELEVATOR",
-      "HOST",
-      "DOUBLE-DRIBBLE",
-      "HOOK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FISHING GEAR",
-        "members": [
-          "FLY",
-          "HOOK",
-          "LINE",
-          "NET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MULTITUDE",
-        "members": [
-          "DROVE",
-          "HOST",
-          "MASS",
-          "PACK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMMIT A BASKETBALL INFRACTION",
-        "members": [
-          "CARRY",
-          "DOUBLE-DRIBBLE",
-          "GOALTEND",
-          "TRAVEL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONTROLLED WITH UP/DOWN BUTTONS",
-        "members": [
-          "CAR WINDOW",
-          "CHANNEL",
-          "ELEVATOR",
-          "VOLUME"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1129,
     "date": "2026-05-08",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OSCAR",
           "QUATRAIN",
           "SITUATIONSHIP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1169,
+    "date": "2026-06-06",
+    "startingOrder": [
+      "DINNER",
+      "EXPRESS",
+      "POST",
+      "ROUND",
+      "DRAGON",
+      "REGISTER",
+      "TIMES",
+      "SHAFT",
+      "DISPLAY",
+      "MONITOR",
+      "STAKE",
+      "SKINK",
+      "BETRAY",
+      "BASILISK",
+      "DRAFTING",
+      "POLE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PILLAR",
+        "members": [
+          "POLE",
+          "POST",
+          "SHAFT",
+          "STAKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "INDICATE, AS EMOTIONS",
+        "members": [
+          "BETRAY",
+          "DISPLAY",
+          "EXPRESS",
+          "REGISTER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF LIZARDS",
+        "members": [
+          "BASILISK",
+          "DRAGON",
+          "MONITOR",
+          "SKINK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ TABLE",
+        "members": [
+          "DINNER",
+          "DRAFTING",
+          "ROUND",
+          "TIMES"
         ]
       }
     ]
