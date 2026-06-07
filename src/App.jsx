@@ -39,6 +39,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { useState, useEffect, useLayoutEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 // Libre Franklin — closest free match to NYT Franklin (proprietary tile font)
 const fontLink = document.createElement("link");
@@ -770,6 +771,7 @@ export default function ConnectionsHelper() {
         </div>
       )}
 
+      <Analytics />
     </div>
   );
 }
