@@ -1,69 +1,5 @@
 [
   {
-    "id": 1141,
-    "date": "2026-05-10",
-    "startingOrder": [
-      "SKIP",
-      "SEASON",
-      "LEAP",
-      "STIR",
-      "BOUND",
-      "PLAY",
-      "MUDDLE",
-      "COIL",
-      "REPEAT",
-      "SURE",
-      "POUR",
-      "FOUNTAIN",
-      "CERTAIN",
-      "SHUFFLE",
-      "GARNISH",
-      "FATED"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MUSIC PLAYER BUTTONS",
-        "members": [
-          "PLAY",
-          "REPEAT",
-          "SHUFFLE",
-          "SKIP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DESTINED",
-        "members": [
-          "BOUND",
-          "CERTAIN",
-          "FATED",
-          "SURE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "VERBS IN MAKING A MOJITO",
-        "members": [
-          "GARNISH",
-          "MUDDLE",
-          "POUR",
-          "STIR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"SPRING\" MIGHT REFER TO",
-        "members": [
-          "COIL",
-          "FOUNTAIN",
-          "LEAP",
-          "SEASON"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1145,
     "date": "2026-05-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "INVISIBLE",
           "OMEGA",
           "RUNNING"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1179,
+    "date": "2026-06-09",
+    "startingOrder": [
+      "ASTERISK",
+      "AXE",
+      "ANGEL",
+      "SURPRISE",
+      "SECRET",
+      "TRADEMARK",
+      "BONE",
+      "DOVE",
+      "DEGREE",
+      "PASSWORD",
+      "LAMB",
+      "KEYS",
+      "BABE",
+      "SKINS",
+      "EXPONENT",
+      "SPOILER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SYMBOLS OF INNOCENCE",
+        "members": [
+          "ANGEL",
+          "BABE",
+          "DOVE",
+          "LAMB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS YOU'RE NOT SUPPOSED TO REVEAL",
+        "members": [
+          "PASSWORD",
+          "SECRET",
+          "SPOILER",
+          "SURPRISE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS REPRESENTED IN SUPERSCRIPT",
+        "members": [
+          "ASTERISK",
+          "DEGREE",
+          "EXPONENT",
+          "TRADEMARK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SLANG FOR MUSICAL INSTRUMENTS",
+        "members": [
+          "AXE",
+          "BONE",
+          "KEYS",
+          "SKINS"
         ]
       }
     ]
