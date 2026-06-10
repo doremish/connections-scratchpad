@@ -1,69 +1,5 @@
 [
   {
-    "id": 1145,
-    "date": "2026-05-11",
-    "startingOrder": [
-      "COLOR",
-      "CREEP",
-      "SHANDY",
-      "KARMA",
-      "KNIVES OUT",
-      "SLIP",
-      "PYRAMID",
-      "RHYME",
-      "STEAL",
-      "CHINATOWN",
-      "KEYED",
-      "SNEAK",
-      "SEVEN",
-      "PONZI",
-      "ELEGY",
-      "VERTIGO"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MOVE STEALTHILY, WITH \"IN\"",
-        "members": [
-          "CREEP",
-          "SLIP",
-          "SNEAK",
-          "STEAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF SCHEMES",
-        "members": [
-          "COLOR",
-          "PONZI",
-          "PYRAMID",
-          "RHYME"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DETECTIVE MOVIES",
-        "members": [
-          "CHINATOWN",
-          "KNIVES OUT",
-          "SEVEN",
-          "VERTIGO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BODY PARTS SURROUNDED BY TWO LETTERS",
-        "members": [
-          "ELEGY",
-          "KARMA",
-          "KEYED",
-          "SHANDY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1154,
     "date": "2026-05-12",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BONE",
           "KEYS",
           "SKINS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1176,
+    "date": "2026-06-10",
+    "startingOrder": [
+      "STAGE",
+      "PAGE",
+      "FASHION",
+      "FILM",
+      "METHOD",
+      "SKIN",
+      "CHARACTER",
+      "WINGS",
+      "PIT",
+      "CRUST",
+      "WORD",
+      "WAY",
+      "LINE",
+      "CATWALK",
+      "SCUM",
+      "MANNER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TECHNIQUE",
+        "members": [
+          "FASHION",
+          "MANNER",
+          "METHOD",
+          "WAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GROSS THINGS THAT FORM ON WET SURFACES",
+        "members": [
+          "CRUST",
+          "FILM",
+          "SCUM",
+          "SKIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A THEATER",
+        "members": [
+          "CATWALK",
+          "PIT",
+          "STAGE",
+          "WINGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COUNTED IN DOCUMENT WORD COUNTS",
+        "members": [
+          "CHARACTER",
+          "LINE",
+          "PAGE",
+          "WORD"
         ]
       }
     ]
