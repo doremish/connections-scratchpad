@@ -1,69 +1,5 @@
 [
   {
-    "id": 1154,
-    "date": "2026-05-12",
-    "startingOrder": [
-      "WEEKEND",
-      "RANDO",
-      "PAULO",
-      "FRANCI",
-      "JOHNS",
-      "MONICA",
-      "WORK",
-      "WONK",
-      "TOME",
-      "SALVADOR",
-      "DIVISION",
-      "VOLUME",
-      "DISTANCE",
-      "OPUS",
-      "REALM",
-      "PETERSBURG"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SUBSTANTIAL BOOK",
-        "members": [
-          "OPUS",
-          "TOME",
-          "VOLUME",
-          "WORK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"SAINT\" CITIES",
-        "members": [
-          "MONICA",
-          "PAULO",
-          "PETERSBURG",
-          "SALVADOR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"LONG\" THINGS",
-        "members": [
-          "DISTANCE",
-          "DIVISION",
-          "JOHNS",
-          "WEEKEND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CURRENCIES PLUS A LETTER",
-        "members": [
-          "FRANCI",
-          "RANDO",
-          "REALM",
-          "WONK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1150,
     "date": "2026-05-13",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LINE",
           "PAGE",
           "WORD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1180,
+    "date": "2026-06-11",
+    "startingOrder": [
+      "DEVIL",
+      "STRIP",
+      "PAPAL",
+      "BRONCHO",
+      "VENO",
+      "BRASS BAND",
+      "UCONN",
+      "RHINO",
+      "CARDIO",
+      "TROUPER",
+      "VIKING HELMET",
+      "BALANCE",
+      "ELLE",
+      "WEIGHTS",
+      "FORERUNNER",
+      "STRETCHING"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PARTS OF A WORKOUT ROUTINE",
+        "members": [
+          "BALANCE",
+          "CARDIO",
+          "STRETCHING",
+          "WEIGHTS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH HORNS",
+        "members": [
+          "BRASS BAND",
+          "DEVIL",
+          "RHINO",
+          "VIKING HELMET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOMOPHONES OF SUVS",
+        "members": [
+          "BRONCHO",
+          "FORERUNNER",
+          "TROUPER",
+          "UCONN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PAYMENT APPS MINUS A LETTER",
+        "members": [
+          "ELLE",
+          "PAPAL",
+          "STRIP",
+          "VENO"
         ]
       }
     ]
