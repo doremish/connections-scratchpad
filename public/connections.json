@@ -1,69 +1,5 @@
 [
   {
-    "id": 1150,
-    "date": "2026-05-13",
-    "startingOrder": [
-      "BEAN",
-      "CROP",
-      "GRINDER",
-      "DONUT",
-      "GROUNDS",
-      "ADJUST",
-      "ROLL",
-      "FILTERS",
-      "SUB",
-      "CAUSE",
-      "BELLY",
-      "BASIS",
-      "HERO",
-      "ARGUMENT",
-      "MARKUP",
-      "HOAGIE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "LONG SANDWICH",
-        "members": [
-          "GRINDER",
-          "HERO",
-          "HOAGIE",
-          "SUB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PRETEXT",
-        "members": [
-          "ARGUMENT",
-          "BASIS",
-          "CAUSE",
-          "GROUNDS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SMARTPHONE PHOTO EDITING OPTIONS",
-        "members": [
-          "ADJUST",
-          "CROP",
-          "FILTERS",
-          "MARKUP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "JELLY ___",
-        "members": [
-          "BEAN",
-          "BELLY",
-          "DONUT",
-          "ROLL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1147,
     "date": "2026-05-14",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PAPAL",
           "STRIP",
           "VENO"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1182,
+    "date": "2026-06-12",
+    "startingOrder": [
+      "SCHOOL DAYS",
+      "BED HEAD",
+      "QUOTE UNQUOTE",
+      "CURSE WORD",
+      "COPY EDITOR",
+      "SPELL CHECKER",
+      "BANK TELLER",
+      "PACK RAT",
+      "CHARM BRACELET",
+      "MURDER MYSTERY",
+      "MIRROR SELFIE",
+      "MOUTH GUARD",
+      "PRIDE ROCK",
+      "ECHO PARK",
+      "DELTA AIRLINES",
+      "HEX KEY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STARTING WITH INCANTATIONS",
+        "members": [
+          "CHARM BRACELET",
+          "CURSE WORD",
+          "HEX KEY",
+          "SPELL CHECKER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH ANIMAL GROUP NAMES",
+        "members": [
+          "MURDER MYSTERY",
+          "PACK RAT",
+          "PRIDE ROCK",
+          "SCHOOL DAYS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SYNONYMS FOR \"REPEAT\"",
+        "members": [
+          "COPY EDITOR",
+          "ECHO PARK",
+          "MIRROR SELFIE",
+          "QUOTE UNQUOTE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH PARTS OF A RIVER",
+        "members": [
+          "BANK TELLER",
+          "BED HEAD",
+          "DELTA AIRLINES",
+          "MOUTH GUARD"
         ]
       }
     ]
