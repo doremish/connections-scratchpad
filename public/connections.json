@@ -1,69 +1,5 @@
 [
   {
-    "id": 1143,
-    "date": "2026-05-15",
-    "startingOrder": [
-      "SAW",
-      "JORDAN",
-      "CROSS",
-      "PITT",
-      "ELBA",
-      "PALM",
-      "CIAO",
-      "FORD",
-      "WADE",
-      "BIRD",
-      "WAS",
-      "CURRY",
-      "JAMES",
-      "PEEK",
-      "ABLE",
-      "TRAVERSE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "NAVIGATE THROUGH, AS A RIVER",
-        "members": [
-          "CROSS",
-          "FORD",
-          "TRAVERSE",
-          "WADE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MULTI-TIME NBA MVPS",
-        "members": [
-          "BIRD",
-          "CURRY",
-          "JAMES",
-          "JORDAN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "NON-PALINDROMIC WORDS IN A FAMOUS PALINDROME",
-        "members": [
-          "ABLE",
-          "ELBA",
-          "SAW",
-          "WAS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF KINDS OF DOGS, FAMILIARLY",
-        "members": [
-          "CIAO",
-          "PALM",
-          "PEEK",
-          "PITT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1149,
     "date": "2026-05-16",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "NEVERENDING",
           "TOY",
           "WEST SIDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1175,
+    "date": "2026-06-14",
+    "startingOrder": [
+      "GRINDSTONE",
+      "MOTHER",
+      "CATERPILLAR",
+      "CREAM PIE",
+      "MASSACHUSETTS",
+      "TEA PARTY",
+      "GYROSCOPE",
+      "GLOBE",
+      "POCKET WATCH",
+      "SELTZER BOTTLE",
+      "MILLIAMPERE",
+      "ROULETTE WHEEL",
+      "BANANA PEEL",
+      "MASTER OF ARTS",
+      "RABBIT HOLE",
+      "RUBBER CHICKEN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CLASSIC SLAPSTICK PROPS",
+        "members": [
+          "BANANA PEEL",
+          "CREAM PIE",
+          "RUBBER CHICKEN",
+          "SELTZER BOTTLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT SPIN",
+        "members": [
+          "GLOBE",
+          "GRINDSTONE",
+          "GYROSCOPE",
+          "ROULETTE WHEEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURED IN \"ALICE'S ADVENTURES IN WONDERLAND\"",
+        "members": [
+          "CATERPILLAR",
+          "POCKET WATCH",
+          "RABBIT HOLE",
+          "TEA PARTY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"MA\" MIGHT REFER TO",
+        "members": [
+          "MASSACHUSETTS",
+          "MASTER OF ARTS",
+          "MILLIAMPERE",
+          "MOTHER"
         ]
       }
     ]
