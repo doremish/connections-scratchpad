@@ -1,69 +1,5 @@
 [
   {
-    "id": 1149,
-    "date": "2026-05-16",
-    "startingOrder": [
-      "THERMOSTAT",
-      "PIANO",
-      "PLAY",
-      "FIDDLE",
-      "FLUTE",
-      "FORTE",
-      "MESS",
-      "BASSOON",
-      "BELFAST",
-      "STEIN",
-      "LARGO",
-      "TUMBLER",
-      "TINKER",
-      "NESQUICK",
-      "COUPE",
-      "ALLEGRO"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GLASSWARE",
-        "members": [
-          "COUPE",
-          "FLUTE",
-          "STEIN",
-          "TUMBLER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MESS AROUND (WITH)",
-        "members": [
-          "FIDDLE",
-          "MESS",
-          "PLAY",
-          "TINKER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSIC PERFORMANCE DIRECTIONS",
-        "members": [
-          "ALLEGRO",
-          "FORTE",
-          "LARGO",
-          "PIANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN SYNONYMS FOR \"ASAP\"",
-        "members": [
-          "BASSOON",
-          "BELFAST",
-          "NESQUICK",
-          "THERMOSTAT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1148,
     "date": "2026-05-17",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MASTER OF ARTS",
           "MILLIAMPERE",
           "MOTHER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1184,
+    "date": "2026-06-15",
+    "startingOrder": [
+      "HORSE",
+      "ANEMONE",
+      "SNAKE",
+      "CHANGE",
+      "LEGS",
+      "DOG",
+      "LARKSPUR",
+      "SHOWER",
+      "DRAGON",
+      "TRACTION",
+      "PRIMP",
+      "MONKSHOOD",
+      "MOMENTUM",
+      "PHLOX",
+      "ACCESSORIZE",
+      "STAMINA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STAYING POWER",
+        "members": [
+          "LEGS",
+          "MOMENTUM",
+          "STAMINA",
+          "TRACTION"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GET READY FOR A NIGHT OUT",
+        "members": [
+          "ACCESSORIZE",
+          "CHANGE",
+          "PRIMP",
+          "SHOWER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CHINESE ZODIAC ANIMALS",
+        "members": [
+          "DOG",
+          "DRAGON",
+          "HORSE",
+          "SNAKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FLOWERS",
+        "members": [
+          "ANEMONE",
+          "LARKSPUR",
+          "MONKSHOOD",
+          "PHLOX"
         ]
       }
     ]
