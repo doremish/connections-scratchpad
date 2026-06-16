@@ -1,69 +1,5 @@
 [
   {
-    "id": 1148,
-    "date": "2026-05-17",
-    "startingOrder": [
-      "STEEP",
-      "PRIMARY",
-      "STRAIN",
-      "STIFF",
-      "HIGH",
-      "MAIN",
-      "FLEECE",
-      "GRAMMAR",
-      "HOSE",
-      "PIPE",
-      "SQUEEZE",
-      "BOIL",
-      "LINE",
-      "GRADE",
-      "POUR",
-      "DUCT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONDUIT",
-        "members": [
-          "DUCT",
-          "LINE",
-          "MAIN",
-          "PIPE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SWINDLE",
-        "members": [
-          "FLEECE",
-          "HOSE",
-          "SQUEEZE",
-          "STIFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TEA-MAKING VERBS",
-        "members": [
-          "BOIL",
-          "POUR",
-          "STEEP",
-          "STRAIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"SCHOOL\" MODIFIERS",
-        "members": [
-          "GRADE",
-          "GRAMMAR",
-          "HIGH",
-          "PRIMARY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1152,
     "date": "2026-05-18",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LARKSPUR",
           "MONKSHOOD",
           "PHLOX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1185,
+    "date": "2026-06-16",
+    "startingOrder": [
+      "BLACK SWAN",
+      "EARRINGS",
+      "BASKETBALL",
+      "COURT",
+      "GREEN GODDESS",
+      "SUITE",
+      "UNICORN",
+      "RANCH",
+      "BLUE MOON",
+      "BLUE CHEESE",
+      "RED TAPE",
+      "PERFECT STORM",
+      "RHYTHMIC GYMNASTICS GEAR",
+      "ENTOURAGE",
+      "CAESAR",
+      "RETINUE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CREAMY SALAD DRESSINGS",
+        "members": [
+          "BLUE CHEESE",
+          "CAESAR",
+          "GREEN GODDESS",
+          "RANCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ATTENDANTS",
+        "members": [
+          "COURT",
+          "ENTOURAGE",
+          "RETINUE",
+          "SUITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RARE THINGS, IDIOMATICALLY",
+        "members": [
+          "BLACK SWAN",
+          "BLUE MOON",
+          "PERFECT STORM",
+          "UNICORN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"HOOPS\" MIGHT REFER TO",
+        "members": [
+          "BASKETBALL",
+          "EARRINGS",
+          "RED TAPE",
+          "RHYTHMIC GYMNASTICS GEAR"
         ]
       }
     ]
