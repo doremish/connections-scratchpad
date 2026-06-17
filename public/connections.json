@@ -1,69 +1,5 @@
 [
   {
-    "id": 1152,
-    "date": "2026-05-18",
-    "startingOrder": [
-      "WIKI",
-      "POP",
-      "SPLIT",
-      "PADRE",
-      "PÈRE",
-      "LUMP",
-      "BLOW",
-      "CHEAP",
-      "EARP",
-      "PEAR",
-      "CRACK",
-      "ROYAL",
-      "RED",
-      "PAIR",
-      "TWIN",
-      "PARE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "HOMOPHONES",
-        "members": [
-          "PAIR",
-          "PARE",
-          "PEAR",
-          "PÈRE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RUPTURE",
-        "members": [
-          "BLOW",
-          "CRACK",
-          "POP",
-          "SPLIT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MLB PLAYER",
-        "members": [
-          "PADRE",
-          "RED",
-          "ROYAL",
-          "TWIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FRUIT ANAGRAMS",
-        "members": [
-          "CHEAP",
-          "EARP",
-          "LUMP",
-          "WIKI"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1151,
     "date": "2026-05-19",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "EARRINGS",
           "RED TAPE",
           "RHYTHMIC GYMNASTICS GEAR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1177,
+    "date": "2026-06-17",
+    "startingOrder": [
+      "MOUTH",
+      "CAVITY",
+      "CLASSIC",
+      "CALLIOPE",
+      "IRIS",
+      "KINDLE",
+      "CHEEK",
+      "ECHO",
+      "NOOK",
+      "LIP",
+      "NEMESIS",
+      "TYPEFACE",
+      "SORTIE",
+      "RECESS",
+      "NERVE",
+      "NICHE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ALCOVE",
+        "members": [
+          "CAVITY",
+          "NICHE",
+          "NOOK",
+          "RECESS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BODILY WORDS FOR ATTITUDE",
+        "members": [
+          "CHEEK",
+          "LIP",
+          "MOUTH",
+          "NERVE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FIGURES IN GREEK MYTH",
+        "members": [
+          "CALLIOPE",
+          "ECHO",
+          "IRIS",
+          "NEMESIS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SYNONYMS FOR \"ILK\"",
+        "members": [
+          "CLASSIC",
+          "KINDLE",
+          "SORTIE",
+          "TYPEFACE"
         ]
       }
     ]
