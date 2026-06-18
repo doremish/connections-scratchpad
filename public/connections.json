@@ -1,69 +1,5 @@
 [
   {
-    "id": 1151,
-    "date": "2026-05-19",
-    "startingOrder": [
-      "FOREVER",
-      "SALON",
-      "COOK",
-      "SURGEON",
-      "NURSE",
-      "DOCTOR",
-      "FUDGE",
-      "SUPERFUDGE",
-      "CRY",
-      "BLUBBER",
-      "TROT",
-      "ALTER",
-      "FOUNDER",
-      "BABBLE",
-      "DEENIE",
-      "TEETHE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS BABIES DO",
-        "members": [
-          "BABBLE",
-          "CRY",
-          "NURSE",
-          "TEETHE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MODIFY DECEPTIVELY",
-        "members": [
-          "ALTER",
-          "COOK",
-          "DOCTOR",
-          "FUDGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "JUDY BLUME BOOKS",
-        "members": [
-          "BLUBBER",
-          "DEENIE",
-          "FOREVER",
-          "SUPERFUDGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FISH MINUS A LETTER",
-        "members": [
-          "FOUNDER",
-          "SALON",
-          "SURGEON",
-          "TROT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1157,
     "date": "2026-05-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "KINDLE",
           "SORTIE",
           "TYPEFACE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1189,
+    "date": "2026-06-18",
+    "startingOrder": [
+      "WREN",
+      "CARRIAGE",
+      "KING",
+      "PLIE",
+      "BARRE",
+      "BEARING",
+      "TUTU",
+      "ATTITUDE",
+      "MANDELA",
+      "PRESENCE",
+      "HAMM",
+      "BOOTCAMP",
+      "PILATES",
+      "JIGS",
+      "GANDHI",
+      "AEROBICS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FITNESS CLASS TYPES",
+        "members": [
+          "AEROBICS",
+          "BARRE",
+          "BOOTCAMP",
+          "PILATES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DEMEANOR",
+        "members": [
+          "ATTITUDE",
+          "BEARING",
+          "CARRIAGE",
+          "PRESENCE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PEACE ACTIVISTS",
+        "members": [
+          "GANDHI",
+          "KING",
+          "MANDELA",
+          "TUTU"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TOOLS MINUS LAST TWO LETTERS",
+        "members": [
+          "HAMM",
+          "JIGS",
+          "PLIE",
+          "WREN"
         ]
       }
     ]
