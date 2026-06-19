@@ -1,69 +1,5 @@
 [
   {
-    "id": 1157,
-    "date": "2026-05-20",
-    "startingOrder": [
-      "HIGH",
-      "KEY",
-      "INTENSITY",
-      "INDEPENDENCE",
-      "MIGHT",
-      "MODE",
-      "MEDIUM",
-      "INTERVAL",
-      "TRAINING",
-      "OFF",
-      "FORCE",
-      "SIMMER",
-      "CONCENTRATION",
-      "GROUNDHOG",
-      "THE LONGEST",
-      "SCALE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STOVE KNOB SETTINGS",
-        "members": [
-          "HIGH",
-          "MEDIUM",
-          "OFF",
-          "SIMMER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "POTENCY",
-        "members": [
-          "CONCENTRATION",
-          "FORCE",
-          "INTENSITY",
-          "MIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSIC THEORY CONCEPTS",
-        "members": [
-          "INTERVAL",
-          "KEY",
-          "MODE",
-          "SCALE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"___ DAY\" MOVIES",
-        "members": [
-          "GROUNDHOG",
-          "INDEPENDENCE",
-          "THE LONGEST",
-          "TRAINING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1158,
     "date": "2026-05-21",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "JIGS",
           "PLIE",
           "WREN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1188,
+    "date": "2026-06-19",
+    "startingOrder": [
+      "TIME MACHINE",
+      "TEETOTAL",
+      "DIM SUM",
+      "SOY SAUCE",
+      "SPINDERELLA",
+      "FORTUNE COOKIE",
+      "VEGEMITE",
+      "VISCOUNT",
+      "CHOPSTICKS",
+      "MISO PASTE",
+      "PEOPLE PERSON",
+      "HEART AND SOUL",
+      "COINCIDENTALLY",
+      "THE ENTERTAINER",
+      "PARMESAN",
+      "FÜR ELISE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "UMAMI-RICH FOODS",
+        "members": [
+          "MISO PASTE",
+          "PARMESAN",
+          "SOY SAUCE",
+          "VEGEMITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS A BEGINNER MIGHT LEARN ON THE PIANO",
+        "members": [
+          "CHOPSTICKS",
+          "FÜR ELISE",
+          "HEART AND SOUL",
+          "THE ENTERTAINER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH MAGAZINES",
+        "members": [
+          "FORTUNE COOKIE",
+          "PEOPLE PERSON",
+          "SPINDERELLA",
+          "TIME MACHINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN SYNONYMS FOR \"AGGREGATE\"",
+        "members": [
+          "COINCIDENTALLY",
+          "DIM SUM",
+          "TEETOTAL",
+          "VISCOUNT"
         ]
       }
     ]
