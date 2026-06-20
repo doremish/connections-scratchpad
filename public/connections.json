@@ -1,69 +1,5 @@
 [
   {
-    "id": 1158,
-    "date": "2026-05-21",
-    "startingOrder": [
-      "LOVE",
-      "CHESS",
-      "HONEY",
-      "MOON",
-      "PEACH",
-      "HOT",
-      "YELLOW",
-      "PUMPKIN",
-      "ADVANTAGE",
-      "CAN",
-      "PECAN",
-      "COLONEL",
-      "DEUCE",
-      "SHOOFLY",
-      "CABOOSE",
-      "FORTY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "KINDS OF PIES",
-        "members": [
-          "CHESS",
-          "PECAN",
-          "PUMPKIN",
-          "SHOOFLY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS ASSOCIATED WITH BUTTS",
-        "members": [
-          "CABOOSE",
-          "CAN",
-          "MOON",
-          "PEACH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TENNIS SCORING TERMS",
-        "members": [
-          "ADVANTAGE",
-          "DEUCE",
-          "FORTY",
-          "LOVE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ MUSTARD",
-        "members": [
-          "COLONEL",
-          "HONEY",
-          "HOT",
-          "YELLOW"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1153,
     "date": "2026-05-22",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DIM SUM",
           "TEETOTAL",
           "VISCOUNT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1203,
+    "date": "2026-06-20",
+    "startingOrder": [
+      "CHAMPION",
+      "NEW YORK",
+      "KNICKS",
+      "JUMPIN'",
+      "ROCKER",
+      "KNAPSACK",
+      "BEANBAG",
+      "BOLSTER",
+      "JACKKNIFE",
+      "SUPPORT",
+      "KNOCK-KNOCK",
+      "LOUIE",
+      "BACK",
+      "STOOL",
+      "REBEL",
+      "RECLINER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FEATURING SILENT AND PRONOUNCED \"K\"S",
+        "members": [
+          "JACKKNIFE",
+          "KNAPSACK",
+          "KNICKS",
+          "KNOCK-KNOCK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDORSE",
+        "members": [
+          "BACK",
+          "BOLSTER",
+          "CHAMPION",
+          "SUPPORT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF CHAIRS",
+        "members": [
+          "BEANBAG",
+          "RECLINER",
+          "ROCKER",
+          "STOOL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS REPEATED IN HIT SONG TITLES",
+        "members": [
+          "JUMPIN'",
+          "LOUIE",
+          "NEW YORK",
+          "REBEL"
         ]
       }
     ]
