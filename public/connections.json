@@ -1,69 +1,5 @@
 [
   {
-    "id": 1161,
-    "date": "2026-05-24",
-    "startingOrder": [
-      "RATTLE",
-      "PEN",
-      "STAFF",
-      "HISS",
-      "HERB",
-      "SHED",
-      "ITSY",
-      "MASK",
-      "STRIKE",
-      "DRUM",
-      "STABLE",
-      "MARCH",
-      "RALLY",
-      "MYA",
-      "PICKET",
-      "COOP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FARM FIXTURES",
-        "members": [
-          "COOP",
-          "PEN",
-          "SHED",
-          "STABLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LABOR PROTEST ACTIONS",
-        "members": [
-          "MARCH",
-          "PICKET",
-          "RALLY",
-          "STRIKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OBJECTS USED IN RITUAL PERFORMANCES",
-        "members": [
-          "DRUM",
-          "MASK",
-          "RATTLE",
-          "STAFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "POSSESSIVE ADJECTIVES PLUS A LETTER",
-        "members": [
-          "HERB",
-          "HISS",
-          "ITSY",
-          "MYA"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1163,
     "date": "2026-05-25",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BOOMER",
           "POPSICLE",
           "POWDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1194,
+    "date": "2026-06-23",
+    "startingOrder": [
+      "MONEY",
+      "YANKEES",
+      "HOTEL",
+      "FOXTROT",
+      "MODERN",
+      "FIREPLACE",
+      "POPULAR",
+      "DEED",
+      "EMPEROR",
+      "FEATURED",
+      "TOKEN",
+      "TAP",
+      "RECENT",
+      "SWING",
+      "EARTH",
+      "TRENDING"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DANCE STYLES",
+        "members": [
+          "FOXTROT",
+          "MODERN",
+          "SWING",
+          "TAP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "IN A MONOPOLY BOX",
+        "members": [
+          "DEED",
+          "HOTEL",
+          "MONEY",
+          "TOKEN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CONTENT SORTING OPTIONS ONLINE",
+        "members": [
+          "FEATURED",
+          "POPULAR",
+          "RECENT",
+          "TRENDING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH MANTLES/MANTELS",
+        "members": [
+          "EARTH",
+          "EMPEROR",
+          "FIREPLACE",
+          "YANKEES"
         ]
       }
     ]
