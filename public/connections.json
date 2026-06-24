@@ -1,69 +1,5 @@
 [
   {
-    "id": 1163,
-    "date": "2026-05-25",
-    "startingOrder": [
-      "BROW",
-      "CAP",
-      "LID",
-      "CYA",
-      "WHIT",
-      "ATM",
-      "PIN",
-      "JOT",
-      "LASH",
-      "LOL",
-      "SCRAP",
-      "SHIRT",
-      "STICKER",
-      "BALL",
-      "TIA",
-      "SHRED"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COMMON PROMO ITEMS",
-        "members": [
-          "CAP",
-          "PIN",
-          "SHIRT",
-          "STICKER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TINY BIT",
-        "members": [
-          "JOT",
-          "SCRAP",
-          "SHRED",
-          "WHIT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TEXTING ABBREVIATIONS",
-        "members": [
-          "ATM",
-          "CYA",
-          "LOL",
-          "TIA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EYE___",
-        "members": [
-          "BALL",
-          "BROW",
-          "LASH",
-          "LID"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1155,
     "date": "2026-05-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "EMPEROR",
           "FIREPLACE",
           "YANKEES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1196,
+    "date": "2026-06-24",
+    "startingOrder": [
+      "HUMPTY DUMPTY",
+      "TOASTER",
+      "PINK FLOYD",
+      "MONEY",
+      "KOOL-AID MAN",
+      "HELTER SKELTER",
+      "CHINA",
+      "RUSH",
+      "CHICK FLICK",
+      "DEADPOOL",
+      "LUGGAGE",
+      "GENESIS",
+      "CLIFFORD",
+      "MUMBO JUMBO",
+      "KING CRIMSON",
+      "MR. KRABS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PROG BANDS",
+        "members": [
+          "GENESIS",
+          "KING CRIMSON",
+          "PINK FLOYD",
+          "RUSH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CLASSIC WEDDING GIFTS",
+        "members": [
+          "CHINA",
+          "LUGGAGE",
+          "MONEY",
+          "TOASTER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RED CHARACTERS",
+        "members": [
+          "CLIFFORD",
+          "DEADPOOL",
+          "KOOL-AID MAN",
+          "MR. KRABS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RHYMING COMPOUND WORDS",
+        "members": [
+          "CHICK FLICK",
+          "HELTER SKELTER",
+          "HUMPTY DUMPTY",
+          "MUMBO JUMBO"
         ]
       }
     ]
