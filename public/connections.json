@@ -1,69 +1,5 @@
 [
   {
-    "id": 1155,
-    "date": "2026-05-26",
-    "startingOrder": [
-      "BIG",
-      "RING",
-      "TINSEL",
-      "FOCUS",
-      "AIRPLANE",
-      "CUP",
-      "POINT",
-      "SILENT",
-      "LISTEN",
-      "CLUE",
-      "SUBJECT",
-      "TWINS",
-      "PENNANT",
-      "ENLIST",
-      "CONCERN",
-      "MEDAL"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CHAMPIONSHIP AWARDS",
-        "members": [
-          "CUP",
-          "MEDAL",
-          "PENNANT",
-          "RING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MATTER AT HAND",
-        "members": [
-          "CONCERN",
-          "FOCUS",
-          "POINT",
-          "SUBJECT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "'80S COMEDIES",
-        "members": [
-          "AIRPLANE",
-          "BIG",
-          "CLUE",
-          "TWINS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ANAGRAMS",
-        "members": [
-          "ENLIST",
-          "LISTEN",
-          "SILENT",
-          "TINSEL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1159,
     "date": "2026-05-27",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HELTER SKELTER",
           "HUMPTY DUMPTY",
           "MUMBO JUMBO"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1183,
+    "date": "2026-06-25",
+    "startingOrder": [
+      "POLONIUM",
+      "CRANIUM",
+      "COMPACT",
+      "HOCKEY",
+      "CROQUETTE",
+      "TRACKPAD",
+      "LEAD",
+      "SQUASHED",
+      "MERCURY",
+      "DUCTILE",
+      "DENSE",
+      "MICROPHONE",
+      "MONITOR",
+      "FRANCIUM",
+      "PRINTER",
+      "COMPRESSED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COMPUTER PERIPHERALS",
+        "members": [
+          "MICROPHONE",
+          "MONITOR",
+          "PRINTER",
+          "TRACKPAD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TIGHTLY PACKED",
+        "members": [
+          "COMPACT",
+          "COMPRESSED",
+          "DENSE",
+          "SQUASHED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HAZARDOUS ELEMENTAL METALS",
+        "members": [
+          "FRANCIUM",
+          "LEAD",
+          "MERCURY",
+          "POLONIUM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH BIRD HOMOPHONES",
+        "members": [
+          "CRANIUM",
+          "CROQUETTE",
+          "DUCTILE",
+          "HOCKEY"
         ]
       }
     ]
