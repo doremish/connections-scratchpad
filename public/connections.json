@@ -1,69 +1,5 @@
 [
   {
-    "id": 1166,
-    "date": "2026-05-28",
-    "startingOrder": [
-      "JUMP",
-      "BAR",
-      "PRESS",
-      "LODGE",
-      "BENCH",
-      "LIFT",
-      "MEDIA",
-      "HUNCH",
-      "NEWS",
-      "STOOP",
-      "STAND",
-      "PAPERS",
-      "SQUAT",
-      "DUCK",
-      "SLOPE",
-      "PODIUM"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GET LOW",
-        "members": [
-          "DUCK",
-          "HUNCH",
-          "SQUAT",
-          "STOOP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FOURTH ESTATE",
-        "members": [
-          "MEDIA",
-          "NEWS",
-          "PAPERS",
-          "PRESS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A COURTROOM",
-        "members": [
-          "BAR",
-          "BENCH",
-          "PODIUM",
-          "STAND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SKI ___",
-        "members": [
-          "JUMP",
-          "LIFT",
-          "LODGE",
-          "SLOPE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1164,
     "date": "2026-05-29",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PINKY",
           "REDO",
           "TANG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1198,
+    "date": "2026-06-27",
+    "startingOrder": [
+      "CATWALK",
+      "FOXTROT",
+      "CREDIT CARD",
+      "COLLECTION",
+      "BOARDWALK",
+      "DESIGNER",
+      "ENVELOPE",
+      "CROSSWALK",
+      "FIREWALK",
+      "INCOME TAX",
+      "BILLIARD BALL",
+      "MODEL",
+      "SHORT LINE",
+      "DECANTER",
+      "WATER WORKS",
+      "BARBER POLE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "MONOPOLY SQUARES",
+        "members": [
+          "BOARDWALK",
+          "INCOME TAX",
+          "SHORT LINE",
+          "WATER WORKS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMPONENTS OF A FASHION SHOW",
+        "members": [
+          "CATWALK",
+          "COLLECTION",
+          "DESIGNER",
+          "MODEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMMONLY STRIPED THINGS",
+        "members": [
+          "BARBER POLE",
+          "BILLIARD BALL",
+          "CREDIT CARD",
+          "CROSSWALK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN HORSE GAITS",
+        "members": [
+          "DECANTER",
+          "ENVELOPE",
+          "FIREWALK",
+          "FOXTROT"
         ]
       }
     ]
