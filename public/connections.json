@@ -1,69 +1,5 @@
 [
   {
-    "id": 1165,
-    "date": "2026-05-30",
-    "startingOrder": [
-      "LUCID",
-      "WITCHCRAFT",
-      "IMPOSSIBLE",
-      "SOUND",
-      "PIPE",
-      "FEVER",
-      "RIGHT",
-      "SORRY",
-      "CLEAR",
-      "BRACE",
-      "NEVER",
-      "TILDE",
-      "GIGI",
-      "NO WAY",
-      "CARET",
-      "VOLARE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "\"IN YOUR DREAMS\"",
-        "members": [
-          "IMPOSSIBLE",
-          "NEVER",
-          "NO WAY",
-          "SORRY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SENSIBLE",
-        "members": [
-          "CLEAR",
-          "LUCID",
-          "RIGHT",
-          "SOUND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TYPOGRAPHICAL SYMBOLS",
-        "members": [
-          "BRACE",
-          "CARET",
-          "PIPE",
-          "TILDE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SONG OF THE YEAR NOMINEES AT THE FIRST GRAMMY AWARDS",
-        "members": [
-          "FEVER",
-          "GIGI",
-          "VOLARE",
-          "WITCHCRAFT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1156,
     "date": "2026-05-31",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CORPORATION",
           "DARTS",
           "SURFER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1187,
+    "date": "2026-06-29",
+    "startingOrder": [
+      "WOOFER",
+      "RUFFIAN",
+      "INHALE",
+      "GROOT",
+      "EMBARK",
+      "MAGNET",
+      "SNARF",
+      "CONE",
+      "ROGUE",
+      "CRUSH",
+      "CABINET",
+      "STRUNK",
+      "NUDIBRANCH",
+      "MISCREANT",
+      "GUZZLE",
+      "SCOUNDREL"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "OLD TIMEY TROUBLEMAKERS",
+        "members": [
+          "MISCREANT",
+          "ROGUE",
+          "RUFFIAN",
+          "SCOUNDREL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CONSUME WITH GUSTO",
+        "members": [
+          "CRUSH",
+          "GUZZLE",
+          "INHALE",
+          "SNARF"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A SPEAKER",
+        "members": [
+          "CABINET",
+          "CONE",
+          "MAGNET",
+          "WOOFER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN PARTS OF A TREE",
+        "members": [
+          "EMBARK",
+          "GROOT",
+          "NUDIBRANCH",
+          "STRUNK"
         ]
       }
     ]
