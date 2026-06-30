@@ -1,69 +1,5 @@
 [
   {
-    "id": 1156,
-    "date": "2026-05-31",
-    "startingOrder": [
-      "BUTTER",
-      "SALT",
-      "STEAK",
-      "BREAK",
-      "JACK",
-      "SOAK",
-      "POCKET",
-      "SPINE",
-      "RUBBER DUCK",
-      "TAR",
-      "RACK",
-      "SCHOOL BUS",
-      "PIKACHU",
-      "SEA DOG",
-      "SASH",
-      "CUE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE YELLOW",
-        "members": [
-          "BUTTER",
-          "PIKACHU",
-          "RUBBER DUCK",
-          "SCHOOL BUS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BILLIARDS TERMS",
-        "members": [
-          "BREAK",
-          "CUE",
-          "POCKET",
-          "RACK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SLANG FOR A SAILOR",
-        "members": [
-          "JACK",
-          "SALT",
-          "SEA DOG",
-          "TAR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF WOOD PLUS \"S\"",
-        "members": [
-          "SASH",
-          "SOAK",
-          "SPINE",
-          "STEAK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1167,
     "date": "2026-06-01",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GROOT",
           "NUDIBRANCH",
           "STRUNK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1193,
+    "date": "2026-06-30",
+    "startingOrder": [
+      "CURL",
+      "BREEZE",
+      "BOX",
+      "FENCE",
+      "SKETCH",
+      "SKATE",
+      "BOTTLE",
+      "ON TAP",
+      "CAN",
+      "WALL",
+      "RECRUIT",
+      "HEDGE",
+      "LUGE",
+      "NEWSPAPER",
+      "GATE",
+      "SKI"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DIVIDING STRUCTURES",
+        "members": [
+          "FENCE",
+          "GATE",
+          "HEDGE",
+          "WALL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTICIPATE IN SOME WINTER OLYMPICS",
+        "members": [
+          "CURL",
+          "LUGE",
+          "SKATE",
+          "SKI"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMMON RECYCLABLES",
+        "members": [
+          "BOTTLE",
+          "BOX",
+          "CAN",
+          "NEWSPAPER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"DRAFT\" MIGHT REFER TO",
+        "members": [
+          "BREEZE",
+          "ON TAP",
+          "RECRUIT",
+          "SKETCH"
         ]
       }
     ]
