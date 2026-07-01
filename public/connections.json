@@ -1,69 +1,5 @@
 [
   {
-    "id": 1167,
-    "date": "2026-06-01",
-    "startingOrder": [
-      "WEDDING",
-      "MENAGERIE",
-      "ONION",
-      "NEWSPAPER",
-      "CEILING",
-      "SLIPPERS",
-      "TREE",
-      "CAT",
-      "DOOR",
-      "TATTOO",
-      "PIPE",
-      "WALL",
-      "KEY",
-      "WINDOW",
-      "STREETCAR",
-      "ROBE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ROOM FEATURES",
-        "members": [
-          "CEILING",
-          "DOOR",
-          "WALL",
-          "WINDOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OLD-TIMEY LOUNGING ACCESSORIES",
-        "members": [
-          "NEWSPAPER",
-          "PIPE",
-          "ROBE",
-          "SLIPPERS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SUBJECTS IN TENNESSEE WILLIAMS TITLES",
-        "members": [
-          "STREETCAR",
-          "CAT",
-          "MENAGERIE",
-          "TATTOO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ RING",
-        "members": [
-          "KEY",
-          "ONION",
-          "TREE",
-          "WEDDING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1173,
     "date": "2026-06-02",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "ON TAP",
           "RECRUIT",
           "SKETCH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1192,
+    "date": "2026-07-01",
+    "startingOrder": [
+      "CHICAGO",
+      "LONG ISLAND",
+      "NIGERIA",
+      "COLOGNE",
+      "INDIANAPOLIS",
+      "MUNICH",
+      "LIMERICK",
+      "SINGAPORE",
+      "CASABLANCA",
+      "CUBA",
+      "DOMINICAN REPUBLIC",
+      "CHAMPAGNE",
+      "GUINEA-BISSAU",
+      "CHINA",
+      "FARGO",
+      "MOSCOW"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS NAMED AFTER PLACES",
+        "members": [
+          "CHAMPAGNE",
+          "CHINA",
+          "COLOGNE",
+          "LIMERICK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BEST PICTURE WINNERS/NOMINEES",
+        "members": [
+          "CASABLANCA",
+          "CHICAGO",
+          "FARGO",
+          "MUNICH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES IN COCKTAIL NAMES",
+        "members": [
+          "CUBA",
+          "LONG ISLAND",
+          "MOSCOW",
+          "SINGAPORE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH COUNTRIES",
+        "members": [
+          "DOMINICAN REPUBLIC",
+          "GUINEA-BISSAU",
+          "INDIANAPOLIS",
+          "NIGERIA"
         ]
       }
     ]
