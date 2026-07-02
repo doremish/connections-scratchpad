@@ -1,69 +1,5 @@
 [
   {
-    "id": 1173,
-    "date": "2026-06-02",
-    "startingOrder": [
-      "TIN CAN",
-      "JACKET POTATO",
-      "COAT OF ARMS",
-      "MASH",
-      "CLOAK-AND-DAGGER",
-      "CREST",
-      "CHIPS",
-      "CAPE MAY",
-      "HELMET",
-      "TOP SECRET",
-      "FREE WILL",
-      "HUSH-HUSH",
-      "BUBBLE AND SQUEAK",
-      "GRAPE MUST",
-      "COVERT",
-      "SHIELD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CLANDESTINE",
-        "members": [
-          "CLOAK-AND-DAGGER",
-          "COVERT",
-          "HUSH-HUSH",
-          "TOP SECRET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BRITISH POTATO DISHES",
-        "members": [
-          "BUBBLE AND SQUEAK",
-          "CHIPS",
-          "JACKET POTATO",
-          "MASH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HERALDIC ACHIEVEMENTS",
-        "members": [
-          "COAT OF ARMS",
-          "CREST",
-          "HELMET",
-          "SHIELD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN MODAL AUXILIARY VERBS",
-        "members": [
-          "CAPE MAY",
-          "FREE WILL",
-          "GRAPE MUST",
-          "TIN CAN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1170,
     "date": "2026-06-03",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GUINEA-BISSAU",
           "INDIANAPOLIS",
           "NIGERIA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1190,
+    "date": "2026-07-02",
+    "startingOrder": [
+      "MOCKINGBIRD",
+      "FIELD MOUSE",
+      "TOM-TOM",
+      "COURT JESTER",
+      "MIME",
+      "LOOKING GLASS",
+      "TRACK RECORD",
+      "BILLY GOAT",
+      "DIAMOND RING",
+      "SPECTACLES",
+      "DAN DAN NOODLES",
+      "COPYCAT",
+      "TALKIE",
+      "RICH TEXT",
+      "T-1000",
+      "WATER CLOSET"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THEY IMPERSONATE OTHER THINGS",
+        "members": [
+          "COPYCAT",
+          "MIME",
+          "MOCKINGBIRD",
+          "T-1000"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OLD-TIMEY NAMES FOR THINGS WE STILL USE",
+        "members": [
+          "LOOKING GLASS",
+          "SPECTACLES",
+          "TALKIE",
+          "WATER CLOSET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH NICKNAMES",
+        "members": [
+          "BILLY GOAT",
+          "DAN DAN NOODLES",
+          "RICH TEXT",
+          "TOM-TOM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH SPORTS VENUES",
+        "members": [
+          "COURT JESTER",
+          "DIAMOND RING",
+          "FIELD MOUSE",
+          "TRACK RECORD"
         ]
       }
     ]
