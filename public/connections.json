@@ -1,69 +1,5 @@
 [
   {
-    "id": 1172,
-    "date": "2026-06-05",
-    "startingOrder": [
-      "FLAKE",
-      "OSCAR",
-      "WITCH",
-      "GHOST",
-      "INCUBUS",
-      "BREADCRUMB",
-      "CLUSTER",
-      "SITUATIONSHIP",
-      "STRIPTEASE",
-      "PUFF",
-      "QUATRAIN",
-      "FOREST",
-      "OVEN",
-      "DISCLOSURE",
-      "LOOP",
-      "THE SUBSTANCE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH HANSEL AND GRETEL",
-        "members": [
-          "BREADCRUMB",
-          "FOREST",
-          "OVEN",
-          "WITCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BIT OF CEREAL",
-        "members": [
-          "CLUSTER",
-          "FLAKE",
-          "LOOP",
-          "PUFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DEMI MOORE MOVIES",
-        "members": [
-          "DISCLOSURE",
-          "GHOST",
-          "STRIPTEASE",
-          "THE SUBSTANCE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN METHODS OF TRANSPORTATION",
-        "members": [
-          "INCUBUS",
-          "OSCAR",
-          "QUATRAIN",
-          "SITUATIONSHIP"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1169,
     "date": "2026-06-06",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "NOTHINGS",
           "PEA",
           "SPOT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1204,
+    "date": "2026-07-05",
+    "startingOrder": [
+      "WIN",
+      "OATS",
+      "GREEN",
+      "WIRE",
+      "WEST",
+      "CARD",
+      "WITH",
+      "HONEY",
+      "GOLD",
+      "TUNGSTEN",
+      "CHECK",
+      "SEEDS",
+      "CASH",
+      "PLATINUM",
+      "NUTS",
+      "CENTURION"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GRANOLA INGREDIENTS",
+        "members": [
+          "HONEY",
+          "NUTS",
+          "OATS",
+          "SEEDS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PAYMENT METHODS",
+        "members": [
+          "CARD",
+          "CASH",
+          "CHECK",
+          "WIRE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AMEX CARD TYPES",
+        "members": [
+          "CENTURION",
+          "GOLD",
+          "GREEN",
+          "PLATINUM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"W\" MIGHT STAND FOR",
+        "members": [
+          "TUNGSTEN",
+          "WEST",
+          "WIN",
+          "WITH"
         ]
       }
     ]
