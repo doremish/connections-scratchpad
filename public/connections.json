@@ -1,69 +1,5 @@
 [
   {
-    "id": 1169,
-    "date": "2026-06-06",
-    "startingOrder": [
-      "DINNER",
-      "EXPRESS",
-      "POST",
-      "ROUND",
-      "DRAGON",
-      "REGISTER",
-      "TIMES",
-      "SHAFT",
-      "DISPLAY",
-      "MONITOR",
-      "STAKE",
-      "SKINK",
-      "BETRAY",
-      "BASILISK",
-      "DRAFTING",
-      "POLE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PILLAR",
-        "members": [
-          "POLE",
-          "POST",
-          "SHAFT",
-          "STAKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "INDICATE, AS EMOTIONS",
-        "members": [
-          "BETRAY",
-          "DISPLAY",
-          "EXPRESS",
-          "REGISTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF LIZARDS",
-        "members": [
-          "BASILISK",
-          "DRAGON",
-          "MONITOR",
-          "SKINK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ TABLE",
-        "members": [
-          "DINNER",
-          "DRAFTING",
-          "ROUND",
-          "TIMES"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1171,
     "date": "2026-06-07",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "WEST",
           "WIN",
           "WITH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1199,
+    "date": "2026-07-06",
+    "startingOrder": [
+      "ATOM",
+      "BUMBLEBEE",
+      "TNT",
+      "THUNDERBOLT",
+      "VOLCANO",
+      "TINDERBOX",
+      "DNA",
+      "ROCKET SKATES",
+      "MATCHA",
+      "BOMBSHELL",
+      "EARTHQUAKE PILLS",
+      "REVELATION",
+      "SOLAR SYSTEM",
+      "GRIND RAIL",
+      "SHOCKER",
+      "IRON BIRD SEED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STUNNING NEWS",
+        "members": [
+          "BOMBSHELL",
+          "REVELATION",
+          "SHOCKER",
+          "THUNDERBOLT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SCIENCE FAIR MODEL SUBJECTS",
+        "members": [
+          "ATOM",
+          "DNA",
+          "SOLAR SYSTEM",
+          "VOLCANO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ACME PRODUCTS USED BY WILE E. COYOTE",
+        "members": [
+          "EARTHQUAKE PILLS",
+          "IRON BIRD SEED",
+          "ROCKET SKATES",
+          "TNT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH DATING APPS",
+        "members": [
+          "BUMBLEBEE",
+          "GRIND RAIL",
+          "MATCHA",
+          "TINDERBOX"
         ]
       }
     ]
