@@ -1,69 +1,5 @@
 [
   {
-    "id": 1171,
-    "date": "2026-06-07",
-    "startingOrder": [
-      "POP",
-      "GUT",
-      "SHEER",
-      "STATE",
-      "UTTER",
-      "WAVE",
-      "LEVEL",
-      "STEP",
-      "TOTAL",
-      "EXPRESS",
-      "THIN",
-      "TRASH",
-      "GOSSAMER",
-      "CORE",
-      "VOICE",
-      "GAUZY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "TRANSLUCENT, AS FABRIC",
-        "members": [
-          "GAUZY",
-          "GOSSAMER",
-          "SHEER",
-          "THIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SPEAK",
-        "members": [
-          "EXPRESS",
-          "STATE",
-          "UTTER",
-          "VOICE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DEMOLISH",
-        "members": [
-          "GUT",
-          "LEVEL",
-          "TOTAL",
-          "TRASH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSIC GENRE SUFFIXES",
-        "members": [
-          "CORE",
-          "POP",
-          "STEP",
-          "WAVE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1174,
     "date": "2026-06-08",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GRIND RAIL",
           "MATCHA",
           "TINDERBOX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1191,
+    "date": "2026-07-07",
+    "startingOrder": [
+      "PLOT",
+      "DISCOUNT",
+      "JOCK",
+      "COLBERT",
+      "LETTERMAN",
+      "FRENCH",
+      "LEMON",
+      "KITCHEN",
+      "BERNIE",
+      "HALL",
+      "OLIVER",
+      "TEAM CAPTAIN",
+      "STUDY",
+      "SAN ANSELMO",
+      "ALL-AMERICAN",
+      "CONSERVATORY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ROOMS IN CLUE",
+        "members": [
+          "CONSERVATORY",
+          "HALL",
+          "KITCHEN",
+          "STUDY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STUDENT-ATHLETE DESIGNATIONS",
+        "members": [
+          "ALL-AMERICAN",
+          "JOCK",
+          "LETTERMAN",
+          "TEAM CAPTAIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ TWIST",
+        "members": [
+          "FRENCH",
+          "LEMON",
+          "OLIVER",
+          "PLOT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN \"SESAME STREET\" CHARACTERS",
+        "members": [
+          "BERNIE",
+          "COLBERT",
+          "DISCOUNT",
+          "SAN ANSELMO"
         ]
       }
     ]
