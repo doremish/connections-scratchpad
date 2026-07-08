@@ -1,69 +1,5 @@
 [
   {
-    "id": 1174,
-    "date": "2026-06-08",
-    "startingOrder": [
-      "INVISIBLE",
-      "MOHAWK",
-      "ISLAND",
-      "PUNCH",
-      "VOLLEYBALL",
-      "ELEPHANT",
-      "COCONUT",
-      "DELTA",
-      "PENINSULA",
-      "PATE",
-      "SEA URCHIN",
-      "MELON",
-      "OMEGA",
-      "ISTHMUS",
-      "DOME",
-      "RUNNING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "LANDFORMS BY WATER",
-        "members": [
-          "DELTA",
-          "ISLAND",
-          "ISTHMUS",
-          "PENINSULA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SLANG FOR HEAD",
-        "members": [
-          "COCONUT",
-          "DOME",
-          "MELON",
-          "PATE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT CAN BE SPIKED",
-        "members": [
-          "MOHAWK",
-          "PUNCH",
-          "SEA URCHIN",
-          "VOLLEYBALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"THE ___ MAN\" MOVIES",
-        "members": [
-          "ELEPHANT",
-          "INVISIBLE",
-          "OMEGA",
-          "RUNNING"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1179,
     "date": "2026-06-09",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COLBERT",
           "DISCOUNT",
           "SAN ANSELMO"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1205,
+    "date": "2026-07-08",
+    "startingOrder": [
+      "DRIFT",
+      "PLANE",
+      "WAX",
+      "PLOT",
+      "PLUCK",
+      "CARDS",
+      "SHAVE",
+      "THREAD",
+      "GRATE",
+      "PICK",
+      "WORSHIP",
+      "TAP",
+      "LORDS",
+      "STRUM",
+      "THEME",
+      "SLIVER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CUT INTO THIN PIECES",
+        "members": [
+          "GRATE",
+          "PLANE",
+          "SHAVE",
+          "SLIVER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MOTIF",
+        "members": [
+          "DRIFT",
+          "PLOT",
+          "THEME",
+          "THREAD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GUITAR-PLAYING TECHNIQUES",
+        "members": [
+          "PICK",
+          "PLUCK",
+          "STRUM",
+          "TAP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOUSE OF ___",
+        "members": [
+          "CARDS",
+          "LORDS",
+          "WAX",
+          "WORSHIP"
         ]
       }
     ]
