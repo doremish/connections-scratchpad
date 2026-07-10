@@ -1,69 +1,5 @@
 [
   {
-    "id": 1176,
-    "date": "2026-06-10",
-    "startingOrder": [
-      "STAGE",
-      "PAGE",
-      "FASHION",
-      "FILM",
-      "METHOD",
-      "SKIN",
-      "CHARACTER",
-      "WINGS",
-      "PIT",
-      "CRUST",
-      "WORD",
-      "WAY",
-      "LINE",
-      "CATWALK",
-      "SCUM",
-      "MANNER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "TECHNIQUE",
-        "members": [
-          "FASHION",
-          "MANNER",
-          "METHOD",
-          "WAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GROSS THINGS THAT FORM ON WET SURFACES",
-        "members": [
-          "CRUST",
-          "FILM",
-          "SCUM",
-          "SKIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A THEATER",
-        "members": [
-          "CATWALK",
-          "PIT",
-          "STAGE",
-          "WINGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COUNTED IN DOCUMENT WORD COUNTS",
-        "members": [
-          "CHARACTER",
-          "LINE",
-          "PAGE",
-          "WORD"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1180,
     "date": "2026-06-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "G6",
           "GRAND PRIX",
           "TRANS AM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1197,
+    "date": "2026-07-10",
+    "startingOrder": [
+      "OUTKAST",
+      "DEPECHE MODE",
+      "FRESH-BAKED",
+      "BALL GOWN",
+      "DO NOT DISTURB",
+      "À LA MODE",
+      "STRIKE A POSE",
+      "AIRPLANE MODE",
+      "ERASURE",
+      "SAFE MODE",
+      "DECADENT",
+      "NEW ORDER",
+      "HOTSPOT",
+      "PET SHOP BOYS",
+      "MOLTEN",
+      "LOCATION SERVICES"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SMARTPHONE SETTINGS",
+        "members": [
+          "AIRPLANE MODE",
+          "DO NOT DISTURB",
+          "HOTSPOT",
+          "LOCATION SERVICES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DESSERT MENU DESCRIPTORS",
+        "members": [
+          "DECADENT",
+          "FRESH-BAKED",
+          "MOLTEN",
+          "À LA MODE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "'80S SYNTH-POP BANDS",
+        "members": [
+          "DEPECHE MODE",
+          "ERASURE",
+          "NEW ORDER",
+          "PET SHOP BOYS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH BASEBALL CALLS",
+        "members": [
+          "BALL GOWN",
+          "OUTKAST",
+          "SAFE MODE",
+          "STRIKE A POSE"
         ]
       }
     ]
