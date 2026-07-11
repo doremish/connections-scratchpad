@@ -1,69 +1,5 @@
 [
   {
-    "id": 1180,
-    "date": "2026-06-11",
-    "startingOrder": [
-      "DEVIL",
-      "STRIP",
-      "PAPAL",
-      "BRONCHO",
-      "VENO",
-      "BRASS BAND",
-      "UCONN",
-      "RHINO",
-      "CARDIO",
-      "TROUPER",
-      "VIKING HELMET",
-      "BALANCE",
-      "ELLE",
-      "WEIGHTS",
-      "FORERUNNER",
-      "STRETCHING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PARTS OF A WORKOUT ROUTINE",
-        "members": [
-          "BALANCE",
-          "CARDIO",
-          "STRETCHING",
-          "WEIGHTS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH HORNS",
-        "members": [
-          "BRASS BAND",
-          "DEVIL",
-          "RHINO",
-          "VIKING HELMET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF SUVS",
-        "members": [
-          "BRONCHO",
-          "FORERUNNER",
-          "TROUPER",
-          "UCONN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PAYMENT APPS MINUS A LETTER",
-        "members": [
-          "ELLE",
-          "PAPAL",
-          "STRIP",
-          "VENO"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1182,
     "date": "2026-06-12",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OUTKAST",
           "SAFE MODE",
           "STRIKE A POSE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1214,
+    "date": "2026-07-11",
+    "startingOrder": [
+      "STILL",
+      "STILTS",
+      "SLINKY",
+      "AARDVARK",
+      "WOODY",
+      "GLASSY",
+      "CANNON",
+      "BOCCE",
+      "EBBING",
+      "BO PEEP",
+      "FLAT",
+      "UNICYCLE",
+      "CALM",
+      "JESSIE",
+      "TRAPEZE",
+      "TWIDDLE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CIRCUS EQUIPMENT",
+        "members": [
+          "CANNON",
+          "STILTS",
+          "TRAPEZE",
+          "UNICYCLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "UNDISTURBED, AS WATER",
+        "members": [
+          "CALM",
+          "FLAT",
+          "GLASSY",
+          "STILL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"TOY STORY\" CHARACTERS",
+        "members": [
+          "BO PEEP",
+          "JESSIE",
+          "SLINKY",
+          "WOODY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DOUBLE LETTERS APPEARING IN THAT LETTER'S ALPHABETICAL POSITION",
+        "members": [
+          "AARDVARK",
+          "BOCCE",
+          "EBBING",
+          "TWIDDLE"
         ]
       }
     ]
