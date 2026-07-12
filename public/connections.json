@@ -1,69 +1,5 @@
 [
   {
-    "id": 1182,
-    "date": "2026-06-12",
-    "startingOrder": [
-      "SCHOOL DAYS",
-      "BED HEAD",
-      "QUOTE UNQUOTE",
-      "CURSE WORD",
-      "COPY EDITOR",
-      "SPELL CHECKER",
-      "BANK TELLER",
-      "PACK RAT",
-      "CHARM BRACELET",
-      "MURDER MYSTERY",
-      "MIRROR SELFIE",
-      "MOUTH GUARD",
-      "PRIDE ROCK",
-      "ECHO PARK",
-      "DELTA AIRLINES",
-      "HEX KEY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STARTING WITH INCANTATIONS",
-        "members": [
-          "CHARM BRACELET",
-          "CURSE WORD",
-          "HEX KEY",
-          "SPELL CHECKER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH ANIMAL GROUP NAMES",
-        "members": [
-          "MURDER MYSTERY",
-          "PACK RAT",
-          "PRIDE ROCK",
-          "SCHOOL DAYS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SYNONYMS FOR \"REPEAT\"",
-        "members": [
-          "COPY EDITOR",
-          "ECHO PARK",
-          "MIRROR SELFIE",
-          "QUOTE UNQUOTE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH PARTS OF A RIVER",
-        "members": [
-          "BANK TELLER",
-          "BED HEAD",
-          "DELTA AIRLINES",
-          "MOUTH GUARD"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1178,
     "date": "2026-06-13",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BOCCE",
           "EBBING",
           "TWIDDLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1213,
+    "date": "2026-07-12",
+    "startingOrder": [
+      "PARTY",
+      "NERD",
+      "MAD",
+      "STONE",
+      "DOT",
+      "DEN",
+      "PIP",
+      "STUDY",
+      "PHO",
+      "SPREE",
+      "SLEEP",
+      "PIT",
+      "RUNT",
+      "SAC",
+      "SEED",
+      "REPEAT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "REPRODUCTIVE PART OF FRUIT",
+        "members": [
+          "PIP",
+          "PIT",
+          "SEED",
+          "STONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BIT OF FRUIT-FLAVORED CANDY",
+        "members": [
+          "DOT",
+          "NERD",
+          "RUNT",
+          "SPREE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "VERBS IN A COLLEGE LIFE SLOGAN",
+        "members": [
+          "PARTY",
+          "REPEAT",
+          "SLEEP",
+          "STUDY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTS OF U.S. CAPITALS",
+        "members": [
+          "DEN",
+          "MAD",
+          "PHO",
+          "SAC"
         ]
       }
     ]
