@@ -1,69 +1,5 @@
 [
   {
-    "id": 1175,
-    "date": "2026-06-14",
-    "startingOrder": [
-      "GRINDSTONE",
-      "MOTHER",
-      "CATERPILLAR",
-      "CREAM PIE",
-      "MASSACHUSETTS",
-      "TEA PARTY",
-      "GYROSCOPE",
-      "GLOBE",
-      "POCKET WATCH",
-      "SELTZER BOTTLE",
-      "MILLIAMPERE",
-      "ROULETTE WHEEL",
-      "BANANA PEEL",
-      "MASTER OF ARTS",
-      "RABBIT HOLE",
-      "RUBBER CHICKEN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CLASSIC SLAPSTICK PROPS",
-        "members": [
-          "BANANA PEEL",
-          "CREAM PIE",
-          "RUBBER CHICKEN",
-          "SELTZER BOTTLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT SPIN",
-        "members": [
-          "GLOBE",
-          "GRINDSTONE",
-          "GYROSCOPE",
-          "ROULETTE WHEEL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURED IN \"ALICE'S ADVENTURES IN WONDERLAND\"",
-        "members": [
-          "CATERPILLAR",
-          "POCKET WATCH",
-          "RABBIT HOLE",
-          "TEA PARTY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"MA\" MIGHT REFER TO",
-        "members": [
-          "MASSACHUSETTS",
-          "MASTER OF ARTS",
-          "MILLIAMPERE",
-          "MOTHER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1184,
     "date": "2026-06-15",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "KISSER",
           "PECKISH",
           "SMACKDOWN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1218,
+    "date": "2026-07-14",
+    "startingOrder": [
+      "U-TURN",
+      "PICNIC",
+      "CUT",
+      "SHUFFLE",
+      "LAUNDRY",
+      "RECYCLING",
+      "DEAL",
+      "COPY",
+      "BARGAIN",
+      "GROCERY",
+      "UNDERSTANDING",
+      "THIS SIDE UP",
+      "PASTE",
+      "AGREEMENT",
+      "EASTER",
+      "DELETE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CONTRACT",
+        "members": [
+          "AGREEMENT",
+          "BARGAIN",
+          "DEAL",
+          "UNDERSTANDING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EDIT MENU OPTIONS",
+        "members": [
+          "COPY",
+          "CUT",
+          "DELETE",
+          "PASTE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF BASKETS",
+        "members": [
+          "EASTER",
+          "GROCERY",
+          "LAUNDRY",
+          "PICNIC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SYMBOLIZED WITH ARROWS",
+        "members": [
+          "RECYCLING",
+          "SHUFFLE",
+          "THIS SIDE UP",
+          "U-TURN"
         ]
       }
     ]
