@@ -1,69 +1,5 @@
 [
   {
-    "id": 1184,
-    "date": "2026-06-15",
-    "startingOrder": [
-      "HORSE",
-      "ANEMONE",
-      "SNAKE",
-      "CHANGE",
-      "LEGS",
-      "DOG",
-      "LARKSPUR",
-      "SHOWER",
-      "DRAGON",
-      "TRACTION",
-      "PRIMP",
-      "MONKSHOOD",
-      "MOMENTUM",
-      "PHLOX",
-      "ACCESSORIZE",
-      "STAMINA"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STAYING POWER",
-        "members": [
-          "LEGS",
-          "MOMENTUM",
-          "STAMINA",
-          "TRACTION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GET READY FOR A NIGHT OUT",
-        "members": [
-          "ACCESSORIZE",
-          "CHANGE",
-          "PRIMP",
-          "SHOWER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CHINESE ZODIAC ANIMALS",
-        "members": [
-          "DOG",
-          "DRAGON",
-          "HORSE",
-          "SNAKE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FLOWERS",
-        "members": [
-          "ANEMONE",
-          "LARKSPUR",
-          "MONKSHOOD",
-          "PHLOX"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1185,
     "date": "2026-06-16",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "SHUFFLE",
           "THIS SIDE UP",
           "U-TURN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1217,
+    "date": "2026-07-15",
+    "startingOrder": [
+      "RACKET",
+      "FOOTBALL",
+      "WIGGLE",
+      "BAR",
+      "HEAD",
+      "BENCH",
+      "ELBOW",
+      "SHOE",
+      "EXTREME",
+      "BREATHING",
+      "MOTOR",
+      "COURT",
+      "CORSET",
+      "WATER",
+      "TRIBUNAL",
+      "BASEBALL GLOVE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TERMS FOR THE LEGAL SYSTEM",
+        "members": [
+          "BAR",
+          "BENCH",
+          "COURT",
+          "TRIBUNAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH LACES",
+        "members": [
+          "BASEBALL GLOVE",
+          "CORSET",
+          "FOOTBALL",
+          "SHOE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SPORTS",
+        "members": [
+          "EXTREME",
+          "MOTOR",
+          "RACKET",
+          "WATER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS BEFORE \"ROOM\" TO INDICATE EXTRA SPACE",
+        "members": [
+          "BREATHING",
+          "ELBOW",
+          "HEAD",
+          "WIGGLE"
         ]
       }
     ]
