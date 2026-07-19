@@ -1,69 +1,5 @@
 [
   {
-    "id": 1188,
-    "date": "2026-06-19",
-    "startingOrder": [
-      "TIME MACHINE",
-      "TEETOTAL",
-      "DIM SUM",
-      "SOY SAUCE",
-      "SPINDERELLA",
-      "FORTUNE COOKIE",
-      "VEGEMITE",
-      "VISCOUNT",
-      "CHOPSTICKS",
-      "MISO PASTE",
-      "PEOPLE PERSON",
-      "HEART AND SOUL",
-      "COINCIDENTALLY",
-      "THE ENTERTAINER",
-      "PARMESAN",
-      "FÜR ELISE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "UMAMI-RICH FOODS",
-        "members": [
-          "MISO PASTE",
-          "PARMESAN",
-          "SOY SAUCE",
-          "VEGEMITE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS A BEGINNER MIGHT LEARN ON THE PIANO",
-        "members": [
-          "CHOPSTICKS",
-          "FÜR ELISE",
-          "HEART AND SOUL",
-          "THE ENTERTAINER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH MAGAZINES",
-        "members": [
-          "FORTUNE COOKIE",
-          "PEOPLE PERSON",
-          "SPINDERELLA",
-          "TIME MACHINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN SYNONYMS FOR \"AGGREGATE\"",
-        "members": [
-          "COINCIDENTALLY",
-          "DIM SUM",
-          "TEETOTAL",
-          "VISCOUNT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1203,
     "date": "2026-06-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FLY",
           "QUIZ",
           "TART"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1210,
+    "date": "2026-07-19",
+    "startingOrder": [
+      "SWITCH",
+      "SWIRL",
+      "LONG",
+      "GAME",
+      "POKER",
+      "PAIR",
+      "FLUSH",
+      "STRAIGHT",
+      "RELAY",
+      "SYNC",
+      "DRAIN",
+      "FUSE",
+      "CONNECT",
+      "BREAKER",
+      "REFILL",
+      "JOIN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CIRCUIT COMPONENTS",
+        "members": [
+          "BREAKER",
+          "FUSE",
+          "RELAY",
+          "SWITCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DIGITAL COUPLING VERBS",
+        "members": [
+          "CONNECT",
+          "JOIN",
+          "PAIR",
+          "SYNC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS TOILETS DO",
+        "members": [
+          "DRAIN",
+          "FLUSH",
+          "REFILL",
+          "SWIRL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ FACE EXPRESSIONS",
+        "members": [
+          "GAME",
+          "LONG",
+          "POKER",
+          "STRAIGHT"
         ]
       }
     ]
