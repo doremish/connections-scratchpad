@@ -1,69 +1,5 @@
 [
   {
-    "id": 1203,
-    "date": "2026-06-20",
-    "startingOrder": [
-      "CHAMPION",
-      "NEW YORK",
-      "KNICKS",
-      "JUMPIN'",
-      "ROCKER",
-      "KNAPSACK",
-      "BEANBAG",
-      "BOLSTER",
-      "JACKKNIFE",
-      "SUPPORT",
-      "KNOCK-KNOCK",
-      "LOUIE",
-      "BACK",
-      "STOOL",
-      "REBEL",
-      "RECLINER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FEATURING SILENT AND PRONOUNCED \"K\"S",
-        "members": [
-          "JACKKNIFE",
-          "KNAPSACK",
-          "KNICKS",
-          "KNOCK-KNOCK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDORSE",
-        "members": [
-          "BACK",
-          "BOLSTER",
-          "CHAMPION",
-          "SUPPORT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF CHAIRS",
-        "members": [
-          "BEANBAG",
-          "RECLINER",
-          "ROCKER",
-          "STOOL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS REPEATED IN HIT SONG TITLES",
-        "members": [
-          "JUMPIN'",
-          "LOUIE",
-          "NEW YORK",
-          "REBEL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1186,
     "date": "2026-06-21",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LONG",
           "POKER",
           "STRAIGHT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1211,
+    "date": "2026-07-20",
+    "startingOrder": [
+      "OYSTER",
+      "MEADOW",
+      "WISDOM",
+      "SOUND",
+      "BUTTON",
+      "BUBBLE TEA",
+      "PORTOBELLO",
+      "MENU",
+      "TRUMPET",
+      "ICON",
+      "HERALD",
+      "SWINE",
+      "SAKES",
+      "BLARE",
+      "LINK",
+      "ALEXA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ANNOUNCE",
+        "members": [
+          "BLARE",
+          "HERALD",
+          "SOUND",
+          "TRUMPET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS TO CLICK",
+        "members": [
+          "BUTTON",
+          "ICON",
+          "LINK",
+          "MENU"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSOCIATED WITH PEARLS",
+        "members": [
+          "BUBBLE TEA",
+          "OYSTER",
+          "SWINE",
+          "WISDOM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH ALCOHOLIC BEVERAGES",
+        "members": [
+          "ALEXA",
+          "MEADOW",
+          "PORTOBELLO",
+          "SAKES"
         ]
       }
     ]
