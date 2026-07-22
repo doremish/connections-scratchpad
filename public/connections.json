@@ -1,69 +1,5 @@
 [
   {
-    "id": 1181,
-    "date": "2026-06-22",
-    "startingOrder": [
-      "STRESSED",
-      "BOOMER",
-      "POWDER",
-      "HEAD",
-      "ALPHA",
-      "SOFT",
-      "X",
-      "LEAD",
-      "TIMES",
-      "PRIMARY",
-      "SILENT",
-      "●",
-      "SHORT",
-      "POPSICLE",
-      "BY",
-      "BANGKOK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DOMINANT",
-        "members": [
-          "ALPHA",
-          "HEAD",
-          "LEAD",
-          "PRIMARY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MULTIPLICATION INDICATORS",
-        "members": [
-          "BY",
-          "TIMES",
-          "X",
-          "●"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PRONUNCIATION DESCRIPTORS",
-        "members": [
-          "SHORT",
-          "SILENT",
-          "SOFT",
-          "STRESSED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH EXPLOSIVE ONOMATOPOEIA",
-        "members": [
-          "BANGKOK",
-          "BOOMER",
-          "POPSICLE",
-          "POWDER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1194,
     "date": "2026-06-23",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "KINESIS",
           "PROMPTER",
           "VISION"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1225,
+    "date": "2026-07-22",
+    "startingOrder": [
+      "WHITE STRIPES",
+      "HOLE",
+      "PINS",
+      "STROKES",
+      "HIVES",
+      "HOOVES",
+      "VINES",
+      "SCORE",
+      "SNAPS",
+      "RASH",
+      "MANE",
+      "TWEETS",
+      "PAR",
+      "REDNESS",
+      "TAIL",
+      "ITCHING"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SYMPTOMS OF AN ALLERGIC REACTION",
+        "members": [
+          "HIVES",
+          "ITCHING",
+          "RASH",
+          "REDNESS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ON A GOLF SCORECARD",
+        "members": [
+          "HOLE",
+          "PAR",
+          "SCORE",
+          "STROKES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLATFORM-SPECIFIC POSTS",
+        "members": [
+          "PINS",
+          "SNAPS",
+          "TWEETS",
+          "VINES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF A ZEBRA",
+        "members": [
+          "HOOVES",
+          "MANE",
+          "TAIL",
+          "WHITE STRIPES"
         ]
       }
     ]
