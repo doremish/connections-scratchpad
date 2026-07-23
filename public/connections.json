@@ -1,69 +1,5 @@
 [
   {
-    "id": 1194,
-    "date": "2026-06-23",
-    "startingOrder": [
-      "MONEY",
-      "YANKEES",
-      "HOTEL",
-      "FOXTROT",
-      "MODERN",
-      "FIREPLACE",
-      "POPULAR",
-      "DEED",
-      "EMPEROR",
-      "FEATURED",
-      "TOKEN",
-      "TAP",
-      "RECENT",
-      "SWING",
-      "EARTH",
-      "TRENDING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DANCE STYLES",
-        "members": [
-          "FOXTROT",
-          "MODERN",
-          "SWING",
-          "TAP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "IN A MONOPOLY BOX",
-        "members": [
-          "DEED",
-          "HOTEL",
-          "MONEY",
-          "TOKEN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONTENT SORTING OPTIONS ONLINE",
-        "members": [
-          "FEATURED",
-          "POPULAR",
-          "RECENT",
-          "TRENDING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH MANTLES/MANTELS",
-        "members": [
-          "EARTH",
-          "EMPEROR",
-          "FIREPLACE",
-          "YANKEES"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1196,
     "date": "2026-06-24",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MANE",
           "TAIL",
           "WHITE STRIPES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1222,
+    "date": "2026-07-23",
+    "startingOrder": [
+      "JANGLE",
+      "INTENSE",
+      "ORANGE",
+      "FELINE",
+      "FEBRILE",
+      "BASEBALL",
+      "MARBLE",
+      "APRON",
+      "APPOINT",
+      "TERMINAL",
+      "EXCITED",
+      "RUNWAY",
+      "FRENETIC",
+      "HANGAR",
+      "DEPLANE",
+      "GLOBE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SPHERICAL THINGS",
+        "members": [
+          "BASEBALL",
+          "GLOBE",
+          "MARBLE",
+          "ORANGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "IN AN ANXIOUS STATE",
+        "members": [
+          "EXCITED",
+          "FEBRILE",
+          "FRENETIC",
+          "INTENSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF AN AIRPORT",
+        "members": [
+          "APRON",
+          "HANGAR",
+          "RUNWAY",
+          "TERMINAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN GEOMETRY TERMS",
+        "members": [
+          "APPOINT",
+          "DEPLANE",
+          "FELINE",
+          "JANGLE"
         ]
       }
     ]
