@@ -1,69 +1,5 @@
 [
   {
-    "id": 1196,
-    "date": "2026-06-24",
-    "startingOrder": [
-      "HUMPTY DUMPTY",
-      "TOASTER",
-      "PINK FLOYD",
-      "MONEY",
-      "KOOL-AID MAN",
-      "HELTER SKELTER",
-      "CHINA",
-      "RUSH",
-      "CHICK FLICK",
-      "DEADPOOL",
-      "LUGGAGE",
-      "GENESIS",
-      "CLIFFORD",
-      "MUMBO JUMBO",
-      "KING CRIMSON",
-      "MR. KRABS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PROG BANDS",
-        "members": [
-          "GENESIS",
-          "KING CRIMSON",
-          "PINK FLOYD",
-          "RUSH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CLASSIC WEDDING GIFTS",
-        "members": [
-          "CHINA",
-          "LUGGAGE",
-          "MONEY",
-          "TOASTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RED CHARACTERS",
-        "members": [
-          "CLIFFORD",
-          "DEADPOOL",
-          "KOOL-AID MAN",
-          "MR. KRABS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RHYMING COMPOUND WORDS",
-        "members": [
-          "CHICK FLICK",
-          "HELTER SKELTER",
-          "HUMPTY DUMPTY",
-          "MUMBO JUMBO"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1183,
     "date": "2026-06-25",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DEPLANE",
           "FELINE",
           "JANGLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1223,
+    "date": "2026-07-24",
+    "startingOrder": [
+      "SPARK",
+      "CANTER",
+      "LLAMA",
+      "JOG",
+      "WALK",
+      "YAK",
+      "SINGLE",
+      "NONE",
+      "RAMBLE",
+      "PROMPT",
+      "FRYER",
+      "DRONE",
+      "REFRESH",
+      "STRIKEOUT",
+      "BABBLE",
+      "HOME RUN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TALK AT LENGTH",
+        "members": [
+          "BABBLE",
+          "DRONE",
+          "RAMBLE",
+          "YAK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OUTCOMES FOR A BATTER",
+        "members": [
+          "HOME RUN",
+          "SINGLE",
+          "STRIKEOUT",
+          "WALK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BRING TO MIND, AS A MEMORY",
+        "members": [
+          "JOG",
+          "PROMPT",
+          "REFRESH",
+          "SPARK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOMOPHONES OF RELIGIOUS ROLES",
+        "members": [
+          "CANTER",
+          "FRYER",
+          "LLAMA",
+          "NONE"
         ]
       }
     ]
