@@ -1,69 +1,5 @@
 [
   {
-    "id": 1183,
-    "date": "2026-06-25",
-    "startingOrder": [
-      "POLONIUM",
-      "CRANIUM",
-      "COMPACT",
-      "HOCKEY",
-      "CROQUETTE",
-      "TRACKPAD",
-      "LEAD",
-      "SQUASHED",
-      "MERCURY",
-      "DUCTILE",
-      "DENSE",
-      "MICROPHONE",
-      "MONITOR",
-      "FRANCIUM",
-      "PRINTER",
-      "COMPRESSED"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COMPUTER PERIPHERALS",
-        "members": [
-          "MICROPHONE",
-          "MONITOR",
-          "PRINTER",
-          "TRACKPAD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TIGHTLY PACKED",
-        "members": [
-          "COMPACT",
-          "COMPRESSED",
-          "DENSE",
-          "SQUASHED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HAZARDOUS ELEMENTAL METALS",
-        "members": [
-          "FRANCIUM",
-          "LEAD",
-          "MERCURY",
-          "POLONIUM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH BIRD HOMOPHONES",
-        "members": [
-          "CRANIUM",
-          "CROQUETTE",
-          "DUCTILE",
-          "HOCKEY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1195,
     "date": "2026-06-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FRYER",
           "LLAMA",
           "NONE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1221,
+    "date": "2026-07-25",
+    "startingOrder": [
+      "STEAK",
+      "LEONE",
+      "PRIMO",
+      "MALL",
+      "MADRE",
+      "MIST",
+      "POKER",
+      "CHOKE",
+      "CLUB",
+      "RAND",
+      "TEAR",
+      "NAIRA",
+      "HIJO",
+      "KWANZA",
+      "WELL",
+      "ABUELA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SPANISH RELATIVES",
+        "members": [
+          "ABUELA",
+          "HIJO",
+          "MADRE",
+          "PRIMO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "START TO CRY, WITH \"UP\"",
+        "members": [
+          "CHOKE",
+          "MIST",
+          "TEAR",
+          "WELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AFRICAN CURRENCIES",
+        "members": [
+          "KWANZA",
+          "LEONE",
+          "NAIRA",
+          "RAND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STRIP ___",
+        "members": [
+          "CLUB",
+          "MALL",
+          "POKER",
+          "STEAK"
         ]
       }
     ]
