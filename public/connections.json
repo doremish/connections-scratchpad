@@ -1,69 +1,5 @@
 [
   {
-    "id": 1198,
-    "date": "2026-06-27",
-    "startingOrder": [
-      "CATWALK",
-      "FOXTROT",
-      "CREDIT CARD",
-      "COLLECTION",
-      "BOARDWALK",
-      "DESIGNER",
-      "ENVELOPE",
-      "CROSSWALK",
-      "FIREWALK",
-      "INCOME TAX",
-      "BILLIARD BALL",
-      "MODEL",
-      "SHORT LINE",
-      "DECANTER",
-      "WATER WORKS",
-      "BARBER POLE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MONOPOLY SQUARES",
-        "members": [
-          "BOARDWALK",
-          "INCOME TAX",
-          "SHORT LINE",
-          "WATER WORKS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMPONENTS OF A FASHION SHOW",
-        "members": [
-          "CATWALK",
-          "COLLECTION",
-          "DESIGNER",
-          "MODEL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMMONLY STRIPED THINGS",
-        "members": [
-          "BARBER POLE",
-          "BILLIARD BALL",
-          "CREDIT CARD",
-          "CROSSWALK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN HORSE GAITS",
-        "members": [
-          "DECANTER",
-          "ENVELOPE",
-          "FIREWALK",
-          "FOXTROT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1200,
     "date": "2026-06-28",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GAS STATION",
           "PASTRY CRUST",
           "ROWING BOAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1220,
+    "date": "2026-07-27",
+    "startingOrder": [
+      "CART",
+      "HORSE",
+      "CARROT",
+      "STICK",
+      "KNITTING NEEDLE",
+      "MAGNIFYING GLASS",
+      "BEAM",
+      "GRAVEYARD",
+      "BELL",
+      "ICICLE",
+      "RINGS",
+      "HEART",
+      "PARADIGM",
+      "STALACTITE",
+      "DOPPLER",
+      "VAULT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "GYMNASTICS APPARATUS",
+        "members": [
+          "BEAM",
+          "HORSE",
+          "RINGS",
+          "VAULT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LONG TAPERED THINGS",
+        "members": [
+          "CARROT",
+          "ICICLE",
+          "KNITTING NEEDLE",
+          "STALACTITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SHIFTS",
+        "members": [
+          "DOPPLER",
+          "GRAVEYARD",
+          "PARADIGM",
+          "STICK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ICONS ON A SHOPPING SITE",
+        "members": [
+          "BELL",
+          "CART",
+          "HEART",
+          "MAGNIFYING GLASS"
         ]
       }
     ]
