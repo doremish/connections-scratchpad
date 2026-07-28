@@ -1,69 +1,5 @@
 [
   {
-    "id": 1200,
-    "date": "2026-06-28",
-    "startingOrder": [
-      "PICK",
-      "CHESS",
-      "START",
-      "SELECT",
-      "CHOICE",
-      "GO",
-      "SLIDE",
-      "CORPORATION",
-      "BEGIN",
-      "PRIME",
-      "SURFER",
-      "STRAP",
-      "CAPO",
-      "DARTS",
-      "NOW",
-      "FINE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "HIGH-QUALITY",
-        "members": [
-          "CHOICE",
-          "FINE",
-          "PRIME",
-          "SELECT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SIGNALS TO COMMENCE",
-        "members": [
-          "BEGIN",
-          "GO",
-          "NOW",
-          "START"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ACCESSORIES FOR A GUITARIST",
-        "members": [
-          "CAPO",
-          "PICK",
-          "SLIDE",
-          "STRAP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THEY HAVE BOARDS",
-        "members": [
-          "CHESS",
-          "CORPORATION",
-          "DARTS",
-          "SURFER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1187,
     "date": "2026-06-29",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CART",
           "HEART",
           "MAGNIFYING GLASS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1227,
+    "date": "2026-07-28",
+    "startingOrder": [
+      "CAPTAIN",
+      "CLARKS",
+      "OTTOMAN",
+      "EMPIRE",
+      "ANNAPOLIS",
+      "BOBSLED",
+      "CAMPER",
+      "DIRECT",
+      "EVEREST",
+      "FUJI",
+      "GALA",
+      "HEAD",
+      "CONVERSE",
+      "LEAD",
+      "HONEYCRISP",
+      "CROCS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COMMAND",
+        "members": [
+          "CAPTAIN",
+          "DIRECT",
+          "HEAD",
+          "LEAD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOW DO YOU LIKE THEM APPLES",
+        "members": [
+          "EMPIRE",
+          "FUJI",
+          "GALA",
+          "HONEYCRISP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SHOE BRANDS STARTING WITH \"C\"",
+        "members": [
+          "CAMPER",
+          "CLARKS",
+          "CONVERSE",
+          "CROCS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH PALINDROMIC NAMES",
+        "members": [
+          "ANNAPOLIS",
+          "BOBSLED",
+          "EVEREST",
+          "OTTOMAN"
         ]
       }
     ]
