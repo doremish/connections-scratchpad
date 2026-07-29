@@ -1,69 +1,5 @@
 [
   {
-    "id": 1187,
-    "date": "2026-06-29",
-    "startingOrder": [
-      "WOOFER",
-      "RUFFIAN",
-      "INHALE",
-      "GROOT",
-      "EMBARK",
-      "MAGNET",
-      "SNARF",
-      "CONE",
-      "ROGUE",
-      "CRUSH",
-      "CABINET",
-      "STRUNK",
-      "NUDIBRANCH",
-      "MISCREANT",
-      "GUZZLE",
-      "SCOUNDREL"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "OLD TIMEY TROUBLEMAKERS",
-        "members": [
-          "MISCREANT",
-          "ROGUE",
-          "RUFFIAN",
-          "SCOUNDREL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONSUME WITH GUSTO",
-        "members": [
-          "CRUSH",
-          "GUZZLE",
-          "INHALE",
-          "SNARF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A SPEAKER",
-        "members": [
-          "CABINET",
-          "CONE",
-          "MAGNET",
-          "WOOFER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN PARTS OF A TREE",
-        "members": [
-          "EMBARK",
-          "GROOT",
-          "NUDIBRANCH",
-          "STRUNK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1193,
     "date": "2026-06-30",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BOBSLED",
           "EVEREST",
           "OTTOMAN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1232,
+    "date": "2026-07-29",
+    "startingOrder": [
+      "CORK",
+      "PEARL",
+      "BASIC",
+      "STAPLE",
+      "MID",
+      "WORD",
+      "CHALK",
+      "WHITE",
+      "BLACK",
+      "VANILLA",
+      "GEM",
+      "NAIL",
+      "RIVET",
+      "NUGGET",
+      "SCREW",
+      "PLAIN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FASTENERS",
+        "members": [
+          "NAIL",
+          "RIVET",
+          "SCREW",
+          "STAPLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "NONDESCRIPT",
+        "members": [
+          "BASIC",
+          "MID",
+          "PLAIN",
+          "VANILLA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "UNITS OF WISDOM",
+        "members": [
+          "GEM",
+          "NUGGET",
+          "PEARL",
+          "WORD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___BOARDS IN A CLASSROOM",
+        "members": [
+          "BLACK",
+          "CHALK",
+          "CORK",
+          "WHITE"
         ]
       }
     ]
