@@ -1,69 +1,5 @@
 [
   {
-    "id": 1193,
-    "date": "2026-06-30",
-    "startingOrder": [
-      "CURL",
-      "BREEZE",
-      "BOX",
-      "FENCE",
-      "SKETCH",
-      "SKATE",
-      "BOTTLE",
-      "ON TAP",
-      "CAN",
-      "WALL",
-      "RECRUIT",
-      "HEDGE",
-      "LUGE",
-      "NEWSPAPER",
-      "GATE",
-      "SKI"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DIVIDING STRUCTURES",
-        "members": [
-          "FENCE",
-          "GATE",
-          "HEDGE",
-          "WALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTICIPATE IN SOME WINTER OLYMPICS",
-        "members": [
-          "CURL",
-          "LUGE",
-          "SKATE",
-          "SKI"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMMON RECYCLABLES",
-        "members": [
-          "BOTTLE",
-          "BOX",
-          "CAN",
-          "NEWSPAPER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"DRAFT\" MIGHT REFER TO",
-        "members": [
-          "BREEZE",
-          "ON TAP",
-          "RECRUIT",
-          "SKETCH"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1192,
     "date": "2026-07-01",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CHALK",
           "CORK",
           "WHITE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1228,
+    "date": "2026-07-30",
+    "startingOrder": [
+      "JUGGLING",
+      "CARNIVAL",
+      "DOT",
+      "FAIR",
+      "BINGO",
+      "RIGHT",
+      "POOL",
+      "NOSE",
+      "MONEY",
+      "GOOD",
+      "BEER PONG",
+      "CELEBRITY",
+      "VIKING",
+      "MARK",
+      "PRINCESS",
+      "JUST"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "VIRTUOUS",
+        "members": [
+          "FAIR",
+          "GOOD",
+          "JUST",
+          "RIGHT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ACTIVITIES WITH MULTIPLE BALLS",
+        "members": [
+          "BEER PONG",
+          "BINGO",
+          "JUGGLING",
+          "POOL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CRUISE LINES",
+        "members": [
+          "CARNIVAL",
+          "CELEBRITY",
+          "PRINCESS",
+          "VIKING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ON THE ___, TO MEAN \"PRECISE\"",
+        "members": [
+          "DOT",
+          "MARK",
+          "MONEY",
+          "NOSE"
         ]
       }
     ]
