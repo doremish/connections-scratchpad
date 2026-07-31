@@ -1,69 +1,5 @@
 [
   {
-    "id": 1192,
-    "date": "2026-07-01",
-    "startingOrder": [
-      "CHICAGO",
-      "LONG ISLAND",
-      "NIGERIA",
-      "COLOGNE",
-      "INDIANAPOLIS",
-      "MUNICH",
-      "LIMERICK",
-      "SINGAPORE",
-      "CASABLANCA",
-      "CUBA",
-      "DOMINICAN REPUBLIC",
-      "CHAMPAGNE",
-      "GUINEA-BISSAU",
-      "CHINA",
-      "FARGO",
-      "MOSCOW"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS NAMED AFTER PLACES",
-        "members": [
-          "CHAMPAGNE",
-          "CHINA",
-          "COLOGNE",
-          "LIMERICK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BEST PICTURE WINNERS/NOMINEES",
-        "members": [
-          "CASABLANCA",
-          "CHICAGO",
-          "FARGO",
-          "MUNICH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES IN COCKTAIL NAMES",
-        "members": [
-          "CUBA",
-          "LONG ISLAND",
-          "MOSCOW",
-          "SINGAPORE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH COUNTRIES",
-        "members": [
-          "DOMINICAN REPUBLIC",
-          "GUINEA-BISSAU",
-          "INDIANAPOLIS",
-          "NIGERIA"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1190,
     "date": "2026-07-02",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MARK",
           "MONEY",
           "NOSE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1233,
+    "date": "2026-07-31",
+    "startingOrder": [
+      "MOLD",
+      "SPEAR",
+      "DAPPLE",
+      "PRINCESS",
+      "MUSHROOM",
+      "JOYSTICK",
+      "SLIME",
+      "FUNGUS",
+      "CHEERIOS",
+      "DINOSAUR",
+      "FASHION",
+      "MODEL",
+      "GLEEK",
+      "SHAPE",
+      "PLUMBER",
+      "JDATE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CONSTRUCT",
+        "members": [
+          "FASHION",
+          "MODEL",
+          "MOLD",
+          "SHAPE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SUPER MARIO FIGURES",
+        "members": [
+          "DINOSAUR",
+          "MUSHROOM",
+          "PLUMBER",
+          "PRINCESS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FRUITS PLUS STARTING LETTER",
+        "members": [
+          "DAPPLE",
+          "JDATE",
+          "SLIME",
+          "SPEAR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH MERRIMENTS",
+        "members": [
+          "CHEERIOS",
+          "FUNGUS",
+          "GLEEK",
+          "JOYSTICK"
         ]
       }
     ]
