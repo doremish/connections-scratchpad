@@ -1,69 +1,5 @@
 [
   {
-    "id": 1209,
-    "date": "2026-07-03",
-    "startingOrder": [
-      "HOT DRINK",
-      "RUNAROUND",
-      "FELICITY",
-      "SHIRT",
-      "WARM FUZZIES",
-      "GOSSIP",
-      "COOL BEANS",
-      "DIRTY LOOK",
-      "COLD SHOULDER",
-      "HAPPINESS",
-      "RIGHT ON",
-      "HARD TIME",
-      "FAR OUT",
-      "GOLF ACCESSORY",
-      "BLISS",
-      "GROOVY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "POSITIVE FEELINGS",
-        "members": [
-          "BLISS",
-          "FELICITY",
-          "HAPPINESS",
-          "WARM FUZZIES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RETRO EXPRESSIONS OF APPROVAL",
-        "members": [
-          "COOL BEANS",
-          "FAR OUT",
-          "GROOVY",
-          "RIGHT ON"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BAD THINGS TO GIVE SOMEONE",
-        "members": [
-          "COLD SHOULDER",
-          "DIRTY LOOK",
-          "HARD TIME",
-          "RUNAROUND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT THINGS PRONOUNCED \"T\" MIGHT REFER TO",
-        "members": [
-          "GOLF ACCESSORY",
-          "GOSSIP",
-          "HOT DRINK",
-          "SHIRT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1207,
     "date": "2026-07-04",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BUNDLE",
           "LOAFER",
           "ROLLS-ROYCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1229,
+    "date": "2026-08-02",
+    "startingOrder": [
+      "LIKE",
+      "AIRPLANE",
+      "VIA",
+      "FLAX",
+      "À LA",
+      "SO",
+      "BY",
+      "DARK",
+      "PER",
+      "LORD",
+      "WELL",
+      "ASEA",
+      "THROUGH",
+      "BEAST",
+      "OLGA",
+      "ACTUALLY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FILLER WORDS",
+        "members": [
+          "ACTUALLY",
+          "LIKE",
+          "SO",
+          "WELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BY MEANS OF",
+        "members": [
+          "BY",
+          "PER",
+          "THROUGH",
+          "VIA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ MODE",
+        "members": [
+          "AIRPLANE",
+          "BEAST",
+          "DARK",
+          "À LA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U.S. AIRPORT CODES PLUS STARTING LETTER",
+        "members": [
+          "ASEA",
+          "FLAX",
+          "LORD",
+          "OLGA"
         ]
       }
     ]
