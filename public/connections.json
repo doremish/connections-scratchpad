@@ -1,69 +1,5 @@
 [
   {
-    "id": 1204,
-    "date": "2026-07-05",
-    "startingOrder": [
-      "WIN",
-      "OATS",
-      "GREEN",
-      "WIRE",
-      "WEST",
-      "CARD",
-      "WITH",
-      "HONEY",
-      "GOLD",
-      "TUNGSTEN",
-      "CHECK",
-      "SEEDS",
-      "CASH",
-      "PLATINUM",
-      "NUTS",
-      "CENTURION"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "GRANOLA INGREDIENTS",
-        "members": [
-          "HONEY",
-          "NUTS",
-          "OATS",
-          "SEEDS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PAYMENT METHODS",
-        "members": [
-          "CARD",
-          "CASH",
-          "CHECK",
-          "WIRE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AMEX CARD TYPES",
-        "members": [
-          "CENTURION",
-          "GOLD",
-          "GREEN",
-          "PLATINUM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"W\" MIGHT STAND FOR",
-        "members": [
-          "TUNGSTEN",
-          "WEST",
-          "WIN",
-          "WITH"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1199,
     "date": "2026-07-06",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "NAG CHAMPA",
           "NEEDLESS",
           "TEA SET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1237,
+    "date": "2026-08-04",
+    "startingOrder": [
+      "CIGARETTE",
+      "PEACE SIGN",
+      "PIANO",
+      "TAXI CAB",
+      "CHEVRON",
+      "UNICYCLE",
+      "PIGEON",
+      "POOL NOODLE",
+      "SEWING MACHINE",
+      "ANGLE BRACKET",
+      "PRETZEL ROD",
+      "BODEGA",
+      "SUBWAY STATION",
+      "FOAM ROLLER",
+      "SWAN BOAT",
+      "GOOSE FORMATION"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "LONG CYLINDRICAL THINGS",
+        "members": [
+          "CIGARETTE",
+          "FOAM ROLLER",
+          "POOL NOODLE",
+          "PRETZEL ROD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ICONIC NYC SIGHTS",
+        "members": [
+          "BODEGA",
+          "PIGEON",
+          "SUBWAY STATION",
+          "TAXI CAB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH PEDALS",
+        "members": [
+          "PIANO",
+          "SEWING MACHINE",
+          "SWAN BOAT",
+          "UNICYCLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "V-SHAPED THINGS",
+        "members": [
+          "ANGLE BRACKET",
+          "CHEVRON",
+          "GOOSE FORMATION",
+          "PEACE SIGN"
         ]
       }
     ]
