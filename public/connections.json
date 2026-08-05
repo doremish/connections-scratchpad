@@ -1,69 +1,5 @@
 [
   {
-    "id": 1199,
-    "date": "2026-07-06",
-    "startingOrder": [
-      "ATOM",
-      "BUMBLEBEE",
-      "TNT",
-      "THUNDERBOLT",
-      "VOLCANO",
-      "TINDERBOX",
-      "DNA",
-      "ROCKET SKATES",
-      "MATCHA",
-      "BOMBSHELL",
-      "EARTHQUAKE PILLS",
-      "REVELATION",
-      "SOLAR SYSTEM",
-      "GRIND RAIL",
-      "SHOCKER",
-      "IRON BIRD SEED"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STUNNING NEWS",
-        "members": [
-          "BOMBSHELL",
-          "REVELATION",
-          "SHOCKER",
-          "THUNDERBOLT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SCIENCE FAIR MODEL SUBJECTS",
-        "members": [
-          "ATOM",
-          "DNA",
-          "SOLAR SYSTEM",
-          "VOLCANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ACME PRODUCTS USED BY WILE E. COYOTE",
-        "members": [
-          "EARTHQUAKE PILLS",
-          "IRON BIRD SEED",
-          "ROCKET SKATES",
-          "TNT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH DATING APPS",
-        "members": [
-          "BUMBLEBEE",
-          "GRIND RAIL",
-          "MATCHA",
-          "TINDERBOX"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1191,
     "date": "2026-07-07",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CHEVRON",
           "GOOSE FORMATION",
           "PEACE SIGN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1235,
+    "date": "2026-08-05",
+    "startingOrder": [
+      "LUCKY",
+      "MISSION",
+      "RANCH",
+      "CATTLE",
+      "WRANGLER",
+      "INVESTMENT",
+      "GAP",
+      "STEER",
+      "BROTH",
+      "PILOT",
+      "CAPE COD",
+      "MERCHANDISE",
+      "DRIVE",
+      "DIESEL",
+      "TUDOR",
+      "MANEUVER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "NAVIGATE",
+        "members": [
+          "DRIVE",
+          "MANEUVER",
+          "PILOT",
+          "STEER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "JEANS BRANDS",
+        "members": [
+          "DIESEL",
+          "GAP",
+          "LUCKY",
+          "WRANGLER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOUSE STYLES",
+        "members": [
+          "CAPE COD",
+          "MISSION",
+          "RANCH",
+          "TUDOR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WHAT \"STOCK\" MIGHT REFER TO",
+        "members": [
+          "BROTH",
+          "CATTLE",
+          "INVESTMENT",
+          "MERCHANDISE"
         ]
       }
     ]
