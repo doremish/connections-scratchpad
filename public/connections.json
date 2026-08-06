@@ -1,69 +1,5 @@
 [
   {
-    "id": 1191,
-    "date": "2026-07-07",
-    "startingOrder": [
-      "PLOT",
-      "DISCOUNT",
-      "JOCK",
-      "COLBERT",
-      "LETTERMAN",
-      "FRENCH",
-      "LEMON",
-      "KITCHEN",
-      "BERNIE",
-      "HALL",
-      "OLIVER",
-      "TEAM CAPTAIN",
-      "STUDY",
-      "SAN ANSELMO",
-      "ALL-AMERICAN",
-      "CONSERVATORY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ROOMS IN CLUE",
-        "members": [
-          "CONSERVATORY",
-          "HALL",
-          "KITCHEN",
-          "STUDY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STUDENT-ATHLETE DESIGNATIONS",
-        "members": [
-          "ALL-AMERICAN",
-          "JOCK",
-          "LETTERMAN",
-          "TEAM CAPTAIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ TWIST",
-        "members": [
-          "FRENCH",
-          "LEMON",
-          "OLIVER",
-          "PLOT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN \"SESAME STREET\" CHARACTERS",
-        "members": [
-          "BERNIE",
-          "COLBERT",
-          "DISCOUNT",
-          "SAN ANSELMO"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1205,
     "date": "2026-07-08",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CATTLE",
           "INVESTMENT",
           "MERCHANDISE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1234,
+    "date": "2026-08-06",
+    "startingOrder": [
+      "SWIMMING POOL",
+      "TENNIS COURT",
+      "FREEWAY",
+      "HOCKEY RINK",
+      "BARCLAYS CENTER",
+      "COLOSSEUM",
+      "SUPERMARKET",
+      "JACOB'S LADDER",
+      "PANTHEON",
+      "BOWLING ALLEY",
+      "LINCOLN LOGS",
+      "SPANISH STEPS",
+      "ALPHABET BLOCKS",
+      "FISHING BOAT",
+      "TREVI FOUNTAIN",
+      "CUP-AND-BALL"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CLASSIC WOODEN TOYS",
+        "members": [
+          "ALPHABET BLOCKS",
+          "CUP-AND-BALL",
+          "JACOB'S LADDER",
+          "LINCOLN LOGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES WITH LANES",
+        "members": [
+          "BOWLING ALLEY",
+          "FREEWAY",
+          "SUPERMARKET",
+          "SWIMMING POOL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ICONIC ROMAN LANDMARKS",
+        "members": [
+          "COLOSSEUM",
+          "PANTHEON",
+          "SPANISH STEPS",
+          "TREVI FOUNTAIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES WITH NETS",
+        "members": [
+          "BARCLAYS CENTER",
+          "FISHING BOAT",
+          "HOCKEY RINK",
+          "TENNIS COURT"
         ]
       }
     ]
