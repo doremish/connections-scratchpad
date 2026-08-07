@@ -1,69 +1,5 @@
 [
   {
-    "id": 1205,
-    "date": "2026-07-08",
-    "startingOrder": [
-      "DRIFT",
-      "PLANE",
-      "WAX",
-      "PLOT",
-      "PLUCK",
-      "CARDS",
-      "SHAVE",
-      "THREAD",
-      "GRATE",
-      "PICK",
-      "WORSHIP",
-      "TAP",
-      "LORDS",
-      "STRUM",
-      "THEME",
-      "SLIVER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CUT INTO THIN PIECES",
-        "members": [
-          "GRATE",
-          "PLANE",
-          "SHAVE",
-          "SLIVER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MOTIF",
-        "members": [
-          "DRIFT",
-          "PLOT",
-          "THEME",
-          "THREAD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GUITAR-PLAYING TECHNIQUES",
-        "members": [
-          "PICK",
-          "PLUCK",
-          "STRUM",
-          "TAP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOUSE OF ___",
-        "members": [
-          "CARDS",
-          "LORDS",
-          "WAX",
-          "WORSHIP"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1206,
     "date": "2026-07-09",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FISHING BOAT",
           "HOCKEY RINK",
           "TENNIS COURT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1238,
+    "date": "2026-08-07",
+    "startingOrder": [
+      "JACKPOT",
+      "MOTOR",
+      "SNOW",
+      "JAR",
+      "WICK",
+      "SUNDAE",
+      "RAMBO",
+      "BUTTONS",
+      "TOMATILLO",
+      "SHAFT",
+      "WAX",
+      "BUCKYBALL",
+      "LIQUID NITROGEN",
+      "FRAGRANCE",
+      "CABLES",
+      "REFRIGERATOR"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "COMPONENTS OF A CANDLE",
+        "members": [
+          "FRAGRANCE",
+          "JAR",
+          "WAX",
+          "WICK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COLD THINGS",
+        "members": [
+          "LIQUID NITROGEN",
+          "REFRIGERATOR",
+          "SNOW",
+          "SUNDAE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF AN ELEVATOR",
+        "members": [
+          "BUTTONS",
+          "CABLES",
+          "MOTOR",
+          "SHAFT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH MALE ANIMALS",
+        "members": [
+          "BUCKYBALL",
+          "JACKPOT",
+          "RAMBO",
+          "TOMATILLO"
         ]
       }
     ]
