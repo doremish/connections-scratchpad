@@ -1,69 +1,5 @@
 [
   {
-    "id": 1197,
-    "date": "2026-07-10",
-    "startingOrder": [
-      "OUTKAST",
-      "DEPECHE MODE",
-      "FRESH-BAKED",
-      "BALL GOWN",
-      "DO NOT DISTURB",
-      "À LA MODE",
-      "STRIKE A POSE",
-      "AIRPLANE MODE",
-      "ERASURE",
-      "SAFE MODE",
-      "DECADENT",
-      "NEW ORDER",
-      "HOTSPOT",
-      "PET SHOP BOYS",
-      "MOLTEN",
-      "LOCATION SERVICES"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SMARTPHONE SETTINGS",
-        "members": [
-          "AIRPLANE MODE",
-          "DO NOT DISTURB",
-          "HOTSPOT",
-          "LOCATION SERVICES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DESSERT MENU DESCRIPTORS",
-        "members": [
-          "DECADENT",
-          "FRESH-BAKED",
-          "MOLTEN",
-          "À LA MODE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "'80S SYNTH-POP BANDS",
-        "members": [
-          "DEPECHE MODE",
-          "ERASURE",
-          "NEW ORDER",
-          "PET SHOP BOYS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH BASEBALL CALLS",
-        "members": [
-          "BALL GOWN",
-          "OUTKAST",
-          "SAFE MODE",
-          "STRIKE A POSE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1214,
     "date": "2026-07-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GOGGLES",
           "PIN",
           "RAZOR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1240,
+    "date": "2026-08-09",
+    "startingOrder": [
+      "SHIFT GEARS",
+      "JURY DUTY",
+      "SPACE OPERA",
+      "LABYRINTH",
+      "CAPS FOR SALE",
+      "ESCAPE ROOM",
+      "NEO-NOIR",
+      "COURSE-CORRECT",
+      "BAD DREAM",
+      "BUDDY COP",
+      "CORDUROY",
+      "CHANGE TACK",
+      "MADELINE",
+      "RECALIBRATE",
+      "SPAGHETTI WESTERN",
+      "GOODNIGHT MOON"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TAKE A DIFFERENT APPROACH",
+        "members": [
+          "CHANGE TACK",
+          "COURSE-CORRECT",
+          "RECALIBRATE",
+          "SHIFT GEARS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CLASSIC CHILDREN'S BOOKS",
+        "members": [
+          "CAPS FOR SALE",
+          "CORDUROY",
+          "GOODNIGHT MOON",
+          "MADELINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MOVIE SUBGENRES",
+        "members": [
+          "BUDDY COP",
+          "NEO-NOIR",
+          "SPACE OPERA",
+          "SPAGHETTI WESTERN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS PEOPLE TRY TO GET OUT OF",
+        "members": [
+          "BAD DREAM",
+          "ESCAPE ROOM",
+          "JURY DUTY",
+          "LABYRINTH"
         ]
       }
     ]
