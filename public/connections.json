@@ -1,69 +1,5 @@
 [
   {
-    "id": 1214,
-    "date": "2026-07-11",
-    "startingOrder": [
-      "STILL",
-      "STILTS",
-      "SLINKY",
-      "AARDVARK",
-      "WOODY",
-      "GLASSY",
-      "CANNON",
-      "BOCCE",
-      "EBBING",
-      "BO PEEP",
-      "FLAT",
-      "UNICYCLE",
-      "CALM",
-      "JESSIE",
-      "TRAPEZE",
-      "TWIDDLE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CIRCUS EQUIPMENT",
-        "members": [
-          "CANNON",
-          "STILTS",
-          "TRAPEZE",
-          "UNICYCLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "UNDISTURBED, AS WATER",
-        "members": [
-          "CALM",
-          "FLAT",
-          "GLASSY",
-          "STILL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"TOY STORY\" CHARACTERS",
-        "members": [
-          "BO PEEP",
-          "JESSIE",
-          "SLINKY",
-          "WOODY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DOUBLE LETTERS APPEARING IN THAT LETTER'S ALPHABETICAL POSITION",
-        "members": [
-          "AARDVARK",
-          "BOCCE",
-          "EBBING",
-          "TWIDDLE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1213,
     "date": "2026-07-12",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "ESCAPE ROOM",
           "JURY DUTY",
           "LABYRINTH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "date": "2026-08-10",
+    "startingOrder": [
+      "BILLY GOAT",
+      "BALANCE DUE",
+      "WILLY-NILLY",
+      "MAIL DELIVERY",
+      "BILL TO",
+      "HELTER-SKELTER",
+      "WILL CALL",
+      "THE DEVIL",
+      "DOCTOR STRANGE",
+      "ORDER NUMBER",
+      "ANY OLD HOW",
+      "MOBILE TICKET",
+      "UNIT PRICE",
+      "COLONEL SANDERS",
+      "PRINT-AT-HOME",
+      "AT RANDOM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HAPHAZARDLY",
+        "members": [
+          "ANY OLD HOW",
+          "AT RANDOM",
+          "HELTER-SKELTER",
+          "WILLY-NILLY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WAYS TO RECEIVE EVENT TICKETS",
+        "members": [
+          "MAIL DELIVERY",
+          "MOBILE TICKET",
+          "PRINT-AT-HOME",
+          "WILL CALL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SECTIONS ON AN INVOICE",
+        "members": [
+          "BALANCE DUE",
+          "BILL TO",
+          "ORDER NUMBER",
+          "UNIT PRICE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FAMOUS GOATEES",
+        "members": [
+          "BILLY GOAT",
+          "COLONEL SANDERS",
+          "DOCTOR STRANGE",
+          "THE DEVIL"
         ]
       }
     ]
