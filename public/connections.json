@@ -1,69 +1,5 @@
 [
   {
-    "id": 1218,
-    "date": "2026-07-14",
-    "startingOrder": [
-      "U-TURN",
-      "PICNIC",
-      "CUT",
-      "SHUFFLE",
-      "LAUNDRY",
-      "RECYCLING",
-      "DEAL",
-      "COPY",
-      "BARGAIN",
-      "GROCERY",
-      "UNDERSTANDING",
-      "THIS SIDE UP",
-      "PASTE",
-      "AGREEMENT",
-      "EASTER",
-      "DELETE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONTRACT",
-        "members": [
-          "AGREEMENT",
-          "BARGAIN",
-          "DEAL",
-          "UNDERSTANDING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EDIT MENU OPTIONS",
-        "members": [
-          "COPY",
-          "CUT",
-          "DELETE",
-          "PASTE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF BASKETS",
-        "members": [
-          "EASTER",
-          "GROCERY",
-          "LAUNDRY",
-          "PICNIC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SYMBOLIZED WITH ARROWS",
-        "members": [
-          "RECYCLING",
-          "SHUFFLE",
-          "THIS SIDE UP",
-          "U-TURN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1217,
     "date": "2026-07-15",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GOODBYE",
           "GREAT WHITE",
           "OKAYAMA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1245,
+    "date": "2026-08-13",
+    "startingOrder": [
+      "COMFORT",
+      "EASE",
+      "SHOULDER",
+      "INCH",
+      "MILES",
+      "CARRY ON",
+      "FEET",
+      "CHECKED BAGS",
+      "CREEP",
+      "TURKEY",
+      "UPGRADE",
+      "MAKE IT",
+      "PERSIST",
+      "EDGE",
+      "LOUNGE",
+      "CONTINUE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PERSEVERE",
+        "members": [
+          "CARRY ON",
+          "CONTINUE",
+          "MAKE IT",
+          "PERSIST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MOVE SLOWLY (UP TO)",
+        "members": [
+          "CREEP",
+          "EASE",
+          "EDGE",
+          "INCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AIRLINE STATUS PERKS",
+        "members": [
+          "CHECKED BAGS",
+          "LOUNGE",
+          "MILES",
+          "UPGRADE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"COLD\" THINGS, IN IDIOMS",
+        "members": [
+          "COMFORT",
+          "FEET",
+          "SHOULDER",
+          "TURKEY"
         ]
       }
     ]
