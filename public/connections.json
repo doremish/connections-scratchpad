@@ -1,69 +1,5 @@
 [
   {
-    "id": 1217,
-    "date": "2026-07-15",
-    "startingOrder": [
-      "RACKET",
-      "FOOTBALL",
-      "WIGGLE",
-      "BAR",
-      "HEAD",
-      "BENCH",
-      "ELBOW",
-      "SHOE",
-      "EXTREME",
-      "BREATHING",
-      "MOTOR",
-      "COURT",
-      "CORSET",
-      "WATER",
-      "TRIBUNAL",
-      "BASEBALL GLOVE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "TERMS FOR THE LEGAL SYSTEM",
-        "members": [
-          "BAR",
-          "BENCH",
-          "COURT",
-          "TRIBUNAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH LACES",
-        "members": [
-          "BASEBALL GLOVE",
-          "CORSET",
-          "FOOTBALL",
-          "SHOE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF SPORTS",
-        "members": [
-          "EXTREME",
-          "MOTOR",
-          "RACKET",
-          "WATER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS BEFORE \"ROOM\" TO INDICATE EXTRA SPACE",
-        "members": [
-          "BREATHING",
-          "ELBOW",
-          "HEAD",
-          "WIGGLE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1202,
     "date": "2026-07-16",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FEET",
           "SHOULDER",
           "TURKEY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1248,
+    "date": "2026-08-14",
+    "startingOrder": [
+      "BUMBLEBEE",
+      "BUBBLE",
+      "BASS ALE",
+      "CHARLIE BROWN",
+      "DELTA AIRLINES",
+      "STRAIGHTEDGE",
+      "ECHO CHAMBER",
+      "CITGO",
+      "CAUTION TAPE",
+      "GOOGLE DRIVE",
+      "INDIA INK",
+      "SILO",
+      "DIP PEN",
+      "WOLVERINE",
+      "HIVEMIND",
+      "BRISTOL BOARD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BLACK-AND-YELLOW",
+        "members": [
+          "BUMBLEBEE",
+          "CAUTION TAPE",
+          "CHARLIE BROWN",
+          "WOLVERINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES WHERE EVERYONE THINKS THE SAME WAYS",
+        "members": [
+          "BUBBLE",
+          "ECHO CHAMBER",
+          "HIVEMIND",
+          "SILO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMIC BOOK ARTIST'S TOOLS",
+        "members": [
+          "BRISTOL BOARD",
+          "DIP PEN",
+          "INDIA INK",
+          "STRAIGHTEDGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TRIANGLE LOGOS",
+        "members": [
+          "BASS ALE",
+          "CITGO",
+          "DELTA AIRLINES",
+          "GOOGLE DRIVE"
         ]
       }
     ]
