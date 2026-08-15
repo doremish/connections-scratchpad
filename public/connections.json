@@ -1,69 +1,5 @@
 [
   {
-    "id": 1202,
-    "date": "2026-07-16",
-    "startingOrder": [
-      "NEEDLE",
-      "INK",
-      "JET",
-      "DOT MATRIX",
-      "TONER",
-      "POINT BREAK",
-      "LASER",
-      "CHARCOAL",
-      "PEEL",
-      "PITCH",
-      "PERIOD PIECE",
-      "BULLSEYE",
-      "SPOT REMOVER",
-      "EYE CREAM",
-      "CLOCKWORK",
-      "CLAY MASK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SKINCARE PRODUCTS",
-        "members": [
-          "CLAY MASK",
-          "EYE CREAM",
-          "PEEL",
-          "TONER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SHADES OF BLACK",
-        "members": [
-          "CHARCOAL",
-          "INK",
-          "JET",
-          "PITCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH PRECISION",
-        "members": [
-          "BULLSEYE",
-          "CLOCKWORK",
-          "LASER",
-          "NEEDLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH TINY MARKS",
-        "members": [
-          "DOT MATRIX",
-          "PERIOD PIECE",
-          "POINT BREAK",
-          "SPOT REMOVER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1212,
     "date": "2026-07-17",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CITGO",
           "DELTA AIRLINES",
           "GOOGLE DRIVE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1244,
+    "date": "2026-08-15",
+    "startingOrder": [
+      "GRINCH",
+      "BEANSTALK",
+      "STAGE",
+      "LANYARD",
+      "HIGHTAIL",
+      "LEG",
+      "SOUNDTRACK",
+      "HOTFOOT",
+      "BEAT",
+      "STRETCH",
+      "FRIED",
+      "CHAMOMILE",
+      "SPENT",
+      "EYESHADOW",
+      "PHASE",
+      "WORN OUT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "EXHAUSTED",
+        "members": [
+          "BEAT",
+          "FRIED",
+          "SPENT",
+          "WORN OUT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SEGMENT",
+        "members": [
+          "LEG",
+          "PHASE",
+          "STAGE",
+          "STRETCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN UNITS OF LENGTH",
+        "members": [
+          "CHAMOMILE",
+          "GRINCH",
+          "HOTFOOT",
+          "LANYARD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN SYNONYMS FOR FOLLOW SECRETLY",
+        "members": [
+          "BEANSTALK",
+          "EYESHADOW",
+          "HIGHTAIL",
+          "SOUNDTRACK"
         ]
       }
     ]
