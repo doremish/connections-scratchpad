@@ -1,69 +1,5 @@
 [
   {
-    "id": 1216,
-    "date": "2026-07-18",
-    "startingOrder": [
-      "TRAVEL",
-      "FLY",
-      "QUIZ",
-      "SCORE",
-      "OPINION",
-      "CARRY",
-      "HEALTH",
-      "TART",
-      "CULTURE",
-      "MIND",
-      "TIME",
-      "GOALTEND",
-      "VIEW",
-      "LIVES",
-      "DOUBLE DRIBBLE",
-      "ATTITUDE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COMMIT A BASKETBALL VIOLATION",
-        "members": [
-          "CARRY",
-          "DOUBLE DRIBBLE",
-          "GOALTEND",
-          "TRAVEL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BELIEF",
-        "members": [
-          "ATTITUDE",
-          "MIND",
-          "OPINION",
-          "VIEW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS TRACKED IN VIDEO GAMES",
-        "members": [
-          "HEALTH",
-          "LIVES",
-          "SCORE",
-          "TIME"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS AFTER \"POP\"",
-        "members": [
-          "CULTURE",
-          "FLY",
-          "QUIZ",
-          "TART"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1210,
     "date": "2026-07-19",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HANDY",
           "UPRIGHT",
           "WISE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1246,
+    "date": "2026-08-17",
+    "startingOrder": [
+      "MACRO",
+      "MEET",
+      "DOLLY",
+      "DOGIE",
+      "ZOOM",
+      "CATTLE",
+      "FISHEYE",
+      "SCRIPT",
+      "WILLIE",
+      "BIRDIE",
+      "PATSY",
+      "FUNCTION",
+      "HUDDLE",
+      "FORMULA",
+      "JOHNNY",
+      "TEAMS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "VIDEO CALL PLATFORMS",
+        "members": [
+          "HUDDLE",
+          "MEET",
+          "TEAMS",
+          "ZOOM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SPREADSHEET FEATURES",
+        "members": [
+          "FORMULA",
+          "FUNCTION",
+          "MACRO",
+          "SCRIPT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FIRST NAMES OF COUNTRY MUSIC LEGENDS",
+        "members": [
+          "DOLLY",
+          "JOHNNY",
+          "PATSY",
+          "WILLIE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH PETS",
+        "members": [
+          "BIRDIE",
+          "CATTLE",
+          "DOGIE",
+          "FISHEYE"
         ]
       }
     ]
