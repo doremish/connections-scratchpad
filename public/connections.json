@@ -1,69 +1,5 @@
 [
   {
-    "id": 1210,
-    "date": "2026-07-19",
-    "startingOrder": [
-      "SWITCH",
-      "SWIRL",
-      "LONG",
-      "GAME",
-      "POKER",
-      "PAIR",
-      "FLUSH",
-      "STRAIGHT",
-      "RELAY",
-      "SYNC",
-      "DRAIN",
-      "FUSE",
-      "CONNECT",
-      "BREAKER",
-      "REFILL",
-      "JOIN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CIRCUIT COMPONENTS",
-        "members": [
-          "BREAKER",
-          "FUSE",
-          "RELAY",
-          "SWITCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DIGITAL COUPLING VERBS",
-        "members": [
-          "CONNECT",
-          "JOIN",
-          "PAIR",
-          "SYNC"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS TOILETS DO",
-        "members": [
-          "DRAIN",
-          "FLUSH",
-          "REFILL",
-          "SWIRL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ FACE EXPRESSIONS",
-        "members": [
-          "GAME",
-          "LONG",
-          "POKER",
-          "STRAIGHT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1211,
     "date": "2026-07-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CATTLE",
           "DOGIE",
           "FISHEYE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1255,
+    "date": "2026-08-18",
+    "startingOrder": [
+      "RED CARPET",
+      "FILM NOIR",
+      "BASKETBALL",
+      "PRIVATE JET",
+      "SWEET POTATO",
+      "SANDPAPER",
+      "VELVET ROPE",
+      "FLYERS MASCOT",
+      "PRACTICAL JOKE",
+      "LIMOUSINE",
+      "TRAFFIC CONE",
+      "PETROLEUM JELLY",
+      "ORANGUTAN",
+      "COWBOY COFFEE",
+      "POETIC JUSTICE",
+      "PAPARAZZI"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SEEN AT A MOVIE PREMIERE",
+        "members": [
+          "LIMOUSINE",
+          "PAPARAZZI",
+          "RED CARPET",
+          "VELVET ROPE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PJS",
+        "members": [
+          "PETROLEUM JELLY",
+          "POETIC JUSTICE",
+          "PRACTICAL JOKE",
+          "PRIVATE JET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT ARE ORANGE",
+        "members": [
+          "BASKETBALL",
+          "ORANGUTAN",
+          "SWEET POTATO",
+          "TRAFFIC CONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT ARE GRITTY",
+        "members": [
+          "COWBOY COFFEE",
+          "FILM NOIR",
+          "FLYERS MASCOT",
+          "SANDPAPER"
         ]
       }
     ]
