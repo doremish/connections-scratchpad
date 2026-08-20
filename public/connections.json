@@ -1,69 +1,5 @@
 [
   {
-    "id": 1224,
-    "date": "2026-07-21",
-    "startingOrder": [
-      "MUSIC",
-      "GRAM",
-      "DRIVER",
-      "VISION",
-      "TUBE",
-      "CROP",
-      "BOOK",
-      "APP",
-      "ORCHESTRATION",
-      "EXTENSION",
-      "TANK",
-      "KINESIS",
-      "PROMPTER",
-      "HALTER",
-      "LYRICS",
-      "PLUGIN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "KINDS OF TOPS",
-        "members": [
-          "CROP",
-          "HALTER",
-          "TANK",
-          "TUBE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SOFTWARE DOWNLOADS",
-        "members": [
-          "APP",
-          "DRIVER",
-          "EXTENSION",
-          "PLUGIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ELEMENTS OF A MUSICAL",
-        "members": [
-          "BOOK",
-          "LYRICS",
-          "MUSIC",
-          "ORCHESTRATION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TELE___",
-        "members": [
-          "GRAM",
-          "KINESIS",
-          "PROMPTER",
-          "VISION"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1225,
     "date": "2026-07-22",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COCOA",
           "RHEO",
           "SEOUL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1252,
+    "date": "2026-08-20",
+    "startingOrder": [
+      "TELEPHONE",
+      "APOSTROPHE",
+      "OXFORD",
+      "SERIAL",
+      "HAWAIIAN",
+      "OKINA",
+      "RATCHET",
+      "COMMA",
+      "WHITE",
+      "PIGMENT",
+      "ATOMIC",
+      "DRAGONFLY",
+      "DIAVOLA",
+      "CEDILLA",
+      "MEAT LOVERS",
+      "SOCIAL SECURITY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "KINDS OF PIZZA",
+        "members": [
+          "DIAVOLA",
+          "HAWAIIAN",
+          "MEAT LOVERS",
+          "WHITE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF NUMBERS",
+        "members": [
+          "ATOMIC",
+          "SERIAL",
+          "SOCIAL SECURITY",
+          "TELEPHONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SIMILARLY SHAPED TYPOGRAPHICAL MARKS",
+        "members": [
+          "APOSTROPHE",
+          "CEDILLA",
+          "COMMA",
+          "OKINA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH CHINESE ZODIAC ANIMALS",
+        "members": [
+          "DRAGONFLY",
+          "OXFORD",
+          "PIGMENT",
+          "RATCHET"
         ]
       }
     ]
