@@ -1,69 +1,5 @@
 [
   {
-    "id": 1225,
-    "date": "2026-07-22",
-    "startingOrder": [
-      "WHITE STRIPES",
-      "HOLE",
-      "PINS",
-      "STROKES",
-      "HIVES",
-      "HOOVES",
-      "VINES",
-      "SCORE",
-      "SNAPS",
-      "RASH",
-      "MANE",
-      "TWEETS",
-      "PAR",
-      "REDNESS",
-      "TAIL",
-      "ITCHING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SYMPTOMS OF AN ALLERGIC REACTION",
-        "members": [
-          "HIVES",
-          "ITCHING",
-          "RASH",
-          "REDNESS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ON A GOLF SCORECARD",
-        "members": [
-          "HOLE",
-          "PAR",
-          "SCORE",
-          "STROKES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLATFORM-SPECIFIC POSTS",
-        "members": [
-          "PINS",
-          "SNAPS",
-          "TWEETS",
-          "VINES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF A ZEBRA",
-        "members": [
-          "HOOVES",
-          "MANE",
-          "TAIL",
-          "WHITE STRIPES"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1222,
     "date": "2026-07-23",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OXFORD",
           "PIGMENT",
           "RATCHET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1251,
+    "date": "2026-08-21",
+    "startingOrder": [
+      "WIMPY",
+      "WHILE",
+      "SLEEP",
+      "GENERATION",
+      "LIFETIME",
+      "ACTION",
+      "OXYGEN",
+      "COMEBACK",
+      "SHOWTIME",
+      "KARATE",
+      "SUNDANCE",
+      "PLACES",
+      "WATER",
+      "BLUE MOON",
+      "CURTAIN UP",
+      "NUTRITION"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS MOST ANIMALS NEED",
+        "members": [
+          "NUTRITION",
+          "OXYGEN",
+          "SLEEP",
+          "WATER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CALLS TO BEGIN A PERFORMANCE",
+        "members": [
+          "ACTION",
+          "CURTAIN UP",
+          "PLACES",
+          "SHOWTIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ KIDS",
+        "members": [
+          "COMEBACK",
+          "KARATE",
+          "SUNDANCE",
+          "WIMPY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ONCE IN A ___",
+        "members": [
+          "BLUE MOON",
+          "GENERATION",
+          "LIFETIME",
+          "WHILE"
         ]
       }
     ]
