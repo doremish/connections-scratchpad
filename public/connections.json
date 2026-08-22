@@ -1,69 +1,5 @@
 [
   {
-    "id": 1222,
-    "date": "2026-07-23",
-    "startingOrder": [
-      "JANGLE",
-      "INTENSE",
-      "ORANGE",
-      "FELINE",
-      "FEBRILE",
-      "BASEBALL",
-      "MARBLE",
-      "APRON",
-      "APPOINT",
-      "TERMINAL",
-      "EXCITED",
-      "RUNWAY",
-      "FRENETIC",
-      "HANGAR",
-      "DEPLANE",
-      "GLOBE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SPHERICAL THINGS",
-        "members": [
-          "BASEBALL",
-          "GLOBE",
-          "MARBLE",
-          "ORANGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "IN AN ANXIOUS STATE",
-        "members": [
-          "EXCITED",
-          "FEBRILE",
-          "FRENETIC",
-          "INTENSE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF AN AIRPORT",
-        "members": [
-          "APRON",
-          "HANGAR",
-          "RUNWAY",
-          "TERMINAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN GEOMETRY TERMS",
-        "members": [
-          "APPOINT",
-          "DEPLANE",
-          "FELINE",
-          "JANGLE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1223,
     "date": "2026-07-24",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GENERATION",
           "LIFETIME",
           "WHILE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1249,
+    "date": "2026-08-22",
+    "startingOrder": [
+      "BITTER",
+      "SPICE",
+      "MEAN",
+      "WINTER",
+      "HAMMER",
+      "CONE",
+      "PLANE",
+      "JET",
+      "GOLDEN",
+      "SAW",
+      "MIST",
+      "MUSK",
+      "GILMORE",
+      "CHISEL",
+      "WATER",
+      "SHOWER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CARPENTRY TOOLS",
+        "members": [
+          "CHISEL",
+          "HAMMER",
+          "PLANE",
+          "SAW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF MELON",
+        "members": [
+          "BITTER",
+          "MUSK",
+          "WATER",
+          "WINTER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GARDEN HOSE SETTINGS",
+        "members": [
+          "CONE",
+          "JET",
+          "MIST",
+          "SHOWER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ GIRLS OF POP CULTURE",
+        "members": [
+          "GILMORE",
+          "GOLDEN",
+          "MEAN",
+          "SPICE"
         ]
       }
     ]
