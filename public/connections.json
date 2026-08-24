@@ -1,69 +1,5 @@
 [
   {
-    "id": 1221,
-    "date": "2026-07-25",
-    "startingOrder": [
-      "STEAK",
-      "LEONE",
-      "PRIMO",
-      "MALL",
-      "MADRE",
-      "MIST",
-      "POKER",
-      "CHOKE",
-      "CLUB",
-      "RAND",
-      "TEAR",
-      "NAIRA",
-      "HIJO",
-      "KWANZA",
-      "WELL",
-      "ABUELA"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SPANISH RELATIVES",
-        "members": [
-          "ABUELA",
-          "HIJO",
-          "MADRE",
-          "PRIMO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "START TO CRY, WITH \"UP\"",
-        "members": [
-          "CHOKE",
-          "MIST",
-          "TEAR",
-          "WELL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AFRICAN CURRENCIES",
-        "members": [
-          "KWANZA",
-          "LEONE",
-          "NAIRA",
-          "RAND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STRIP ___",
-        "members": [
-          "CLUB",
-          "MALL",
-          "POKER",
-          "STEAK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1219,
     "date": "2026-07-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CLUB SODA",
           "HYDROGEN PEROXIDE",
           "VINEGAR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1250,
+    "date": "2026-08-24",
+    "startingOrder": [
+      "SOLE",
+      "DESERVE",
+      "MAIN",
+      "EYELET",
+      "HEEL",
+      "PRIME",
+      "EX-LOVE",
+      "ARCH",
+      "MULLET",
+      "KAYFABE",
+      "BESET",
+      "PIKE",
+      "FACE",
+      "TANG",
+      "CHIEF",
+      "JOBBER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FISH",
+        "members": [
+          "MULLET",
+          "PIKE",
+          "SOLE",
+          "TANG"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRINCIPAL",
+        "members": [
+          "ARCH",
+          "CHIEF",
+          "MAIN",
+          "PRIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRO-WRESTLING LINGO",
+        "members": [
+          "FACE",
+          "HEEL",
+          "JOBBER",
+          "KAYFABE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LETTER HOMOPHONE PLUS TENNIS TERM",
+        "members": [
+          "BESET",
+          "DESERVE",
+          "EX-LOVE",
+          "EYELET"
         ]
       }
     ]
