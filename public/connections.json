@@ -1,69 +1,5 @@
 [
   {
-    "id": 1227,
-    "date": "2026-07-28",
-    "startingOrder": [
-      "CAPTAIN",
-      "CLARKS",
-      "OTTOMAN",
-      "EMPIRE",
-      "ANNAPOLIS",
-      "BOBSLED",
-      "CAMPER",
-      "DIRECT",
-      "EVEREST",
-      "FUJI",
-      "GALA",
-      "HEAD",
-      "CONVERSE",
-      "LEAD",
-      "HONEYCRISP",
-      "CROCS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COMMAND",
-        "members": [
-          "CAPTAIN",
-          "DIRECT",
-          "HEAD",
-          "LEAD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOW DO YOU LIKE THEM APPLES",
-        "members": [
-          "EMPIRE",
-          "FUJI",
-          "GALA",
-          "HONEYCRISP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SHOE BRANDS STARTING WITH \"C\"",
-        "members": [
-          "CAMPER",
-          "CLARKS",
-          "CONVERSE",
-          "CROCS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH PALINDROMIC NAMES",
-        "members": [
-          "ANNAPOLIS",
-          "BOBSLED",
-          "EVEREST",
-          "OTTOMAN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1232,
     "date": "2026-07-29",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LARGO",
           "LIME",
           "SIGNATURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1261,
+    "date": "2026-08-27",
+    "startingOrder": [
+      "PIKACHU",
+      "SPUNK",
+      "NEMO",
+      "DOVE",
+      "MISTY",
+      "SLATE",
+      "LIGHTNING",
+      "ASH",
+      "PEWTER",
+      "BROCK",
+      "EMOTIONAL",
+      "LIVE WIRE",
+      "OVERCOME",
+      "ELECTRIC EEL",
+      "WRAP",
+      "CHOKED UP"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ELECTRIC THINGS",
+        "members": [
+          "ELECTRIC EEL",
+          "LIGHTNING",
+          "LIVE WIRE",
+          "PIKACHU"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MOVED TO TEARS",
+        "members": [
+          "CHOKED UP",
+          "EMOTIONAL",
+          "MISTY",
+          "OVERCOME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SHADES OF GRAY",
+        "members": [
+          "ASH",
+          "DOVE",
+          "PEWTER",
+          "SLATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSIC GENRE PLUS STARTING LETTER",
+        "members": [
+          "BROCK",
+          "NEMO",
+          "SPUNK",
+          "WRAP"
         ]
       }
     ]
