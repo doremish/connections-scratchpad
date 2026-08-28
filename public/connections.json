@@ -1,69 +1,5 @@
 [
   {
-    "id": 1232,
-    "date": "2026-07-29",
-    "startingOrder": [
-      "CORK",
-      "PEARL",
-      "BASIC",
-      "STAPLE",
-      "MID",
-      "WORD",
-      "CHALK",
-      "WHITE",
-      "BLACK",
-      "VANILLA",
-      "GEM",
-      "NAIL",
-      "RIVET",
-      "NUGGET",
-      "SCREW",
-      "PLAIN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FASTENERS",
-        "members": [
-          "NAIL",
-          "RIVET",
-          "SCREW",
-          "STAPLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "NONDESCRIPT",
-        "members": [
-          "BASIC",
-          "MID",
-          "PLAIN",
-          "VANILLA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "UNITS OF WISDOM",
-        "members": [
-          "GEM",
-          "NUGGET",
-          "PEARL",
-          "WORD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___BOARDS IN A CLASSROOM",
-        "members": [
-          "BLACK",
-          "CHALK",
-          "CORK",
-          "WHITE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1228,
     "date": "2026-07-30",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "NEMO",
           "SPUNK",
           "WRAP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1260,
+    "date": "2026-08-28",
+    "startingOrder": [
+      "MORNING",
+      "SWEET DREAMS",
+      "TOP SPOT",
+      "ERA",
+      "POPS",
+      "NOON",
+      "HOUR",
+      "BRO",
+      "NIGHT",
+      "MOM",
+      "MAXXING",
+      "LINE",
+      "SIS",
+      "REST EASY",
+      "CODED",
+      "SLEEP TIGHT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BEDTIME PARTING WORDS",
+        "members": [
+          "NIGHT",
+          "REST EASY",
+          "SLEEP TIGHT",
+          "SWEET DREAMS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PALINDROMES",
+        "members": [
+          "MOM",
+          "NOON",
+          "SIS",
+          "TOP SPOT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MODERN ADD-ONS/COMBINING FORMS",
+        "members": [
+          "BRO",
+          "CODED",
+          "ERA",
+          "MAXXING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TOP OF THE ___",
+        "members": [
+          "HOUR",
+          "LINE",
+          "MORNING",
+          "POPS"
         ]
       }
     ]
