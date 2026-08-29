@@ -1,69 +1,5 @@
 [
   {
-    "id": 1228,
-    "date": "2026-07-30",
-    "startingOrder": [
-      "JUGGLING",
-      "CARNIVAL",
-      "DOT",
-      "FAIR",
-      "BINGO",
-      "RIGHT",
-      "POOL",
-      "NOSE",
-      "MONEY",
-      "GOOD",
-      "BEER PONG",
-      "CELEBRITY",
-      "VIKING",
-      "MARK",
-      "PRINCESS",
-      "JUST"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "VIRTUOUS",
-        "members": [
-          "FAIR",
-          "GOOD",
-          "JUST",
-          "RIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ACTIVITIES WITH MULTIPLE BALLS",
-        "members": [
-          "BEER PONG",
-          "BINGO",
-          "JUGGLING",
-          "POOL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CRUISE LINES",
-        "members": [
-          "CARNIVAL",
-          "CELEBRITY",
-          "PRINCESS",
-          "VIKING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ON THE ___, TO MEAN \"PRECISE\"",
-        "members": [
-          "DOT",
-          "MARK",
-          "MONEY",
-          "NOSE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1233,
     "date": "2026-07-31",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LINE",
           "MORNING",
           "POPS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1276,
+    "date": "2026-08-29",
+    "startingOrder": [
+      "GREEK",
+      "HYDRANT",
+      "BATTERY",
+      "HOUSE",
+      "TRITONE",
+      "ENGINE",
+      "ESCAPE",
+      "AT LAST",
+      "WEDGE",
+      "SPACE",
+      "RADIATOR",
+      "CHOPPED",
+      "CONTROL",
+      "HERALD",
+      "SHIFT",
+      "ALTERNATOR"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "UNDER THE HOOD OF A CAR",
+        "members": [
+          "ALTERNATOR",
+          "BATTERY",
+          "ENGINE",
+          "RADIATOR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SALAD",
+        "members": [
+          "CHOPPED",
+          "GREEK",
+          "HOUSE",
+          "WEDGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KEYBOARD KEYS",
+        "members": [
+          "CONTROL",
+          "ESCAPE",
+          "SHIFT",
+          "SPACE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH FIGURES FROM GREEK MYTH",
+        "members": [
+          "AT LAST",
+          "HERALD",
+          "HYDRANT",
+          "TRITONE"
         ]
       }
     ]
