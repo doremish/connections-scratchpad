@@ -1,69 +1,5 @@
 [
   {
-    "id": 1233,
-    "date": "2026-07-31",
-    "startingOrder": [
-      "MOLD",
-      "SPEAR",
-      "DAPPLE",
-      "PRINCESS",
-      "MUSHROOM",
-      "JOYSTICK",
-      "SLIME",
-      "FUNGUS",
-      "CHEERIOS",
-      "DINOSAUR",
-      "FASHION",
-      "MODEL",
-      "GLEEK",
-      "SHAPE",
-      "PLUMBER",
-      "JDATE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONSTRUCT",
-        "members": [
-          "FASHION",
-          "MODEL",
-          "MOLD",
-          "SHAPE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SUPER MARIO FIGURES",
-        "members": [
-          "DINOSAUR",
-          "MUSHROOM",
-          "PLUMBER",
-          "PRINCESS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FRUITS PLUS STARTING LETTER",
-        "members": [
-          "DAPPLE",
-          "JDATE",
-          "SLIME",
-          "SPEAR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH MERRIMENTS",
-        "members": [
-          "CHEERIOS",
-          "FUNGUS",
-          "GLEEK",
-          "JOYSTICK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1231,
     "date": "2026-08-01",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HERALD",
           "HYDRANT",
           "TRITONE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1256,
+    "date": "2026-08-30",
+    "startingOrder": [
+      "REC CENTER",
+      "ALIAS",
+      "CORKSCREW",
+      "PLAYBOY",
+      "WANTED",
+      "STOPPER",
+      "ENERGIZER",
+      "REWARD",
+      "GYMNASIUM",
+      "CADBURY",
+      "AERATOR",
+      "YMCA",
+      "OUTLAW",
+      "HEALTH CLUB",
+      "TRIX",
+      "DECANTER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "EXERCISE FACILITIES",
+        "members": [
+          "GYMNASIUM",
+          "HEALTH CLUB",
+          "REC CENTER",
+          "YMCA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WINE ACCESSORIES",
+        "members": [
+          "AERATOR",
+          "CORKSCREW",
+          "DECANTER",
+          "STOPPER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BRANDS WITH BUNNY RABBIT MASCOTS",
+        "members": [
+          "CADBURY",
+          "ENERGIZER",
+          "PLAYBOY",
+          "TRIX"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS ON AN OLD WEST WANTED POSTER",
+        "members": [
+          "ALIAS",
+          "OUTLAW",
+          "REWARD",
+          "WANTED"
         ]
       }
     ]
