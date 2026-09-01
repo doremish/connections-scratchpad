@@ -1,69 +1,5 @@
 [
   {
-    "id": 1229,
-    "date": "2026-08-02",
-    "startingOrder": [
-      "LIKE",
-      "AIRPLANE",
-      "VIA",
-      "FLAX",
-      "À LA",
-      "SO",
-      "BY",
-      "DARK",
-      "PER",
-      "LORD",
-      "WELL",
-      "ASEA",
-      "THROUGH",
-      "BEAST",
-      "OLGA",
-      "ACTUALLY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FILLER WORDS",
-        "members": [
-          "ACTUALLY",
-          "LIKE",
-          "SO",
-          "WELL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BY MEANS OF",
-        "members": [
-          "BY",
-          "PER",
-          "THROUGH",
-          "VIA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ MODE",
-        "members": [
-          "AIRPLANE",
-          "BEAST",
-          "DARK",
-          "À LA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "U.S. AIRPORT CODES PLUS STARTING LETTER",
-        "members": [
-          "ASEA",
-          "FLAX",
-          "LORD",
-          "OLGA"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1230,
     "date": "2026-08-03",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "POKE",
           "SALAD",
           "SUPER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1257,
+    "date": "2026-09-01",
+    "startingOrder": [
+      "PLANETARIUM",
+      "ARROW",
+      "HOPE DIAMOND",
+      "FOR REAL",
+      "SAM SPADE",
+      "WISHY-WASHY",
+      "MIKE HAMMER",
+      "GOLF CLUB",
+      "CROSS MY HEART",
+      "PICK-UP STICK",
+      "SHERLOCK HOLMES",
+      "AIMEE MANN",
+      "PINKY SWEAR",
+      "HERCULE POIROT",
+      "SPAGHETTO",
+      "ON GOD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "\"I PROMISE!\"",
+        "members": [
+          "CROSS MY HEART",
+          "FOR REAL",
+          "ON GOD",
+          "PINKY SWEAR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LONG, SKINNY THINGS OFTEN SEEN TOGETHER",
+        "members": [
+          "ARROW",
+          "GOLF CLUB",
+          "PICK-UP STICK",
+          "SPAGHETTO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRIVATE INVESTIGATORS OF FICTION",
+        "members": [
+          "HERCULE POIROT",
+          "MIKE HAMMER",
+          "SAM SPADE",
+          "SHERLOCK HOLMES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH WORDS OF INTENTION",
+        "members": [
+          "AIMEE MANN",
+          "HOPE DIAMOND",
+          "PLANETARIUM",
+          "WISHY-WASHY"
         ]
       }
     ]
