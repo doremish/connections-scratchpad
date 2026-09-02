@@ -1,69 +1,5 @@
 [
   {
-    "id": 1230,
-    "date": "2026-08-03",
-    "startingOrder": [
-      "NEEDLESS",
-      "MYRRH",
-      "BACKSTREET",
-      "TEA SET",
-      "NSYNC",
-      "SAGE",
-      "FLY BY",
-      "NAG CHAMPA",
-      "MINT",
-      "BYWAY",
-      "BUG FIX",
-      "RHYTHM",
-      "FOREST",
-      "LANE",
-      "HUNTER",
-      "ALLEY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ROAD LESS TRAVELED",
-        "members": [
-          "ALLEY",
-          "BACKSTREET",
-          "BYWAY",
-          "LANE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SHADES OF GREEN",
-        "members": [
-          "FOREST",
-          "HUNTER",
-          "MINT",
-          "SAGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"Y\" IS THE ONLY VOWEL",
-        "members": [
-          "FLY BY",
-          "MYRRH",
-          "NSYNC",
-          "RHYTHM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH SYNONYMS FOR \"PESTER\"",
-        "members": [
-          "BUG FIX",
-          "NAG CHAMPA",
-          "NEEDLESS",
-          "TEA SET"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1237,
     "date": "2026-08-04",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HOPE DIAMOND",
           "PLANETARIUM",
           "WISHY-WASHY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1273,
+    "date": "2026-09-02",
+    "startingOrder": [
+      "BOW",
+      "WOW",
+      "TOP",
+      "FLOOR",
+      "CORN",
+      "SAUSAGE",
+      "SALTY",
+      "SHEEP",
+      "RESCUE",
+      "ROSIN",
+      "DAZZLE",
+      "PRAIRIE",
+      "SHOULDER REST",
+      "HUNTING",
+      "MUTE",
+      "STUN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FLABBERGAST",
+        "members": [
+          "DAZZLE",
+          "FLOOR",
+          "STUN",
+          "WOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS IN A VIOLIN CASE",
+        "members": [
+          "BOW",
+          "MUTE",
+          "ROSIN",
+          "SHOULDER REST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ DOGS (THAT ARE DOGS)",
+        "members": [
+          "HUNTING",
+          "RESCUE",
+          "SAUSAGE",
+          "SHEEP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ DOGS (THAT AREN'T DOGS)",
+        "members": [
+          "CORN",
+          "PRAIRIE",
+          "SALTY",
+          "TOP"
         ]
       }
     ]
