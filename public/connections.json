@@ -1,69 +1,5 @@
 [
   {
-    "id": 1237,
-    "date": "2026-08-04",
-    "startingOrder": [
-      "CIGARETTE",
-      "PEACE SIGN",
-      "PIANO",
-      "TAXI CAB",
-      "CHEVRON",
-      "UNICYCLE",
-      "PIGEON",
-      "POOL NOODLE",
-      "SEWING MACHINE",
-      "ANGLE BRACKET",
-      "PRETZEL ROD",
-      "BODEGA",
-      "SUBWAY STATION",
-      "FOAM ROLLER",
-      "SWAN BOAT",
-      "GOOSE FORMATION"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "LONG CYLINDRICAL THINGS",
-        "members": [
-          "CIGARETTE",
-          "FOAM ROLLER",
-          "POOL NOODLE",
-          "PRETZEL ROD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ICONIC NYC SIGHTS",
-        "members": [
-          "BODEGA",
-          "PIGEON",
-          "SUBWAY STATION",
-          "TAXI CAB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH PEDALS",
-        "members": [
-          "PIANO",
-          "SEWING MACHINE",
-          "SWAN BOAT",
-          "UNICYCLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "V-SHAPED THINGS",
-        "members": [
-          "ANGLE BRACKET",
-          "CHEVRON",
-          "GOOSE FORMATION",
-          "PEACE SIGN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1235,
     "date": "2026-08-05",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PRAIRIE",
           "SALTY",
           "TOP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1278,
+    "date": "2026-09-03",
+    "startingOrder": [
+      "MAX",
+      "MATCHBOX",
+      "MAROON",
+      "AVERAGE",
+      "BLINK",
+      "CARMINE",
+      "SUM",
+      "FLASH",
+      "COUNT",
+      "HEARTBEAT",
+      "CINNABAR",
+      "TONKA",
+      "HOT WHEELS",
+      "VERMILLION",
+      "TRICE",
+      "MICRO MACHINES"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TWO SHAKES OF A LAMB'S TAIL",
+        "members": [
+          "BLINK",
+          "FLASH",
+          "HEARTBEAT",
+          "TRICE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SHADES OF RED",
+        "members": [
+          "CARMINE",
+          "CINNABAR",
+          "MAROON",
+          "VERMILLION"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TOY CAR BRANDS",
+        "members": [
+          "HOT WHEELS",
+          "MATCHBOX",
+          "MICRO MACHINES",
+          "TONKA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SPREADSHEET FUNCTIONS",
+        "members": [
+          "AVERAGE",
+          "COUNT",
+          "MAX",
+          "SUM"
         ]
       }
     ]
