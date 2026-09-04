@@ -1,69 +1,5 @@
 [
   {
-    "id": 1235,
-    "date": "2026-08-05",
-    "startingOrder": [
-      "LUCKY",
-      "MISSION",
-      "RANCH",
-      "CATTLE",
-      "WRANGLER",
-      "INVESTMENT",
-      "GAP",
-      "STEER",
-      "BROTH",
-      "PILOT",
-      "CAPE COD",
-      "MERCHANDISE",
-      "DRIVE",
-      "DIESEL",
-      "TUDOR",
-      "MANEUVER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "NAVIGATE",
-        "members": [
-          "DRIVE",
-          "MANEUVER",
-          "PILOT",
-          "STEER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "JEANS BRANDS",
-        "members": [
-          "DIESEL",
-          "GAP",
-          "LUCKY",
-          "WRANGLER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOUSE STYLES",
-        "members": [
-          "CAPE COD",
-          "MISSION",
-          "RANCH",
-          "TUDOR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"STOCK\" MIGHT REFER TO",
-        "members": [
-          "BROTH",
-          "CATTLE",
-          "INVESTMENT",
-          "MERCHANDISE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1234,
     "date": "2026-08-06",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COUNT",
           "MAX",
           "SUM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1275,
+    "date": "2026-09-04",
+    "startingOrder": [
+      "MOON",
+      "EYE",
+      "PIZZA PIE",
+      "THAT'S",
+      "MORAY",
+      "CANDY CORN",
+      "ORANGE",
+      "OPINE",
+      "BOWLING BALL",
+      "RIBBON",
+      "CAKE DONUT",
+      "CONGER",
+      "CHERRY TOMATO",
+      "STIED",
+      "GULPER",
+      "CRINGY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SPHERICAL THINGS",
+        "members": [
+          "BOWLING BALL",
+          "EYE",
+          "MOON",
+          "ORANGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FOOD WHOSE NAME IS TWO FOODS",
+        "members": [
+          "CAKE DONUT",
+          "CANDY CORN",
+          "CHERRY TOMATO",
+          "PIZZA PIE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF EELS",
+        "members": [
+          "CONGER",
+          "GULPER",
+          "MORAY",
+          "RIBBON"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ACCESSORIES INSIDE STARTING AND ENDING LETTERS",
+        "members": [
+          "CRINGY",
+          "OPINE",
+          "STIED",
+          "THAT'S"
         ]
       }
     ]
