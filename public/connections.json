@@ -1,69 +1,5 @@
 [
   {
-    "id": 1234,
-    "date": "2026-08-06",
-    "startingOrder": [
-      "SWIMMING POOL",
-      "TENNIS COURT",
-      "FREEWAY",
-      "HOCKEY RINK",
-      "BARCLAYS CENTER",
-      "COLOSSEUM",
-      "SUPERMARKET",
-      "JACOB'S LADDER",
-      "PANTHEON",
-      "BOWLING ALLEY",
-      "LINCOLN LOGS",
-      "SPANISH STEPS",
-      "ALPHABET BLOCKS",
-      "FISHING BOAT",
-      "TREVI FOUNTAIN",
-      "CUP-AND-BALL"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CLASSIC WOODEN TOYS",
-        "members": [
-          "ALPHABET BLOCKS",
-          "CUP-AND-BALL",
-          "JACOB'S LADDER",
-          "LINCOLN LOGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES WITH LANES",
-        "members": [
-          "BOWLING ALLEY",
-          "FREEWAY",
-          "SUPERMARKET",
-          "SWIMMING POOL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ICONIC ROMAN LANDMARKS",
-        "members": [
-          "COLOSSEUM",
-          "PANTHEON",
-          "SPANISH STEPS",
-          "TREVI FOUNTAIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES WITH NETS",
-        "members": [
-          "BARCLAYS CENTER",
-          "FISHING BOAT",
-          "HOCKEY RINK",
-          "TENNIS COURT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1238,
     "date": "2026-08-07",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OPINE",
           "STIED",
           "THAT'S"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1289,
+    "date": "2026-09-05",
+    "startingOrder": [
+      "SLEEPY",
+      "HONK",
+      "BOBBLE",
+      "GOBBLE",
+      "WARBLE",
+      "COBBLE",
+      "WOBBLE",
+      "TAR",
+      "PI",
+      "HAMMER",
+      "TODDLE",
+      "COO",
+      "SWAY",
+      "JUG",
+      "TORT",
+      "TOTTER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "MOVE UNSTEADILY",
+        "members": [
+          "SWAY",
+          "TODDLE",
+          "TOTTER",
+          "WOBBLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BIRD ONOMATOPOEIA",
+        "members": [
+          "COO",
+          "GOBBLE",
+          "HONK",
+          "WARBLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___HEAD",
+        "members": [
+          "BOBBLE",
+          "HAMMER",
+          "JUG",
+          "SLEEPY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DESSERTS MINUS LAST LETTER",
+        "members": [
+          "COBBLE",
+          "PI",
+          "TAR",
+          "TORT"
         ]
       }
     ]
