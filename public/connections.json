@@ -1,69 +1,5 @@
 [
   {
-    "id": 1238,
-    "date": "2026-08-07",
-    "startingOrder": [
-      "JACKPOT",
-      "MOTOR",
-      "SNOW",
-      "JAR",
-      "WICK",
-      "SUNDAE",
-      "RAMBO",
-      "BUTTONS",
-      "TOMATILLO",
-      "SHAFT",
-      "WAX",
-      "BUCKYBALL",
-      "LIQUID NITROGEN",
-      "FRAGRANCE",
-      "CABLES",
-      "REFRIGERATOR"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "COMPONENTS OF A CANDLE",
-        "members": [
-          "FRAGRANCE",
-          "JAR",
-          "WAX",
-          "WICK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COLD THINGS",
-        "members": [
-          "LIQUID NITROGEN",
-          "REFRIGERATOR",
-          "SNOW",
-          "SUNDAE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF AN ELEVATOR",
-        "members": [
-          "BUTTONS",
-          "CABLES",
-          "MOTOR",
-          "SHAFT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH MALE ANIMALS",
-        "members": [
-          "BUCKYBALL",
-          "JACKPOT",
-          "RAMBO",
-          "TOMATILLO"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1239,
     "date": "2026-08-08",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PI",
           "TAR",
           "TORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1277,
+    "date": "2026-09-06",
+    "startingOrder": [
+      "SAT SCORE",
+      "UPC CODE",
+      "USB PORT",
+      "ATM MACHINE",
+      "CARD SLOT",
+      "BLANK CHECK",
+      "COURT SCRIBE",
+      "PIN NUMBER",
+      "DIRECTOR'S CUT",
+      "OPTICAL DRIVE",
+      "CARTE BLANCHE",
+      "HEADPHONE JACK",
+      "FREE REIGN",
+      "PIZZA SLICE",
+      "LCD DISPLAY",
+      "FULL AUTHORITY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "UNRESTRICTED PERMISSION",
+        "members": [
+          "BLANK CHECK",
+          "CARTE BLANCHE",
+          "FREE REIGN",
+          "FULL AUTHORITY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PLACES TO INSERT SOMETHING INTO ON A COMPUTER",
+        "members": [
+          "CARD SLOT",
+          "HEADPHONE JACK",
+          "OPTICAL DRIVE",
+          "USB PORT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ABBREVIATIONS FOLLOWED BY REDUNDANT WORD",
+        "members": [
+          "ATM MACHINE",
+          "LCD DISPLAY",
+          "PIN NUMBER",
+          "UPC CODE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING WITH WAYS TO CARVE A SURFACE",
+        "members": [
+          "COURT SCRIBE",
+          "DIRECTOR'S CUT",
+          "PIZZA SLICE",
+          "SAT SCORE"
         ]
       }
     ]
