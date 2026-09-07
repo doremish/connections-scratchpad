@@ -1,69 +1,5 @@
 [
   {
-    "id": 1239,
-    "date": "2026-08-08",
-    "startingOrder": [
-      "EASY",
-      "WHOOPEE",
-      "BELT",
-      "GOGGLES",
-      "CUTIE",
-      "PHRASE",
-      "PIN",
-      "COUCH",
-      "HOT DOG",
-      "EFFECTS",
-      "EXPRESS",
-      "RAZOR",
-      "I OWE YOU",
-      "YAHOO",
-      "FRAME",
-      "HURRAH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "QUAINT EXPRESSIONS OF EXCITEMENT",
-        "members": [
-          "HOT DOG",
-          "HURRAH",
-          "WHOOPEE",
-          "YAHOO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONVEY",
-        "members": [
-          "COUCH",
-          "EXPRESS",
-          "FRAME",
-          "PHRASE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS ABBREVIATED WITH LETTERS AS HOMOPHONES",
-        "members": [
-          "CUTIE",
-          "EASY",
-          "EFFECTS",
-          "I OWE YOU"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SAFETY ___",
-        "members": [
-          "BELT",
-          "GOGGLES",
-          "PIN",
-          "RAZOR"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1240,
     "date": "2026-08-09",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DIRECTOR'S CUT",
           "PIZZA SLICE",
           "SAT SCORE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1262,
+    "date": "2026-09-07",
+    "startingOrder": [
+      "NEEDLES",
+      "TRAMPOLINE",
+      "CHRISTMAS",
+      "CUP",
+      "PLUTONIUM",
+      "TURPENTINE",
+      "YARN",
+      "SCAR TISSUE",
+      "CAR AIR FRESHENER",
+      "STITCH MARKER",
+      "FABRICATION",
+      "HOOK",
+      "TALL TALE",
+      "STRAP",
+      "FISH STORY",
+      "UNDERWIRE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "QUITE THE SAGA",
+        "members": [
+          "FABRICATION",
+          "FISH STORY",
+          "TALL TALE",
+          "YARN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A BRA",
+        "members": [
+          "CUP",
+          "HOOK",
+          "STRAP",
+          "UNDERWIRE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSOCIATED WITH PINE TREES",
+        "members": [
+          "CAR AIR FRESHENER",
+          "CHRISTMAS",
+          "NEEDLES",
+          "TURPENTINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH DISNEY CHARACTERS",
+        "members": [
+          "PLUTONIUM",
+          "SCAR TISSUE",
+          "STITCH MARKER",
+          "TRAMPOLINE"
         ]
       }
     ]
