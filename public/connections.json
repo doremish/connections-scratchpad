@@ -1,69 +1,5 @@
 [
   {
-    "id": 1236,
-    "date": "2026-08-10",
-    "startingOrder": [
-      "BILLY GOAT",
-      "BALANCE DUE",
-      "WILLY-NILLY",
-      "MAIL DELIVERY",
-      "BILL TO",
-      "HELTER-SKELTER",
-      "WILL CALL",
-      "THE DEVIL",
-      "DOCTOR STRANGE",
-      "ORDER NUMBER",
-      "ANY OLD HOW",
-      "MOBILE TICKET",
-      "UNIT PRICE",
-      "COLONEL SANDERS",
-      "PRINT-AT-HOME",
-      "AT RANDOM"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "HAPHAZARDLY",
-        "members": [
-          "ANY OLD HOW",
-          "AT RANDOM",
-          "HELTER-SKELTER",
-          "WILLY-NILLY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WAYS TO RECEIVE EVENT TICKETS",
-        "members": [
-          "MAIL DELIVERY",
-          "MOBILE TICKET",
-          "PRINT-AT-HOME",
-          "WILL CALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SECTIONS ON AN INVOICE",
-        "members": [
-          "BALANCE DUE",
-          "BILL TO",
-          "ORDER NUMBER",
-          "UNIT PRICE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMOUS GOATEES",
-        "members": [
-          "BILLY GOAT",
-          "COLONEL SANDERS",
-          "DOCTOR STRANGE",
-          "THE DEVIL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1242,
     "date": "2026-08-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MARSH",
           "SKORT",
           "TWIXT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1272,
+    "date": "2026-09-09",
+    "startingOrder": [
+      "INCOMPREHENSIBLE",
+      "ELECTROMAGNETIC",
+      "NANOTECHNOLOGY",
+      "ARACHNOPHOBIA",
+      "MICROBREWERY",
+      "BEWILDERING",
+      "PICOSECOND",
+      "HALLOWEEN",
+      "ESOTERIC",
+      "MINIVAN",
+      "OPAQUE",
+      "BRUTE",
+      "TASK",
+      "SAW",
+      "IT",
+      "G"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HARD TO UNDERSTAND",
+        "members": [
+          "BEWILDERING",
+          "ESOTERIC",
+          "INCOMPREHENSIBLE",
+          "OPAQUE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS WITH \"SMALL\" PREFIXES",
+        "members": [
+          "MICROBREWERY",
+          "MINIVAN",
+          "NANOTECHNOLOGY",
+          "PICOSECOND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HORROR MOVIES",
+        "members": [
+          "ARACHNOPHOBIA",
+          "HALLOWEEN",
+          "IT",
+          "SAW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS BEFORE \"FORCE\"",
+        "members": [
+          "BRUTE",
+          "ELECTROMAGNETIC",
+          "G",
+          "TASK"
         ]
       }
     ]
