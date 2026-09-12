@@ -1,69 +1,5 @@
 [
   {
-    "id": 1245,
-    "date": "2026-08-13",
-    "startingOrder": [
-      "COMFORT",
-      "EASE",
-      "SHOULDER",
-      "INCH",
-      "MILES",
-      "CARRY ON",
-      "FEET",
-      "CHECKED BAGS",
-      "CREEP",
-      "TURKEY",
-      "UPGRADE",
-      "MAKE IT",
-      "PERSIST",
-      "EDGE",
-      "LOUNGE",
-      "CONTINUE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PERSEVERE",
-        "members": [
-          "CARRY ON",
-          "CONTINUE",
-          "MAKE IT",
-          "PERSIST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MOVE SLOWLY (UP TO)",
-        "members": [
-          "CREEP",
-          "EASE",
-          "EDGE",
-          "INCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AIRLINE STATUS PERKS",
-        "members": [
-          "CHECKED BAGS",
-          "LOUNGE",
-          "MILES",
-          "UPGRADE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"COLD\" THINGS, IN IDIOMS",
-        "members": [
-          "COMFORT",
-          "FEET",
-          "SHOULDER",
-          "TURKEY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1248,
     "date": "2026-08-14",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "ENVELOPE",
           "LIMITS",
           "LUCK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1285,
+    "date": "2026-09-12",
+    "startingOrder": [
+      "TURN SIGNAL",
+      "WEATHER",
+      "POSTER",
+      "BUMPER STICKER",
+      "VANITY PLATE",
+      "CURSOR",
+      "SPOILER",
+      "TROLL",
+      "SMOKE DETECTOR",
+      "FUZZY DICE",
+      "SPAMMER",
+      "NERD",
+      "RED",
+      "EYELIDS",
+      "HOOD ORNAMENT",
+      "LURKER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "WAYS TO PERSONALIZE A CAR",
+        "members": [
+          "BUMPER STICKER",
+          "FUZZY DICE",
+          "HOOD ORNAMENT",
+          "VANITY PLATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PEOPLE IN AN ONLINE FORUM",
+        "members": [
+          "LURKER",
+          "POSTER",
+          "SPAMMER",
+          "TROLL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT BLINK",
+        "members": [
+          "CURSOR",
+          "EYELIDS",
+          "SMOKE DETECTOR",
+          "TURN SIGNAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ ALERT",
+        "members": [
+          "NERD",
+          "RED",
+          "SPOILER",
+          "WEATHER"
         ]
       }
     ]
