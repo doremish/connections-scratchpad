@@ -1,69 +1,5 @@
 [
   {
-    "id": 1248,
-    "date": "2026-08-14",
-    "startingOrder": [
-      "BUMBLEBEE",
-      "BUBBLE",
-      "BASS ALE",
-      "CHARLIE BROWN",
-      "DELTA AIRLINES",
-      "STRAIGHTEDGE",
-      "ECHO CHAMBER",
-      "CITGO",
-      "CAUTION TAPE",
-      "GOOGLE DRIVE",
-      "INDIA INK",
-      "SILO",
-      "DIP PEN",
-      "WOLVERINE",
-      "HIVEMIND",
-      "BRISTOL BOARD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BLACK-AND-YELLOW",
-        "members": [
-          "BUMBLEBEE",
-          "CAUTION TAPE",
-          "CHARLIE BROWN",
-          "WOLVERINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES WHERE EVERYONE THINKS THE SAME WAYS",
-        "members": [
-          "BUBBLE",
-          "ECHO CHAMBER",
-          "HIVEMIND",
-          "SILO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMIC BOOK ARTIST'S TOOLS",
-        "members": [
-          "BRISTOL BOARD",
-          "DIP PEN",
-          "INDIA INK",
-          "STRAIGHTEDGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TRIANGLE LOGOS",
-        "members": [
-          "BASS ALE",
-          "CITGO",
-          "DELTA AIRLINES",
-          "GOOGLE DRIVE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1244,
     "date": "2026-08-15",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "RED",
           "SPOILER",
           "WEATHER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1287,
+    "date": "2026-09-13",
+    "startingOrder": [
+      "PORRIDGE",
+      "GARFIELD",
+      "DROOPY",
+      "EMPTY",
+      "HEATHCLIFF",
+      "EXCESS",
+      "GRANT",
+      "SLACK",
+      "ODIE",
+      "PARAMOUNT",
+      "SAGGING",
+      "MADISON",
+      "FLACCID",
+      "KEWPIE",
+      "CLEVELAND",
+      "DOUBLESPEAK"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "LACKING IN FIRMNESS",
+        "members": [
+          "DROOPY",
+          "FLACCID",
+          "SAGGING",
+          "SLACK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U.S. PRESIDENTS",
+        "members": [
+          "CLEVELAND",
+          "GARFIELD",
+          "GRANT",
+          "MADISON"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS THAT SOUND LIKE TWO LETTERS",
+        "members": [
+          "EMPTY",
+          "EXCESS",
+          "KEWPIE",
+          "ODIE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN ELEVATED LANDFORMS",
+        "members": [
+          "DOUBLESPEAK",
+          "HEATHCLIFF",
+          "PARAMOUNT",
+          "PORRIDGE"
         ]
       }
     ]
