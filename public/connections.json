@@ -1,69 +1,5 @@
 [
   {
-    "id": 1244,
-    "date": "2026-08-15",
-    "startingOrder": [
-      "GRINCH",
-      "BEANSTALK",
-      "STAGE",
-      "LANYARD",
-      "HIGHTAIL",
-      "LEG",
-      "SOUNDTRACK",
-      "HOTFOOT",
-      "BEAT",
-      "STRETCH",
-      "FRIED",
-      "CHAMOMILE",
-      "SPENT",
-      "EYESHADOW",
-      "PHASE",
-      "WORN OUT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EXHAUSTED",
-        "members": [
-          "BEAT",
-          "FRIED",
-          "SPENT",
-          "WORN OUT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SEGMENT",
-        "members": [
-          "LEG",
-          "PHASE",
-          "STAGE",
-          "STRETCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN UNITS OF LENGTH",
-        "members": [
-          "CHAMOMILE",
-          "GRINCH",
-          "HOTFOOT",
-          "LANYARD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN SYNONYMS FOR FOLLOW SECRETLY",
-        "members": [
-          "BEANSTALK",
-          "EYESHADOW",
-          "HIGHTAIL",
-          "SOUNDTRACK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1247,
     "date": "2026-08-16",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HEATHCLIFF",
           "PARAMOUNT",
           "PORRIDGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1288,
+    "date": "2026-09-14",
+    "startingOrder": [
+      "STRAW",
+      "CRAB",
+      "COOT",
+      "LEMON",
+      "BLUE",
+      "CANARY",
+      "TEAL",
+      "RAT",
+      "LOON",
+      "BAG",
+      "WHEAT",
+      "CUTLERY",
+      "SNITCH",
+      "GOOSE",
+      "STIRRER",
+      "STOOLIE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "WATERBIRDS",
+        "members": [
+          "COOT",
+          "GOOSE",
+          "LOON",
+          "TEAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "INFORMANT",
+        "members": [
+          "CANARY",
+          "RAT",
+          "SNITCH",
+          "STOOLIE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "COMMON SINGLE-USE PLASTIC ITEMS",
+        "members": [
+          "BAG",
+          "CUTLERY",
+          "STIRRER",
+          "STRAW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___GRASS",
+        "members": [
+          "BLUE",
+          "CRAB",
+          "LEMON",
+          "WHEAT"
         ]
       }
     ]
