@@ -1,69 +1,5 @@
 [
   {
-    "id": 1247,
-    "date": "2026-08-16",
-    "startingOrder": [
-      "PARTY",
-      "ACTOR",
-      "HANDY",
-      "GRAND",
-      "UPRIGHT",
-      "HALF",
-      "STEP",
-      "PLAYER",
-      "WISE",
-      "CONCERT",
-      "SET",
-      "AGENT",
-      "SHOW",
-      "GREAT",
-      "FROM NEANDER",
-      "GIG"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MUSICAL PERFORMANCE",
-        "members": [
-          "CONCERT",
-          "GIG",
-          "SET",
-          "SHOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTICIPANT",
-        "members": [
-          "ACTOR",
-          "AGENT",
-          "PARTY",
-          "PLAYER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMILY RELATIONSHIP MODIFIERS",
-        "members": [
-          "GRAND",
-          "GREAT",
-          "HALF",
-          "STEP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DESCRIPTORS FOR OUR HUMAN ANCESTORS",
-        "members": [
-          "FROM NEANDER",
-          "HANDY",
-          "UPRIGHT",
-          "WISE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1246,
     "date": "2026-08-17",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CRAB",
           "LEMON",
           "WHEAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1283,
+    "date": "2026-09-15",
+    "startingOrder": [
+      "PLANT",
+      "COACH",
+      "WHISTLE",
+      "DESSERT",
+      "HANDLE",
+      "CABOOSE",
+      "DECEMBER",
+      "SLEEPER",
+      "DIRECT",
+      "TRAIN",
+      "LID",
+      "ASSET",
+      "SPOUT",
+      "MOLE",
+      "EPILOGUE",
+      "GUIDE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "INSTRUCT",
+        "members": [
+          "COACH",
+          "DIRECT",
+          "GUIDE",
+          "TRAIN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A WHISTLING KETTLE",
+        "members": [
+          "HANDLE",
+          "LID",
+          "SPOUT",
+          "WHISTLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "UNDERCOVER OPERATIVE",
+        "members": [
+          "ASSET",
+          "MOLE",
+          "PLANT",
+          "SLEEPER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT APPEAR AT THE END",
+        "members": [
+          "CABOOSE",
+          "DECEMBER",
+          "DESSERT",
+          "EPILOGUE"
         ]
       }
     ]
