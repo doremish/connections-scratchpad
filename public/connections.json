@@ -1,69 +1,5 @@
 [
   {
-    "id": 1246,
-    "date": "2026-08-17",
-    "startingOrder": [
-      "MACRO",
-      "MEET",
-      "DOLLY",
-      "DOGIE",
-      "ZOOM",
-      "CATTLE",
-      "FISHEYE",
-      "SCRIPT",
-      "WILLIE",
-      "BIRDIE",
-      "PATSY",
-      "FUNCTION",
-      "HUDDLE",
-      "FORMULA",
-      "JOHNNY",
-      "TEAMS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "VIDEO CALL PLATFORMS",
-        "members": [
-          "HUDDLE",
-          "MEET",
-          "TEAMS",
-          "ZOOM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SPREADSHEET FEATURES",
-        "members": [
-          "FORMULA",
-          "FUNCTION",
-          "MACRO",
-          "SCRIPT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FIRST NAMES OF COUNTRY MUSIC LEGENDS",
-        "members": [
-          "DOLLY",
-          "JOHNNY",
-          "PATSY",
-          "WILLIE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH PETS",
-        "members": [
-          "BIRDIE",
-          "CATTLE",
-          "DOGIE",
-          "FISHEYE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1255,
     "date": "2026-08-18",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DECEMBER",
           "DESSERT",
           "EPILOGUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1295,
+    "date": "2026-09-16",
+    "startingOrder": [
+      "FRANK-N-FURTER",
+      "LATIN",
+      "CLINK",
+      "PENNYWISE",
+      "WADSWORTH",
+      "NICKELODEON",
+      "BORAT",
+      "LONG JOHN SILVER",
+      "ST. VINCENT",
+      "STEAM IRON",
+      "WIDENER",
+      "DIMENSION",
+      "QUARTERBACK",
+      "CARLOS",
+      "MARIGOLD",
+      "BARRETT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ENDING IN METAL ELEMENTS",
+        "members": [
+          "LATIN",
+          "LONG JOHN SILVER",
+          "MARIGOLD",
+          "STEAM IRON"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH U.S. COINS",
+        "members": [
+          "DIMENSION",
+          "NICKELODEON",
+          "PENNYWISE",
+          "QUARTERBACK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "POETS' MIDDLE NAMES",
+        "members": [
+          "BARRETT",
+          "CARLOS",
+          "ST. VINCENT",
+          "WADSWORTH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SAUSAGES PLUS A LETTER",
+        "members": [
+          "BORAT",
+          "CLINK",
+          "FRANK-N-FURTER",
+          "WIDENER"
         ]
       }
     ]
