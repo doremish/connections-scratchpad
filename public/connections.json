@@ -1,69 +1,5 @@
 [
   {
-    "id": 1255,
-    "date": "2026-08-18",
-    "startingOrder": [
-      "RED CARPET",
-      "FILM NOIR",
-      "BASKETBALL",
-      "PRIVATE JET",
-      "SWEET POTATO",
-      "SANDPAPER",
-      "VELVET ROPE",
-      "FLYERS MASCOT",
-      "PRACTICAL JOKE",
-      "LIMOUSINE",
-      "TRAFFIC CONE",
-      "PETROLEUM JELLY",
-      "ORANGUTAN",
-      "COWBOY COFFEE",
-      "POETIC JUSTICE",
-      "PAPARAZZI"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SEEN AT A MOVIE PREMIERE",
-        "members": [
-          "LIMOUSINE",
-          "PAPARAZZI",
-          "RED CARPET",
-          "VELVET ROPE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PJS",
-        "members": [
-          "PETROLEUM JELLY",
-          "POETIC JUSTICE",
-          "PRACTICAL JOKE",
-          "PRIVATE JET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE ORANGE",
-        "members": [
-          "BASKETBALL",
-          "ORANGUTAN",
-          "SWEET POTATO",
-          "TRAFFIC CONE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE GRITTY",
-        "members": [
-          "COWBOY COFFEE",
-          "FILM NOIR",
-          "FLYERS MASCOT",
-          "SANDPAPER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1201,
     "date": "2026-08-19",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CLINK",
           "FRANK-N-FURTER",
           "WIDENER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1296,
+    "date": "2026-09-17",
+    "startingOrder": [
+      "SPRING",
+      "SUBWAY STATION",
+      "PRESTIGE",
+      "TRIANGLE",
+      "TAP",
+      "GIVE",
+      "LANGUAGE",
+      "FOUNTAIN",
+      "WELL",
+      "BOUNCE",
+      "SEWER LINE",
+      "HANDLES",
+      "SHEEP DETECTIVES",
+      "MINE SHAFT",
+      "FLEXIBILITY",
+      "WOLVERINE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "ELASTICITY",
+        "members": [
+          "BOUNCE",
+          "FLEXIBILITY",
+          "GIVE",
+          "SPRING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT ARE UNDERGROUND",
+        "members": [
+          "MINE SHAFT",
+          "SEWER LINE",
+          "SUBWAY STATION",
+          "WELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HUGH JACKMAN MOVIES, WITH \"THE\"",
+        "members": [
+          "FOUNTAIN",
+          "PRESTIGE",
+          "SHEEP DETECTIVES",
+          "WOLVERINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LOVE ___",
+        "members": [
+          "HANDLES",
+          "LANGUAGE",
+          "TAP",
+          "TRIANGLE"
         ]
       }
     ]
