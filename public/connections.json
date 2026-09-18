@@ -1,69 +1,5 @@
 [
   {
-    "id": 1201,
-    "date": "2026-08-19",
-    "startingOrder": [
-      "PICNIC",
-      "BASKET",
-      "BREEZE",
-      "ANTS",
-      "BLANKET",
-      "COCOA",
-      "PICKLE",
-      "FOOT",
-      "SNAP",
-      "BASE",
-      "MASK",
-      "SEOUL",
-      "OBSCURE",
-      "RHEO",
-      "CINCH",
-      "HIDE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PIECE OF CAKE",
-        "members": [
-          "BREEZE",
-          "CINCH",
-          "PICNIC",
-          "SNAP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CONCEAL",
-        "members": [
-          "BLANKET",
-          "HIDE",
-          "MASK",
-          "OBSCURE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS BEFORE \"BALL\" IN SPORT NAMES",
-        "members": [
-          "BASE",
-          "BASKET",
-          "FOOT",
-          "PICKLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOMOPHONES OF CGI-ANIMATED FILMS",
-        "members": [
-          "ANTS",
-          "COCOA",
-          "RHEO",
-          "SEOUL"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1252,
     "date": "2026-08-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LANGUAGE",
           "TAP",
           "TRIANGLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1294,
+    "date": "2026-09-18",
+    "startingOrder": [
+      "PILLOW",
+      "CRUISE",
+      "UPPER",
+      "STEP",
+      "FLIGHT",
+      "STAIR",
+      "PLATTER",
+      "LANDING",
+      "ROUND",
+      "STAGE",
+      "TAKEOFF",
+      "MEDLEY",
+      "BRIEF",
+      "BOARDING",
+      "SAMPLER",
+      "PHASE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SEGMENT OF A PROCESS",
+        "members": [
+          "PHASE",
+          "ROUND",
+          "STAGE",
+          "STEP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSORTMENTS OF FOOD/DRINK",
+        "members": [
+          "FLIGHT",
+          "MEDLEY",
+          "PLATTER",
+          "SAMPLER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A FLIGHT",
+        "members": [
+          "BOARDING",
+          "CRUISE",
+          "LANDING",
+          "TAKEOFF"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___CASE",
+        "members": [
+          "BRIEF",
+          "PILLOW",
+          "STAIR",
+          "UPPER"
         ]
       }
     ]
