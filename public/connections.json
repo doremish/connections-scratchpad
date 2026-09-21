@@ -1,69 +1,5 @@
 [
   {
-    "id": 1249,
-    "date": "2026-08-22",
-    "startingOrder": [
-      "BITTER",
-      "SPICE",
-      "MEAN",
-      "WINTER",
-      "HAMMER",
-      "CONE",
-      "PLANE",
-      "JET",
-      "GOLDEN",
-      "SAW",
-      "MIST",
-      "MUSK",
-      "GILMORE",
-      "CHISEL",
-      "WATER",
-      "SHOWER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CARPENTRY TOOLS",
-        "members": [
-          "CHISEL",
-          "HAMMER",
-          "PLANE",
-          "SAW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF MELON",
-        "members": [
-          "BITTER",
-          "MUSK",
-          "WATER",
-          "WINTER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GARDEN HOSE SETTINGS",
-        "members": [
-          "CONE",
-          "JET",
-          "MIST",
-          "SHOWER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ GIRLS OF POP CULTURE",
-        "members": [
-          "GILMORE",
-          "GOLDEN",
-          "MEAN",
-          "SPICE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1253,
     "date": "2026-08-23",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "SKATE",
           "SNOW",
           "SURF"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1293,
+    "date": "2026-09-21",
+    "startingOrder": [
+      "COMPOSE",
+      "CHECK",
+      "FLY",
+      "BEET",
+      "BRAH",
+      "WORM",
+      "SPAM",
+      "MATE",
+      "CASTLE",
+      "CHUM",
+      "VIVA",
+      "SENT",
+      "CHOP",
+      "CAPTURE",
+      "DRAFTS",
+      "SPINNER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "EMAIL BUTTONS",
+        "members": [
+          "COMPOSE",
+          "DRAFTS",
+          "SENT",
+          "SPAM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WAYS TO ATTRACT FISH",
+        "members": [
+          "CHUM",
+          "FLY",
+          "SPINNER",
+          "WORM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CHESS VERBS",
+        "members": [
+          "CAPTURE",
+          "CASTLE",
+          "CHECK",
+          "MATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTS OF COMPOSERS' NAMES",
+        "members": [
+          "BEET",
+          "BRAH",
+          "CHOP",
+          "VIVA"
         ]
       }
     ]
