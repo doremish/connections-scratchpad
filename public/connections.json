@@ -1,69 +1,5 @@
 [
   {
-    "id": 1253,
-    "date": "2026-08-23",
-    "startingOrder": [
-      "ANTIFREEZE",
-      "VACUUM",
-      "BAKING SODA",
-      "VOLCANO",
-      "VINEGAR",
-      "VODKA",
-      "TINDERBOX",
-      "POTATO BATTERY",
-      "SKIING",
-      "HOME FRIES",
-      "CLUB SODA",
-      "POWDER KEG",
-      "HYDROGEN PEROXIDE",
-      "BAZAAR",
-      "VISCHYSSOISE",
-      "TIME BOMB"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "POTENTIALLY EXPLOSIVE THINGS",
-        "members": [
-          "POWDER KEG",
-          "TIME BOMB",
-          "TINDERBOX",
-          "VOLCANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DOUBLE VOWELS",
-        "members": [
-          "ANTIFREEZE",
-          "BAZAAR",
-          "SKIING",
-          "VACUUM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MADE WITH POTATOES",
-        "members": [
-          "HOME FRIES",
-          "POTATO BATTERY",
-          "VISCHYSSOISE",
-          "VODKA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HOUSEHOLD STAIN REMOVERS",
-        "members": [
-          "BAKING SODA",
-          "CLUB SODA",
-          "HYDROGEN PEROXIDE",
-          "VINEGAR"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1250,
     "date": "2026-08-24",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BRAH",
           "CHOP",
           "VIVA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1307,
+    "date": "2026-09-22",
+    "startingOrder": [
+      "THIS",
+      "THAT",
+      "THE",
+      "OTHER",
+      "CAFE",
+      "PATRON",
+      "AGREE",
+      "ACCENT",
+      "TOUCH",
+      "THOSE",
+      "ROSE",
+      "NEUTRAL",
+      "DETAIL",
+      "DISAGREE",
+      "THESE",
+      "FLOURISH"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DEMONSTRATIVES",
+        "members": [
+          "THAT",
+          "THESE",
+          "THIS",
+          "THOSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EMBELLISHMENT",
+        "members": [
+          "ACCENT",
+          "DETAIL",
+          "FLOURISH",
+          "TOUCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OPTIONS ON A MULTIPLE CHOICE SURVEY",
+        "members": [
+          "AGREE",
+          "DISAGREE",
+          "NEUTRAL",
+          "OTHER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BEVERAGES WITH ACUTE ACCENTS REMOVED",
+        "members": [
+          "CAFE",
+          "PATRON",
+          "ROSE",
+          "THE"
         ]
       }
     ]
