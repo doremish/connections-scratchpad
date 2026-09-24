@@ -1,69 +1,5 @@
 [
   {
-    "id": 1254,
-    "date": "2026-08-25",
-    "startingOrder": [
-      "SUPERFICIAL",
-      "HYPERSPACE",
-      "HARLEM SHAKE",
-      "LICKETY-SPLIT",
-      "RUNNING MAN",
-      "TRAFFIC CONE",
-      "TIME WARP",
-      "LONG WALK",
-      "ONE-DIMENSIONAL",
-      "PARALLEL UNIVERSE",
-      "GREEN MILE",
-      "INSIDE SCOOP",
-      "COSMETIC",
-      "SHAWSHANK REDEMPTION",
-      "TELEPORTATION",
-      "SKIN-DEEP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SURFACE-LEVEL",
-        "members": [
-          "COSMETIC",
-          "ONE-DIMENSIONAL",
-          "SKIN-DEEP",
-          "SUPERFICIAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SCI-FI PHENOMENA",
-        "members": [
-          "HYPERSPACE",
-          "PARALLEL UNIVERSE",
-          "TELEPORTATION",
-          "TIME WARP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STEPHEN KING FILM ADAPTATIONS, WITH \"THE\"",
-        "members": [
-          "GREEN MILE",
-          "LONG WALK",
-          "RUNNING MAN",
-          "SHAWSHANK REDEMPTION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN ICE CREAM ORDERS",
-        "members": [
-          "HARLEM SHAKE",
-          "INSIDE SCOOP",
-          "LICKETY-SPLIT",
-          "TRAFFIC CONE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1259,
     "date": "2026-08-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "RECORD LABEL",
           "RUB-A-DUB",
           "SURINAME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1302,
+    "date": "2026-09-24",
+    "startingOrder": [
+      "THE BEAR",
+      "FOAM FINGER",
+      "POGO STICK",
+      "FACE PAINT",
+      "BOBBLEHEAD",
+      "BEER HAT",
+      "UNCLE SAM",
+      "CAPE",
+      "CREATION OF ADAM",
+      "TRAMPOLINE",
+      "FANGS",
+      "BREATHE",
+      "FAKE BLOOD",
+      "I'M WITH STUPID SHIRT",
+      "SNAKES IN A CAN",
+      "HERB TEA"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PARTS OF A VAMPIRE COSTUME",
+        "members": [
+          "CAPE",
+          "FACE PAINT",
+          "FAKE BLOOD",
+          "FANGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH SPRING/S",
+        "members": [
+          "BOBBLEHEAD",
+          "POGO STICK",
+          "SNAKES IN A CAN",
+          "TRAMPOLINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURING POINTING",
+        "members": [
+          "CREATION OF ADAM",
+          "FOAM FINGER",
+          "I'M WITH STUPID SHIRT",
+          "UNCLE SAM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ANAGRAMS",
+        "members": [
+          "BEER HAT",
+          "BREATHE",
+          "HERB TEA",
+          "THE BEAR"
         ]
       }
     ]
