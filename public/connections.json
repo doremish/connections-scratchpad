@@ -1,69 +1,5 @@
 [
   {
-    "id": 1259,
-    "date": "2026-08-26",
-    "startingOrder": [
-      "PARK",
-      "LIME",
-      "PIANO",
-      "FORTE",
-      "LARGO",
-      "PRESTO",
-      "SIGNATURE",
-      "PAGE",
-      "GIFT",
-      "PHOSPHORUS",
-      "BEHOLD",
-      "CHAIN",
-      "VOILÀ",
-      "TALENT",
-      "SHAZAM",
-      "STRENGTH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "\"THERE YOU HAVE IT!\"",
-        "members": [
-          "BEHOLD",
-          "PRESTO",
-          "SHAZAM",
-          "VOILÀ"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KNACK",
-        "members": [
-          "FORTE",
-          "GIFT",
-          "STRENGTH",
-          "TALENT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT \"P\" MIGHT STAND FOR",
-        "members": [
-          "PAGE",
-          "PARK",
-          "PHOSPHORUS",
-          "PIANO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KEY ___",
-        "members": [
-          "CHAIN",
-          "LARGO",
-          "LIME",
-          "SIGNATURE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1261,
     "date": "2026-08-27",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BREATHE",
           "HERB TEA",
           "THE BEAR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1297,
+    "date": "2026-09-25",
+    "startingOrder": [
+      "RATHER",
+      "BOUGIE",
+      "GENIUS",
+      "SPRING",
+      "BORDER",
+      "RATCHET",
+      "SWANK",
+      "SAVAGE",
+      "CLASSY",
+      "LEVY",
+      "PENDULUM",
+      "FANCY",
+      "ESCAPEMENT",
+      "POSH",
+      "FOAMILY",
+      "AYKROYD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "LUXE",
+        "members": [
+          "BOUGIE",
+          "FANCY",
+          "POSH",
+          "SWANK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A MECHANICAL CLOCK",
+        "members": [
+          "ESCAPEMENT",
+          "PENDULUM",
+          "RATCHET",
+          "SPRING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FAMOUS DANS",
+        "members": [
+          "AYKROYD",
+          "LEVY",
+          "RATHER",
+          "SAVAGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TAXONOMIC RANKS PLUS A LETTER",
+        "members": [
+          "BORDER",
+          "CLASSY",
+          "FOAMILY",
+          "GENIUS"
         ]
       }
     ]
