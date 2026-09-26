@@ -1,69 +1,5 @@
 [
   {
-    "id": 1261,
-    "date": "2026-08-27",
-    "startingOrder": [
-      "PIKACHU",
-      "SPUNK",
-      "NEMO",
-      "DOVE",
-      "MISTY",
-      "SLATE",
-      "LIGHTNING",
-      "ASH",
-      "PEWTER",
-      "BROCK",
-      "EMOTIONAL",
-      "LIVE WIRE",
-      "OVERCOME",
-      "ELECTRIC EEL",
-      "WRAP",
-      "CHOKED UP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ELECTRIC THINGS",
-        "members": [
-          "ELECTRIC EEL",
-          "LIGHTNING",
-          "LIVE WIRE",
-          "PIKACHU"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MOVED TO TEARS",
-        "members": [
-          "CHOKED UP",
-          "EMOTIONAL",
-          "MISTY",
-          "OVERCOME"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SHADES OF GRAY",
-        "members": [
-          "ASH",
-          "DOVE",
-          "PEWTER",
-          "SLATE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "MUSIC GENRE PLUS STARTING LETTER",
-        "members": [
-          "BROCK",
-          "NEMO",
-          "SPUNK",
-          "WRAP"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1260,
     "date": "2026-08-28",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CLASSY",
           "FOAMILY",
           "GENIUS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1303,
+    "date": "2026-09-26",
+    "startingOrder": [
+      "MINT",
+      "PRESS",
+      "GRAIN",
+      "BEANS",
+      "STARCH",
+      "CAT",
+      "CUCUMBER",
+      "RINGS",
+      "GUM",
+      "FOLD",
+      "KNOTS",
+      "CUSTOMER",
+      "WASH",
+      "MOUTHWASH",
+      "BURL",
+      "SPRAY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "BREATH FRESHENERS",
+        "members": [
+          "GUM",
+          "MINT",
+          "MOUTHWASH",
+          "SPRAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS DONE TO A DRESS SHIRT AT THE LAUNDRY",
+        "members": [
+          "FOLD",
+          "PRESS",
+          "STARCH",
+          "WASH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF WOOD",
+        "members": [
+          "BURL",
+          "GRAIN",
+          "KNOTS",
+          "RINGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"COOL\" THINGS, IN EXPRESSIONS",
+        "members": [
+          "BEANS",
+          "CAT",
+          "CUCUMBER",
+          "CUSTOMER"
         ]
       }
     ]
