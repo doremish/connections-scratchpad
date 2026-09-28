@@ -1,69 +1,5 @@
 [
   {
-    "id": 1276,
-    "date": "2026-08-29",
-    "startingOrder": [
-      "GREEK",
-      "HYDRANT",
-      "BATTERY",
-      "HOUSE",
-      "TRITONE",
-      "ENGINE",
-      "ESCAPE",
-      "AT LAST",
-      "WEDGE",
-      "SPACE",
-      "RADIATOR",
-      "CHOPPED",
-      "CONTROL",
-      "HERALD",
-      "SHIFT",
-      "ALTERNATOR"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "UNDER THE HOOD OF A CAR",
-        "members": [
-          "ALTERNATOR",
-          "BATTERY",
-          "ENGINE",
-          "RADIATOR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF SALAD",
-        "members": [
-          "CHOPPED",
-          "GREEK",
-          "HOUSE",
-          "WEDGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KEYBOARD KEYS",
-        "members": [
-          "CONTROL",
-          "ESCAPE",
-          "SHIFT",
-          "SPACE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH FIGURES FROM GREEK MYTH",
-        "members": [
-          "AT LAST",
-          "HERALD",
-          "HYDRANT",
-          "TRITONE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1256,
     "date": "2026-08-30",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HOMING",
           "LOHAN",
           "WU-TANG"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1305,
+    "date": "2026-09-28",
+    "startingOrder": [
+      "CHIHUAHUA",
+      "LEMON",
+      "VIPER",
+      "BAMBOO",
+      "CELERY",
+      "TABASCO",
+      "ARKANSANS",
+      "DURANGO",
+      "SPRINGING",
+      "CHARGER",
+      "HORSERADISH",
+      "WHEAT",
+      "POSSESSES",
+      "MIGNONETTE",
+      "CORN",
+      "CHALLENGER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS WITH STALKS",
+        "members": [
+          "BAMBOO",
+          "CELERY",
+          "CORN",
+          "WHEAT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OYSTER CONDIMENTS",
+        "members": [
+          "HORSERADISH",
+          "LEMON",
+          "MIGNONETTE",
+          "TABASCO"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DODGE MODELS",
+        "members": [
+          "CHALLENGER",
+          "CHARGER",
+          "DURANGO",
+          "VIPER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THREE LETTERS PLUS REPEATED TRIGRAMS",
+        "members": [
+          "ARKANSANS",
+          "CHIHUAHUA",
+          "POSSESSES",
+          "SPRINGING"
         ]
       }
     ]
