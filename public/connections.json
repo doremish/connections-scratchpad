@@ -1,69 +1,5 @@
 [
   {
-    "id": 1256,
-    "date": "2026-08-30",
-    "startingOrder": [
-      "REC CENTER",
-      "ALIAS",
-      "CORKSCREW",
-      "PLAYBOY",
-      "WANTED",
-      "STOPPER",
-      "ENERGIZER",
-      "REWARD",
-      "GYMNASIUM",
-      "CADBURY",
-      "AERATOR",
-      "YMCA",
-      "OUTLAW",
-      "HEALTH CLUB",
-      "TRIX",
-      "DECANTER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EXERCISE FACILITIES",
-        "members": [
-          "GYMNASIUM",
-          "HEALTH CLUB",
-          "REC CENTER",
-          "YMCA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WINE ACCESSORIES",
-        "members": [
-          "AERATOR",
-          "CORKSCREW",
-          "DECANTER",
-          "STOPPER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BRANDS WITH BUNNY RABBIT MASCOTS",
-        "members": [
-          "CADBURY",
-          "ENERGIZER",
-          "PLAYBOY",
-          "TRIX"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS ON AN OLD WEST WANTED POSTER",
-        "members": [
-          "ALIAS",
-          "OUTLAW",
-          "REWARD",
-          "WANTED"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1258,
     "date": "2026-08-31",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CHIHUAHUA",
           "POSSESSES",
           "SPRINGING"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1304,
+    "date": "2026-09-29",
+    "startingOrder": [
+      "DELTA",
+      "HIDDEN",
+      "INSIDE",
+      "MODEL TANK",
+      "MONSTERS",
+      "FINDING",
+      "SECRET",
+      "TOY",
+      "FREEZE TAG",
+      "ORAL PHASE",
+      "MOUTH",
+      "REMOTE",
+      "STREAM BED",
+      "TUCKED AWAY",
+      "HOME GAME",
+      "DRAINAGE BASIN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SECLUDED",
+        "members": [
+          "HIDDEN",
+          "REMOTE",
+          "SECRET",
+          "TUCKED AWAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RIVER FEATURES",
+        "members": [
+          "DELTA",
+          "DRAINAGE BASIN",
+          "MOUTH",
+          "STREAM BED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FIRST WORDS OF PIXAR FILMS",
+        "members": [
+          "FINDING",
+          "INSIDE",
+          "MONSTERS",
+          "TOY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PHRASES HIDING GREEK LETTERS",
+        "members": [
+          "FREEZE TAG",
+          "HOME GAME",
+          "MODEL TANK",
+          "ORAL PHASE"
         ]
       }
     ]
