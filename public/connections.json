@@ -1,69 +1,5 @@
 [
   {
-    "id": 1258,
-    "date": "2026-08-31",
-    "startingOrder": [
-      "SUPER",
-      "CALIPH",
-      "FRAGILE",
-      "LIPSTICK",
-      "SALAD",
-      "HEAVY",
-      "DUST",
-      "POSTER",
-      "PHARAOH",
-      "POKE",
-      "TOOTHPASTE",
-      "KHAN",
-      "PERISHABLE",
-      "TENNIS BALLS",
-      "SHOGUN",
-      "THIS SIDE UP"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS THAT COME IN TUBES",
-        "members": [
-          "LIPSTICK",
-          "POSTER",
-          "TENNIS BALLS",
-          "TOOTHPASTE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WARNINGS ON A SHIPPING BOX",
-        "members": [
-          "FRAGILE",
-          "HEAVY",
-          "PERISHABLE",
-          "THIS SIDE UP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HISTORICAL SOVEREIGN TITLES",
-        "members": [
-          "CALIPH",
-          "KHAN",
-          "PHARAOH",
-          "SHOGUN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ BOWL",
-        "members": [
-          "DUST",
-          "POKE",
-          "SALAD",
-          "SUPER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1257,
     "date": "2026-09-01",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HOME GAME",
           "MODEL TANK",
           "ORAL PHASE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1311,
+    "date": "2026-09-30",
+    "startingOrder": [
+      "TAMBOURINE",
+      "SEPTUM",
+      "DECENT",
+      "BOND",
+      "MARTINI",
+      "OPTION",
+      "NOVELTY",
+      "CASINO",
+      "SPRAY PAINT",
+      "OCTOPUSSY",
+      "DONNIE BRASCO",
+      "FUTURE",
+      "BUGSY",
+      "ETCH A SKETCH",
+      "STOCK",
+      "SCARFACE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SECURITIES",
+        "members": [
+          "BOND",
+          "FUTURE",
+          "OPTION",
+          "STOCK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT ARE SHAKEN (NOT STIRRED)",
+        "members": [
+          "ETCH A SKETCH",
+          "MARTINI",
+          "SPRAY PAINT",
+          "TAMBOURINE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GANGSTER MOVIES",
+        "members": [
+          "BUGSY",
+          "CASINO",
+          "DONNIE BRASCO",
+          "SCARFACE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH MONTH ABBREVIATIONS",
+        "members": [
+          "DECENT",
+          "NOVELTY",
+          "OCTOPUSSY",
+          "SEPTUM"
         ]
       }
     ]
