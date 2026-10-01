@@ -1,69 +1,5 @@
 [
   {
-    "id": 1257,
-    "date": "2026-09-01",
-    "startingOrder": [
-      "PLANETARIUM",
-      "ARROW",
-      "HOPE DIAMOND",
-      "FOR REAL",
-      "SAM SPADE",
-      "WISHY-WASHY",
-      "MIKE HAMMER",
-      "GOLF CLUB",
-      "CROSS MY HEART",
-      "PICK-UP STICK",
-      "SHERLOCK HOLMES",
-      "AIMEE MANN",
-      "PINKY SWEAR",
-      "HERCULE POIROT",
-      "SPAGHETTO",
-      "ON GOD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "\"I PROMISE!\"",
-        "members": [
-          "CROSS MY HEART",
-          "FOR REAL",
-          "ON GOD",
-          "PINKY SWEAR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LONG, SKINNY THINGS OFTEN SEEN TOGETHER",
-        "members": [
-          "ARROW",
-          "GOLF CLUB",
-          "PICK-UP STICK",
-          "SPAGHETTO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PRIVATE INVESTIGATORS OF FICTION",
-        "members": [
-          "HERCULE POIROT",
-          "MIKE HAMMER",
-          "SAM SPADE",
-          "SHERLOCK HOLMES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH WORDS OF INTENTION",
-        "members": [
-          "AIMEE MANN",
-          "HOPE DIAMOND",
-          "PLANETARIUM",
-          "WISHY-WASHY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1273,
     "date": "2026-09-02",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "NOVELTY",
           "OCTOPUSSY",
           "SEPTUM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1314,
+    "date": "2026-10-01",
+    "startingOrder": [
+      "NATIONAL",
+      "KEN",
+      "NECK",
+      "SHINS",
+      "ACRO",
+      "STICK",
+      "WAIST",
+      "WALKMEN",
+      "SITUATE",
+      "SLEEVE",
+      "CROSS",
+      "PLACE",
+      "SUD",
+      "POSITION",
+      "CHEST",
+      "DECEMBERISTS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PUT",
+        "members": [
+          "PLACE",
+          "POSITION",
+          "SITUATE",
+          "STICK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DRESS SHIRT MEASUREMENTS",
+        "members": [
+          "CHEST",
+          "NECK",
+          "SLEEVE",
+          "WAIST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "2000S INDIE ROCK BANDS, WITH \"THE\"",
+        "members": [
+          "DECEMBERISTS",
+          "NATIONAL",
+          "SHINS",
+          "WALKMEN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTS OF NYT PRINT PUZZLES",
+        "members": [
+          "ACRO",
+          "CROSS",
+          "KEN",
+          "SUD"
         ]
       }
     ]
