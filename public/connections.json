@@ -1,69 +1,5 @@
 [
   {
-    "id": 1273,
-    "date": "2026-09-02",
-    "startingOrder": [
-      "BOW",
-      "WOW",
-      "TOP",
-      "FLOOR",
-      "CORN",
-      "SAUSAGE",
-      "SALTY",
-      "SHEEP",
-      "RESCUE",
-      "ROSIN",
-      "DAZZLE",
-      "PRAIRIE",
-      "SHOULDER REST",
-      "HUNTING",
-      "MUTE",
-      "STUN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FLABBERGAST",
-        "members": [
-          "DAZZLE",
-          "FLOOR",
-          "STUN",
-          "WOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS IN A VIOLIN CASE",
-        "members": [
-          "BOW",
-          "MUTE",
-          "ROSIN",
-          "SHOULDER REST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ DOGS (THAT ARE DOGS)",
-        "members": [
-          "HUNTING",
-          "RESCUE",
-          "SAUSAGE",
-          "SHEEP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ DOGS (THAT AREN'T DOGS)",
-        "members": [
-          "CORN",
-          "PRAIRIE",
-          "SALTY",
-          "TOP"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1278,
     "date": "2026-09-03",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CROSS",
           "KEN",
           "SUD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1310,
+    "date": "2026-10-02",
+    "startingOrder": [
+      "LITTLE",
+      "REAL ESTATE",
+      "COMMON",
+      "RING",
+      "INDEX",
+      "FUND",
+      "BANKROLL",
+      "RIB",
+      "STANDARD",
+      "MIDDLE",
+      "STOCK",
+      "SUPPORT",
+      "BACK",
+      "NUMBER",
+      "ROUTINE",
+      "TIME"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FINANCE",
+        "members": [
+          "BACK",
+          "BANKROLL",
+          "FUND",
+          "SUPPORT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FINGERS",
+        "members": [
+          "INDEX",
+          "LITTLE",
+          "MIDDLE",
+          "RING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CUSTOMARY",
+        "members": [
+          "COMMON",
+          "ROUTINE",
+          "STANDARD",
+          "STOCK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRIME ___",
+        "members": [
+          "NUMBER",
+          "REAL ESTATE",
+          "RIB",
+          "TIME"
         ]
       }
     ]
