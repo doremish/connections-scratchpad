@@ -1,69 +1,5 @@
 [
   {
-    "id": 1278,
-    "date": "2026-09-03",
-    "startingOrder": [
-      "MAX",
-      "MATCHBOX",
-      "MAROON",
-      "AVERAGE",
-      "BLINK",
-      "CARMINE",
-      "SUM",
-      "FLASH",
-      "COUNT",
-      "HEARTBEAT",
-      "CINNABAR",
-      "TONKA",
-      "HOT WHEELS",
-      "VERMILLION",
-      "TRICE",
-      "MICRO MACHINES"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "TWO SHAKES OF A LAMB'S TAIL",
-        "members": [
-          "BLINK",
-          "FLASH",
-          "HEARTBEAT",
-          "TRICE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SHADES OF RED",
-        "members": [
-          "CARMINE",
-          "CINNABAR",
-          "MAROON",
-          "VERMILLION"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TOY CAR BRANDS",
-        "members": [
-          "HOT WHEELS",
-          "MATCHBOX",
-          "MICRO MACHINES",
-          "TONKA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SPREADSHEET FUNCTIONS",
-        "members": [
-          "AVERAGE",
-          "COUNT",
-          "MAX",
-          "SUM"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1275,
     "date": "2026-09-04",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "REAL ESTATE",
           "RIB",
           "TIME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1313,
+    "date": "2026-10-03",
+    "startingOrder": [
+      "WHITNEY HOUSTON",
+      "LINDA HAMILTON",
+      "RIVER PHOENIX",
+      "JOHN DENVER",
+      "GETTY IMAGES",
+      "ELBOW GREASE",
+      "CAN OPENER",
+      "SOMETHING WICKED",
+      "FAT CATS",
+      "HEAD WAITER",
+      "MERV GRIFFIN",
+      "BROAD BEAN",
+      "NY GIANT",
+      "MET HALFWAY",
+      "W.C. FIELDS",
+      "DIET SPRITE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STARTING WITH TERMS FOR \"TOILET\"",
+        "members": [
+          "CAN OPENER",
+          "HEAD WAITER",
+          "JOHN DENVER",
+          "W.C. FIELDS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN MUSICALS",
+        "members": [
+          "ELBOW GREASE",
+          "FAT CATS",
+          "LINDA HAMILTON",
+          "SOMETHING WICKED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH U.S. MUSEUMS",
+        "members": [
+          "BROAD BEAN",
+          "GETTY IMAGES",
+          "MET HALFWAY",
+          "WHITNEY HOUSTON"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN FANTASY CREATURES",
+        "members": [
+          "DIET SPRITE",
+          "MERV GRIFFIN",
+          "NY GIANT",
+          "RIVER PHOENIX"
         ]
       }
     ]
