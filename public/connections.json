@@ -1,69 +1,5 @@
 [
   {
-    "id": 1275,
-    "date": "2026-09-04",
-    "startingOrder": [
-      "MOON",
-      "EYE",
-      "PIZZA PIE",
-      "THAT'S",
-      "MORAY",
-      "CANDY CORN",
-      "ORANGE",
-      "OPINE",
-      "BOWLING BALL",
-      "RIBBON",
-      "CAKE DONUT",
-      "CONGER",
-      "CHERRY TOMATO",
-      "STIED",
-      "GULPER",
-      "CRINGY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SPHERICAL THINGS",
-        "members": [
-          "BOWLING BALL",
-          "EYE",
-          "MOON",
-          "ORANGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FOOD WHOSE NAME IS TWO FOODS",
-        "members": [
-          "CAKE DONUT",
-          "CANDY CORN",
-          "CHERRY TOMATO",
-          "PIZZA PIE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF EELS",
-        "members": [
-          "CONGER",
-          "GULPER",
-          "MORAY",
-          "RIBBON"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ACCESSORIES INSIDE STARTING AND ENDING LETTERS",
-        "members": [
-          "CRINGY",
-          "OPINE",
-          "STIED",
-          "THAT'S"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1289,
     "date": "2026-09-05",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MERV GRIFFIN",
           "NY GIANT",
           "RIVER PHOENIX"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1315,
+    "date": "2026-10-04",
+    "startingOrder": [
+      "WIG",
+      "FILM",
+      "AUCTION",
+      "TABLE",
+      "PADDLE",
+      "COLLAR",
+      "GAVEL",
+      "LOT",
+      "BUNCH",
+      "BALL",
+      "PARTNER",
+      "NET",
+      "ROBE",
+      "HEAP",
+      "TREATMENT",
+      "STACK"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CONSIDERABLE AMOUNT",
+        "members": [
+          "BUNCH",
+          "HEAP",
+          "LOT",
+          "STACK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TABLE TENNIS NEEDS",
+        "members": [
+          "BALL",
+          "NET",
+          "PADDLE",
+          "TABLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PARTS OF A JUDGE COSTUME",
+        "members": [
+          "COLLAR",
+          "GAVEL",
+          "ROBE",
+          "WIG"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SILENT ___",
+        "members": [
+          "AUCTION",
+          "FILM",
+          "PARTNER",
+          "TREATMENT"
         ]
       }
     ]
