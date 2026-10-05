@@ -1,69 +1,5 @@
 [
   {
-    "id": 1289,
-    "date": "2026-09-05",
-    "startingOrder": [
-      "SLEEPY",
-      "HONK",
-      "BOBBLE",
-      "GOBBLE",
-      "WARBLE",
-      "COBBLE",
-      "WOBBLE",
-      "TAR",
-      "PI",
-      "HAMMER",
-      "TODDLE",
-      "COO",
-      "SWAY",
-      "JUG",
-      "TORT",
-      "TOTTER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "MOVE UNSTEADILY",
-        "members": [
-          "SWAY",
-          "TODDLE",
-          "TOTTER",
-          "WOBBLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BIRD ONOMATOPOEIA",
-        "members": [
-          "COO",
-          "GOBBLE",
-          "HONK",
-          "WARBLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___HEAD",
-        "members": [
-          "BOBBLE",
-          "HAMMER",
-          "JUG",
-          "SLEEPY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DESSERTS MINUS LAST LETTER",
-        "members": [
-          "COBBLE",
-          "PI",
-          "TAR",
-          "TORT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1277,
     "date": "2026-09-06",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FILM",
           "PARTNER",
           "TREATMENT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1309,
+    "date": "2026-10-05",
+    "startingOrder": [
+      "PARENT",
+      "ADVISORY",
+      "EXPLICIT",
+      "CONTENT",
+      "CHESS",
+      "PLEASE",
+      "MESSAGE",
+      "GRAPHIC",
+      "STRONG",
+      "SAPPHIRE",
+      "SUGGESTIVE",
+      "SERENE",
+      "PEACEFUL",
+      "IRONING",
+      "SLOAN",
+      "PLACID"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CALM",
+        "members": [
+          "CONTENT",
+          "PEACEFUL",
+          "PLACID",
+          "SERENE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ADJECTIVES FOR MATURE CONTENT",
+        "members": [
+          "EXPLICIT",
+          "GRAPHIC",
+          "STRONG",
+          "SUGGESTIVE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF BOARDS",
+        "members": [
+          "ADVISORY",
+          "CHESS",
+          "IRONING",
+          "MESSAGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN WAYS TO TEMPORARILY ACQUIRE",
+        "members": [
+          "PARENT",
+          "PLEASE",
+          "SAPPHIRE",
+          "SLOAN"
         ]
       }
     ]
