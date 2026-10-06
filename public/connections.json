@@ -1,69 +1,5 @@
 [
   {
-    "id": 1277,
-    "date": "2026-09-06",
-    "startingOrder": [
-      "SAT SCORE",
-      "UPC CODE",
-      "USB PORT",
-      "ATM MACHINE",
-      "CARD SLOT",
-      "BLANK CHECK",
-      "COURT SCRIBE",
-      "PIN NUMBER",
-      "DIRECTOR'S CUT",
-      "OPTICAL DRIVE",
-      "CARTE BLANCHE",
-      "HEADPHONE JACK",
-      "FREE REIGN",
-      "PIZZA SLICE",
-      "LCD DISPLAY",
-      "FULL AUTHORITY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "UNRESTRICTED PERMISSION",
-        "members": [
-          "BLANK CHECK",
-          "CARTE BLANCHE",
-          "FREE REIGN",
-          "FULL AUTHORITY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PLACES TO INSERT SOMETHING INTO ON A COMPUTER",
-        "members": [
-          "CARD SLOT",
-          "HEADPHONE JACK",
-          "OPTICAL DRIVE",
-          "USB PORT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ABBREVIATIONS FOLLOWED BY REDUNDANT WORD",
-        "members": [
-          "ATM MACHINE",
-          "LCD DISPLAY",
-          "PIN NUMBER",
-          "UPC CODE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING WITH WAYS TO CARVE A SURFACE",
-        "members": [
-          "COURT SCRIBE",
-          "DIRECTOR'S CUT",
-          "PIZZA SLICE",
-          "SAT SCORE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1262,
     "date": "2026-09-07",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PLEASE",
           "SAPPHIRE",
           "SLOAN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1316,
+    "date": "2026-10-06",
+    "startingOrder": [
+      "ADIRONDACK",
+      "KNICKKNACK",
+      "CATSKILL",
+      "HOLIDAY",
+      "COMFORT",
+      "BERKSHIRE",
+      "STABILITY",
+      "HAMPTON",
+      "WINDSOR",
+      "MERRILL",
+      "WINGBACK",
+      "DAYS",
+      "CITI",
+      "PIANOFORTE",
+      "EAMES",
+      "GOLDMAN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FINANCIAL FIRMS, FOR SHORT",
+        "members": [
+          "BERKSHIRE",
+          "CITI",
+          "GOLDMAN",
+          "MERRILL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF CHAIRS",
+        "members": [
+          "ADIRONDACK",
+          "EAMES",
+          "WINDSOR",
+          "WINGBACK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ INN HOTELS",
+        "members": [
+          "COMFORT",
+          "DAYS",
+          "HAMPTON",
+          "HOLIDAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN TALENTS",
+        "members": [
+          "CATSKILL",
+          "KNICKKNACK",
+          "PIANOFORTE",
+          "STABILITY"
         ]
       }
     ]
