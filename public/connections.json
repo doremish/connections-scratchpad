@@ -1,69 +1,5 @@
 [
   {
-    "id": 1262,
-    "date": "2026-09-07",
-    "startingOrder": [
-      "NEEDLES",
-      "TRAMPOLINE",
-      "CHRISTMAS",
-      "CUP",
-      "PLUTONIUM",
-      "TURPENTINE",
-      "YARN",
-      "SCAR TISSUE",
-      "CAR AIR FRESHENER",
-      "STITCH MARKER",
-      "FABRICATION",
-      "HOOK",
-      "TALL TALE",
-      "STRAP",
-      "FISH STORY",
-      "UNDERWIRE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "QUITE THE SAGA",
-        "members": [
-          "FABRICATION",
-          "FISH STORY",
-          "TALL TALE",
-          "YARN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A BRA",
-        "members": [
-          "CUP",
-          "HOOK",
-          "STRAP",
-          "UNDERWIRE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH PINE TREES",
-        "members": [
-          "CAR AIR FRESHENER",
-          "CHRISTMAS",
-          "NEEDLES",
-          "TURPENTINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH DISNEY CHARACTERS",
-        "members": [
-          "PLUTONIUM",
-          "SCAR TISSUE",
-          "STITCH MARKER",
-          "TRAMPOLINE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1274,
     "date": "2026-09-08",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "KNICKKNACK",
           "PIANOFORTE",
           "STABILITY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1320,
+    "date": "2026-10-07",
+    "startingOrder": [
+      "MUSICAL",
+      "CINNAMON",
+      "TRIDENT",
+      "HOT DOG",
+      "STICKY",
+      "SQUIRREL",
+      "MONOLOGUE",
+      "PLAY",
+      "BANK",
+      "DICHOTOMY",
+      "HAMBURGER",
+      "STORE",
+      "CHOREOGRAPHY",
+      "STASH",
+      "ORCHESTRATIONS",
+      "TETRACYCLINE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SAVE FOR LATER",
+        "members": [
+          "BANK",
+          "SQUIRREL",
+          "STASH",
+          "STORE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF BUNS",
+        "members": [
+          "CINNAMON",
+          "HAMBURGER",
+          "HOT DOG",
+          "STICKY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "GREEK NUMERICAL PREFIXES",
+        "members": [
+          "DICHOTOMY",
+          "MONOLOGUE",
+          "TETRACYCLINE",
+          "TRIDENT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "BEST ___ TONY AWARDS",
+        "members": [
+          "CHOREOGRAPHY",
+          "MUSICAL",
+          "ORCHESTRATIONS",
+          "PLAY"
         ]
       }
     ]
