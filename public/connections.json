@@ -1,69 +1,5 @@
 [
   {
-    "id": 1274,
-    "date": "2026-09-08",
-    "startingOrder": [
-      "PURPLE",
-      "STRIPES",
-      "SKORT",
-      "GLOVES",
-      "CORVETTE",
-      "ARTICHOKE",
-      "DOVES",
-      "MARSH",
-      "SACRED",
-      "BERET",
-      "VIPER",
-      "TWIXT",
-      "SUSPENDERS",
-      "MUSTANG",
-      "TAKE TO",
-      "FIREBIRD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CLASSIC AMERICAN PERFORMANCE CARS",
-        "members": [
-          "CORVETTE",
-          "FIREBIRD",
-          "MUSTANG",
-          "VIPER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF A MIME COSTUME",
-        "members": [
-          "BERET",
-          "GLOVES",
-          "STRIPES",
-          "SUSPENDERS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ HEART",
-        "members": [
-          "ARTICHOKE",
-          "PURPLE",
-          "SACRED",
-          "TAKE TO"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CANDY BARS PLUS A LETTER",
-        "members": [
-          "DOVES",
-          "MARSH",
-          "SKORT",
-          "TWIXT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1272,
     "date": "2026-09-09",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MUSICAL",
           "ORCHESTRATIONS",
           "PLAY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1322,
+    "date": "2026-10-08",
+    "startingOrder": [
+      "FOOLHARDY",
+      "MINDS",
+      "THANKS",
+      "STOOGES",
+      "BEST",
+      "WISHES",
+      "REGARDS",
+      "ECLIPSE",
+      "CHEERS",
+      "MULHOLLAND",
+      "RESPECTS",
+      "STRIKES",
+      "TOP",
+      "AUTOCRUISE",
+      "HEEDS",
+      "SURPASS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FOLLOWS, AS RULES",
+        "members": [
+          "HEEDS",
+          "MINDS",
+          "REGARDS",
+          "RESPECTS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "OUTDO",
+        "members": [
+          "BEST",
+          "ECLIPSE",
+          "SURPASS",
+          "TOP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT COME IN THREES",
+        "members": [
+          "CHEERS",
+          "STOOGES",
+          "STRIKES",
+          "WISHES"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN ACTORS NAMED TOM",
+        "members": [
+          "AUTOCRUISE",
+          "FOOLHARDY",
+          "MULHOLLAND",
+          "THANKS"
         ]
       }
     ]
