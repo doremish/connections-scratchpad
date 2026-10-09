@@ -1,69 +1,5 @@
 [
   {
-    "id": 1272,
-    "date": "2026-09-09",
-    "startingOrder": [
-      "INCOMPREHENSIBLE",
-      "ELECTROMAGNETIC",
-      "NANOTECHNOLOGY",
-      "ARACHNOPHOBIA",
-      "MICROBREWERY",
-      "BEWILDERING",
-      "PICOSECOND",
-      "HALLOWEEN",
-      "ESOTERIC",
-      "MINIVAN",
-      "OPAQUE",
-      "BRUTE",
-      "TASK",
-      "SAW",
-      "IT",
-      "G"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "HARD TO UNDERSTAND",
-        "members": [
-          "BEWILDERING",
-          "ESOTERIC",
-          "INCOMPREHENSIBLE",
-          "OPAQUE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS WITH \"SMALL\" PREFIXES",
-        "members": [
-          "MICROBREWERY",
-          "MINIVAN",
-          "NANOTECHNOLOGY",
-          "PICOSECOND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HORROR MOVIES",
-        "members": [
-          "ARACHNOPHOBIA",
-          "HALLOWEEN",
-          "IT",
-          "SAW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WORDS BEFORE \"FORCE\"",
-        "members": [
-          "BRUTE",
-          "ELECTROMAGNETIC",
-          "G",
-          "TASK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1286,
     "date": "2026-09-10",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FOOLHARDY",
           "MULHOLLAND",
           "THANKS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1319,
+    "date": "2026-10-09",
+    "startingOrder": [
+      "POWER",
+      "GUITAR",
+      "CONDITIONER",
+      "VOLUME",
+      "BLOWOUT",
+      "KISS",
+      "SWEEP",
+      "HIGHLIGHTS",
+      "SCORES",
+      "QUOTES",
+      "INPUT",
+      "STATS",
+      "CHANNEL",
+      "ROMP",
+      "RECAP",
+      "ROUT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DECISIVE VICTORY",
+        "members": [
+          "BLOWOUT",
+          "ROMP",
+          "ROUT",
+          "SWEEP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CONTROLLED BY A TV REMOTE",
+        "members": [
+          "CHANNEL",
+          "INPUT",
+          "POWER",
+          "VOLUME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FEATURES OF A SPORTS SHOW",
+        "members": [
+          "HIGHLIGHTS",
+          "RECAP",
+          "SCORES",
+          "STATS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AIR ___",
+        "members": [
+          "CONDITIONER",
+          "GUITAR",
+          "KISS",
+          "QUOTES"
         ]
       }
     ]
