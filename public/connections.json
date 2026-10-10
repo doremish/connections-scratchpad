@@ -1,69 +1,5 @@
 [
   {
-    "id": 1286,
-    "date": "2026-09-10",
-    "startingOrder": [
-      "CATIO",
-      "ALTERNATING CURRENT",
-      "LEAD",
-      "CLOTHESLINE",
-      "ATLANTIC CITY",
-      "REPRESENT",
-      "AIR CONDITIONER",
-      "ADULT CONTEMPORARY",
-      "ACTINIUM",
-      "SEXTANT",
-      "BADLANDS",
-      "SULFUR",
-      "THUNDER ROAD",
-      "FLOWER BOX",
-      "KRYPTON",
-      "BORN TO RUN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CHEMICAL ELEMENTS",
-        "members": [
-          "ACTINIUM",
-          "KRYPTON",
-          "LEAD",
-          "SULFUR"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WHAT YOU MIGHT SEE STICKING OUT OF A WINDOW",
-        "members": [
-          "AIR CONDITIONER",
-          "CATIO",
-          "CLOTHESLINE",
-          "FLOWER BOX"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BRUCE SPRINGSTEEN CLASSICS",
-        "members": [
-          "ATLANTIC CITY",
-          "BADLANDS",
-          "BORN TO RUN",
-          "THUNDER ROAD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN SYNONYMS FOR \"HAPPENING NOW\"",
-        "members": [
-          "ADULT CONTEMPORARY",
-          "ALTERNATING CURRENT",
-          "REPRESENT",
-          "SEXTANT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1284,
     "date": "2026-09-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GUITAR",
           "KISS",
           "QUOTES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1318,
+    "date": "2026-10-10",
+    "startingOrder": [
+      "OUTLINE",
+      "SHADOW",
+      "FEED",
+      "FIGURE",
+      "DRAFT",
+      "IMAGINE",
+      "KICK",
+      "NOTIFICATIONS",
+      "GATHER",
+      "NOTES",
+      "UN",
+      "MESSAGES",
+      "BEAT",
+      "SUPPOSE",
+      "PROFILE",
+      "THESIS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "USEFUL WHEN WRITING A PAPER",
+        "members": [
+          "DRAFT",
+          "NOTES",
+          "OUTLINE",
+          "THESIS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PRESUME",
+        "members": [
+          "FIGURE",
+          "GATHER",
+          "IMAGINE",
+          "SUPPOSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SOCIAL MEDIA SECTIONS",
+        "members": [
+          "FEED",
+          "MESSAGES",
+          "NOTIFICATIONS",
+          "PROFILE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___BOXING",
+        "members": [
+          "BEAT",
+          "KICK",
+          "SHADOW",
+          "UN"
         ]
       }
     ]
