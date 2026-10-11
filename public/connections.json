@@ -1,69 +1,5 @@
 [
   {
-    "id": 1284,
-    "date": "2026-09-11",
-    "startingOrder": [
-      "PROCESS",
-      "LUCK",
-      "JOURNAL",
-      "DIGEST",
-      "EXERCISE",
-      "ABSORB",
-      "PLANNER",
-      "ENVELOPE",
-      "UNPLUG",
-      "AGENDA",
-      "TAKE IN",
-      "BAND",
-      "PHOTOGRAPHER",
-      "MEDITATE",
-      "FLORIST",
-      "LIMITS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PEOPLE HIRED FOR AN EVENT",
-        "members": [
-          "BAND",
-          "FLORIST",
-          "PHOTOGRAPHER",
-          "PLANNER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "INTERNALIZE",
-        "members": [
-          "ABSORB",
-          "DIGEST",
-          "PROCESS",
-          "TAKE IN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WAYS TO PRACTICE SELF-CARE",
-        "members": [
-          "EXERCISE",
-          "JOURNAL",
-          "MEDITATE",
-          "UNPLUG"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE PUSHED METAPHORICALLY",
-        "members": [
-          "AGENDA",
-          "ENVELOPE",
-          "LIMITS",
-          "LUCK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1285,
     "date": "2026-09-12",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "KICK",
           "SHADOW",
           "UN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1312,
+    "date": "2026-10-11",
+    "startingOrder": [
+      "HARNESS",
+      "MAP",
+      "PERUSE",
+      "PHONE",
+      "GLOVES",
+      "CABLE",
+      "APPLY",
+      "PATRICK",
+      "ELECTRICITY",
+      "WIELD",
+      "ICE SCRAPER",
+      "UTILIZE",
+      "EMPLOY",
+      "REGISTRATION",
+      "SYNTACTIC",
+      "INTERNET"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PUT TO USE",
+        "members": [
+          "APPLY",
+          "HARNESS",
+          "UTILIZE",
+          "WIELD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MONTHLY BILLS",
+        "members": [
+          "CABLE",
+          "ELECTRICITY",
+          "INTERNET",
+          "PHONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS YOU MIGHT FIND IN A GLOVE COMPARTMENT",
+        "members": [
+          "GLOVES",
+          "ICE SCRAPER",
+          "MAP",
+          "REGISTRATION"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN GAMBITS",
+        "members": [
+          "EMPLOY",
+          "PATRICK",
+          "PERUSE",
+          "SYNTACTIC"
         ]
       }
     ]
