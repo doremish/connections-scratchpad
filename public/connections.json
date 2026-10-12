@@ -1,69 +1,5 @@
 [
   {
-    "id": 1285,
-    "date": "2026-09-12",
-    "startingOrder": [
-      "TURN SIGNAL",
-      "WEATHER",
-      "POSTER",
-      "BUMPER STICKER",
-      "VANITY PLATE",
-      "CURSOR",
-      "SPOILER",
-      "TROLL",
-      "SMOKE DETECTOR",
-      "FUZZY DICE",
-      "SPAMMER",
-      "NERD",
-      "RED",
-      "EYELIDS",
-      "HOOD ORNAMENT",
-      "LURKER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "WAYS TO PERSONALIZE A CAR",
-        "members": [
-          "BUMPER STICKER",
-          "FUZZY DICE",
-          "HOOD ORNAMENT",
-          "VANITY PLATE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PEOPLE IN AN ONLINE FORUM",
-        "members": [
-          "LURKER",
-          "POSTER",
-          "SPAMMER",
-          "TROLL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT BLINK",
-        "members": [
-          "CURSOR",
-          "EYELIDS",
-          "SMOKE DETECTOR",
-          "TURN SIGNAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ ALERT",
-        "members": [
-          "NERD",
-          "RED",
-          "SPOILER",
-          "WEATHER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1287,
     "date": "2026-09-13",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PATRICK",
           "PERUSE",
           "SYNTACTIC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1317,
+    "date": "2026-10-12",
+    "startingOrder": [
+      "CALAMARI",
+      "MANDARIN",
+      "STATE",
+      "ABBREVIATION",
+      "NICKNAME",
+      "HANDLE",
+      "SHAPE",
+      "WEATHER",
+      "CONDITION",
+      "CONTRACTION",
+      "SITUATION",
+      "BEAR",
+      "ALKYLAMIDE",
+      "STAND",
+      "ELISION",
+      "MELAMINE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STATUS",
+        "members": [
+          "CONDITION",
+          "SHAPE",
+          "SITUATION",
+          "STATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TOLERATE",
+        "members": [
+          "BEAR",
+          "HANDLE",
+          "STAND",
+          "WEATHER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORD SHORTENINGS, OFTEN",
+        "members": [
+          "ABBREVIATION",
+          "CONTRACTION",
+          "ELISION",
+          "NICKNAME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WORDS MADE USING U.S. POSTAL ABBREVIATIONS",
+        "members": [
+          "ALKYLAMIDE",
+          "CALAMARI",
+          "MANDARIN",
+          "MELAMINE"
         ]
       }
     ]
