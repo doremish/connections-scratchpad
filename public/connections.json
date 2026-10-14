@@ -1,69 +1,5 @@
 [
   {
-    "id": 1288,
-    "date": "2026-09-14",
-    "startingOrder": [
-      "STRAW",
-      "CRAB",
-      "COOT",
-      "LEMON",
-      "BLUE",
-      "CANARY",
-      "TEAL",
-      "RAT",
-      "LOON",
-      "BAG",
-      "WHEAT",
-      "CUTLERY",
-      "SNITCH",
-      "GOOSE",
-      "STIRRER",
-      "STOOLIE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "WATERBIRDS",
-        "members": [
-          "COOT",
-          "GOOSE",
-          "LOON",
-          "TEAL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "INFORMANT",
-        "members": [
-          "CANARY",
-          "RAT",
-          "SNITCH",
-          "STOOLIE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "COMMON SINGLE-USE PLASTIC ITEMS",
-        "members": [
-          "BAG",
-          "CUTLERY",
-          "STIRRER",
-          "STRAW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___GRASS",
-        "members": [
-          "BLUE",
-          "CRAB",
-          "LEMON",
-          "WHEAT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1283,
     "date": "2026-09-15",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CHANGE",
           "ENDS",
           "LIPS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1330,
+    "date": "2026-10-14",
+    "startingOrder": [
+      "FEED",
+      "THING",
+      "SERVE",
+      "SUGGESTION",
+      "FIERY",
+      "FLICKER",
+      "FLASH",
+      "FOMENT",
+      "SMASH",
+      "HULK",
+      "TRACE",
+      "FUMBLE",
+      "SLICE",
+      "WHIFF",
+      "VOLLEY",
+      "PUNISHER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "HINT",
+        "members": [
+          "FLICKER",
+          "SUGGESTION",
+          "TRACE",
+          "WHIFF"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TENNIS SHOTS",
+        "members": [
+          "SERVE",
+          "SLICE",
+          "SMASH",
+          "VOLLEY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SUPERHEROES, WITH \"THE\"",
+        "members": [
+          "FLASH",
+          "HULK",
+          "PUNISHER",
+          "THING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH \"FEE, FI, FO, FUM\"",
+        "members": [
+          "FEED",
+          "FIERY",
+          "FOMENT",
+          "FUMBLE"
         ]
       }
     ]
