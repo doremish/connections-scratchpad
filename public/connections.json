@@ -1,69 +1,5 @@
 [
   {
-    "id": 1283,
-    "date": "2026-09-15",
-    "startingOrder": [
-      "PLANT",
-      "COACH",
-      "WHISTLE",
-      "DESSERT",
-      "HANDLE",
-      "CABOOSE",
-      "DECEMBER",
-      "SLEEPER",
-      "DIRECT",
-      "TRAIN",
-      "LID",
-      "ASSET",
-      "SPOUT",
-      "MOLE",
-      "EPILOGUE",
-      "GUIDE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "INSTRUCT",
-        "members": [
-          "COACH",
-          "DIRECT",
-          "GUIDE",
-          "TRAIN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A WHISTLING KETTLE",
-        "members": [
-          "HANDLE",
-          "LID",
-          "SPOUT",
-          "WHISTLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "UNDERCOVER OPERATIVE",
-        "members": [
-          "ASSET",
-          "MOLE",
-          "PLANT",
-          "SLEEPER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT APPEAR AT THE END",
-        "members": [
-          "CABOOSE",
-          "DECEMBER",
-          "DESSERT",
-          "EPILOGUE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1295,
     "date": "2026-09-16",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FIERY",
           "FOMENT",
           "FUMBLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1326,
+    "date": "2026-10-15",
+    "startingOrder": [
+      "SMOKE",
+      "BASKET",
+      "DRY",
+      "FOOT",
+      "VOLLEY",
+      "CANNON",
+      "RUN",
+      "PICKLE",
+      "BASE",
+      "GOAL",
+      "FORGE",
+      "FOUNDATION",
+      "CURE",
+      "RACINE",
+      "BOTTOM",
+      "TOUCHDOWN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "WAYS TO PRESERVE FOOD",
+        "members": [
+          "CURE",
+          "DRY",
+          "PICKLE",
+          "SMOKE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS YOU CAN SCORE IN SPORTS",
+        "members": [
+          "BASKET",
+          "GOAL",
+          "RUN",
+          "TOUCHDOWN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LOWEST PART",
+        "members": [
+          "BASE",
+          "BOTTOM",
+          "FOOT",
+          "FOUNDATION"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LOW LANDFORMS WITH A LETTER CHANGED",
+        "members": [
+          "CANNON",
+          "FORGE",
+          "RACINE",
+          "VOLLEY"
         ]
       }
     ]
