@@ -1,69 +1,5 @@
 [
   {
-    "id": 1295,
-    "date": "2026-09-16",
-    "startingOrder": [
-      "FRANK-N-FURTER",
-      "LATIN",
-      "CLINK",
-      "PENNYWISE",
-      "WADSWORTH",
-      "NICKELODEON",
-      "BORAT",
-      "LONG JOHN SILVER",
-      "ST. VINCENT",
-      "STEAM IRON",
-      "WIDENER",
-      "DIMENSION",
-      "QUARTERBACK",
-      "CARLOS",
-      "MARIGOLD",
-      "BARRETT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ENDING IN METAL ELEMENTS",
-        "members": [
-          "LATIN",
-          "LONG JOHN SILVER",
-          "MARIGOLD",
-          "STEAM IRON"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH U.S. COINS",
-        "members": [
-          "DIMENSION",
-          "NICKELODEON",
-          "PENNYWISE",
-          "QUARTERBACK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "POETS' MIDDLE NAMES",
-        "members": [
-          "BARRETT",
-          "CARLOS",
-          "ST. VINCENT",
-          "WADSWORTH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SAUSAGES PLUS A LETTER",
-        "members": [
-          "BORAT",
-          "CLINK",
-          "FRANK-N-FURTER",
-          "WIDENER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1296,
     "date": "2026-09-17",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FORGE",
           "RACINE",
           "VOLLEY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1325,
+    "date": "2026-10-16",
+    "startingOrder": [
+      "HUNGARY",
+      "HUNGRY",
+      "HIPPO",
+      "CHICKEN",
+      "CHIP",
+      "CHAD",
+      "COOLIDGE",
+      "CYRUS",
+      "SPAN",
+      "MARK",
+      "LAOS",
+      "NICK",
+      "PARAGUAY",
+      "SMARTIES",
+      "BULGARI",
+      "SCRATCH"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SURFACE IMPERFECTIONS",
+        "members": [
+          "CHIP",
+          "MARK",
+          "NICK",
+          "SCRATCH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LANDLOCKED COUNTRIES",
+        "members": [
+          "CHAD",
+          "HUNGARY",
+          "LAOS",
+          "PARAGUAY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EUROPEAN COUNTRIES MINUS A LETTER",
+        "members": [
+          "BULGARI",
+          "CYRUS",
+          "HUNGRY",
+          "SPAN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH WORDS FOR \"STYLISH\"",
+        "members": [
+          "CHICKEN",
+          "COOLIDGE",
+          "HIPPO",
+          "SMARTIES"
         ]
       }
     ]
