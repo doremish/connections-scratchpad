@@ -1,69 +1,5 @@
 [
   {
-    "id": 1296,
-    "date": "2026-09-17",
-    "startingOrder": [
-      "SPRING",
-      "SUBWAY STATION",
-      "PRESTIGE",
-      "TRIANGLE",
-      "TAP",
-      "GIVE",
-      "LANGUAGE",
-      "FOUNTAIN",
-      "WELL",
-      "BOUNCE",
-      "SEWER LINE",
-      "HANDLES",
-      "SHEEP DETECTIVES",
-      "MINE SHAFT",
-      "FLEXIBILITY",
-      "WOLVERINE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ELASTICITY",
-        "members": [
-          "BOUNCE",
-          "FLEXIBILITY",
-          "GIVE",
-          "SPRING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE UNDERGROUND",
-        "members": [
-          "MINE SHAFT",
-          "SEWER LINE",
-          "SUBWAY STATION",
-          "WELL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HUGH JACKMAN MOVIES, WITH \"THE\"",
-        "members": [
-          "FOUNTAIN",
-          "PRESTIGE",
-          "SHEEP DETECTIVES",
-          "WOLVERINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LOVE ___",
-        "members": [
-          "HANDLES",
-          "LANGUAGE",
-          "TAP",
-          "TRIANGLE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1294,
     "date": "2026-09-18",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COOLIDGE",
           "HIPPO",
           "SMARTIES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1329,
+    "date": "2026-10-17",
+    "startingOrder": [
+      "BREA",
+      "KING",
+      "SNAP",
+      "PING",
+      "STILL",
+      "PAZ",
+      "SNOW",
+      "SHOT",
+      "BOHÈME",
+      "FIDDLER",
+      "ALERT",
+      "PRINT",
+      "CHIME",
+      "SCALA",
+      "HERMIT",
+      "DING"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DIGITAL NOTIFICATIONS",
+        "members": [
+          "ALERT",
+          "CHIME",
+          "DING",
+          "PING"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PHOTO",
+        "members": [
+          "PRINT",
+          "SHOT",
+          "SNAP",
+          "STILL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF CRABS",
+        "members": [
+          "FIDDLER",
+          "HERMIT",
+          "KING",
+          "SNOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LA ___",
+        "members": [
+          "BOHÈME",
+          "BREA",
+          "PAZ",
+          "SCALA"
         ]
       }
     ]
