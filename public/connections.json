@@ -1,69 +1,5 @@
 [
   {
-    "id": 1294,
-    "date": "2026-09-18",
-    "startingOrder": [
-      "PILLOW",
-      "CRUISE",
-      "UPPER",
-      "STEP",
-      "FLIGHT",
-      "STAIR",
-      "PLATTER",
-      "LANDING",
-      "ROUND",
-      "STAGE",
-      "TAKEOFF",
-      "MEDLEY",
-      "BRIEF",
-      "BOARDING",
-      "SAMPLER",
-      "PHASE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SEGMENT OF A PROCESS",
-        "members": [
-          "PHASE",
-          "ROUND",
-          "STAGE",
-          "STEP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSORTMENTS OF FOOD/DRINK",
-        "members": [
-          "FLIGHT",
-          "MEDLEY",
-          "PLATTER",
-          "SAMPLER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A FLIGHT",
-        "members": [
-          "BOARDING",
-          "CRUISE",
-          "LANDING",
-          "TAKEOFF"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___CASE",
-        "members": [
-          "BRIEF",
-          "PILLOW",
-          "STAIR",
-          "UPPER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1299,
     "date": "2026-09-19",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BREA",
           "PAZ",
           "SCALA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1333,
+    "date": "2026-10-18",
+    "startingOrder": [
+      "ANGEL",
+      "BUTTER",
+      "HAZEL",
+      "DEODORANT",
+      "COCO",
+      "DYNAMITE",
+      "MISTER",
+      "FOGERTY",
+      "CHEST",
+      "INCENSE",
+      "VAPORETTO",
+      "BUREAU",
+      "OBSESSION",
+      "TRUNK",
+      "OPIUM",
+      "WARDROBE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PLACES TO STORE CLOTHES",
+        "members": [
+          "BUREAU",
+          "CHEST",
+          "TRUNK",
+          "WARDROBE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT COME IN STICKS",
+        "members": [
+          "BUTTER",
+          "DEODORANT",
+          "DYNAMITE",
+          "INCENSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FAMOUS PERFUMES",
+        "members": [
+          "ANGEL",
+          "COCO",
+          "OBSESSION",
+          "OPIUM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH THINGS THAT CLOUD THE AIR",
+        "members": [
+          "FOGERTY",
+          "HAZEL",
+          "MISTER",
+          "VAPORETTO"
         ]
       }
     ]
