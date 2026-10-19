@@ -1,69 +1,5 @@
 [
   {
-    "id": 1299,
-    "date": "2026-09-19",
-    "startingOrder": [
-      "STICK FIGURE",
-      "MINISKIRT",
-      "LOG CABIN",
-      "SUN",
-      "TAN LINE",
-      "BRANCH OUT",
-      "HOUSE",
-      "TWIGGY",
-      "TREE",
-      "MOD",
-      "SIN CITY",
-      "GROW",
-      "COS LETTUCE",
-      "EXPAND",
-      "CARNABY STREET",
-      "DIVERSIFY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "WIDEN ONE'S SCOPE",
-        "members": [
-          "BRANCH OUT",
-          "DIVERSIFY",
-          "EXPAND",
-          "GROW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF A KID'S DRAWING",
-        "members": [
-          "HOUSE",
-          "STICK FIGURE",
-          "SUN",
-          "TREE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH SWINGING LONDON IN THE 1960S",
-        "members": [
-          "CARNABY STREET",
-          "MINISKIRT",
-          "MOD",
-          "TWIGGY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH ABBREVIATED MATH FUNCTIONS",
-        "members": [
-          "COS LETTUCE",
-          "LOG CABIN",
-          "SIN CITY",
-          "TAN LINE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1298,
     "date": "2026-09-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "HAZEL",
           "MISTER",
           "VAPORETTO"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1327,
+    "date": "2026-10-19",
+    "startingOrder": [
+      "MOHAWK",
+      "MUFFIN",
+      "HOT AIR",
+      "BALLOON",
+      "RAVE",
+      "WIND",
+      "FLURRY",
+      "STEAM",
+      "GAS",
+      "RIB",
+      "FUME",
+      "ALIBIS",
+      "BOIL",
+      "BLATHER",
+      "ESCROW",
+      "NUGGETS"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SEETHE",
+        "members": [
+          "BOIL",
+          "FUME",
+          "RAVE",
+          "STEAM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ALL TALK",
+        "members": [
+          "BLATHER",
+          "GAS",
+          "HOT AIR",
+          "WIND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "\"MC\" THINGS AT MCDONALD'S",
+        "members": [
+          "FLURRY",
+          "MUFFIN",
+          "NUGGETS",
+          "RIB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN BIRDS",
+        "members": [
+          "ALIBIS",
+          "BALLOON",
+          "ESCROW",
+          "MOHAWK"
         ]
       }
     ]
