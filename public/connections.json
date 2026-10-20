@@ -1,69 +1,5 @@
 [
   {
-    "id": 1298,
-    "date": "2026-09-20",
-    "startingOrder": [
-      "TWILIGHT",
-      "SNOW",
-      "TORTILLA",
-      "SKATE",
-      "DERBY",
-      "FRIED CHICKEN",
-      "COASTER",
-      "HOVER",
-      "BLADE",
-      "BLU-RAY",
-      "BLUEGRASS",
-      "SAND DOLLAR",
-      "NEAR DARK",
-      "BOURBON",
-      "SURF",
-      "SINNERS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "ROUND FLAT THINGS",
-        "members": [
-          "BLU-RAY",
-          "COASTER",
-          "SAND DOLLAR",
-          "TORTILLA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH KENTUCKY",
-        "members": [
-          "BLUEGRASS",
-          "BOURBON",
-          "DERBY",
-          "FRIED CHICKEN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "VAMPIRE MOVIES",
-        "members": [
-          "BLADE",
-          "NEAR DARK",
-          "SINNERS",
-          "TWILIGHT"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___BOARDS YOU RIDE ON",
-        "members": [
-          "HOVER",
-          "SKATE",
-          "SNOW",
-          "SURF"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1293,
     "date": "2026-09-21",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BALLOON",
           "ESCROW",
           "MOHAWK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1328,
+    "date": "2026-10-20",
+    "startingOrder": [
+      "CHEVRON",
+      "DOCK",
+      "BELL",
+      "PENCIL",
+      "POODLE",
+      "WRAP",
+      "MINI",
+      "MINION",
+      "WALRUS",
+      "PUPPET",
+      "CLOSE",
+      "HORSESHOE",
+      "ARIAL",
+      "STOP",
+      "STOOGE",
+      "END"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FINISH",
+        "members": [
+          "CLOSE",
+          "END",
+          "STOP",
+          "WRAP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LACKEY",
+        "members": [
+          "MINION",
+          "POODLE",
+          "PUPPET",
+          "STOOGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MUSTACHES",
+        "members": [
+          "CHEVRON",
+          "HORSESHOE",
+          "PENCIL",
+          "WALRUS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOMOPHONES OF DISNEY CHARACTERS",
+        "members": [
+          "ARIAL",
+          "BELL",
+          "DOCK",
+          "MINI"
         ]
       }
     ]
