@@ -1,69 +1,5 @@
 [
   {
-    "id": 1293,
-    "date": "2026-09-21",
-    "startingOrder": [
-      "COMPOSE",
-      "CHECK",
-      "FLY",
-      "BEET",
-      "BRAH",
-      "WORM",
-      "SPAM",
-      "MATE",
-      "CASTLE",
-      "CHUM",
-      "VIVA",
-      "SENT",
-      "CHOP",
-      "CAPTURE",
-      "DRAFTS",
-      "SPINNER"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "EMAIL BUTTONS",
-        "members": [
-          "COMPOSE",
-          "DRAFTS",
-          "SENT",
-          "SPAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WAYS TO ATTRACT FISH",
-        "members": [
-          "CHUM",
-          "FLY",
-          "SPINNER",
-          "WORM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "CHESS VERBS",
-        "members": [
-          "CAPTURE",
-          "CASTLE",
-          "CHECK",
-          "MATE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTS OF COMPOSERS' NAMES",
-        "members": [
-          "BEET",
-          "BRAH",
-          "CHOP",
-          "VIVA"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1307,
     "date": "2026-09-22",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BELL",
           "DOCK",
           "MINI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1335,
+    "date": "2026-10-21",
+    "startingOrder": [
+      "ENGLISH HORN",
+      "LEAPFROG",
+      "ALPHA DOG",
+      "SWEETBREAD",
+      "HOT POTATO",
+      "MANTIS SHRIMP",
+      "SUNFLOWERS",
+      "BIG CHEESE",
+      "AMERICAN GOTHIC",
+      "GRAPE-NUTS",
+      "CAMPBELL'S SOUP CAN",
+      "DUCK DUCK GOOSE",
+      "TOP BANANA",
+      "THE SCREAM",
+      "MUSICAL CHAIRS",
+      "HEAVYWEIGHT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CLASSIC CHILDREN'S GAMES",
+        "members": [
+          "DUCK DUCK GOOSE",
+          "HOT POTATO",
+          "LEAPFROG",
+          "MUSICAL CHAIRS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "IMPORTANT PERSON",
+        "members": [
+          "ALPHA DOG",
+          "BIG CHEESE",
+          "HEAVYWEIGHT",
+          "TOP BANANA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FAMOUS PAINTINGS",
+        "members": [
+          "AMERICAN GOTHIC",
+          "CAMPBELL'S SOUP CAN",
+          "SUNFLOWERS",
+          "THE SCREAM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DOUBLE MISNOMERS (NEITHER WORD IS AN ACCURATE DESCRIPTION)",
+        "members": [
+          "ENGLISH HORN",
+          "GRAPE-NUTS",
+          "MANTIS SHRIMP",
+          "SWEETBREAD"
         ]
       }
     ]
