@@ -1,69 +1,5 @@
 [
   {
-    "id": 1307,
-    "date": "2026-09-22",
-    "startingOrder": [
-      "THIS",
-      "THAT",
-      "THE",
-      "OTHER",
-      "CAFE",
-      "PATRON",
-      "AGREE",
-      "ACCENT",
-      "TOUCH",
-      "THOSE",
-      "ROSE",
-      "NEUTRAL",
-      "DETAIL",
-      "DISAGREE",
-      "THESE",
-      "FLOURISH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DEMONSTRATIVES",
-        "members": [
-          "THAT",
-          "THESE",
-          "THIS",
-          "THOSE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EMBELLISHMENT",
-        "members": [
-          "ACCENT",
-          "DETAIL",
-          "FLOURISH",
-          "TOUCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OPTIONS ON A MULTIPLE CHOICE SURVEY",
-        "members": [
-          "AGREE",
-          "DISAGREE",
-          "NEUTRAL",
-          "OTHER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "BEVERAGES WITH ACUTE ACCENTS REMOVED",
-        "members": [
-          "CAFE",
-          "PATRON",
-          "ROSE",
-          "THE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1301,
     "date": "2026-09-23",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GRAPE-NUTS",
           "MANTIS SHRIMP",
           "SWEETBREAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1336,
+    "date": "2026-10-22",
+    "startingOrder": [
+      "MOBILE",
+      "COMFORT",
+      "BLANK",
+      "SAFETY",
+      "RELIEF",
+      "GRIP",
+      "END",
+      "BUST",
+      "HANDLE",
+      "TACKLE",
+      "PILL",
+      "KNOB",
+      "SHE",
+      "GUARD",
+      "HILT",
+      "STATUE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PARTS TO BE GRASPED",
+        "members": [
+          "GRIP",
+          "HANDLE",
+          "HILT",
+          "KNOB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SCULPTURES",
+        "members": [
+          "BUST",
+          "MOBILE",
+          "RELIEF",
+          "STATUE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AMERICAN FOOTBALL POSITIONS",
+        "members": [
+          "END",
+          "GUARD",
+          "SAFETY",
+          "TACKLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTS OF BEDDING",
+        "members": [
+          "BLANK",
+          "COMFORT",
+          "PILL",
+          "SHE"
         ]
       }
     ]
