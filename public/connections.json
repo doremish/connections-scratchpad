@@ -1,69 +1,5 @@
 [
   {
-    "id": 1301,
-    "date": "2026-09-23",
-    "startingOrder": [
-      "PAINT",
-      "CAPTCHA",
-      "BITCOIN",
-      "WALLET",
-      "SPAM",
-      "PHONE",
-      "RECORD LABEL",
-      "AGE VERIFICATION",
-      "SURINAME",
-      "PAYWALL",
-      "CONDENSED MILK",
-      "RUB-A-DUB",
-      "KEYS",
-      "SHAVING CREAM",
-      "COOKIE CONSENT",
-      "SUNGLASSES"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS YOU GRAB BEFORE LEAVING THE HOUSE",
-        "members": [
-          "KEYS",
-          "PHONE",
-          "SUNGLASSES",
-          "WALLET"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "WEBSITE HURDLES",
-        "members": [
-          "AGE VERIFICATION",
-          "CAPTCHA",
-          "COOKIE CONSENT",
-          "PAYWALL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT COME IN CANS",
-        "members": [
-          "CONDENSED MILK",
-          "PAINT",
-          "SHAVING CREAM",
-          "SPAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN SYNONYMS FOR \"TERM\"",
-        "members": [
-          "BITCOIN",
-          "RECORD LABEL",
-          "RUB-A-DUB",
-          "SURINAME"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1302,
     "date": "2026-09-24",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COMFORT",
           "PILL",
           "SHE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1339,
+    "date": "2026-10-23",
+    "startingOrder": [
+      "EXTENSION",
+      "LOVE",
+      "DIRECT",
+      "POWER",
+      "SPINAL",
+      "VOCAL",
+      "DRIVER",
+      "DISTANCE",
+      "PHONE",
+      "TIME",
+      "UPDATE",
+      "OPEN",
+      "FRANK",
+      "FORCE",
+      "DOUBLE",
+      "PLUGIN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "FORTHRIGHT",
+        "members": [
+          "DIRECT",
+          "FRANK",
+          "OPEN",
+          "VOCAL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS YOU INSTALL ON A COMPUTER",
+        "members": [
+          "DRIVER",
+          "EXTENSION",
+          "PLUGIN",
+          "UPDATE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "QUANTITIES IN A FORMULA FOR POWER",
+        "members": [
+          "DISTANCE",
+          "FORCE",
+          "POWER",
+          "TIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ TAP",
+        "members": [
+          "DOUBLE",
+          "LOVE",
+          "PHONE",
+          "SPINAL"
         ]
       }
     ]
