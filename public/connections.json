@@ -1,69 +1,5 @@
 [
   {
-    "id": 1302,
-    "date": "2026-09-24",
-    "startingOrder": [
-      "THE BEAR",
-      "FOAM FINGER",
-      "POGO STICK",
-      "FACE PAINT",
-      "BOBBLEHEAD",
-      "BEER HAT",
-      "UNCLE SAM",
-      "CAPE",
-      "CREATION OF ADAM",
-      "TRAMPOLINE",
-      "FANGS",
-      "BREATHE",
-      "FAKE BLOOD",
-      "I'M WITH STUPID SHIRT",
-      "SNAKES IN A CAN",
-      "HERB TEA"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PARTS OF A VAMPIRE COSTUME",
-        "members": [
-          "CAPE",
-          "FACE PAINT",
-          "FAKE BLOOD",
-          "FANGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS WITH SPRING/S",
-        "members": [
-          "BOBBLEHEAD",
-          "POGO STICK",
-          "SNAKES IN A CAN",
-          "TRAMPOLINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURING POINTING",
-        "members": [
-          "CREATION OF ADAM",
-          "FOAM FINGER",
-          "I'M WITH STUPID SHIRT",
-          "UNCLE SAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ANAGRAMS",
-        "members": [
-          "BEER HAT",
-          "BREATHE",
-          "HERB TEA",
-          "THE BEAR"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1297,
     "date": "2026-09-25",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "LOVE",
           "PHONE",
           "SPINAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1338,
+    "date": "2026-10-24",
+    "startingOrder": [
+      "COMIC",
+      "SALAD",
+      "BACON",
+      "SPARKLER",
+      "POPSICLE",
+      "POP-UP",
+      "CANDY",
+      "HOBBY HORSE",
+      "BANNER",
+      "PINWHEEL",
+      "SPACE",
+      "FILM",
+      "INTERSTITIAL",
+      "SPORTS",
+      "MÖBIUS",
+      "OVERLAY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "KINDS OF STRIPS",
+        "members": [
+          "BACON",
+          "COMIC",
+          "FILM",
+          "MÖBIUS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS ON STICKS",
+        "members": [
+          "HOBBY HORSE",
+          "PINWHEEL",
+          "POPSICLE",
+          "SPARKLER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ONLINE AD FORMATS",
+        "members": [
+          "BANNER",
+          "INTERSTITIAL",
+          "OVERLAY",
+          "POP-UP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ BAR",
+        "members": [
+          "CANDY",
+          "SALAD",
+          "SPACE",
+          "SPORTS"
         ]
       }
     ]
