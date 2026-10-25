@@ -1,69 +1,5 @@
 [
   {
-    "id": 1297,
-    "date": "2026-09-25",
-    "startingOrder": [
-      "RATHER",
-      "BOUGIE",
-      "GENIUS",
-      "SPRING",
-      "BORDER",
-      "RATCHET",
-      "SWANK",
-      "SAVAGE",
-      "CLASSY",
-      "LEVY",
-      "PENDULUM",
-      "FANCY",
-      "ESCAPEMENT",
-      "POSH",
-      "FOAMILY",
-      "AYKROYD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "LUXE",
-        "members": [
-          "BOUGIE",
-          "FANCY",
-          "POSH",
-          "SWANK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A MECHANICAL CLOCK",
-        "members": [
-          "ESCAPEMENT",
-          "PENDULUM",
-          "RATCHET",
-          "SPRING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMOUS DANS",
-        "members": [
-          "AYKROYD",
-          "LEVY",
-          "RATHER",
-          "SAVAGE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TAXONOMIC RANKS PLUS A LETTER",
-        "members": [
-          "BORDER",
-          "CLASSY",
-          "FOAMILY",
-          "GENIUS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1303,
     "date": "2026-09-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "SALAD",
           "SPACE",
           "SPORTS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1343,
+    "date": "2026-10-25",
+    "startingOrder": [
+      "GLOW STICK",
+      "WAGON WHEEL",
+      "POCKET",
+      "FOOTBALL",
+      "THUMB",
+      "ELBOW",
+      "SWIFT",
+      "FINGERS",
+      "SHELL",
+      "PALM",
+      "RUBBER BAND",
+      "BOW TIE",
+      "SAWYER",
+      "SWIPE",
+      "RIPLEY",
+      "BOOST"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "STEAL",
+        "members": [
+          "BOOST",
+          "PALM",
+          "POCKET",
+          "SWIPE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "PASTA SHAPES",
+        "members": [
+          "BOW TIE",
+          "ELBOW",
+          "SHELL",
+          "WAGON WHEEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FICTIONAL TOMS",
+        "members": [
+          "RIPLEY",
+          "SAWYER",
+          "SWIFT",
+          "THUMB"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT CAN BE SNAPPED",
+        "members": [
+          "FINGERS",
+          "FOOTBALL",
+          "GLOW STICK",
+          "RUBBER BAND"
         ]
       }
     ]
