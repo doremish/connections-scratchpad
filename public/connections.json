@@ -1,69 +1,5 @@
 [
   {
-    "id": 1303,
-    "date": "2026-09-26",
-    "startingOrder": [
-      "MINT",
-      "PRESS",
-      "GRAIN",
-      "BEANS",
-      "STARCH",
-      "CAT",
-      "CUCUMBER",
-      "RINGS",
-      "GUM",
-      "FOLD",
-      "KNOTS",
-      "CUSTOMER",
-      "WASH",
-      "MOUTHWASH",
-      "BURL",
-      "SPRAY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "BREATH FRESHENERS",
-        "members": [
-          "GUM",
-          "MINT",
-          "MOUTHWASH",
-          "SPRAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS DONE TO A DRESS SHIRT AT THE LAUNDRY",
-        "members": [
-          "FOLD",
-          "PRESS",
-          "STARCH",
-          "WASH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FEATURES OF WOOD",
-        "members": [
-          "BURL",
-          "GRAIN",
-          "KNOTS",
-          "RINGS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"COOL\" THINGS, IN EXPRESSIONS",
-        "members": [
-          "BEANS",
-          "CAT",
-          "CUCUMBER",
-          "CUSTOMER"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1306,
     "date": "2026-09-27",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FOOTBALL",
           "GLOW STICK",
           "RUBBER BAND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1331,
+    "date": "2026-10-26",
+    "startingOrder": [
+      "WELCOME",
+      "HALLOWEEK",
+      "CHILLING",
+      "TOY",
+      "YOGA",
+      "JAWN",
+      "SPORTING",
+      "PRAYER",
+      "PSYCHS",
+      "HOUND",
+      "MANAGING",
+      "WRESTLING",
+      "SAME OLD",
+      "HOSTED",
+      "HERDING",
+      "NOT BAD"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "RESPONSES TO \"HOW ARE YOU?\"",
+        "members": [
+          "CHILLING",
+          "MANAGING",
+          "NOT BAD",
+          "SAME OLD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF MATS",
+        "members": [
+          "PRAYER",
+          "WELCOME",
+          "WRESTLING",
+          "YOGA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AKC DOG BREED GROUPS",
+        "members": [
+          "HERDING",
+          "HOUND",
+          "SPORTING",
+          "TOY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HORROR MOVIES WITH LAST LETTER CHANGED",
+        "members": [
+          "HALLOWEEK",
+          "HOSTED",
+          "JAWN",
+          "PSYCHS"
         ]
       }
     ]
