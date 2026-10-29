@@ -1,69 +1,5 @@
 [
   {
-    "id": 1304,
-    "date": "2026-09-29",
-    "startingOrder": [
-      "DELTA",
-      "HIDDEN",
-      "INSIDE",
-      "MODEL TANK",
-      "MONSTERS",
-      "FINDING",
-      "SECRET",
-      "TOY",
-      "FREEZE TAG",
-      "ORAL PHASE",
-      "MOUTH",
-      "REMOTE",
-      "STREAM BED",
-      "TUCKED AWAY",
-      "HOME GAME",
-      "DRAINAGE BASIN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SECLUDED",
-        "members": [
-          "HIDDEN",
-          "REMOTE",
-          "SECRET",
-          "TUCKED AWAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "RIVER FEATURES",
-        "members": [
-          "DELTA",
-          "DRAINAGE BASIN",
-          "MOUTH",
-          "STREAM BED"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FIRST WORDS OF PIXAR FILMS",
-        "members": [
-          "FINDING",
-          "INSIDE",
-          "MONSTERS",
-          "TOY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PHRASES HIDING GREEK LETTERS",
-        "members": [
-          "FREEZE TAG",
-          "HOME GAME",
-          "MODEL TANK",
-          "ORAL PHASE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1311,
     "date": "2026-09-30",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "RODE",
           "ROUT",
           "WEIGH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1340,
+    "date": "2026-10-29",
+    "startingOrder": [
+      "TUXEDO",
+      "TRAFFIC LIGHT",
+      "ROMAN",
+      "EMPEROR",
+      "PARKING METER",
+      "CANDY CORN",
+      "NEAPOLITAN",
+      "PIGGY BANK",
+      "TYPEWRITER",
+      "WISHING WELL",
+      "GOTHIC",
+      "ANTARCTICA",
+      "CALICO",
+      "WADDLE",
+      "SANS",
+      "PAYPHONE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "THINGS YOU PUT COINS INTO",
+        "members": [
+          "PARKING METER",
+          "PAYPHONE",
+          "PIGGY BANK",
+          "WISHING WELL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ASSOCIATED WITH PENGUINS",
+        "members": [
+          "ANTARCTICA",
+          "EMPEROR",
+          "TUXEDO",
+          "WADDLE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDS OF FAMOUS FONTS",
+        "members": [
+          "GOTHIC",
+          "ROMAN",
+          "SANS",
+          "TYPEWRITER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT FEATURE THREE COLORS",
+        "members": [
+          "CALICO",
+          "CANDY CORN",
+          "NEAPOLITAN",
+          "TRAFFIC LIGHT"
         ]
       }
     ]
