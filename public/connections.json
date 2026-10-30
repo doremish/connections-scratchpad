@@ -1,69 +1,5 @@
 [
   {
-    "id": 1311,
-    "date": "2026-09-30",
-    "startingOrder": [
-      "TAMBOURINE",
-      "SEPTUM",
-      "DECENT",
-      "BOND",
-      "MARTINI",
-      "OPTION",
-      "NOVELTY",
-      "CASINO",
-      "SPRAY PAINT",
-      "OCTOPUSSY",
-      "DONNIE BRASCO",
-      "FUTURE",
-      "BUGSY",
-      "ETCH A SKETCH",
-      "STOCK",
-      "SCARFACE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SECURITIES",
-        "members": [
-          "BOND",
-          "FUTURE",
-          "OPTION",
-          "STOCK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT ARE SHAKEN (NOT STIRRED)",
-        "members": [
-          "ETCH A SKETCH",
-          "MARTINI",
-          "SPRAY PAINT",
-          "TAMBOURINE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "GANGSTER MOVIES",
-        "members": [
-          "BUGSY",
-          "CASINO",
-          "DONNIE BRASCO",
-          "SCARFACE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH MONTH ABBREVIATIONS",
-        "members": [
-          "DECENT",
-          "NOVELTY",
-          "OCTOPUSSY",
-          "SEPTUM"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1314,
     "date": "2026-10-01",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CANDY CORN",
           "NEAPOLITAN",
           "TRAFFIC LIGHT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1334,
+    "date": "2026-10-30",
+    "startingOrder": [
+      "DEMON",
+      "PIT",
+      "HANDS",
+      "WINGS",
+      "SHUTTER",
+      "GLUM",
+      "CURTAIN",
+      "SHADE",
+      "DRAPE",
+      "FLASH",
+      "RUG",
+      "GRANGE",
+      "LENS",
+      "PILLOW",
+      "BACKDROP",
+      "VIEWFINDER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PARTS OF A CAMERA",
+        "members": [
+          "FLASH",
+          "LENS",
+          "SHUTTER",
+          "VIEWFINDER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "AROUND A THEATER STAGE",
+        "members": [
+          "BACKDROP",
+          "CURTAIN",
+          "PIT",
+          "WINGS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THROW ___",
+        "members": [
+          "HANDS",
+          "PILLOW",
+          "RUG",
+          "SHADE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FRUIT WITH FIRST LETTER CHANGED",
+        "members": [
+          "DEMON",
+          "DRAPE",
+          "GLUM",
+          "GRANGE"
         ]
       }
     ]
