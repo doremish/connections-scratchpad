@@ -1,69 +1,5 @@
 [
   {
-    "id": 1314,
-    "date": "2026-10-01",
-    "startingOrder": [
-      "NATIONAL",
-      "KEN",
-      "NECK",
-      "SHINS",
-      "ACRO",
-      "STICK",
-      "WAIST",
-      "WALKMEN",
-      "SITUATE",
-      "SLEEVE",
-      "CROSS",
-      "PLACE",
-      "SUD",
-      "POSITION",
-      "CHEST",
-      "DECEMBERISTS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PUT",
-        "members": [
-          "PLACE",
-          "POSITION",
-          "SITUATE",
-          "STICK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DRESS SHIRT MEASUREMENTS",
-        "members": [
-          "CHEST",
-          "NECK",
-          "SLEEVE",
-          "WAIST"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "2000S INDIE ROCK BANDS, WITH \"THE\"",
-        "members": [
-          "DECEMBERISTS",
-          "NATIONAL",
-          "SHINS",
-          "WALKMEN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTS OF NYT PRINT PUZZLES",
-        "members": [
-          "ACRO",
-          "CROSS",
-          "KEN",
-          "SUD"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1310,
     "date": "2026-10-02",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DRAPE",
           "GLUM",
           "GRANGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1324,
+    "date": "2026-10-31",
+    "startingOrder": [
+      "STAYCATION",
+      "GUITAR",
+      "DIRTY",
+      "KILLER",
+      "SICK",
+      "DOWNFALL",
+      "SHAKEN",
+      "UP",
+      "TENNIS RACKET",
+      "SHAKESPEARE",
+      "WICKED",
+      "TASSEL",
+      "SITCOM",
+      "MARIONETTE",
+      "DRY",
+      "GNARLY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "WORDS MEANING GOOD THAT SOUND BAD",
+        "members": [
+          "GNARLY",
+          "KILLER",
+          "SICK",
+          "WICKED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "MARTINI SPECIFICATIONS",
+        "members": [
+          "DIRTY",
+          "DRY",
+          "SHAKEN",
+          "UP"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH STRINGS",
+        "members": [
+          "GUITAR",
+          "MARIONETTE",
+          "TASSEL",
+          "TENNIS RACKET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH DOG COMMANDS",
+        "members": [
+          "DOWNFALL",
+          "SHAKESPEARE",
+          "SITCOM",
+          "STAYCATION"
         ]
       }
     ]
