@@ -1,69 +1,5 @@
 [
   {
-    "id": 1315,
-    "date": "2026-10-04",
-    "startingOrder": [
-      "WIG",
-      "FILM",
-      "AUCTION",
-      "TABLE",
-      "PADDLE",
-      "COLLAR",
-      "GAVEL",
-      "LOT",
-      "BUNCH",
-      "BALL",
-      "PARTNER",
-      "NET",
-      "ROBE",
-      "HEAP",
-      "TREATMENT",
-      "STACK"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CONSIDERABLE AMOUNT",
-        "members": [
-          "BUNCH",
-          "HEAP",
-          "LOT",
-          "STACK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "TABLE TENNIS NEEDS",
-        "members": [
-          "BALL",
-          "NET",
-          "PADDLE",
-          "TABLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PARTS OF A JUDGE COSTUME",
-        "members": [
-          "COLLAR",
-          "GAVEL",
-          "ROBE",
-          "WIG"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SILENT ___",
-        "members": [
-          "AUCTION",
-          "FILM",
-          "PARTNER",
-          "TREATMENT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1309,
     "date": "2026-10-05",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "DRESSING ROOM",
           "KALEIDOSCOPE",
           "MEDICINE CABINET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1345,
+    "date": "2026-11-03",
+    "startingOrder": [
+      "CARRY ON",
+      "CHECK",
+      "ROLLER BAG",
+      "INTERVIEW",
+      "RESUME",
+      "PROFILE",
+      "OFFICE CHAIR",
+      "FOOD",
+      "MENU",
+      "SHOPPING CART",
+      "CREDIT",
+      "CONTINUE",
+      "WHELP",
+      "TAP WATER",
+      "PROCEED",
+      "STROLLER"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "KEEP GOING",
+        "members": [
+          "CARRY ON",
+          "CONTINUE",
+          "PROCEED",
+          "RESUME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH WHEELS",
+        "members": [
+          "OFFICE CHAIR",
+          "ROLLER BAG",
+          "SHOPPING CART",
+          "STROLLER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS A SERVER BRINGS AT A RESTAURANT",
+        "members": [
+          "CHECK",
+          "FOOD",
+          "MENU",
+          "TAP WATER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN MENU BAR HEADINGS",
+        "members": [
+          "CREDIT",
+          "INTERVIEW",
+          "PROFILE",
+          "WHELP"
         ]
       }
     ]
