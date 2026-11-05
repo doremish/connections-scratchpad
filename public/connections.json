@@ -1,69 +1,5 @@
 [
   {
-    "id": 1316,
-    "date": "2026-10-06",
-    "startingOrder": [
-      "ADIRONDACK",
-      "KNICKKNACK",
-      "CATSKILL",
-      "HOLIDAY",
-      "COMFORT",
-      "BERKSHIRE",
-      "STABILITY",
-      "HAMPTON",
-      "WINDSOR",
-      "MERRILL",
-      "WINGBACK",
-      "DAYS",
-      "CITI",
-      "PIANOFORTE",
-      "EAMES",
-      "GOLDMAN"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FINANCIAL FIRMS, FOR SHORT",
-        "members": [
-          "BERKSHIRE",
-          "CITI",
-          "GOLDMAN",
-          "MERRILL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF CHAIRS",
-        "members": [
-          "ADIRONDACK",
-          "EAMES",
-          "WINDSOR",
-          "WINGBACK"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ INN HOTELS",
-        "members": [
-          "COMFORT",
-          "DAYS",
-          "HAMPTON",
-          "HOLIDAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN TALENTS",
-        "members": [
-          "CATSKILL",
-          "KNICKKNACK",
-          "PIANOFORTE",
-          "STABILITY"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1320,
     "date": "2026-10-07",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FLY",
           "WOOD",
           "WORKS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1353,
+    "date": "2026-11-05",
+    "startingOrder": [
+      "RAINDROP",
+      "ROSE",
+      "WHISKER",
+      "KITTEN",
+      "GIG",
+      "PEAR",
+      "SPIKE",
+      "NARCISSUS",
+      "WEDGE",
+      "RUN",
+      "LOTUS",
+      "UVULA",
+      "BRANDO",
+      "ANEMONE",
+      "SPEEDBAG",
+      "PLATFORM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "KINDS OF HEELS",
+        "members": [
+          "KITTEN",
+          "PLATFORM",
+          "SPIKE",
+          "WEDGE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FLOWERS",
+        "members": [
+          "ANEMONE",
+          "LOTUS",
+          "NARCISSUS",
+          "ROSE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TEARDROP-SHAPED THINGS",
+        "members": [
+          "PEAR",
+          "RAINDROP",
+          "SPEEDBAG",
+          "UVULA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "LIQUORS WITH LAST LETTERS CHANGED",
+        "members": [
+          "BRANDO",
+          "GIG",
+          "RUN",
+          "WHISKER"
         ]
       }
     ]
