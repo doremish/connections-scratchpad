@@ -1,69 +1,5 @@
 [
   {
-    "id": 1322,
-    "date": "2026-10-08",
-    "startingOrder": [
-      "FOOLHARDY",
-      "MINDS",
-      "THANKS",
-      "STOOGES",
-      "BEST",
-      "WISHES",
-      "REGARDS",
-      "ECLIPSE",
-      "CHEERS",
-      "MULHOLLAND",
-      "RESPECTS",
-      "STRIKES",
-      "TOP",
-      "AUTOCRUISE",
-      "HEEDS",
-      "SURPASS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "FOLLOWS, AS RULES",
-        "members": [
-          "HEEDS",
-          "MINDS",
-          "REGARDS",
-          "RESPECTS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "OUTDO",
-        "members": [
-          "BEST",
-          "ECLIPSE",
-          "SURPASS",
-          "TOP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT COME IN THREES",
-        "members": [
-          "CHEERS",
-          "STOOGES",
-          "STRIKES",
-          "WISHES"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN ACTORS NAMED TOM",
-        "members": [
-          "AUTOCRUISE",
-          "FOOLHARDY",
-          "MULHOLLAND",
-          "THANKS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1319,
     "date": "2026-10-09",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OSIRIS",
           "TRAFFIC CONE",
           "WOOLENS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1350,
+    "date": "2026-11-07",
+    "startingOrder": [
+      "POLO",
+      "EASTER",
+      "NEW",
+      "CLONE",
+      "RHODE",
+      "RINGER",
+      "SOON",
+      "TREASURE",
+      "HENLEY",
+      "BOUNTY",
+      "NORTH",
+      "CANE",
+      "SPOILS",
+      "SOUTH",
+      "RAGLAN",
+      "BOOTY"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PIRATE'S PLUNDER",
+        "members": [
+          "BOOTY",
+          "BOUNTY",
+          "SPOILS",
+          "TREASURE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "KINDS OF SHIRTS",
+        "members": [
+          "HENLEY",
+          "POLO",
+          "RAGLAN",
+          "RINGER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FIRST WORDS OF U.S. STATE NAMES",
+        "members": [
+          "NEW",
+          "NORTH",
+          "RHODE",
+          "SOUTH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDS OF STORM TYPES",
+        "members": [
+          "CANE",
+          "CLONE",
+          "EASTER",
+          "SOON"
         ]
       }
     ]
