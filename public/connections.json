@@ -1,69 +1,5 @@
 [
   {
-    "id": 1318,
-    "date": "2026-10-10",
-    "startingOrder": [
-      "OUTLINE",
-      "SHADOW",
-      "FEED",
-      "FIGURE",
-      "DRAFT",
-      "IMAGINE",
-      "KICK",
-      "NOTIFICATIONS",
-      "GATHER",
-      "NOTES",
-      "UN",
-      "MESSAGES",
-      "BEAT",
-      "SUPPOSE",
-      "PROFILE",
-      "THESIS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "USEFUL WHEN WRITING A PAPER",
-        "members": [
-          "DRAFT",
-          "NOTES",
-          "OUTLINE",
-          "THESIS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PRESUME",
-        "members": [
-          "FIGURE",
-          "GATHER",
-          "IMAGINE",
-          "SUPPOSE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SOCIAL MEDIA SECTIONS",
-        "members": [
-          "FEED",
-          "MESSAGES",
-          "NOTIFICATIONS",
-          "PROFILE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___BOXING",
-        "members": [
-          "BEAT",
-          "KICK",
-          "SHADOW",
-          "UN"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1312,
     "date": "2026-10-11",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CHARRED",
           "KORN",
           "LEAK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1366,
+    "date": "2026-11-09",
+    "startingOrder": [
+      "STEAK KNIFE",
+      "CARD SHARK",
+      "CON JOB",
+      "BOOTCUT",
+      "NAVY SEAL",
+      "SHELL GAME",
+      "MINT LEAF",
+      "GAMMA RAY",
+      "TAPE DISPENSER",
+      "LOW-RISE",
+      "FUN SPONGE",
+      "RIP-OFF",
+      "SKINNY",
+      "FLIMFLAM",
+      "GRAPEFRUIT SPOON",
+      "DISTRESSED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DECEITFUL SCHEME",
+        "members": [
+          "CON JOB",
+          "FLIMFLAM",
+          "RIP-OFF",
+          "SHELL GAME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "JEANS DESCRIPTORS",
+        "members": [
+          "BOOTCUT",
+          "DISTRESSED",
+          "LOW-RISE",
+          "SKINNY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH SERRATED EDGES",
+        "members": [
+          "GRAPEFRUIT SPOON",
+          "MINT LEAF",
+          "STEAK KNIFE",
+          "TAPE DISPENSER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN SEA CREATURES",
+        "members": [
+          "CARD SHARK",
+          "FUN SPONGE",
+          "GAMMA RAY",
+          "NAVY SEAL"
         ]
       }
     ]
