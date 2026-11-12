@@ -1,69 +1,5 @@
 [
   {
-    "id": 1321,
-    "date": "2026-10-13",
-    "startingOrder": [
-      "EYE",
-      "LASH",
-      "LIPS",
-      "JACKET",
-      "TIE",
-      "SENSE",
-      "CHANGE",
-      "BELT",
-      "RING",
-      "TASTE",
-      "CUP",
-      "HITCH",
-      "CANNON",
-      "TETHER",
-      "FLAIR",
-      "ENDS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DISCERNMENT",
-        "members": [
-          "EYE",
-          "FLAIR",
-          "SENSE",
-          "TASTE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FASTEN",
-        "members": [
-          "HITCH",
-          "LASH",
-          "TETHER",
-          "TIE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "SPORTS CHAMPIONSHIP PRIZES",
-        "members": [
-          "BELT",
-          "CUP",
-          "JACKET",
-          "RING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LOOSE ___",
-        "members": [
-          "CANNON",
-          "CHANGE",
-          "ENDS",
-          "LIPS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1330,
     "date": "2026-10-14",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "PATOOT",
           "RHEOSTATS",
           "SHREDDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1352,
+    "date": "2026-11-12",
+    "startingOrder": [
+      "GREAT SCOTT",
+      "ROCKY ROAD",
+      "YOU'RE TOAST",
+      "FLUX CAPACITOR",
+      "MOONLIGHT SONATA",
+      "JIMINY CRICKET",
+      "MARTY MCFLY",
+      "COMEDY ROAST",
+      "DOC BROWN",
+      "CHANGE PURSE",
+      "ARCTIC CHAR",
+      "GOOD HEAVENS",
+      "SHIFT DRESS",
+      "GLADIATOR SANDALS",
+      "HOLY SMOKES",
+      "SWING SET"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "\"GADZOOKS!\"",
+        "members": [
+          "GOOD HEAVENS",
+          "GREAT SCOTT",
+          "HOLY SMOKES",
+          "JIMINY CRICKET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH VARIATIONS",
+        "members": [
+          "CHANGE PURSE",
+          "FLUX CAPACITOR",
+          "SHIFT DRESS",
+          "SWING SET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN WAYS TO COOK THINGS",
+        "members": [
+          "ARCTIC CHAR",
+          "COMEDY ROAST",
+          "DOC BROWN",
+          "YOU'RE TOAST"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH BEST PICTURE OSCAR WINNERS",
+        "members": [
+          "GLADIATOR SANDALS",
+          "MARTY MCFLY",
+          "MOONLIGHT SONATA",
+          "ROCKY ROAD"
         ]
       }
     ]
