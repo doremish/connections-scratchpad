@@ -1,69 +1,5 @@
 [
   {
-    "id": 1325,
-    "date": "2026-10-16",
-    "startingOrder": [
-      "HUNGARY",
-      "HUNGRY",
-      "HIPPO",
-      "CHICKEN",
-      "CHIP",
-      "CHAD",
-      "COOLIDGE",
-      "CYRUS",
-      "SPAN",
-      "MARK",
-      "LAOS",
-      "NICK",
-      "PARAGUAY",
-      "SMARTIES",
-      "BULGARI",
-      "SCRATCH"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SURFACE IMPERFECTIONS",
-        "members": [
-          "CHIP",
-          "MARK",
-          "NICK",
-          "SCRATCH"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LANDLOCKED COUNTRIES",
-        "members": [
-          "CHAD",
-          "HUNGARY",
-          "LAOS",
-          "PARAGUAY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "EUROPEAN COUNTRIES MINUS A LETTER",
-        "members": [
-          "BULGARI",
-          "CYRUS",
-          "HUNGRY",
-          "SPAN"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH WORDS FOR \"STYLISH\"",
-        "members": [
-          "CHICKEN",
-          "COOLIDGE",
-          "HIPPO",
-          "SMARTIES"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1329,
     "date": "2026-10-17",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MARRIAGE",
           "MOTTLE",
           "TRIB"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1365,
+    "date": "2026-11-15",
+    "startingOrder": [
+      "JET",
+      "TRAVEL",
+      "SLEEK",
+      "RECORD",
+      "REGISTRY",
+      "ARCHIVE",
+      "INCLINED",
+      "DRESS CODE",
+      "RAPSCALLION",
+      "ALL-TIME",
+      "RSVP",
+      "CARTESIAN",
+      "HISTORIC",
+      "ASTRAL",
+      "OCTONION",
+      "UNPRECEDENTED"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "UNMATCHED",
+        "members": [
+          "ALL-TIME",
+          "HISTORIC",
+          "RECORD",
+          "UNPRECEDENTED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WEDDING WEBSITE SECTIONS",
+        "members": [
+          "DRESS CODE",
+          "REGISTRY",
+          "RSVP",
+          "TRAVEL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ PLANE",
+        "members": [
+          "ASTRAL",
+          "CARTESIAN",
+          "INCLINED",
+          "JET"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN VEGETABLES IN THE ALLIUM FAMILY",
+        "members": [
+          "ARCHIVE",
+          "OCTONION",
+          "RAPSCALLION",
+          "SLEEK"
         ]
       }
     ]
