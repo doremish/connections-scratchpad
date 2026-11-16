@@ -1,69 +1,5 @@
 [
   {
-    "id": 1329,
-    "date": "2026-10-17",
-    "startingOrder": [
-      "BREA",
-      "KING",
-      "SNAP",
-      "PING",
-      "STILL",
-      "PAZ",
-      "SNOW",
-      "SHOT",
-      "BOHÈME",
-      "FIDDLER",
-      "ALERT",
-      "PRINT",
-      "CHIME",
-      "SCALA",
-      "HERMIT",
-      "DING"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "DIGITAL NOTIFICATIONS",
-        "members": [
-          "ALERT",
-          "CHIME",
-          "DING",
-          "PING"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PHOTO",
-        "members": [
-          "PRINT",
-          "SHOT",
-          "SNAP",
-          "STILL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF CRABS",
-        "members": [
-          "FIDDLER",
-          "HERMIT",
-          "KING",
-          "SNOW"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "LA ___",
-        "members": [
-          "BOHÈME",
-          "BREA",
-          "PAZ",
-          "SCALA"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1333,
     "date": "2026-10-18",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "OCTONION",
           "RAPSCALLION",
           "SLEEK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1363,
+    "date": "2026-11-16",
+    "startingOrder": [
+      "IN LOVE",
+      "WONDERLAND",
+      "WATER",
+      "MELON",
+      "ONION",
+      "BLOCKBUSTER",
+      "GARDEN",
+      "FOLIAGE",
+      "SAUSAGE",
+      "GLOVES",
+      "ASLEEP",
+      "CHICKEN",
+      "CLEANING",
+      "CAMP",
+      "GUY",
+      "SCHOOL"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "SUMMER ___",
+        "members": [
+          "BLOCKBUSTER",
+          "CAMP",
+          "SAUSAGE",
+          "SCHOOL"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SPRING ___",
+        "members": [
+          "CHICKEN",
+          "CLEANING",
+          "ONION",
+          "WATER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "WINTER ___",
+        "members": [
+          "GARDEN",
+          "GLOVES",
+          "MELON",
+          "WONDERLAND"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FALL ___",
+        "members": [
+          "ASLEEP",
+          "FOLIAGE",
+          "GUY",
+          "IN LOVE"
         ]
       }
     ]
