@@ -1,69 +1,5 @@
 [
   {
-    "id": 1333,
-    "date": "2026-10-18",
-    "startingOrder": [
-      "ANGEL",
-      "BUTTER",
-      "HAZEL",
-      "DEODORANT",
-      "COCO",
-      "DYNAMITE",
-      "MISTER",
-      "FOGERTY",
-      "CHEST",
-      "INCENSE",
-      "VAPORETTO",
-      "BUREAU",
-      "OBSESSION",
-      "TRUNK",
-      "OPIUM",
-      "WARDROBE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PLACES TO STORE CLOTHES",
-        "members": [
-          "BUREAU",
-          "CHEST",
-          "TRUNK",
-          "WARDROBE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT COME IN STICKS",
-        "members": [
-          "BUTTER",
-          "DEODORANT",
-          "DYNAMITE",
-          "INCENSE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMOUS PERFUMES",
-        "members": [
-          "ANGEL",
-          "COCO",
-          "OBSESSION",
-          "OPIUM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTING WITH THINGS THAT CLOUD THE AIR",
-        "members": [
-          "FOGERTY",
-          "HAZEL",
-          "MISTER",
-          "VAPORETTO"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1327,
     "date": "2026-10-19",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FOLIAGE",
           "GUY",
           "IN LOVE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1362,
+    "date": "2026-11-17",
+    "startingOrder": [
+      "KINGPIN",
+      "BLACKBIRD",
+      "FLOCK",
+      "AIRPLANE",
+      "COME TOGETHER",
+      "THEM",
+      "PIE",
+      "VALLEY",
+      "PENNY LANE",
+      "RYE",
+      "HELP",
+      "GATHER",
+      "SHAZAM",
+      "MASKED BALL",
+      "ASSEMBLE",
+      "SIXPENCE"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "CONVENE",
+        "members": [
+          "ASSEMBLE",
+          "COME TOGETHER",
+          "FLOCK",
+          "GATHER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS IN \"SING A SONG OF SIXPENCE\"",
+        "members": [
+          "BLACKBIRD",
+          "PIE",
+          "RYE",
+          "SIXPENCE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "FILMS WITH \"!\" IN THE TITLE",
+        "members": [
+          "AIRPLANE",
+          "HELP",
+          "SHAZAM",
+          "THEM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN BOWLING TERMS",
+        "members": [
+          "KINGPIN",
+          "MASKED BALL",
+          "PENNY LANE",
+          "VALLEY"
         ]
       }
     ]
