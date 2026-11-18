@@ -1,69 +1,5 @@
 [
   {
-    "id": 1327,
-    "date": "2026-10-19",
-    "startingOrder": [
-      "MOHAWK",
-      "MUFFIN",
-      "HOT AIR",
-      "BALLOON",
-      "RAVE",
-      "WIND",
-      "FLURRY",
-      "STEAM",
-      "GAS",
-      "RIB",
-      "FUME",
-      "ALIBIS",
-      "BOIL",
-      "BLATHER",
-      "ESCROW",
-      "NUGGETS"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "SEETHE",
-        "members": [
-          "BOIL",
-          "FUME",
-          "RAVE",
-          "STEAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ALL TALK",
-        "members": [
-          "BLATHER",
-          "GAS",
-          "HOT AIR",
-          "WIND"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "\"MC\" THINGS AT MCDONALD'S",
-        "members": [
-          "FLURRY",
-          "MUFFIN",
-          "NUGGETS",
-          "RIB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDING IN BIRDS",
-        "members": [
-          "ALIBIS",
-          "BALLOON",
-          "ESCROW",
-          "MOHAWK"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1328,
     "date": "2026-10-20",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "MASKED BALL",
           "PENNY LANE",
           "VALLEY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1375,
+    "date": "2026-11-18",
+    "startingOrder": [
+      "NICE",
+      "HONEY",
+      "DEEP",
+      "YELLOW",
+      "SMALL",
+      "JUICY",
+      "DIJON",
+      "COMB",
+      "FRENCH",
+      "TOURS",
+      "BUZZ",
+      "VOCAL",
+      "SOUR",
+      "VENOM",
+      "OVOID",
+      "CANNES"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DESCRIPTORS FOR A LEMON",
+        "members": [
+          "JUICY",
+          "OVOID",
+          "SOUR",
+          "YELLOW"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS BEES PRODUCE",
+        "members": [
+          "BUZZ",
+          "COMB",
+          "HONEY",
+          "VENOM"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "CITIES IN FRANCE",
+        "members": [
+          "CANNES",
+          "DIJON",
+          "NICE",
+          "TOURS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "___ FRY",
+        "members": [
+          "DEEP",
+          "FRENCH",
+          "SMALL",
+          "VOCAL"
         ]
       }
     ]
