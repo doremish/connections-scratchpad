@@ -1,69 +1,5 @@
 [
   {
-    "id": 1335,
-    "date": "2026-10-21",
-    "startingOrder": [
-      "ENGLISH HORN",
-      "LEAPFROG",
-      "ALPHA DOG",
-      "SWEETBREAD",
-      "HOT POTATO",
-      "MANTIS SHRIMP",
-      "SUNFLOWERS",
-      "BIG CHEESE",
-      "AMERICAN GOTHIC",
-      "GRAPE-NUTS",
-      "CAMPBELL'S SOUP CAN",
-      "DUCK DUCK GOOSE",
-      "TOP BANANA",
-      "THE SCREAM",
-      "MUSICAL CHAIRS",
-      "HEAVYWEIGHT"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "CLASSIC CHILDREN'S GAMES",
-        "members": [
-          "DUCK DUCK GOOSE",
-          "HOT POTATO",
-          "LEAPFROG",
-          "MUSICAL CHAIRS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "IMPORTANT PERSON",
-        "members": [
-          "ALPHA DOG",
-          "BIG CHEESE",
-          "HEAVYWEIGHT",
-          "TOP BANANA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FAMOUS PAINTINGS",
-        "members": [
-          "AMERICAN GOTHIC",
-          "CAMPBELL'S SOUP CAN",
-          "SUNFLOWERS",
-          "THE SCREAM"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "DOUBLE MISNOMERS (NEITHER WORD IS AN ACCURATE DESCRIPTION)",
-        "members": [
-          "ENGLISH HORN",
-          "GRAPE-NUTS",
-          "MANTIS SHRIMP",
-          "SWEETBREAD"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1336,
     "date": "2026-10-22",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "GALANGAL",
           "HOTSHOT",
           "UNDERGROUND"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1364,
+    "date": "2026-11-20",
+    "startingOrder": [
+      "BEAST",
+      "SPOT",
+      "CANDELABRA",
+      "TOY",
+      "TEACUP",
+      "COWSLIP",
+      "POCKET",
+      "CLOCK",
+      "REGISTER",
+      "DIPHTHONG",
+      "WIZARD",
+      "CATCH",
+      "MINIATURE",
+      "ACE",
+      "STUTTGARTER",
+      "MAVEN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PERSON WHO EXCELS AT SOMETHING",
+        "members": [
+          "ACE",
+          "BEAST",
+          "MAVEN",
+          "WIZARD"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "NOTICE",
+        "members": [
+          "CATCH",
+          "CLOCK",
+          "REGISTER",
+          "SPOT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DESCRIPTORS FOR SMALL ANIMALS",
+        "members": [
+          "MINIATURE",
+          "POCKET",
+          "TEACUP",
+          "TOY"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "ENDING IN LINGERIE",
+        "members": [
+          "CANDELABRA",
+          "COWSLIP",
+          "DIPHTHONG",
+          "STUTTGARTER"
         ]
       }
     ]
