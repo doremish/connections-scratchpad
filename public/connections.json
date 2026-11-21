@@ -1,69 +1,5 @@
 [
   {
-    "id": 1336,
-    "date": "2026-10-22",
-    "startingOrder": [
-      "MOBILE",
-      "COMFORT",
-      "BLANK",
-      "SAFETY",
-      "RELIEF",
-      "GRIP",
-      "END",
-      "BUST",
-      "HANDLE",
-      "TACKLE",
-      "PILL",
-      "KNOB",
-      "SHE",
-      "GUARD",
-      "HILT",
-      "STATUE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "PARTS TO BE GRASPED",
-        "members": [
-          "GRIP",
-          "HANDLE",
-          "HILT",
-          "KNOB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF SCULPTURES",
-        "members": [
-          "BUST",
-          "MOBILE",
-          "RELIEF",
-          "STATUE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AMERICAN FOOTBALL POSITIONS",
-        "members": [
-          "END",
-          "GUARD",
-          "SAFETY",
-          "TACKLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "STARTS OF BEDDING",
-        "members": [
-          "BLANK",
-          "COMFORT",
-          "PILL",
-          "SHE"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1339,
     "date": "2026-10-23",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "COWSLIP",
           "DIPHTHONG",
           "STUTTGARTER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1371,
+    "date": "2026-11-21",
+    "startingOrder": [
+      "BREATH",
+      "BUTTER",
+      "FOOL",
+      "SATISFACTION",
+      "COURTESY",
+      "HORSES",
+      "OWN",
+      "DEVIL",
+      "SUGAR",
+      "TONGUE",
+      "EMPRESS",
+      "WAIT TIME",
+      "HELPFULNESS",
+      "BLACK AND WHITE",
+      "HIEROPHANT",
+      "GIRL SCOUT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "KINDS OF COOKIES",
+        "members": [
+          "BLACK AND WHITE",
+          "BUTTER",
+          "GIRL SCOUT",
+          "SUGAR"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS RATED IN A CUSTOMER SURVEY",
+        "members": [
+          "COURTESY",
+          "HELPFULNESS",
+          "SATISFACTION",
+          "WAIT TIME"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "TAROT CARDS, WITH \"THE\"",
+        "members": [
+          "DEVIL",
+          "EMPRESS",
+          "FOOL",
+          "HIEROPHANT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "HOLD YOUR ___",
+        "members": [
+          "BREATH",
+          "HORSES",
+          "OWN",
+          "TONGUE"
         ]
       }
     ]
