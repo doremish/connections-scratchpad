@@ -1,69 +1,5 @@
 [
   {
-    "id": 1338,
-    "date": "2026-10-24",
-    "startingOrder": [
-      "COMIC",
-      "SALAD",
-      "BACON",
-      "SPARKLER",
-      "POPSICLE",
-      "POP-UP",
-      "CANDY",
-      "HOBBY HORSE",
-      "BANNER",
-      "PINWHEEL",
-      "SPACE",
-      "FILM",
-      "INTERSTITIAL",
-      "SPORTS",
-      "MÖBIUS",
-      "OVERLAY"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "KINDS OF STRIPS",
-        "members": [
-          "BACON",
-          "COMIC",
-          "FILM",
-          "MÖBIUS"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS ON STICKS",
-        "members": [
-          "HOBBY HORSE",
-          "PINWHEEL",
-          "POPSICLE",
-          "SPARKLER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ONLINE AD FORMATS",
-        "members": [
-          "BANNER",
-          "INTERSTITIAL",
-          "OVERLAY",
-          "POP-UP"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "___ BAR",
-        "members": [
-          "CANDY",
-          "SALAD",
-          "SPACE",
-          "SPORTS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1343,
     "date": "2026-10-25",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "EYE",
           "HEE",
           "WEE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1376,
+    "date": "2026-11-23",
+    "startingOrder": [
+      "CHICKPEA",
+      "DISTANCE",
+      "LAMBDA",
+      "DOOM",
+      "IOTA",
+      "PUPIL",
+      "BLACK",
+      "ETA",
+      "NU",
+      "SHRED",
+      "THRASH",
+      "TRAFFIC",
+      "PARTICLE",
+      "CUBISM",
+      "ROUTE",
+      "MODICUM"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "TINY AMOUNT",
+        "members": [
+          "IOTA",
+          "MODICUM",
+          "PARTICLE",
+          "SHRED"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "INFO ON A NAVIGATION APP",
+        "members": [
+          "DISTANCE",
+          "ETA",
+          "ROUTE",
+          "TRAFFIC"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "METAL SUBGENRES",
+        "members": [
+          "BLACK",
+          "DOOM",
+          "NU",
+          "THRASH"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "STARTING WITH BABY ANIMALS",
+        "members": [
+          "CHICKPEA",
+          "CUBISM",
+          "LAMBDA",
+          "PUPIL"
         ]
       }
     ]
