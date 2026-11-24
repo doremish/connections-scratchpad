@@ -1,69 +1,5 @@
 [
   {
-    "id": 1343,
-    "date": "2026-10-25",
-    "startingOrder": [
-      "GLOW STICK",
-      "WAGON WHEEL",
-      "POCKET",
-      "FOOTBALL",
-      "THUMB",
-      "ELBOW",
-      "SWIFT",
-      "FINGERS",
-      "SHELL",
-      "PALM",
-      "RUBBER BAND",
-      "BOW TIE",
-      "SAWYER",
-      "SWIPE",
-      "RIPLEY",
-      "BOOST"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "STEAL",
-        "members": [
-          "BOOST",
-          "PALM",
-          "POCKET",
-          "SWIPE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "PASTA SHAPES",
-        "members": [
-          "BOW TIE",
-          "ELBOW",
-          "SHELL",
-          "WAGON WHEEL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "FICTIONAL TOMS",
-        "members": [
-          "RIPLEY",
-          "SAWYER",
-          "SWIFT",
-          "THUMB"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT CAN BE SNAPPED",
-        "members": [
-          "FINGERS",
-          "FOOTBALL",
-          "GLOW STICK",
-          "RUBBER BAND"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1331,
     "date": "2026-10-26",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "CUBISM",
           "LAMBDA",
           "PUPIL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1374,
+    "date": "2026-11-24",
+    "startingOrder": [
+      "PLAYGROUND",
+      "PAPER FAN",
+      "BIG BOX STORE",
+      "CRATER",
+      "ACCORDION",
+      "MOUNTAIN",
+      "TROMBONE",
+      "LINK",
+      "TANK",
+      "CUPCAKE LINER",
+      "AMINO ACID",
+      "MICROSCOPE",
+      "FIREPLACE BELLOWS",
+      "NOSEDIVE",
+      "POWERPOINT DECK",
+      "BOTTOM OUT"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "DROP DRAMATICALLY",
+        "members": [
+          "BOTTOM OUT",
+          "CRATER",
+          "NOSEDIVE",
+          "TANK"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH PLEATED FOLDS",
+        "members": [
+          "ACCORDION",
+          "CUPCAKE LINER",
+          "FIREPLACE BELLOWS",
+          "PAPER FAN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS WITH SLIDES",
+        "members": [
+          "MICROSCOPE",
+          "PLAYGROUND",
+          "POWERPOINT DECK",
+          "TROMBONE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "THINGS THAT FORM CHAINS",
+        "members": [
+          "AMINO ACID",
+          "BIG BOX STORE",
+          "LINK",
+          "MOUNTAIN"
         ]
       }
     ]
