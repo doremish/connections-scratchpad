@@ -1,69 +1,5 @@
 [
   {
-    "id": 1331,
-    "date": "2026-10-26",
-    "startingOrder": [
-      "WELCOME",
-      "HALLOWEEK",
-      "CHILLING",
-      "TOY",
-      "YOGA",
-      "JAWN",
-      "SPORTING",
-      "PRAYER",
-      "PSYCHS",
-      "HOUND",
-      "MANAGING",
-      "WRESTLING",
-      "SAME OLD",
-      "HOSTED",
-      "HERDING",
-      "NOT BAD"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "RESPONSES TO \"HOW ARE YOU?\"",
-        "members": [
-          "CHILLING",
-          "MANAGING",
-          "NOT BAD",
-          "SAME OLD"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "KINDS OF MATS",
-        "members": [
-          "PRAYER",
-          "WELCOME",
-          "WRESTLING",
-          "YOGA"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "AKC DOG BREED GROUPS",
-        "members": [
-          "HERDING",
-          "HOUND",
-          "SPORTING",
-          "TOY"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "HORROR MOVIES WITH LAST LETTER CHANGED",
-        "members": [
-          "HALLOWEEK",
-          "HOSTED",
-          "JAWN",
-          "PSYCHS"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1341,
     "date": "2026-10-27",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "BIG BOX STORE",
           "LINK",
           "MOUNTAIN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1372,
+    "date": "2026-11-25",
+    "startingOrder": [
+      "EAGLE",
+      "PILE",
+      "HALF-PIPE",
+      "DIMENSIONS",
+      "OLLIE",
+      "SHOULDER",
+      "WEAVE",
+      "NECK PILLOW",
+      "RAMP",
+      "PARABOLA",
+      "OODLE",
+      "MEDIAN",
+      "HORSESHOE",
+      "MATERIAL",
+      "LANE",
+      "OBERMAN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "PARTS OF A FREEWAY",
+        "members": [
+          "LANE",
+          "MEDIAN",
+          "RAMP",
+          "SHOULDER"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "U-SHAPED THINGS",
+        "members": [
+          "HALF-PIPE",
+          "HORSESHOE",
+          "NECK PILLOW",
+          "PARABOLA"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "RUG SPECIFICATIONS",
+        "members": [
+          "DIMENSIONS",
+          "MATERIAL",
+          "PILE",
+          "WEAVE"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "DOGS BREEDS MINUS FIRST LETTER",
+        "members": [
+          "EAGLE",
+          "OBERMAN",
+          "OLLIE",
+          "OODLE"
         ]
       }
     ]
