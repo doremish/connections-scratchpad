@@ -1,69 +1,5 @@
 [
   {
-    "id": 1340,
-    "date": "2026-10-29",
-    "startingOrder": [
-      "TUXEDO",
-      "TRAFFIC LIGHT",
-      "ROMAN",
-      "EMPEROR",
-      "PARKING METER",
-      "CANDY CORN",
-      "NEAPOLITAN",
-      "PIGGY BANK",
-      "TYPEWRITER",
-      "WISHING WELL",
-      "GOTHIC",
-      "ANTARCTICA",
-      "CALICO",
-      "WADDLE",
-      "SANS",
-      "PAYPHONE"
-    ],
-    "answers": [
-      {
-        "level": -1,
-        "group": "THINGS YOU PUT COINS INTO",
-        "members": [
-          "PARKING METER",
-          "PAYPHONE",
-          "PIGGY BANK",
-          "WISHING WELL"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ASSOCIATED WITH PENGUINS",
-        "members": [
-          "ANTARCTICA",
-          "EMPEROR",
-          "TUXEDO",
-          "WADDLE"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "ENDS OF FAMOUS FONTS",
-        "members": [
-          "GOTHIC",
-          "ROMAN",
-          "SANS",
-          "TYPEWRITER"
-        ]
-      },
-      {
-        "level": -1,
-        "group": "THINGS THAT FEATURE THREE COLORS",
-        "members": [
-          "CALICO",
-          "CANDY CORN",
-          "NEAPOLITAN",
-          "TRAFFIC LIGHT"
-        ]
-      }
-    ]
-  },
-  {
     "id": 1334,
     "date": "2026-10-30",
     "startingOrder": [
@@ -1915,6 +1851,70 @@
           "FLOWERY LANGUAGE",
           "PRINCE",
           "ROYALTY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1379,
+    "date": "2026-11-28",
+    "startingOrder": [
+      "FOOD",
+      "FUDGE",
+      "CHERRY",
+      "HEM",
+      "DARN",
+      "SKIRT",
+      "NUTS",
+      "BAR",
+      "MUSIC",
+      "BELL",
+      "MATE",
+      "BORDER",
+      "BLAST",
+      "PATCH",
+      "RIM",
+      "SEVEN"
+    ],
+    "answers": [
+      {
+        "level": -1,
+        "group": "MILD OATHS",
+        "members": [
+          "BLAST",
+          "DARN",
+          "FUDGE",
+          "NUTS"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "EDGE",
+        "members": [
+          "BORDER",
+          "HEM",
+          "RIM",
+          "SKIRT"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SYMBOLS ON A SLOT MACHINE",
+        "members": [
+          "BAR",
+          "BELL",
+          "CHERRY",
+          "SEVEN"
+        ]
+      },
+      {
+        "level": -1,
+        "group": "SOUL ___",
+        "members": [
+          "FOOD",
+          "MATE",
+          "MUSIC",
+          "PATCH"
         ]
       }
     ]
